@@ -1,0 +1,5 @@
+cobra==0.31.1
+gurobipy==13.0.1
+troppo==0.0.7
+corda==0.5.1
+riptide==3.4.81

@@ -1,0 +1,88 @@
+schema_version: 2
+master_seed: 2612026
+solver: gurobi
+protocols: [khalsa_LOO_A, khalsa_all_mikolajewicz_validation]
+algorithms: [GIMME, iMAT, CORDA, RIPTiDe]
+excluded_from_primary:
+  E-Flux: Present zero-expression convention is biomass-infeasible on real-parent contexts; preserve only as historical/diagnostic.
+  INIT_tINIT: Outside the current four-method primary comparison.
+  RegrEx: Outside the current four-method primary comparison.
+optional_secondary_algorithms: [FASTCORE_FASTCORMICS]
+primary_expert_variant: rna_only_primary
+ablations:
+  enable_rna_dmi_hard_constraints: false
+  enable_anchor_protection: false
+objective:
+  biomass_reaction: BIOMASS_reaction
+  qualification_direction: max
+  ensemble_objective_fraction: 0.90
+gurobi:
+  Threads: 1
+  MIPGap: 0.0001
+  FeasibilityTol: 1.0e-6
+  OptimalityTol: 1.0e-6
+  TimeLimit: null
+sampling:
+  sampler: OptGPSampler
+  retained_vectors: 20
+  thinning: 100
+  processes: 1
+  calculation_dtype: float64
+  raw_storage_dtype: float32
+  geometry:
+    nullspace_atol: 1.0e-13
+    nullspace_rtol: 0.0
+    svd_fallback_driver: gesvd
+validation:
+  objective_tolerance: 1.0e-8
+  bound_tolerance: 1.0e-7
+  steady_state_tolerance: 1.0e-7
+  zero_tolerance: 1.0e-9
+contextualization:
+  pooled_statistic: median
+  expression_detection_threshold: 0.1
+  lower_quantile: 0.25
+  upper_quantile: 0.75
+  objective_fraction: 0.90
+  epsilon: 1.0e-4
+  # Selected by the controlled CT2A/GL261 epsilon sensitivity experiment.
+  # Biomass is the sole explicit iMAT core and a hard phenotype constraint in
+  # the one canonical iMAT MILP; no other project reaction is core.
+  imat:
+    epsilon: 0.01
+    tolerance: 1.0e-8
+    biomass_floor_fraction: 0.90
+    mip_gap: 0.01
+  protection_policy:
+    technical_reactions: [ATPM, BIOMASS_reaction]
+    frozen_medium_reactions: derived_from_authoritative_medium
+    historical_dmi_anchor_ablation: [HEX1, r0354, r0355, SBTR, CBPPer, UGALGTg, LDH_L]
+  gimme:
+    expression_threshold: 0.1
+    semantics: RNA expression threshold passed to Troppo GIMME; configurable for sensitivity analysis, not an inherent GIMME constant.
+  # Use corda 0.5.1 constructor defaults (n=3, penalty_factor=100, support=5).
+  corda: {}
+  tinit: {production_weight: 0.5, allow_excretion: false, no_reverse_loops: false}
+  eflux:
+    formulation: colijn_2009_unit_normalized
+    semantics: Internal mapped bounds are expression/max(mapped expression); AND=MIN, OR=SUM; unmapped internal reactions cap at 1; boundary and technically protected reactions retain frozen parent bounds.
+  riptide:
+    fraction: 0.8
+    prune: true
+    task_fraction: 0.01
+    set_bounds: true
+    tasks: []
+    exclude: []
+    gpr: true
+    fit_native_samples: 50
+    # Structural observability guard only: no mouse-specific or numerical DMI
+    # measurements are used during transcriptome contextualization.
+    measurement_observability:
+      enabled: true
+      epsilon: 1.0e-6
+      reactions:
+        LDH_L: negative
+        PDHm: positive
+  regrex: {status: blocked_pending_validation, formulation: RegrEx-LAD_AOS_required}
+scoring:
+  selected_reaction_summaries: [R3, R4, R5, R6]

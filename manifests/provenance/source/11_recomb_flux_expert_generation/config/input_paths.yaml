@@ -1,0 +1,10 @@
+schema_version: 1
+project_root: .
+model: metabolic_network/iMM1865/iMM1865.xml.xz
+model_gene_expression: analysis/brain_glioma_gem/01_expression_mapping/model_gene_expression.tsv
+final_a_config: pre-simulation_constraint_analysis/results/run_20260824T164247Z_corrected_analysis_A/config/resolved_config.yaml
+frozen_loo_manifest: 9_recomb_gene_score_validation_combined/01_khalsa_internal_loo/results/loo_split_manifest.tsv
+khalsa_manifest: external_data/brain_glioma_GL261_CT2A/khalsa_GSE151414/metadata/sample_manifest.tsv
+mikolajewicz_gene_scores: 7_mikolajewicz_external_flux_concordance/04_gene_scores/reaction_scores_per_sample.tsv.xz
+stage4_canonical_reactions: 4_scoring_definition_benchmark/canonical_reaction_table.csv.xz
+stage4_memberships: 4_scoring_definition_benchmark/results/subsystem_memberships.csv.xz
