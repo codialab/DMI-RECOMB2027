@@ -1,0 +1,11 @@
+{
+  "source_path": "outputs/dmi_bridge_pl1_predictability_landscape_v1_resumable_v1/BRIDGEPL1_EVALUATION_REGISTRY.tsv",
+  "source_sha256": "aa468dcec11dea764682bd3d7eb14c03c003063e74d92080d0bfaabb366290a3",
+  "evaluations": 400,
+  "methods": 4,
+  "rna_contexts": 4,
+  "ct2a_subjects": 5,
+  "gl261_subjects": 5,
+  "layout": "4 methods \u00d7 4 RNA contexts \u00d7 5 CT2A subjects \u00d7 5 GL261 subjects = 400 evaluations",
+  "author_review": "Reconcile the proposed two-mice/five-draws terminology; no additional independent reconstruction-draw axis is established by this registry"
+}

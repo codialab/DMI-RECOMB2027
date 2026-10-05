@@ -1,0 +1,61 @@
+--- a/figures/fig3/make_fig3_gain_tables.py
++++ b/figures/main/fig3/upstream/make_fig3_gain_tables.py
+@@ -12,8 +12,8 @@
+ import pandas as pd
+ 
+ 
+-ROOT = Path(__file__).resolve().parents[2]
+-TABLE_DIR = ROOT / "figures/fig3/tables"
++ROOT = Path(__file__).resolve().parents[4]
++TABLE_DIR = ROOT / "reproduced/derived/fig3"
+ GAIN_TOL = 1e-12
+ IDENTITY_TOL = 5e-12
+ SOURCES = {
+--- a/figures/fig4/build_fig4_tables_updated.py
++++ b/figures/main/fig4/upstream/build_fig4_tables_updated.py
+@@ -21,8 +21,8 @@
+ import pyarrow as pa
+ import pyarrow.parquet as pq
+ 
+-ROOT = Path(__file__).resolve().parents[2]
+-OUT = ROOT / "figures/fig4"
++ROOT = Path(__file__).resolve().parents[4]
++OUT = ROOT / "reproduced/derived/fig4"
+ DATA = OUT / "data"
+ GEOM_OUT = DATA / "fig4_geometry_paired"
+ UTILITY_OUT = DATA / "fig4_utility_paired"
+--- a/scripts/export_recomb_figure2_dg_points_v1.py
++++ b/figures/main/fig2/upstream/export_recomb_figure2_dg_points_v1.py
+@@ -14,8 +14,8 @@
+ from scipy.stats import spearmanr
+ 
+ 
+-ROOT = Path(__file__).resolve().parents[1]
+-OUT = ROOT / "figures/fig2/figure2_DG_points.csv.xz"
++ROOT = Path(__file__).resolve().parents[4]
++OUT = ROOT / "reproduced/derived/fig2/figure2_DG_points.csv.xz"
+ GAIN_TOL = 1e-12
+ IDENTITY_TOL = 5e-12
+ EXPECTED_UPSTREAM_MANIFESTS = {
+--- a/figures/supp_fig1/build_supp_fig1_tables.py
++++ b/figures/supplementary/s1/upstream/build_supp_fig1_tables.py
+@@ -11,8 +11,8 @@
+ import numpy as np
+ import pandas as pd
+ 
+-ROOT = Path(__file__).resolve().parents[2]
+-OUT = Path(__file__).resolve().parent
++ROOT = Path(__file__).resolve().parents[4]
++OUT = ROOT / "reproduced/derived/s1"
+ DATA = OUT / "data"
+ METHODS = ("iMAT", "GIMME", "CORDA", "RIPTiDe")
+ CONTEXTS = (
+@@ -29,7 +29,7 @@
+ SOURCES = {
+     "bio0_manifest": "outputs/dmi_bridge_bio0_audit_v1/BRIDGEBIO0_MANIFEST.json",
+     "a1_weights": "outputs/dmi_bridge_bio0_audit_v1/BRIDGEBIO0_FOUR_ARM_WEIGHTS.tsv.xz",
+-    "fig4_manifest": "figures/fig4/data/fig4_data_manifest.json",
++    "fig4_manifest": "data/figure_inputs/fig4/fig4_data_manifest.json",
+     "a20_manifest": "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_MANIFEST.json",
+     "a2_weights": "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_DUAL_ANCHOR_WEIGHTS.tsv.xz",
+     "pl1_manifest": "outputs/dmi_bridge_pl1_predictability_landscape_v1_resumable_v1/BRIDGEPL1_MANIFEST.json",

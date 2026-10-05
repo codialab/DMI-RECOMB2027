@@ -66,14 +66,6 @@
       "included": false
     },
     {
-      "source_path": "figures/fig4/data/fig4_panelB_summary.tsv",
-      "destination_path": "data/figure_inputs/fig4/fig4_panelB_summary.tsv",
-      "sha256": "c8e5dc968cbd5d5557dcdc0b2826bcc6de391994104c61661d9d9649fac87dff",
-      "bytes": 705,
-      "rights_status": "PENDING_AUTHOR_REVIEW",
-      "included": false
-    },
-    {
       "source_path": "figures/fig4/data/fig4_panelB_summary.tsv.xz",
       "destination_path": "data/figure_inputs/fig4/fig4_panelB_summary.tsv.xz",
       "sha256": "4d8059930141026d758b77eb8efdc3eb0698b9794dc6272f0884ef6ed7e02199",
@@ -192,6 +184,15 @@
       "bytes": 5890,
       "rights_status": "PENDING_AUTHOR_REVIEW",
       "included": false
+    },
+    {
+      "source_path": "figures/fig3/tables/fig3_gain_definition_audit.parquet.xz",
+      "destination_path": "data/processed/aggregation_audit/fig3_gain_definition_audit.parquet.xz",
+      "sha256": "32370fc711e923d1476464e7e16e62b8f1f44cee7e1ae0de967cf695de0f4533",
+      "bytes": 2776,
+      "rights_status": "PENDING_AUTHOR_REVIEW",
+      "included": false,
+      "classification": "INCLUDE_PROVENANCE_ONLY"
     }
   ]
 }

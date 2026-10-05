@@ -19,9 +19,10 @@ ROOT = Path(__file__).resolve().parent
 
 def inside(relative: str | Path) -> Path:
     path = ROOT / relative
-    if path.is_symlink() or not path.resolve().is_relative_to(ROOT):
+    resolved = path.resolve()
+    if path.is_symlink() or not resolved.is_relative_to(ROOT):
         raise ValueError(f"Path escapes repository or is a symlink: {relative}")
-    return path
+    return resolved
 
 
 def digest(path: Path) -> str:
@@ -233,12 +234,17 @@ def main() -> int:
     p.add_argument("--output-root", default="reproduced/tables")
     args = parser.parse_args()
     try:
+        boundary = Path(subprocess.check_output(
+            ["git", "rev-parse", "--show-toplevel"], cwd=ROOT, text=True,
+            env=dict(os.environ, GIT_OPTIONAL_LOCKS="0")).strip()).resolve()
+        if boundary != ROOT:
+            raise ValueError("Run from a Git checkout whose root contains reproduce.py.")
         if args.command == "status": result = state()
         elif args.command == "checksums": result = checksums()
         elif args.command == "validate": result = validate_frozen()
         elif args.command == "figures": result = plot(args.only, args.output_root)
         else: result = tables(args.output_root)
-    except (AssertionError, OSError, ValueError, KeyError) as exc:
+    except (AssertionError, OSError, ValueError, KeyError, subprocess.CalledProcessError) as exc:
         print(json.dumps({"status": "FAIL", "error": str(exc)}, indent=2))
         return 1
     print(json.dumps(result, indent=2))

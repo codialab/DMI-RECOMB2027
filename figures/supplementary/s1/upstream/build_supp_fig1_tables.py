@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[4]
-OUT = Path(__file__).resolve().parent
+OUT = ROOT / "reproduced/derived/s1"
 DATA = OUT / "data"
 METHODS = ("iMAT", "GIMME", "CORDA", "RIPTiDe")
 CONTEXTS = (
@@ -29,7 +29,7 @@ TOL = 1e-10
 SOURCES = {
     "bio0_manifest": "outputs/dmi_bridge_bio0_audit_v1/BRIDGEBIO0_MANIFEST.json",
     "a1_weights": "outputs/dmi_bridge_bio0_audit_v1/BRIDGEBIO0_FOUR_ARM_WEIGHTS.tsv.xz",
-    "fig4_manifest": "figures/fig4/data/fig4_data_manifest.json",
+    "fig4_manifest": "data/figure_inputs/fig4/fig4_data_manifest.json",
     "a20_manifest": "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_MANIFEST.json",
     "a2_weights": "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_DUAL_ANCHOR_WEIGHTS.tsv.xz",
     "pl1_manifest": "outputs/dmi_bridge_pl1_predictability_landscape_v1_resumable_v1/BRIDGEPL1_MANIFEST.json",
