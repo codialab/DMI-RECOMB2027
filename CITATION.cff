@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this repository and, when available, the final RECOMB manuscript."
+type: software
+title: "RECOMB 2027 DMI reproducibility repository — TODO final manuscript title"
+authors:
+  - family-names: Pang
+    given-names: Tin Yau
+    # TODO: author-verified ORCID
+  - family-names: Dörr
+    given-names: Daniel
+    # TODO: author-verified ORCID
+abstract: "Weak qualitative directional information after strong quantitative flux anchoring in genome-scale metabolic models."
+license: MIT
+# Names are recorded in the current manuscript draft; code ownership is not
+# inferred from author order. Data/documentation licensing is in LICENSE-DATA.
+# TODO: final paper title, repository URL, software/release DOI, publication DOI,
+# preferred-citation and final RECOMB 2027 conference citation after author review.

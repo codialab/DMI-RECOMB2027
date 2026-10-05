@@ -1,0 +1,21 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+SPDX-License-Identifier: CC-BY-4.0
+
+Original research products that are owned by the repository contributors and
+cleared for redistribution, including derived tables, figures and documentation,
+are licensed under the Creative Commons Attribution 4.0 International license.
+
+License summary: https://creativecommons.org/licenses/by/4.0/
+The legally operative terms are incorporated by reference:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribute the authors and this repository, preserve provenance and license
+notices, link to the license, and indicate modifications. Citation metadata are
+in CITATION.cff. Final manuscript title, DOI and conference citation remain TODOs.
+
+Third-party datasets, metabolic models, software, reconstruction methods and
+externally sourced materials retain their original licenses. They are not
+relicensed here. This notice does not grant rights to withheld or ambiguous
+artifacts; author review is recorded in manifests/provenance/RIGHTS_REVIEW.tsv.
+
+Repository documentation is covered by CC BY 4.0; source code is covered by MIT.
