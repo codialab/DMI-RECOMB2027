@@ -11,9 +11,10 @@ python -m venv .venv
 .venv/bin/python reproduce.py status
 ```
 
-Pinned plotting versions were observed in the migration environment and are
+Python 3.12.3 and the pinned plotting versions were observed in the migration environment and are
 recorded in `manifests/provenance/VALIDATION.json`. They do not establish the
-versions that originally generated scientific outputs. Rendering may differ
+versions that originally generated scientific outputs. Full rendering has not
+been tested because numerical inputs remain withheld. Rendering may differ
 with fonts or Matplotlib versions; scientific-table identities use SHA-256.
 
 `requirements-upstream.txt` records optional modeling dependencies. The source

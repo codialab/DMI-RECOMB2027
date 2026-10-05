@@ -9,3 +9,9 @@ Requested author decision: confirm whether the listed original derived numerical
 Local Dryad metadata declares the Simoes deposit CC0-1.0. The iMM1865 model and Khalsa transcriptome permission were not established; raw third-party inputs remain omitted. A local license declaration is recorded evidence, not a new relicensing decision.
 
 Legacy supplementary table eligibility also requires manuscript-lineage review; rights approval alone does not promote them into production.
+
+Four conceptual SVGs have been added as separate artwork-review rows. Their
+original creator/ownership and final editorial identities are not established;
+they have not been copied. The numerical-table review request does not authorize
+those illustrations. There are 57 review entries: 50 frozen numerical files, four
+artwork files and three external-source groups.

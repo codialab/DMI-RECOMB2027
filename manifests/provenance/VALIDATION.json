@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-05",
+  "verdict": "NOT YET REPRODUCIBLE",
+  "source_commit": "16379a169f45ec556274953eb66ae12293e1e985",
+  "initial_destination_commit": "63edf6a9f3e0f3ba84c17dd7a828db5b6d7170de",
+  "branch": "publication-migration",
+  "source_state": "clean; expected HEAD; no source writes performed",
+  "initial_root_provenance_note": "unchanged",
+  "source_transfer_records": 101,
+  "byte_identical_files": 88,
+  "path_adapted_builders": 4,
+  "notebook_extractions": 9,
+  "python_files_compiled": 84,
+  "lightweight_bridge_modules_imported": 34,
+  "scientific_core_tests": {
+    "passed": 108,
+    "failed": 0,
+    "scope": "existing synthetic tests; no data or solver",
+    "log": "manifests/provenance/CORE_TEST_RESULTS.txt"
+  },
+  "cli_checks": [
+    {
+      "arguments": [
+        "status"
+      ],
+      "exit_code": 0,
+      "status": "STATUS_LISTED"
+    },
+    {
+      "arguments": [
+        "validate"
+      ],
+      "exit_code": 1,
+      "status": "INCOMPLETE"
+    },
+    {
+      "arguments": [
+        "figures",
+        "--only",
+        "fig2DG,fig3BC,fig4B"
+      ],
+      "exit_code": 1,
+      "status": "INCOMPLETE"
+    },
+    {
+      "arguments": [
+        "tables"
+      ],
+      "exit_code": 1,
+      "status": "INCOMPLETE"
+    },
+    {
+      "arguments": [
+        "figures",
+        "--only",
+        "unknown"
+      ],
+      "exit_code": 1,
+      "status": "FAIL"
+    },
+    {
+      "arguments": [
+        "figures",
+        "--output-root",
+        "reproduced/../data"
+      ],
+      "exit_code": 1,
+      "status": "FAIL"
+    },
+    {
+      "arguments": [
+        "figures",
+        "--output-root",
+        "/home/pty/work/project_MRI_brain_tumor/reproduced"
+      ],
+      "exit_code": 1,
+      "status": "FAIL"
+    }
+  ],
+  "stale_absolute_production_paths": [],
+  "figure_dependency_audit": {
+    "main_figures_mapped": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "supplementary_figures_mapped": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "main_full_render": "not verified",
+    "supplementary_full_render": "not verified",
+    "ready_numeric_jobs_after_rights": [
+      "fig2DG",
+      "fig3BC",
+      "fig4B"
+    ],
+    "pending_lineages": "see FIGURE_REGISTRY.json and MIGRATION_REPORT.md"
+  },
+  "rights_review_entries": 57,
+  "frozen_numerical_artifacts_copied": 0,
+  "source_numerical_hashes_recorded": 50,
+  "frozen_copy_checksum_validation": "not possible: inputs withheld",
+  "full_figure_render_validation": "not run: rights and lineage pending",
+  "scientific_code_changes": 0,
+  "cff_validation": "YAML parse, required fields/types and unresolved-placeholder checks passed; full external CFF schema validator not available",
+  "python": "3.12.3",
+  "observed_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "pyarrow": "25.0.1",
+    "matplotlib": "3.10.5",
+    "pytest": "8.4.1",
+    "PyYAML": "6.0.2"
+  },
+  "gurobi": "not imported/run; source requirement pin only",
+  "git_diff_check": "PASS including initial-to-final migration diff, with three documented verbatim-provenance whitespace exceptions",
+  "included_release_checksum_validation": {
+    "status": "PASS",
+    "files": 136,
+    "scope": "Included release files only; copied frozen numerical artifacts = zero"
+  }
+}

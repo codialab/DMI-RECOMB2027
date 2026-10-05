@@ -124,7 +124,7 @@ for ii, (ax, metric) in enumerate(zip(axes, metric_config[:2])):
         ax.set_ylabel('Cumulative fraction')
     ax.set_ylim(0, 1)
 
-    if ii == 1:        
+    if ii == 1:
         ax.legend(frameon=False)
 
 fig.suptitle(

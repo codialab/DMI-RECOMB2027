@@ -22,7 +22,9 @@
       }
     ],
     "classification": "INCLUDE_PRODUCTION",
-    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded"
+    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded",
+    "strip_trailing_whitespace": true,
+    "trim_blank_eof": true
   },
   {
     "source_path": "figures/fig3/fig3_gain_exploration.ipynb",
@@ -36,7 +38,9 @@
     "destination_path": "figures/main/fig3/plot_fig3_bc.py",
     "adaptations": [],
     "classification": "INCLUDE_PRODUCTION",
-    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded"
+    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded",
+    "strip_trailing_whitespace": true,
+    "trim_blank_eof": true
   },
   {
     "source_path": "figures/supp_fig4/supp_fig4.ipynb",
@@ -52,7 +56,9 @@
     "destination_path": "manifests/provenance/legacy_figure_code/supp_fig4_plot_cells.py",
     "adaptations": [],
     "classification": "INCLUDE_PROVENANCE_ONLY",
-    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded"
+    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded",
+    "strip_trailing_whitespace": true,
+    "trim_blank_eof": true
   },
   {
     "source_path": "figures/supp_fig5/supp_fig5.ipynb",
@@ -66,7 +72,9 @@
     "destination_path": "manifests/provenance/legacy_figure_code/supp_fig5_plot_cells.py",
     "adaptations": [],
     "classification": "INCLUDE_PROVENANCE_ONLY",
-    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded"
+    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded",
+    "strip_trailing_whitespace": true,
+    "trim_blank_eof": true
   },
   {
     "source_path": "figures/supp_fig6/supp_fig6.ipynb",
@@ -82,7 +90,9 @@
     "destination_path": "manifests/provenance/legacy_figure_code/supp_fig6_plot_cells.py",
     "adaptations": [],
     "classification": "INCLUDE_PROVENANCE_ONLY",
-    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded"
+    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded",
+    "strip_trailing_whitespace": true,
+    "trim_blank_eof": true
   },
   {
     "source_path": "figures/supp_fig7/supp_fig7.ipynb",
@@ -98,7 +108,9 @@
     "destination_path": "manifests/provenance/legacy_figure_code/supp_fig7_plot_cells.py",
     "adaptations": [],
     "classification": "INCLUDE_PROVENANCE_ONLY",
-    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded"
+    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded",
+    "strip_trailing_whitespace": true,
+    "trim_blank_eof": true
   },
   {
     "source_path": "figures/supp_fig1/supp_fig1.ipynb",
@@ -117,7 +129,9 @@
       }
     ],
     "classification": "INCLUDE_PRODUCTION",
-    "scientific_changes": "none; heatmap display-order issue preserved and flagged for author review"
+    "scientific_changes": "none; heatmap display-order issue preserved and flagged for author review",
+    "strip_trailing_whitespace": true,
+    "trim_blank_eof": true
   },
   {
     "source_path": "figures/fig4/fig4_panelB_distributions_updated.ipynb",
@@ -133,7 +147,9 @@
     "destination_path": "figures/main/fig4/plot_fig4_b.py",
     "adaptations": [],
     "classification": "INCLUDE_PRODUCTION",
-    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded"
+    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded",
+    "strip_trailing_whitespace": true,
+    "trim_blank_eof": true
   },
   {
     "source_path": "figures/fig4/fig4_panelB_distributions_updated.ipynb",
@@ -152,6 +168,8 @@
       }
     ],
     "classification": "INCLUDE_PRODUCTION",
-    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded"
+    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded",
+    "strip_trailing_whitespace": true,
+    "trim_blank_eof": true
   }
 ]

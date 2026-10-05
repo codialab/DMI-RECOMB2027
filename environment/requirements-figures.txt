@@ -1,5 +1,5 @@
 # Versions observed in the migration validation environment, 2026-10-05.
-# These are a tested plotting environment, not a claim about original production.
+# This captures installed packages; full figure rendering awaits cleared inputs.
 numpy==2.3.5
 pandas==2.3.3
 scipy==1.17.1

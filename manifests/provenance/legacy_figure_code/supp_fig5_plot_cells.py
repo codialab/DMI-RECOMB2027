@@ -114,4 +114,3 @@ print('Panel A matched reaction-evaluation rows:',manifest['gain_validation']['a
 print('Panel B non-tie denominators:',outcomes.set_index(['anchor_setting','reliability_q'])['non_tie_denominator'].to_dict())
 print('Truth tie counts:',coverage.set_index('anchor_setting')[['truth_tie_count','total_cases']].to_dict(orient='index'))
 print('Saved:',OUT/'supp_fig5.svg',OUT/'supp_fig5.png')
-

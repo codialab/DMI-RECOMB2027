@@ -81,8 +81,8 @@ scripts; it does not invoke upstream scientific production.
 
 ## Numerical inputs and licensing boundary
 
-No ambiguous frozen numerical artifact is copied. Fifty exact figure-related
-source identities and three external-source groups are tracked in
+No ambiguous frozen numerical artifact is copied. Fifty exact numerical
+source identities, four conceptual artwork files and three external-source groups are tracked in
 [`RIGHTS_REVIEW.tsv`](../manifests/provenance/RIGHTS_REVIEW.tsv). The selected
 prospective main/S1/table-audit subset is in `FIGURE_INPUTS.json` with inclusion
 false and rights pending. Raw/model dependencies remain omitted.

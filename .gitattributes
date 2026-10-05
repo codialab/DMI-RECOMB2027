@@ -1,0 +1,5 @@
+# Preserve exact original blobs and syntactically meaningful patch context.
+# These narrow whitespace exceptions do not exclude files from checksum checks.
+11_recomb_flux_expert_generation/src/__init__.py whitespace=-blank-at-eof
+manifests/provenance/source/SUPPLEMENTARY_FIGURES_WAVE1_AUDIT.md -whitespace
+manifests/provenance/PACKAGING_DIFFS.patch -whitespace
