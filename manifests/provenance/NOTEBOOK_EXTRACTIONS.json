@@ -1,0 +1,157 @@
+[
+  {
+    "source_path": "figures/fig2/recomb_figure2_DG_plots.ipynb",
+    "source_sha256": "deeae8809cfb84cafe68ce1c4a6dd1a3b352419701ba5f2e4e7de4dfbd2aacba",
+    "source_cells": [
+      3,
+      5,
+      18,
+      20
+    ],
+    "source_cell_sha256": {
+      "3": "32f6d149c59355f9d671f7c600338aa232c4c8fba79477264f6d60e0cf106dfb",
+      "5": "529c50c02f58a6ac611747b48ae85a6a8865c15129d0c40f8059f581953ce82c",
+      "18": "b8f626677d9ab5279799b882626377626fcb6ccb66f3ac091b8e285d107c6d13",
+      "20": "d41436b17c7a61099400f54807ab2693fb1b6d76cde22ee6ed4e73e7ef532a59"
+    },
+    "destination_path": "figures/main/fig2/plot_fig2_dg.py",
+    "adaptations": [
+      {
+        "from": "Chance of benefiting from\\ndirectional information",
+        "to": "Benchmark directional-usefulness\\nfrequency"
+      }
+    ],
+    "classification": "INCLUDE_PRODUCTION",
+    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded"
+  },
+  {
+    "source_path": "figures/fig3/fig3_gain_exploration.ipynb",
+    "source_sha256": "1ca36f0b9b5e869bac4a339bf2a66ec4f4172880c6e52251f113b8f3997f2228",
+    "source_cells": [
+      20
+    ],
+    "source_cell_sha256": {
+      "20": "ae150863c1843ef29d1d1f968815f28bade6696fe72a0ae6c01ffb31d305688a"
+    },
+    "destination_path": "figures/main/fig3/plot_fig3_bc.py",
+    "adaptations": [],
+    "classification": "INCLUDE_PRODUCTION",
+    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded"
+  },
+  {
+    "source_path": "figures/supp_fig4/supp_fig4.ipynb",
+    "source_sha256": "91265f6db5b6a0189be6d2e9fc4738f4425457396863bfd02566db2abfc52d8e",
+    "source_cells": [
+      1,
+      2
+    ],
+    "source_cell_sha256": {
+      "1": "bbfd2290fc7870d884a78bc79c25229ea94d954311d1a1bbcdb499a888c7d39f",
+      "2": "a3e37c535cb2c5be38461bebb80358af329c05a2780a65b747ea80b54a8a04f4"
+    },
+    "destination_path": "manifests/provenance/legacy_figure_code/supp_fig4_plot_cells.py",
+    "adaptations": [],
+    "classification": "INCLUDE_PROVENANCE_ONLY",
+    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded"
+  },
+  {
+    "source_path": "figures/supp_fig5/supp_fig5.ipynb",
+    "source_sha256": "b8ce88f5255416d76b2a9d820695d9889021ddfd70dd63e4b2bf6d924d929aa7",
+    "source_cells": [
+      1
+    ],
+    "source_cell_sha256": {
+      "1": "be3df49493c41f833f9b91b3bf810aae6066f617c007797deece2e4e64a86ce5"
+    },
+    "destination_path": "manifests/provenance/legacy_figure_code/supp_fig5_plot_cells.py",
+    "adaptations": [],
+    "classification": "INCLUDE_PROVENANCE_ONLY",
+    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded"
+  },
+  {
+    "source_path": "figures/supp_fig6/supp_fig6.ipynb",
+    "source_sha256": "07569e8004700e60e3d2a94d0e86d85ab2d8467d349bdc225ed00415ac7e061d",
+    "source_cells": [
+      1,
+      2
+    ],
+    "source_cell_sha256": {
+      "1": "b600053068f6c8f56954c1ec3e7f87f8bdd7fa3fed0b007cf162255ab2ab0dc1",
+      "2": "d12e7d15a0db1df56d992205fc3949cb3efac31e69d6e879692063e0a7a852ca"
+    },
+    "destination_path": "manifests/provenance/legacy_figure_code/supp_fig6_plot_cells.py",
+    "adaptations": [],
+    "classification": "INCLUDE_PROVENANCE_ONLY",
+    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded"
+  },
+  {
+    "source_path": "figures/supp_fig7/supp_fig7.ipynb",
+    "source_sha256": "844563f1ae8f23b08f369f5dd3f484c4a0d2a5747bfca4d0649cc9ea3cadfdf6",
+    "source_cells": [
+      1,
+      2
+    ],
+    "source_cell_sha256": {
+      "1": "3df2b6bf70516852d80e63485b215dfa351e8d8a63c82f51468a9811bb5aa07e",
+      "2": "5581aa47e36e938101e01cc28cf5445996710910b0bf162a2bb6d511aecc1668"
+    },
+    "destination_path": "manifests/provenance/legacy_figure_code/supp_fig7_plot_cells.py",
+    "adaptations": [],
+    "classification": "INCLUDE_PROVENANCE_ONLY",
+    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded"
+  },
+  {
+    "source_path": "figures/supp_fig1/supp_fig1.ipynb",
+    "source_sha256": "5bdd74746662bd81eba6f35861c14cdf04c8617f05d14e1e5cc479c2324ecfe3",
+    "source_cells": [
+      1
+    ],
+    "source_cell_sha256": {
+      "1": "bd73f20975f483a6a1a2500c269ef3c4e8dfa897e199a16d5f217c8a719d7289"
+    },
+    "destination_path": "figures/supplementary/s1/plot_s1.py",
+    "adaptations": [
+      {
+        "from": "HERE = Path.cwd()\nif HERE.name != 'supp_fig1':\n    HERE = HERE / 'figures' / 'supp_fig1'\nDATA = HERE / 'data'\nOUT = HERE / 'outputs'",
+        "to": "import os\nROOT = Path(__file__).resolve().parents[3]\nDATA = ROOT / 'data/figure_inputs/s1'\nOUT = Path(os.environ['RECOMB_OUTPUT_DIR'])"
+      }
+    ],
+    "classification": "INCLUDE_PRODUCTION",
+    "scientific_changes": "none; heatmap display-order issue preserved and flagged for author review"
+  },
+  {
+    "source_path": "figures/fig4/fig4_panelB_distributions_updated.ipynb",
+    "source_sha256": "a8d93870a6e4f4359a13ac13ed822d8e46d9e044ec8b9250266f85595c350d1e",
+    "source_cells": [
+      3,
+      6
+    ],
+    "source_cell_sha256": {
+      "3": "6011e19bbf9d6f4d1ff6d92f6e34eb28ed38061cc8daca6b04f0a42979e2f71d",
+      "6": "3a74bef25851f83a1deccb2386a568cb35760bbaa69d5ccfc6c8412ef276a9f5"
+    },
+    "destination_path": "figures/main/fig4/plot_fig4_b.py",
+    "adaptations": [],
+    "classification": "INCLUDE_PRODUCTION",
+    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded"
+  },
+  {
+    "source_path": "figures/fig4/fig4_panelB_distributions_updated.ipynb",
+    "source_sha256": "a8d93870a6e4f4359a13ac13ed822d8e46d9e044ec8b9250266f85595c350d1e",
+    "source_cells": [
+      11
+    ],
+    "source_cell_sha256": {
+      "11": "3e7cb73e7a5e49a0f7d3e9613ad04e3b7e39652622ae61a56368d991ad62d445"
+    },
+    "destination_path": "figures/main/fig4/plot_fig4_c_source.py",
+    "adaptations": [
+      {
+        "from": "$\\Delta v_B$   [$\\text{mmol gDW}^{-1} \\text{ h}^{-1}$]",
+        "to": "$\\Delta v_B$ [native GEM flux units]"
+      }
+    ],
+    "classification": "INCLUDE_PRODUCTION",
+    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded"
+  }
+]

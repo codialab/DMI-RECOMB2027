@@ -1,0 +1,200 @@
+{
+  "schema": "recomb.figure_registry.v1",
+  "source_commit": "16379a169f45ec556274953eb66ae12293e1e985",
+  "authority": "Current manuscript drafts + RECOMB_MANUSCRIPT_TECHNICAL_AUDIT.md",
+  "figures": [
+    {
+      "id": "fig1",
+      "panels": [
+        "1A",
+        "1B",
+        "1C"
+      ],
+      "status": "AUTHOR_REVIEW_REQUIRED",
+      "inputs": [],
+      "plotting_script": null,
+      "issue": "Conceptual artwork; matching source SVG identified but ownership/final artwork identity not cleared. No numerical data dependency."
+    },
+    {
+      "id": "fig2ABC",
+      "panels": [
+        "2A",
+        "2B",
+        "2C"
+      ],
+      "status": "AUTHOR_REVIEW_REQUIRED",
+      "inputs": [],
+      "plotting_script": null,
+      "issue": "Conceptual mechanism/context artwork; legacy rough SVG requires final editorial/rights review."
+    },
+    {
+      "id": "fig2DG",
+      "panels": [
+        "2D",
+        "2E",
+        "2F",
+        "2G"
+      ],
+      "status": "READY_WHEN_INPUTS_CLEARED",
+      "inputs": [
+        "data/figure_inputs/fig2/figure2_DG_points.csv.xz"
+      ],
+      "plotting_script": "figures/main/fig2/plot_fig2_dg.py",
+      "issue": "Numeric cells match draft usefulness-frequency caption; final composite artwork remains separate."
+    },
+    {
+      "id": "fig3A",
+      "panels": [
+        "3A"
+      ],
+      "status": "AUTHOR_REVIEW_REQUIRED",
+      "inputs": [],
+      "plotting_script": null,
+      "issue": "Conceptual magnitude-error/gain definitions; original SVG identified but final artwork/rights review pending."
+    },
+    {
+      "id": "fig3BC",
+      "panels": [
+        "3B",
+        "3C"
+      ],
+      "status": "READY_WHEN_INPUTS_CLEARED",
+      "inputs": [
+        "data/figure_inputs/fig3/fig3_gain_reaction_evaluation.parquet.xz"
+      ],
+      "plotting_script": "figures/main/fig3/plot_fig3_bc.py",
+      "issue": "Original cell 20 plotting grid retained; no nonzero scientific cutoff is inferred from that grid."
+    },
+    {
+      "id": "fig3D",
+      "panels": [
+        "3D"
+      ],
+      "status": "AUTHOR_REVIEW_REQUIRED",
+      "inputs": [
+        "data/figure_inputs/fig3/fig3_gain_summary.parquet.xz",
+        "data/figure_inputs/fig3/fig3_directional_advantage_summary.parquet.xz"
+      ],
+      "plotting_script": null,
+      "issue": "Existing panel D is superseded case-pooled artwork. Final pair-weighted endpoints are traceable, but authoritative corrected panel source is missing."
+    },
+    {
+      "id": "fig4A",
+      "panels": [
+        "4A"
+      ],
+      "status": "AUTHOR_REVIEW_REQUIRED",
+      "inputs": [],
+      "plotting_script": null,
+      "issue": "Conceptual matched-anchor diagram; no numerical input; final artwork and rights pending."
+    },
+    {
+      "id": "fig4B",
+      "panels": [
+        "4B"
+      ],
+      "status": "READY_WHEN_INPUTS_CLEARED",
+      "inputs": [
+        "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=iMAT/part.parquet.xz",
+        "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=GIMME/part.parquet.xz",
+        "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=RIPTiDe/part.parquet.xz",
+        "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=CORDA/part.parquet.xz",
+        "data/figure_inputs/fig4/fig4_data_manifest.json"
+      ],
+      "plotting_script": "figures/main/fig4/plot_fig4_b.py",
+      "issue": "Selected source cells reproduce the two absolute ECDFs; full composite artwork is reviewed separately."
+    },
+    {
+      "id": "fig4C",
+      "panels": [
+        "4C"
+      ],
+      "status": "AUTHOR_REVIEW_REQUIRED",
+      "inputs": [
+        "data/figure_inputs/fig4/fig4_panelC_candidate_groups.parquet.xz",
+        "data/figure_inputs/fig4/fig4_panelC_candidate_metrics.parquet.xz",
+        "data/figure_inputs/fig4/fig4_panelC_candidate_support.parquet.xz"
+      ],
+      "plotting_script": "figures/main/fig4/plot_fig4_c_source.py",
+      "issue": "Main draft uses three methods; source notebook draws four. Two-stage selection wording/frozen intent needs review. No population or selection rule was changed."
+    },
+    {
+      "id": "s1",
+      "panels": [
+        "S1 (draft panel letters pending)"
+      ],
+      "status": "AUTHOR_REVIEW_REQUIRED",
+      "inputs": [
+        "data/figure_inputs/s1/candidate_weights.tsv",
+        "data/figure_inputs/s1/conditional_stratum_summary.tsv",
+        "data/figure_inputs/s1/contrast_product_support.tsv",
+        "data/figure_inputs/s1/global_ess_summary.tsv",
+        "data/figure_inputs/s1/post_holdout_candidate_support.tsv",
+        "data/figure_inputs/s1/post_holdout_pair_support.tsv",
+        "data/figure_inputs/s1/validation_summary.json"
+      ],
+      "plotting_script": "figures/supplementary/s1/plot_s1.py",
+      "issue": "Scope matches candidate/support diagnostics. Source heatmap data rows are sorted alphabetically by method while label order is iMAT/GIMME/CORDA/RIPTiDe; a label/data alignment review is needed before final rendering."
+    },
+    {
+      "id": "s2",
+      "panels": [
+        "S2 (draft panel letters pending)"
+      ],
+      "status": "AUTHOR_REVIEW_REQUIRED",
+      "inputs": [],
+      "plotting_script": null,
+      "issue": "Draft requests context associations; legacy S2 instead plots paired geometry. PL2D/M1 context tables are traceable, but no matching final plotting workflow was identified."
+    },
+    {
+      "id": "s3",
+      "panels": [
+        "S3 (draft panel letters pending)"
+      ],
+      "status": "AUTHOR_REVIEW_REQUIRED",
+      "inputs": [],
+      "plotting_script": null,
+      "issue": "Draft requests alternative descriptors/continuous information advantage; legacy S3 is a paired geometry hexbin. Final panel choices and plotting workflow missing."
+    },
+    {
+      "id": "s4",
+      "panels": [
+        "S4 (draft panel letters pending)"
+      ],
+      "status": "AUTHOR_REVIEW_REQUIRED",
+      "inputs": [],
+      "plotting_script": null,
+      "issue": "Legacy S4 provides bootstrap/development/context panels; draft also requests coverage and reaction-exclusion sensitivities. Partial coverage only."
+    },
+    {
+      "id": "s5",
+      "panels": [
+        "S5 (draft panel letters pending)"
+      ],
+      "status": "AUTHOR_REVIEW_REQUIRED",
+      "inputs": [],
+      "plotting_script": null,
+      "issue": "Legacy S5 provides context gains/outcome composition; draft requests negative tails and reliability curves. Partial coverage only."
+    },
+    {
+      "id": "s6",
+      "panels": [
+        "S6 (draft panel letters pending)"
+      ],
+      "status": "AUTHOR_REVIEW_REQUIRED",
+      "inputs": [],
+      "plotting_script": null,
+      "issue": "Legacy S6 plots three geometry diagnostics, while draft requests eight descriptors with metric-specific denominators and unduplicated evaluation ESS. Do not silently extend the scientific workflow."
+    },
+    {
+      "id": "s7",
+      "panels": [
+        "S7 (draft panel letters pending)"
+      ],
+      "status": "AUTHOR_REVIEW_REQUIRED",
+      "inputs": [],
+      "plotting_script": null,
+      "issue": "Legacy S7 adds two post hoc examples and states no specific frozen main-example selection rule was found. Draft requests the FACOAL204 selection audit and limited-change counterpart. Preserve this selection-lineage discrepancy."
+    }
+  ]
+}
