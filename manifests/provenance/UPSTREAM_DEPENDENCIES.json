@@ -1,0 +1,110 @@
+[
+  {
+    "source_path": "metabolic_network/iMM1865/iMM1865.xml.xz",
+    "classification": "EXCLUDE_LARGE_OR_EXTERNAL",
+    "role": "Parent GEM; third-party redistribution unresolved",
+    "present_in_source": true,
+    "bytes": 714408,
+    "source_sha256": "3152e7854ff37dbf512483b6f1b15312958923def6f590d4e9180dab0ca3bc06",
+    "copied": false
+  },
+  {
+    "source_path": "metabolic_network/iMM1865/iMM1865_exchange_bounds.csv",
+    "classification": "EXCLUDE_LARGE_OR_EXTERNAL",
+    "role": "Frozen medium/model provenance; third-party derivative rights unresolved",
+    "present_in_source": true,
+    "bytes": 97489,
+    "source_sha256": "257635a6043ba78de1883ed9191c43c3ad5dde1eda3b636e0aaa92ba6f355776",
+    "copied": false
+  },
+  {
+    "source_path": "12_recomb_method_comparison/outputs_dmi_fraction_ensemble_v2/candidate_fraction_table.tsv.xz",
+    "classification": "EXCLUDE_LARGE_OR_EXTERNAL",
+    "role": "Exact 640-vector candidate identity table consumed by final Bridge; upstream rights review needed",
+    "present_in_source": true,
+    "bytes": 50980,
+    "source_sha256": "421c2c1d196fbd088a4e92e2ecc998ad578aab814a025fff8e1c843597fed1da",
+    "copied": false
+  },
+  {
+    "source_path": "12_recomb_method_comparison/outputs_dmi_fraction_ensemble_v2/DMI_FRACTION_ENSEMBLE_PROVENANCE.json",
+    "classification": "EXCLUDE_LARGE_OR_EXTERNAL",
+    "role": "Candidate lineage into qualified Stage-11 artifacts",
+    "present_in_source": true,
+    "bytes": 7283,
+    "source_sha256": "fd05e5febba47a92005619db38c53b3ba4896d81eb498226d87c61f1e9536168",
+    "copied": false
+  },
+  {
+    "source_path": "outputs/secondary_anchor_exploratory/dmi_sa_six_arm_current_20260926/reconstructed/flux_cache.npz",
+    "classification": "EXCLUDE_LARGE_OR_EXTERNAL",
+    "role": "Exact pinned 32\u00d720\u00d74181 cache consumed by production, despite historical exploratory location; do not copy the parent directory",
+    "present_in_source": true,
+    "bytes": 5653677,
+    "source_sha256": "f9644da4ebd875cf5f0b34cc58b20faf0a0457d7c7a44635e8a010d8896c3dbb",
+    "copied": false
+  },
+  {
+    "source_path": "13_recomb_identifiability/outputs/sa_u1_u2_followup_20260926/current_vmax_base_weights.tsv.xz",
+    "classification": "EXCLUDE_LARGE_OR_EXTERNAL",
+    "role": "A1 weight lineage; excluded old surrounding analyses",
+    "present_in_source": true,
+    "bytes": 42088,
+    "source_sha256": "91121bf1251354505cde5f5ae783dc8d14bc9a22ecdf8daa06be1e5d82e3385d",
+    "copied": false
+  },
+  {
+    "source_path": "13_recomb_identifiability/outputs/sa_u1_u2_followup_20260926/current_vmax_base_weights_manifest.json",
+    "classification": "EXCLUDE_LARGE_OR_EXTERNAL",
+    "role": "Weight lineage manifest",
+    "present_in_source": true,
+    "bytes": 183,
+    "source_sha256": "2abf9e7c4d3c922bda8c81426001c1f27c6e43f1761e9c9073e0d8ca078bd5bc",
+    "copied": false
+  },
+  {
+    "source_path": "13_recomb_identifiability/outputs/a22_native_gurobi_a1_aligned_1w/a22_per_target_fva.tsv.xz",
+    "classification": "EXCLUDE_LARGE_OR_EXTERNAL",
+    "role": "Historical post-anchor FVA provenance, not required for final frozen plot rendering",
+    "present_in_source": true,
+    "bytes": 47748,
+    "source_sha256": "c01a98b25dfe69ab49f53489dae494f79c1b76661deca767fc409ded7c967527",
+    "copied": false
+  },
+  {
+    "source_path": "13_recomb_identifiability/outputs/cup1_inputs_v1/CUP1_CONTRACT.json",
+    "classification": "EXCLUDE_LARGE_OR_EXTERNAL",
+    "role": "Older qualification truth witness lineage",
+    "present_in_source": true,
+    "bytes": 6492,
+    "source_sha256": "3921b945c9b0a9d64fc1927ea2e43778b24254959043e11cde2bfefc11db2228",
+    "copied": false
+  },
+  {
+    "source_path": "external_data/brain_glioma_GL261_CT2A/khalsa_GSE151414/metadata/sample_manifest.tsv",
+    "classification": "EXCLUDE_LARGE_OR_EXTERNAL",
+    "role": "RNA input metadata; source redistribution unresolved",
+    "present_in_source": true,
+    "bytes": 675,
+    "source_sha256": "88a1a614ec3d41fa86695b060102b9942250557176f055d86352a20f0b035fd0",
+    "copied": false
+  },
+  {
+    "source_path": "external_data/brain_glioma_GL261_CT2A/simoes_2025_DMI/metadata/dryad_dataset_metadata.json",
+    "classification": "EXCLUDE_LARGE_OR_EXTERNAL",
+    "role": "Local metadata declares CC0-1.0; raw DMI omitted by scope",
+    "present_in_source": true,
+    "bytes": 21271,
+    "source_sha256": "d5ee7f930744656f148367ca4274dc25c366785702b82c013cf7df931ba7f4d1",
+    "copied": false
+  },
+  {
+    "source_path": "pre-simulation_constraint_analysis/results/run_20260824T164247Z_corrected_analysis_A/config/resolved_config.yaml",
+    "classification": "EXCLUDE_LARGE_OR_EXTERNAL",
+    "role": "Validated medium state consumed by Stage-11",
+    "present_in_source": true,
+    "bytes": 8114,
+    "source_sha256": "a8ab6040af088484d3ee1f422bd8133e92b65fce335a4809ea52a9dcac1eabdd",
+    "copied": false
+  }
+]

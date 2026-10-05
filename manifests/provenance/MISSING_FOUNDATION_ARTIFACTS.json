@@ -1,0 +1,62 @@
+[
+  {
+    "source_relative_path": "dmi_bridge_a22_dual_anchor_sign_only_utility_foundation_v1.patch",
+    "present_in_source": false,
+    "action": "Retain gate; author must restore exact hash-pinned artifact for upstream reproduction"
+  },
+  {
+    "source_relative_path": "dmi_bridge_a23_a1_a2_synthesis_foundation_v1.patch",
+    "present_in_source": false,
+    "action": "Retain gate; author must restore exact hash-pinned artifact for upstream reproduction"
+  },
+  {
+    "source_relative_path": "dmi_bridge_bio0_audit_v1.patch",
+    "present_in_source": false,
+    "action": "Retain gate; author must restore exact hash-pinned artifact for upstream reproduction"
+  },
+  {
+    "source_relative_path": "dmi_bridge_bio0r_qualification_v1.patch",
+    "present_in_source": false,
+    "action": "Retain gate; author must restore exact hash-pinned artifact for upstream reproduction"
+  },
+  {
+    "source_relative_path": "dmi_bridge_m1_manuscript_evidence_foundation_v1.patch",
+    "present_in_source": false,
+    "action": "Retain gate; author must restore exact hash-pinned artifact for upstream reproduction"
+  },
+  {
+    "source_relative_path": "dmi_bridge_m2_a2_robustness_evidence_foundation_v1.patch",
+    "present_in_source": false,
+    "action": "Retain gate; author must restore exact hash-pinned artifact for upstream reproduction"
+  },
+  {
+    "source_relative_path": "dmi_bridge_pl2a_sign_only_foundation_v1.patch",
+    "present_in_source": false,
+    "action": "Retain gate; author must restore exact hash-pinned artifact for upstream reproduction"
+  },
+  {
+    "source_relative_path": "dmi_bridge_pl2b_compact_production_foundation_v1.patch",
+    "present_in_source": false,
+    "action": "Retain gate; author must restore exact hash-pinned artifact for upstream reproduction"
+  },
+  {
+    "source_relative_path": "dmi_bridge_pl2c_geometry_utility_foundation_v1.patch",
+    "present_in_source": false,
+    "action": "Retain gate; author must restore exact hash-pinned artifact for upstream reproduction"
+  },
+  {
+    "source_relative_path": "dmi_bridge_pl2d_confirmation_foundation_v1.patch",
+    "present_in_source": false,
+    "action": "Retain gate; author must restore exact hash-pinned artifact for upstream reproduction"
+  },
+  {
+    "source_relative_path": "dmi_bridge_pl2d_h_support_gate_amendment_foundation_v1.patch",
+    "present_in_source": false,
+    "action": "Retain gate; author must restore exact hash-pinned artifact for upstream reproduction"
+  },
+  {
+    "source_relative_path": "dmi_bridge_pl2d_hypothesis_freeze_foundation_v2.patch",
+    "present_in_source": false,
+    "action": "Retain gate; author must restore exact hash-pinned artifact for upstream reproduction"
+  }
+]
