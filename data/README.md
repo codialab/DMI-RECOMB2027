@@ -1,34 +1,33 @@
 # Data availability and redistribution policy
 
-No pending research dataset has been copied. The exact candidate figure-input
-paths, SHA-256 identities, sizes and rights decisions are listed in
+Included compact project-derived figure inputs and their SHA-256 identities,
+sizes and release decisions are listed in
 [`RIGHTS_REVIEW.tsv`](../manifests/provenance/RIGHTS_REVIEW.tsv).
-[`FIGURE_INPUTS.json`](../manifests/FIGURE_INPUTS.json) records prospective locations
-for 23 main-figure/S1 inputs and one provenance-only Table S2 aggregation audit. A
-prospective path does not mean the file is included or approved.
+[`FIGURE_INPUTS.json` records each source and destination identity. The selected
+release set includes main-figure inputs plus the audited S1–S3 diagnostic tables;
+all payloads have source SHA-256 and destination SHA-256 records. Two JSON
+manifests have repository-relative paths adapted for this checkout, with the
+source identity retained. `MANUSCRIPT_TABLES.json` records the generated result
+summary identities and their frozen source tables.
 
 ## Included material
 
 The repository includes code, configurations as provenance, source commit/file
-identities, and documentation. It includes no raw biological datasets, full parent
-model, reconstructed model files, bulk flux ensembles, solver caches, or ambiguous
-legacy artwork. The original numerical results remain in the read-only source.
+identities, current artwork, and compact frozen figure inputs. It includes no raw
+biological datasets, full parent model, reconstructed model files, bulk flux
+ensembles, or solver caches. Superseded or assembly-ambiguous artwork is labeled
+provenance-only in `manifests/ARTWORK.json`.
 
-## Derived products awaiting author review
+## Remaining upstream requirements
 
-- Figure 2 reaction-level point table: one reaction per panel after frozen
-  within-evaluation and reaction aggregation.
-- Figure 3 equal-weight reaction–evaluation gains, cue-direction records, and
-  final endpoint summaries, with compressed authoritative representations retained.
-- Figure 4 paired geometry partitions, selected-candidate/support tables and
-  the frozen data manifest. The redundant paired utility partitions are unnecessary
-  for the selected main plotting entry points and are not slated for Git.
-- S1 compact candidate-weight and support-diagnostic tables. Other supplement
-  tables also require scientific-lineage reconciliation before inclusion.
-
-These are computational derivatives of candidate GEM flux vectors and rank-based
-DMI weighting. Traceable computational origin does not by itself establish all
-redistribution rights. Author review must confirm ownership and derivative rights.
+- Raw RNA and DMI source datasets, parent GEM, frozen medium/projection inputs,
+  per-job seeds, historical identity artifacts, and missing foundation patches
+  are not bundled. A complete upstream reconstruction/solver rerun is outside
+  the included-data reproduction workflow.
+- Figure 4 paired geometry is included to support Figure 4B and S2/S3 plotting;
+  redundant paired utility partitions are omitted.
+- S4–S7 current renders are retained as source artwork, while matching standalone
+  data-to-plot pipelines and all manuscript-requested panels remain incomplete.
 
 ## External sources and upstream boundary
 

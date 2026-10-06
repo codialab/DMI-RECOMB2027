@@ -116,6 +116,25 @@ def validate_frozen() -> dict:
     for method, block in geometry.groupby("algorithm"):
         assert len(block) == 417900
     result["scientific_checks"].append("Figure 4 400 evaluations × 4,179 reactions, one-to-one paired keys")
+    s1 = pd.read_csv(inside("data/figure_inputs/s1/candidate_weights.tsv"), sep="\t")
+    s1_strata = pd.read_csv(inside("data/figure_inputs/s1/conditional_stratum_summary.tsv"), sep="\t")
+    assert len(s1) == 6400 and len(s1_strata) == 320
+    assert s1.groupby(["anchor", "tumor", "method", "rna_context_key", "mouse_id"]).size().eq(20).all()
+    assert np.isfinite(s1.conditional_weight.to_numpy(float)).all() and (s1.conditional_weight >= 0).all()
+    result["scientific_checks"].append("Supplementary Figure 1 candidate and conditional-stratum populations")
+    for metric in ["H_dir", "dominant_direction_mass"]:
+        rel = f"data/figure_inputs/s2/supp_fig2_{metric}_paired_shifts.tsv.gz"
+        shifts = pd.read_csv(inside(rel), sep="\t", compression="gzip")
+        assert len(shifts) == 1671600
+        assert shifts.groupby("algorithm").size().to_dict() == {"CORDA": 417900, "GIMME": 417900,
+                                                                  "RIPTiDe": 417900, "iMAT": 417900}
+        assert np.isfinite(shifts.delta_A2_minus_A1.to_numpy(float)).all()
+    result["scientific_checks"].append("Supplementary Figure 2 paired shifts: 400 × 4,179 keys")
+    paired_s3 = parquet("data/figure_inputs/s3/supp_fig3_paired_geometry.parquet.xz")
+    assert len(paired_s3) == 1671600 and paired_s3.evaluation_id.nunique() == 400
+    assert paired_s3.reaction_id.nunique() == 4179
+    assert not paired_s3.duplicated(["evaluation_id", "reaction_id"]).any()
+    result["scientific_checks"].append("Supplementary Figure 3 paired geometry population and keys")
     return result
 
 

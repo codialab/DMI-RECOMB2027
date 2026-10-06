@@ -171,5 +171,43 @@
     "scientific_changes": "none; selections and wrapper/label edits explicitly recorded",
     "strip_trailing_whitespace": true,
     "trim_blank_eof": true
+  },
+  {
+    "source_path": "figures/supp_fig2/supp_fig2.ipynb",
+    "source_sha256": "4911fb0934bdec1e308285700484f7d09d685de9ec51bf634708cd9dfbbf5b99",
+    "source_cells": [
+      1,
+      2
+    ],
+    "source_cell_sha256": {
+      "1": "8f73bec1db68272544724270b98836d237eecf45a20bda2192da3bd6faa246b3",
+      "2": "144e6712be226f080f418a5bfe5aa74201ee943a3c96b9bee8c167b5a6ae2198"
+    },
+    "destination_path": "figures/supplementary/s2/plot_s2.py",
+    "adaptations": [
+      "repository-relative included frozen-input paths",
+      "RECOMB_OUTPUT_DIR output routing"
+    ],
+    "classification": "INCLUDE_PRODUCTION",
+    "scientific_changes": "none; notebook plotting cells and frozen population assertions retained"
+  },
+  {
+    "source_path": "figures/supp_fig3/supp_fig3.ipynb",
+    "source_sha256": "aacf89462fd04ad7982ea282f71bd0bec842b05730eb29352b6c4f1fb3bb29ba",
+    "source_cells": [
+      1,
+      2
+    ],
+    "source_cell_sha256": {
+      "1": "31cae56c265125ecb8c1d399c5f4b2d08a315fa2572ccd81f79c99e3484e2bb1",
+      "2": "f73eb9ddd0cb0eaed5808579431940e784ad86ca02fcd8f58f3ae4fa3a8b5bac"
+    },
+    "destination_path": "figures/supplementary/s3/plot_s3.py",
+    "adaptations": [
+      "repository-relative included frozen-input paths",
+      "RECOMB_OUTPUT_DIR output routing"
+    ],
+    "classification": "INCLUDE_PRODUCTION",
+    "scientific_changes": "none; notebook plotting cells and frozen population assertions retained"
   }
 ]

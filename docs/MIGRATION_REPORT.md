@@ -1,4 +1,6 @@
-# Migration report
+# Migration report (historical baseline)
+
+> **Update (2026-10-06):** This report records the earlier migration baseline and is not the current release verdict. Frozen inputs, current artwork, manuscript tables, and a panel-level status matrix have since been added. See [REPRODUCIBILITY_MATRIX.md](REPRODUCIBILITY_MATRIX.md), `manifests/FIGURE_INPUTS.json`, and `manifests/ARTWORK.json`.
 
 ## Reproducibility verdict
 

@@ -1,16 +1,16 @@
 # Reproducibility instructions
 
-Current verdict: **NOT YET REPRODUCIBLE**. Numerical inputs await author rights
-review; conceptual artwork, corrected Figure 3D and supplementary figure lineages
-require follow-up. The prepared commands deliberately report these gaps.
+Current verdict: selected frozen-input panels are reproducible. Figure 2D–G, 3B–C,
+4B, and S1–S3 have included data and standalone plotting scripts. Other panel
+assemblies and S4–S7 remain incomplete as recorded in the reproducibility matrix.
 
 ## Levels of reproduction
 
 1. **Release integrity:** `python reproduce.py checksums` verifies included files.
 2. **Frozen numerical validation:** `python reproduce.py validate` checks approved
    input hashes and representative manuscript population/endpoint invariants.
-3. **Quantitative plots:** `python reproduce.py figures --only fig2DG,fig3BC,fig4B`
-   renders the selected source plotting cells once inputs are cleared/included.
+3. **Quantitative plots:** `python reproduce.py figures --only fig2DG,fig3BC,fig4B,s1,s2,s3`
+   renders the supported current main panels (Fig. 2D–G, 3B–C, 4B) and supplementary Figures S1–S3 from included frozen inputs.
 4. **Lightweight summaries:** `python reproduce.py tables` exports original final
    Figure 3 summary rows and recomputes Figure 2 panel correlations from frozen points.
 5. **Expensive upstream:** not a turnkey reproduction level in this release. Missing
@@ -20,8 +20,7 @@ require follow-up. The prepared commands deliberately report these gaps.
 Use a Git checkout rooted at this repository; all data paths are checked against
 that root. No command discovers or imports datasets from the old repository.
 
-The numerical commands currently exit nonzero with pending-rights statuses. Do not
-interpret a successful included-file checksum check as complete figure coverage.
+The included-file checksum command reports integrity for the listed release scope; it does not claim that unresolved panels or upstream computations are covered.
 
 ## Output and resume behavior
 
@@ -57,8 +56,8 @@ scientific changes, of which there are zero. Original hash gates remain active;
 missing foundation patches are not bypassed. Native rank operators and reaction
 axes remain unchanged. Only manuscript-retained λ settings are documented.
 
-Rights decisions must be approved for each relevant artifact before copying it.
-Changing a manifest's status without the review and verified physical copy is not
-release preparation. Final figure-lineage decisions must update both the human
-analysis map and the machine-readable registry. Do not use legacy folder numbering
-to resolve a manuscript discrepancy.
+The release-task authorization covers project-generated derived inputs, figures,
+QC and manifests. Their included identity and decision are recorded in
+`FIGURE_INPUTS.json`, `RIGHTS_REVIEW.tsv`, and `ARTWORK.json`. This does not
+relicense third-party source data, software, or models. Final figure-lineage
+decisions are recorded in both the human panel matrix and machine-readable registry.

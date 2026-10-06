@@ -1,14 +1,12 @@
 # Manuscript analysis and figure map
 
-Authority: the current main and supplementary DOCX drafts at source commit
-`16379a169f45ec556274953eb66ae12293e1e985`, interpreted with the manuscript technical
-audit. Draft supplement panels are not finalized. Existing folder numbering is
-supporting evidence and does not override the drafts.
+Current release authority: source checkout `22527912996cecedd17bb23c0b7ba93e889ad4ad`, current manuscript technical audit, and current supplementary S1–S3 audit. For release reproduction status, use [REPRODUCIBILITY_MATRIX.md](REPRODUCIBILITY_MATRIX.md); this document retains the migration-era panel analysis and records historical source/draft discrepancies.
+
+The current source audit validates S1–S3 as distinct supplementary roles: S1 candidate weighting/support, S2 method-stratified A2−A1 shifts, and S3 pooled paired A1/A2 geometry. Current standalone S1–S3 plots and frozen inputs are now included. The current matrix supersedes stale statements below that these panels lack matching workflows. S4–S7 remain partial or unresolved as described in the current matrix.
 
 [`FIGURE_REGISTRY.json`](../manifests/FIGURE_REGISTRY.json) records executable
 readiness for every figure/panel group. [`FIGURE_INPUTS.json`](../manifests/FIGURE_INPUTS.json)
-lists exact prospective numerical paths and hashes. Those files are currently
-withheld for rights review. `reproduce.py` reads only destination files.
+lists exact included numerical paths, source and destination hashes, and current release decisions. `reproduce.py` reads only destination files.
 
 ## Main figures
 
