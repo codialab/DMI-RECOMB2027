@@ -1,7 +1,7 @@
 # Reproducibility instructions
 
-Current verdict: selected frozen-input panels are reproducible. Figure 2D–G, 3B–C,
-4B, and S1–S3 have included data and standalone plotting scripts. Other panel
+Current verdict: selected frozen-input panels are reproducible. Figure 2D–G, 3B–D,
+4B–C, and S1–S3 have included data and standalone plotting scripts. Other panel
 assemblies and S4–S7 remain incomplete as recorded in the reproducibility matrix.
 
 ## Levels of reproduction
@@ -9,8 +9,8 @@ assemblies and S4–S7 remain incomplete as recorded in the reproducibility matr
 1. **Release integrity:** `python reproduce.py checksums` verifies included files.
 2. **Frozen numerical validation:** `python reproduce.py validate` checks approved
    input hashes and representative manuscript population/endpoint invariants.
-3. **Quantitative plots:** `python reproduce.py figures --only fig2DG,fig3BC,fig4B,s1,s2,s3`
-   renders the supported current main panels (Fig. 2D–G, 3B–C, 4B) and supplementary Figures S1–S3 from included frozen inputs.
+3. **Quantitative plots:** `python reproduce.py figures --only fig2DG,fig3BC,fig3D,fig4B,fig4C,s1,s2,s3`
+   renders the supported current main panels (Fig. 2D–G, 3B–D, 4B–C) and supplementary Figures S1–S3 from included frozen inputs.
 4. **Lightweight summaries:** `python reproduce.py tables` exports original final
    Figure 3 summary rows and recomputes Figure 2 panel correlations from frozen points.
 5. **Expensive upstream:** not a turnkey reproduction level in this release. Missing

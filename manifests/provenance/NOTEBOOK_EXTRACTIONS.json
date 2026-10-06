@@ -165,10 +165,14 @@
       {
         "from": "$\\Delta v_B$   [$\\text{mmol gDW}^{-1} \\text{ h}^{-1}$]",
         "to": "$\\Delta v_B$ [native GEM flux units]"
+      },
+      {
+        "from": "four-method notebook composition",
+        "to": "current Figure 4C composition: CORDA, GIMME, iMAT; RIPTiDe assigned to S7"
       }
     ],
-    "classification": "INCLUDE_PRODUCTION",
-    "scientific_changes": "none; selections and wrapper/label edits explicitly recorded",
+    "classification": "INCLUDE_PROVENANCE_ONLY",
+    "scientific_changes": "Historical four-method notebook composition retained as provenance; current manuscript Figure 4C uses CORDA, GIMME, and iMAT, with RIPTiDe assigned to S7.",
     "strip_trailing_whitespace": true,
     "trim_blank_eof": true
   },
@@ -209,5 +213,37 @@
     ],
     "classification": "INCLUDE_PRODUCTION",
     "scientific_changes": "none; notebook plotting cells and frozen population assertions retained"
+  },
+  {
+    "source_path": "tables/manuscript/fig3_pair_gain_summary.tsv",
+    "source_sha256": "ac5606670ee216834c5c77299630fb9e794b8fe8d372fc1e6fe4f655d92a7f6d",
+    "source_cells": [],
+    "source_cell_sha256": {},
+    "destination_path": "figures/main/fig3/plot_fig3_d.py",
+    "adaptations": [
+      "computed correct-minus-wrong separation from frozen pair means; direct cross-check against frozen separation table"
+    ],
+    "classification": "INCLUDE_PRODUCTION",
+    "scientific_changes": "none; aggregation and endpoints are read from bundled pair-weighted manuscript tables"
+  },
+  {
+    "source_path": "figures/fig4/fig4_panelB_distributions_updated.ipynb",
+    "source_sha256": "a8d93870a6e4f4359a13ac13ed822d8e46d9e044ec8b9250266f85595c350d1e",
+    "source_cells": [
+      11
+    ],
+    "source_cell_sha256": {
+      "11": "3e7cb73e7a5e49a0f7d3e9613ad04e3b7e39652622ae61a56368d991ad62d445"
+    },
+    "destination_path": "figures/main/fig4/plot_fig4_c.py",
+    "adaptations": [
+      "repository-relative included frozen candidate tables",
+      "fixed current manuscript candidate_group_id FACOAL204 and its exact frozen context metadata",
+      "current three-method composition CORDA, GIMME, iMAT; RIPTiDe assigned to S7",
+      "RECOMB_OUTPUT_DIR output routing",
+      "selection and support validation against frozen tables"
+    ],
+    "classification": "INCLUDE_PRODUCTION",
+    "scientific_changes": "No new selection or support-generation rule. Uses current manuscript-selected group and three-method composition; older four-method notebook composition remains provenance-only."
   }
 ]

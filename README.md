@@ -5,7 +5,7 @@ reduce uncertainty after strong quantitative flux constraints, using residual
 flux distributions in genome-scale metabolic models.
 
 **Release status: frozen-input reproduction is available for Figure 2D–G, Figure
-3B–C, and Figure 4B.** The current source is RECOMB 2027 DMI commit
+3B–D, Figure 4B–C, and S1–S3.** The current source is RECOMB 2027 DMI commit
 `225279129`; included compact inputs have source SHA-256 records and pass the
 population and endpoint checks. Other figure assemblies and supplement lineages
 remain explicitly marked in the [reproducibility matrix](docs/REPRODUCIBILITY_MATRIX.md).
@@ -55,7 +55,7 @@ post-freeze robustness and is not independent confirmation.
 | `11_recomb_flux_expert_generation/src/` | Original reconstruction and candidate-vector modules; audit/upstream code, not a turnkey production release |
 | `analyses/` | A1/A2 workflow descriptions and scientific boundaries |
 | `data/` | Frozen plotting inputs, derived summaries, and data-boundary policy |
-| `figures/main/` | Selected source plotting cells and upstream table builders |
+| `figures/main/` | Selected source plotting cells and standalone main-panel plotters |
 | `figures/supplementary/` | S1 support-diagnostic code; manuscript discrepancies are recorded |
 | `manifests/` | File mappings, source identities, checksums, rights decisions and figure registry |
 | `docs/` | Reproducibility, panel map, provenance, author-review items and migration audit |
@@ -74,13 +74,13 @@ Install the [plotting environment](environment/README.md), then run from this ro
 python reproduce.py status
 python reproduce.py checksums
 python reproduce.py validate
-python reproduce.py figures --only fig2DG,fig3BC,fig4B
+python reproduce.py figures --only fig2DG,fig3BC,fig3D,fig4B,fig4C,s1,s2,s3
 python reproduce.py tables
 ```
 
 `validate`, `figures`, and `tables` run from included files only. `validate`
 checks frozen panel populations and key endpoints. The plotting command renders
-Figure 2D–G, Figure 3B–C, Figure 4B, and the audited supplementary Figures S1–S3; `tables` exports Figure 2 correlation
+Figure 2D–G, Figure 3B–D, Figure 4B–C, and the audited supplementary Figures S1–S3; `tables` exports Figure 2 correlation
 statistics and frozen pair-weighted Figure 3 summaries. See
 [`tables/manuscript/`](tables/manuscript/) for a checked-in machine-readable
 snapshot and generation notes. Plot jobs record code, input, and environment
@@ -95,8 +95,10 @@ repository by the entry point. The source repository is never needed by it.
 The numeric panels above are reproducible; this does not establish that each
 saved composite is the final manuscript assembly. Current source artwork and
 editable components are retained under [`figures/released/`](figures/released/)
-with identity and status recorded in `manifests/ARTWORK.json`. Figure 3D is
-provenance-only because the case-pooled artwork is superseded. Supplementary
+with identity and status recorded in `manifests/ARTWORK.json`. Corrected Figure 3D
+and current three-method Figure 4C assets are generated from bundled frozen tables.
+Earlier case-pooled Figure 3D artwork and four-method Figure 4C composite remain
+provenance-only. Supplementary
 figures S1–S3 have validated standalone reproduction paths. S4–S7 have current
 source artwork retained, but lack a validated release reproduction path or have unresolved manuscript mapping; see the
 [panel matrix](docs/REPRODUCIBILITY_MATRIX.md).

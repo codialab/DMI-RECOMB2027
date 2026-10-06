@@ -24,10 +24,10 @@ lists exact included numerical paths, source and destination hashes, and current
 | 3A | Conceptual source `figure3_panelA_directional_information_gain_v2b.svg`; artwork/rights pending | No empirical data dependency | Baseline and sign-informed magnitude errors; illustrative gain definition |
 | 3B | `figures/main/fig3/plot_fig3_bc.py`, extracted source cell 20 | `data/figure_inputs/fig3/fig3_gain_reaction_evaluation.parquet.xz`; upstream `make_fig3_gain_tables.py`, PL2B + A22 + A23 | `reproduced/figures/fig3BC/fig3_panelBC.{svg,png}`; correct-cue pair-mean gain exceedance, 660,237 pairs per anchor |
 | 3C | Same script and table | Same fixed population | Same output; full correct-minus-wrong pair-mean gain exceedance, not half-separation information advantage |
-| 3D | No authoritative corrected plotting source identified | `fig3_gain_summary.parquet.xz` and `fig3_directional_advantage_summary.parquet.xz` in the same prospective input folder | Final endpoint means are traceable; legacy D artwork contains superseded case-pooled values and is excluded |
+| 3D | `figures/main/fig3/plot_fig3_d.py` | Frozen pair-weighted `tables/manuscript/fig3_pair_gain_summary.tsv` plus `fig3_full_endpoint_separation.tsv` | Means for wrong/correct cue by A1/A2 and computed correct-minus-wrong separation; old case-pooled artwork remains provenance-only |
 | 4A | Conceptual source `figure4_panelA_draft_b.svg`; artwork/rights pending | No empirical density dependency; labels describe the A23 matched design | Schematic transition from HEX1 to HEX1 + LDH_L |
 | 4B | `figures/main/fig4/plot_fig4_b.py`, source cells 3 and 6 | Four `data/figure_inputs/fig4/fig4_geometry_paired/algorithm=<method>/part.parquet.xz` partitions plus `fig4_data_manifest.json`; updated builder, PL1 + A21 | `reproduced/figures/fig4B/fig4B_metric_distributions.{svg,pdf}`; absolute directional-entropy and dominant-direction-mass ECDFs, 1,671,600 matched rows |
-| 4C | `figures/main/fig4/plot_fig4_c_source.py`, source cell 11; blocked for main-assembly/selection review | `fig4_panelC_candidate_support.parquet.xz`, candidate groups/metrics and source manifest; updated Figure 4 builder | Source four-method drawing `fig4C_FACOAL204_distributions.{svg,pdf}`; final main draft requires three methods and moves RIPTiDe to S7 |
+| 4C | `figures/main/fig4/plot_fig4_c.py`; fixed group `FCG_ed8b1873c8dbc03fe5eb` | Frozen candidate support/group/metric tables and manifest | Reproducible three-method weighted distribution for FACOAL204, context setx1+setx3, C1 vs G1; CORDA/GIMME/iMAT. The four-method source cell is retained as provenance-only; RIPTiDe is assigned to S7. |
 
 The Figure 2 source notebook contains both information-advantage and usefulness
 variants. Only the usefulness plotting cells matching the draft are selected.
@@ -41,11 +41,10 @@ The source technical audit establishes native/model flux units. Final artwork
 must not claim an unrecorded absolute DMI-to-GEM conversion.
 
 Figure 4C is FACOAL204, context x1+x3, C1 versus G1, group
-`FCG_ed8b1873c8dbc03fe5eb`. The original notebook retains four methods. Its physical
-unit label is adapted to native GEM flux units; weights, histogram definition,
-supported sign labels and entropy calculation remain unchanged. Rendering it as
-final main artwork is blocked until author review reconciles composition and
-selection intent.
+`FCG_ed8b1873c8dbc03fe5eb`. The current main panel uses CORDA, GIMME, and iMAT;
+RIPTiDe is retained for S7. The panel uses frozen product weights, 30 shared bins
+per method across A1/A2-L, and native GEM flux units. The older four-method panel
+remains provenance-only. Selection is not recomputed by the plotter.
 
 ## Supplementary figures
 
@@ -55,8 +54,8 @@ additional panel letters or scientific comparisons have been invented.
 | Draft figure | Code/input evidence | Required scientific message and unresolved coverage |
 |---|---|---|
 | S1 | `figures/supplementary/s1/plot_s1.py`; prospective `data/figure_inputs/s1/` compact weight, stratum, global/product/post-holdout support tables; source builder retained under `upstream/` | Candidate weights and distinct ESS definitions on the fixed 836-pair population. Scope matches; source heatmap row/label order needs review. Rendering blocked. |
-| S2 | PL2D context results and M1 confirmation-context evidence; legacy S4 plotting cells in provenance contain context plots | Draft requests context-specific A1 held-out associations. Legacy S2 is a paired-geometry shift plot and is excluded from current production. Matching final composition/code is missing. |
-| S3 | PL2C/PL2D supportive results and M1 facts identify alternative descriptors and the continuous information-advantage endpoint | Draft requests descriptor comparisons and separate continuous information advantage. Legacy S3 is a paired geometry hexbin. Final selections, plotting code and panel denominators need author review. |
+| S2 | PL2D context results and M1 confirmation-context evidence; legacy S4 plotting cells in provenance contain context plots | Draft requests context-specific A1 held-out associations. The current S2 paired-shift plot is validated and reproducible from included frozen tables. |
+| S3 | PL2C/PL2D supportive results and M1 facts identify alternative descriptors and the continuous information-advantage endpoint | Draft requests descriptor comparisons and separate continuous information advantage. The current S3 paired-geometry plot is validated and reproducible from its included frozen table. |
 | S4 | Legacy `supp_fig4` builder/plot cells retained as provenance; PL2D bootstrap/supportive results provide upstream evidence | Bootstrap and separate development/confirmation/context plots exist. Draft also requires coverage-adjusted and reaction-exclusion analyses; current workflow does not cover all requested panels. |
 | S5 | Legacy `supp_fig5` builder/plot cells retained as provenance; final Figure 3 pair tables and PL2B/A22 control tables | Existing context gains/outcome composition partially match. Draft requests negative tails and reliability curves with explicit case/pair weighting. Missing portions must not be replaced by an exploratory scan. |
 | S6 | Legacy `supp_fig6` builder/plot cells retained as provenance; Figure 4 geometry partitions, PL1/A21 descriptors and A23 comparison evidence | Legacy workflow displays three geometry diagnostics. Draft requests eight descriptors with their own finite populations and unduplicated evaluation-level ESS. Partial coverage only. |

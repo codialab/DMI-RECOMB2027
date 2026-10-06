@@ -293,6 +293,30 @@
       "source_sha256": "92a4efe7bf9d44970dd1ba7912ffe95523073be8404e4c9afe417334c288ff06",
       "source_bytes": 3282,
       "packaging_adaptation": "Manifest paths changed to destination repository-relative locations; payload data unchanged."
+    },
+    {
+      "source_path": "tables/manuscript/fig3_pair_gain_summary.tsv",
+      "destination_path": "tables/manuscript/fig3_pair_gain_summary.tsv",
+      "sha256": "ac5606670ee216834c5c77299630fb9e794b8fe8d372fc1e6fe4f655d92a7f6d",
+      "bytes": 1175,
+      "rights_status": "APPROVED",
+      "included": true,
+      "source_sha256": "ac5606670ee216834c5c77299630fb9e794b8fe8d372fc1e6fe4f655d92a7f6d",
+      "source_bytes": 1175,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "FROZEN_PAIR_WEIGHTED_MANUSCRIPT_RESULT_TABLE"
+    },
+    {
+      "source_path": "tables/manuscript/fig3_full_endpoint_separation.tsv",
+      "destination_path": "tables/manuscript/fig3_full_endpoint_separation.tsv",
+      "sha256": "6969cfb40a0e49c16dde26158c680ccdba5ca4b79b21d53a0fd1be2959329562",
+      "bytes": 512,
+      "rights_status": "APPROVED",
+      "included": true,
+      "source_sha256": "6969cfb40a0e49c16dde26158c680ccdba5ca4b79b21d53a0fd1be2959329562",
+      "source_bytes": 512,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "FROZEN_PAIR_WEIGHTED_MANUSCRIPT_RESULT_TABLE"
     }
   ],
   "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad"

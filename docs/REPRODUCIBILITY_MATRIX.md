@@ -14,10 +14,10 @@ render is evidence/artwork, not by itself a successful rebuild.
 | Fig. 2D–G | Frozen `figure2_DG_points.csv.xz`; `plot_fig2_dg.py` | **Reproducible** (`fig2DG`) | Plotted reaction counts 2,454 / 2,485 / 838 / 843; Spearman ρ = 0.8571160 / 0.8339440 / 0.8351436 / 0.8493657. Point table and aggregation are source-frozen. |
 | Fig. 3A | Current editable SVG in `figures/released/fig3/` | Artwork retained; conceptual content | No numerical endpoint. |
 | Fig. 3B–C | Frozen reaction–evaluation table; `plot_fig3_bc.py` | **Reproducible** (`fig3BC`) | 660,237 eligible reaction–evaluation observations per anchor, 3,625 reactions, 370 evaluations; pair-weighted correct/wrong gain summaries are in `tables/manuscript/fig3_pair_gain_summary.tsv`. |
-| Fig. 3D | Historical panel-D SVG retained only for provenance | **Superseded** | The source audit identifies the old artwork as case-pooled; it must not be presented as the final pair-weighted panel. Corrected standalone assembly is not available. |
+| Fig. 3D | `tables/manuscript/fig3_pair_gain_summary.tsv`; `figures/main/fig3/plot_fig3_d.py` | **Reproducible** (`fig3D`) | Shows wrong-cue mean, correct-cue mean, and their difference for A1/A2. Pair means use the frozen equal-weight reaction–evaluation population (n=660,237 per cue/anchor); separation is checked against the frozen endpoint table. Old case-pooled SVG/composite is provenance-only. |
 | Fig. 4A | Current draft SVG in `figures/released/fig4/` | Artwork retained; conceptual content | No numerical endpoint. |
 | Fig. 4B | Four frozen method partitions; `plot_fig4_b.py` | **Reproducible** (`fig4B`) | 400 evaluations × 4,179 reaction coordinates; four methods, 417,900 rows per method, unique evaluation/reaction pairs. |
-| Fig. 4C | Candidate group/metric/support tables are included | Data retained; assembly/selection wording unresolved | Source notebook uses four methods while the manuscript draft specifies three; no method or selection rule was changed here. |
+| Fig. 4C | Frozen candidate group/metric/support tables; `figures/main/fig4/plot_fig4_c.py` | **Reproducible** (`fig4C`) | Fixed manuscript example FACOAL204, setx1+setx3, CT2A C1 vs GL261 G1; CORDA, GIMME, and iMAT. 400 weighted support states per method/anchor. Selection provenance records rank and two-stage top-100 rule; old four-method composition including RIPTiDe is provenance-only, with RIPTiDe assigned to S7. |
 
 ## Supplementary figures and tables
 
@@ -32,10 +32,9 @@ render is evidence/artwork, not by itself a successful rebuild.
 | Fig. S7 | Current source render and selection manifest | Artwork retained; example lineage unresolved | Two post-hoc examples are recorded; the exact frozen main-example selection rule remains unresolved. |
 | Table S2 / aggregation audit | `fig3_gain_definition_audit.parquet.xz` under `data/processed/aggregation_audit/` | Provenance-only | Case-pooled definitions are superseded for primary Figure 3 results; primary summaries use equal-weight matched-pair aggregation. |
 
-The root CLI regenerates the quantitative figure panels for which current standalone
-plotting code and an authoritative input contract are available (Fig. 2D–G, 3B–C,
-4B, and S1–S3). Current S1–S7 artwork, notebook/source provenance, and source audits
-are retained under `figures/released/` and `manifests/provenance/source/` as
+The root CLI regenerates quantitative panels with current standalone plotting code
+and authoritative inputs (Fig. 2D–G, 3B–D, 4B–C, and S1–S3). Current S1–S7
+artwork, notebook/source provenance, and source audits are retained under `figures/released/` and `manifests/provenance/source/` as
 appropriate; unresolved items are not relabeled as reproducible. `status`,
 `validate`, `figures`, and `tables` never run upstream reconstruction, Gurobi,
 flux sampling, or candidate generation.

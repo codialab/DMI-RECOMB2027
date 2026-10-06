@@ -1,48 +1,53 @@
 {
   "schema": "recomb.release_validation.v1",
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "source_repository": "/home/pty/work/project_MRI_brain_tumor",
   "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
   "destination_base_commit": "3c9230e9b6fe7c3f1f175233fbff209a58a2cdaf",
   "branch": "publication-complete",
-  "included_frozen_input_records": 29,
+  "included_frozen_input_records": 31,
   "frozen_input_validation": "PASS",
   "scientific_checks": [
     "Figure 2 usefulness panel counts and frozen correlations",
     "Figure 3 pair counts and full correct-minus-wrong endpoint",
-    "Figure 4 400 evaluations \u00d7 4,179 reactions, one-to-one paired keys",
+    "Figure 4 400 evaluations × 4,179 reactions, one-to-one paired keys",
     "Supplementary Figure 1 candidate and conditional-stratum populations",
-    "Supplementary Figure 2 paired shifts: 400 \u00d7 4,179 keys",
-    "Supplementary Figure 3 paired geometry population and keys"
+    "Supplementary Figure 2 paired shifts: 400 × 4,179 keys",
+    "Supplementary Figure 3 paired geometry population and keys",
+    "Figure 3D pair-weighted cue means and correct-minus-wrong endpoints",
+    "Figure 4C frozen FACOAL204 group, current three-method composition, and weighted support"
   ],
   "plot_regeneration": {
     "status": "PASS",
     "jobs": [
       "fig2DG",
       "fig3BC",
+      "fig3D",
       "fig4B",
+      "fig4C",
       "s1",
       "s2",
       "s3"
     ],
-    "generated_plot_files": 12
+    "generated_plot_files": 19
   },
   "manuscript_tables": {
     "status": "PASS",
-    "checked_in_files": 3,
+    "checked_in_files": 4,
     "regenerated_tsvs_byte_identical": true
   },
   "existing_regression_tests": {
     "status": "PASS",
     "passed": 108,
-    "failed": 0
+    "failed": 0,
+    "command": "python -m pytest -q"
   },
-  "syntax_check": "PASS",
+  "syntax_check": "PASS (python -m py_compile reproduce.py figures/main/fig3/plot_fig3_d.py figures/main/fig4/plot_fig4_c.py)",
   "git_diff_check": "PASS",
   "release_checksums": {
     "status": "PASS",
-    "files": 227,
-    "bytes": 156947923
+    "files": 241,
+    "bytes": 157454169
   },
   "not_run": [
     "upstream reconstruction",
@@ -58,8 +63,12 @@
     "unrelated source-repository files"
   ],
   "remaining_gaps": [
-    "Figure 3D corrected standalone panel/assembly",
-    "Figure 4C final composition decision",
-    "Supplementary S4\u2013S7 complete reproduction pipelines or manuscript scope reconciliation"
-  ]
+    "Supplementary S4–S7 complete reproduction pipelines or manuscript scope reconciliation"
+  ],
+  "lightweight_commands": {
+    "validation": "python reproduce.py validate",
+    "checksums": "python reproduce.py checksums",
+    "main_and_supplementary_figures": "python reproduce.py figures --only fig2DG,fig3BC,fig3D,fig4B,fig4C,s1,s2,s3 --output-root reproduced/final_completion",
+    "result_tables": "python reproduce.py tables --output-root reproduced/final_tables_v3"
+  }
 }

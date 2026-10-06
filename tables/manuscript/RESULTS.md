@@ -11,6 +11,7 @@ outputs are TSV with source column names preserved.
 - `fig3_pair_gain_summary.tsv`: frozen pair-weighted gain descriptors, retained
   by anchor and cue direction. Cases are averaged within matched truth pairs;
   pairs receive equal weight. Zero and missing counts are retained as stored.
+- `fig3D_pair_weighted_summary.tsv`: Figure 3D panel values regenerated from the two frozen summaries; includes both cue means, their correct-minus-wrong separation, and pair counts for A1 and A2-L. The standalone plotter verifies the subtraction against the frozen endpoint table.
 - `fig3_full_endpoint_separation.tsv`: frozen full correct-minus-wrong endpoint
   summary. This is the pair-level primary aggregation, not the superseded
   case-pooled audit table.

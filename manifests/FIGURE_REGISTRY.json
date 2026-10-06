@@ -70,13 +70,13 @@
       "panels": [
         "3D"
       ],
-      "status": "AUTHOR_REVIEW_REQUIRED",
+      "status": "REPRODUCIBLE",
       "inputs": [
-        "data/figure_inputs/fig3/fig3_gain_summary.parquet.xz",
-        "data/figure_inputs/fig3/fig3_directional_advantage_summary.parquet.xz"
+        "tables/manuscript/fig3_pair_gain_summary.tsv",
+        "tables/manuscript/fig3_full_endpoint_separation.tsv"
       ],
-      "plotting_script": null,
-      "issue": "Existing panel D is superseded case-pooled artwork. Final pair-weighted endpoints are traceable, but authoritative corrected panel source is missing."
+      "plotting_script": "figures/main/fig3/plot_fig3_d.py",
+      "issue": "Generated from frozen equal-weight pair summary means; separation is correct-cue mean minus wrong-cue mean and is cross-checked against the frozen endpoint summary."
     },
     {
       "id": "fig4A",
@@ -109,14 +109,15 @@
       "panels": [
         "4C"
       ],
-      "status": "AUTHOR_REVIEW_REQUIRED",
+      "status": "REPRODUCIBLE",
       "inputs": [
+        "data/figure_inputs/fig4/fig4_data_manifest.json",
         "data/figure_inputs/fig4/fig4_panelC_candidate_groups.parquet.xz",
         "data/figure_inputs/fig4/fig4_panelC_candidate_metrics.parquet.xz",
         "data/figure_inputs/fig4/fig4_panelC_candidate_support.parquet.xz"
       ],
-      "plotting_script": "figures/main/fig4/plot_fig4_c_source.py",
-      "issue": "Main draft uses three methods; source notebook draws four. Two-stage selection wording/frozen intent needs review. No population or selection rule was changed."
+      "plotting_script": "figures/main/fig4/plot_fig4_c.py",
+      "issue": "Uses the fixed manuscript FACOAL204/setx1,setx3/C1-vs-G1 group, and the current three-method composition CORDA/GIMME/iMAT; RIPTiDe is retained for S7. The prior four-method cell/composite is provenance-only."
     },
     {
       "id": "s1",

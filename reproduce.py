@@ -135,6 +135,39 @@ def validate_frozen() -> dict:
     assert paired_s3.reaction_id.nunique() == 4179
     assert not paired_s3.duplicated(["evaluation_id", "reaction_id"]).any()
     result["scientific_checks"].append("Supplementary Figure 3 paired geometry population and keys")
+    gain_table = pd.read_csv(inside("tables/manuscript/fig3_pair_gain_summary.tsv"), sep="\t", float_precision="round_trip")
+    separation_table = pd.read_csv(inside("tables/manuscript/fig3_full_endpoint_separation.tsv"), sep="\t", float_precision="round_trip")
+    for setting in ["A1", "A2-L"]:
+        block = gain_table.loc[gain_table.anchor_setting.eq(setting)]
+        correct = block.loc[block.gain_measure.eq("correct")]
+        wrong = block.loc[block.gain_measure.eq("wrong")]
+        endpoint = separation_table.loc[separation_table.anchor_setting.eq(setting)]
+        assert len(correct) == len(wrong) == len(endpoint) == 1
+        assert int(correct.iloc[0].n_reaction_evaluations) == int(wrong.iloc[0].n_reaction_evaluations) == 660237
+        assert np.isclose(float(correct.iloc[0].mean_gain) - float(wrong.iloc[0].mean_gain),
+                          float(endpoint.iloc[0]["mean"]), rtol=0, atol=5e-12)
+    result["scientific_checks"].append("Figure 3D pair-weighted cue means and correct-minus-wrong endpoints")
+    groups = parquet("data/figure_inputs/fig4/fig4_panelC_candidate_groups.parquet.xz")
+    metrics = parquet("data/figure_inputs/fig4/fig4_panelC_candidate_metrics.parquet.xz")
+    support = parquet("data/figure_inputs/fig4/fig4_panelC_candidate_support.parquet.xz")
+    group_id = "FCG_ed8b1873c8dbc03fe5eb"
+    selected = groups.loc[groups.candidate_group_id.eq(group_id)]
+    assert len(groups) == 100 and len(selected) == 1
+    row = selected.iloc[0]
+    assert row.reaction_id == "FACOAL204" and row.rna_context_key == "training_samples=setx1,setx3"
+    assert row.ct2a_mouse == "C1" and row.gl261_mouse == "G1"
+    assert str(row.truth_selection) == "0.90" and int(row.geometry_rank) == 23
+    selected_support = support.loc[support.candidate_group_id.eq(group_id)
+                                   & support.method.isin(["CORDA", "GIMME", "iMAT"])]
+    assert len(selected_support) == 2400
+    assert selected_support.groupby(["method", "arm"]).size().eq(400).all()
+    assert set(selected_support.arm) == {"A1", "A2-L"}
+    assert np.isfinite(selected_support[["delta_v_B", "weight"]].to_numpy(float)).all()
+    assert np.isclose(selected_support.groupby(["method", "arm"]).weight.sum().to_numpy(float),
+                      1.0, rtol=0, atol=5e-12).all()
+    selected_metrics = metrics.loc[metrics.candidate_group_id.eq(group_id)]
+    assert len(selected_metrics) == 4 and set(selected_metrics.algorithm) == {"CORDA", "GIMME", "iMAT", "RIPTiDe"}
+    result["scientific_checks"].append("Figure 4C frozen FACOAL204 group, current three-method composition, and weighted support")
     return result
 
 
@@ -198,7 +231,8 @@ def plot(selected: str | None, output_root: str) -> dict:
                    TMPDIR=str(tempdir), PYTHONDONTWRITEBYTECODE="1", PYTHONPYCACHEPREFIX=str(inside(".cache/pycache")))
         with (job_dir / "plot.log").open("w") as log:
             proc = subprocess.run([sys.executable, "-B", str(path)], cwd=ROOT, env=env, stdout=log, stderr=log)
-        hashes = {str(p.relative_to(job_dir)): digest(p) for p in job_dir.iterdir() if p.suffix in [".svg", ".png", ".pdf"]}
+        hashes = {str(p.relative_to(job_dir)): digest(p) for p in job_dir.iterdir()
+                  if p.suffix in [".svg", ".png", ".pdf", ".tsv", ".json"]}
         if proc.returncode or not hashes:
             job.update(status="FAILED", log=str((job_dir / "plot.log").relative_to(ROOT)))
         else:
