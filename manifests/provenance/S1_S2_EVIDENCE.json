@@ -1,0 +1,1019 @@
+{
+  "audit_date": "2026-10-06",
+  "source_commit": "16379a169f45ec556274953eb66ae12293e1e985",
+  "starting_destination_commit": "ae0ce8e9885c70f686708e1ee5ac35e3fa231ee6",
+  "scope": "Read-only code/metadata inspection and registry census; no measurement values, vectors, datasets, artwork or manuscript snapshots copied; no scientific workflow executed",
+  "sources": [
+    {
+      "source_path": "outputs/dmi_bridge_pl1_predictability_landscape_v1_resumable_v1/BRIDGEPL1_EVALUATION_REGISTRY.tsv",
+      "sha256": "aa468dcec11dea764682bd3d7eb14c03c003063e74d92080d0bfaabb366290a3",
+      "bytes": 25605,
+      "copied": false
+    },
+    {
+      "source_path": "11_recomb_flux_expert_generation/manifests/ensemble_jobs.tsv",
+      "sha256": "3357f216e0efed3ebf532bf7bf3954945bbc03b15749331b519ba801fde6e91f",
+      "bytes": 713153,
+      "copied": false
+    },
+    {
+      "source_path": "11_recomb_flux_expert_generation/qc/PRODUCTION_FLUX_ENSEMBLE_AUDIT.tsv",
+      "sha256": "59dc08dfbd8d0193dc017f1bb1ffb904dd9d45bd9dd9ef93b37d14a43a8095ed",
+      "bytes": 39641,
+      "copied": false
+    },
+    {
+      "source_path": "analysis/brain_glioma_gem/config/dmi_to_gem_mapping.tsv",
+      "sha256": "3002fa055a5efaccc27044c3a158351a3f845e5a31c8e8688e34728e6575b489",
+      "bytes": 1648,
+      "copied": false
+    },
+    {
+      "source_path": "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_ANCHOR_REGISTRY.tsv",
+      "sha256": "18ae24892e4989fac21dbccd33a53ce78b8aaaaebe72ab01b198a86e3ab3da69",
+      "bytes": 636,
+      "copied": false
+    },
+    {
+      "source_path": "outputs/dmi_bridge_bio0_audit_v1/BRIDGEBIO0_OPERATOR_REGISTRY.tsv",
+      "sha256": "c843e7289910665b2a2e54976fbc7c30294c570fe089d3946d8e2019cdb2fec0",
+      "bytes": 1164,
+      "copied": false
+    },
+    {
+      "source_path": "external_data/brain_glioma_GL261_CT2A/simoes_2025_DMI/metadata/subject_manifest.tsv",
+      "sha256": "bf631c2549b137100dd1a4cee3cdb986d19cd35e9091bbfba64cbdbeb5a43f8f",
+      "bytes": 154,
+      "copied": false
+    },
+    {
+      "source_path": "external_data/brain_glioma_GL261_CT2A/simoes_2025_DMI/metadata/README.md",
+      "sha256": "25ba03dae8edce89e6baa4be90ae2b81908a52880c1e3fdbeebd4dc47f5d0f5d",
+      "bytes": 6560,
+      "copied": false
+    },
+    {
+      "source_path": "pre-simulation_constraint_analysis/analysis_a_capacity.py",
+      "sha256": "41a32164b7de35511ccb2c46550878ce124a78a0c88e27c7d899625726bcf961",
+      "bytes": 61434,
+      "copied": false
+    },
+    {
+      "source_path": "pre-simulation_constraint_analysis/run_corrected_analysis_a.py",
+      "sha256": "e2ea6b31dc46bc8ffa090ececf0a33cace5007ac18292815a43e7374180605cd",
+      "bytes": 23757,
+      "copied": false
+    },
+    {
+      "source_path": "pre-simulation_constraint_analysis/config/analysis_A.yaml",
+      "sha256": "bee27611c01cbf01df266b441920b024a29d4a688f2f32b4e20c1e3a1262f870",
+      "bytes": 5969,
+      "copied": false
+    },
+    {
+      "source_path": "scripts/load_brain_glioma_GL261_CT2A_example.py",
+      "sha256": "0a00ea3461c84ca12cd98276153fc65af9356be027ed6ca142bde8d2e7b0143a",
+      "bytes": 19664,
+      "copied": false
+    },
+    {
+      "source_path": "12_recomb_method_comparison/scripts/run_dmi_fraction_ensemble.py",
+      "sha256": "d8a789a715e78fc9ffb9d771950859cb3149686a45e24b50bed7408d8bc44839",
+      "bytes": 52178,
+      "copied": false
+    },
+    {
+      "source_path": "12_recomb_method_comparison/outputs_dmi_fraction_ensemble_v2/DMI_FRACTION_ENSEMBLE_PROVENANCE.json",
+      "sha256": "fd05e5febba47a92005619db38c53b3ba4896d81eb498226d87c61f1e9536168",
+      "bytes": 7283,
+      "copied": false
+    },
+    {
+      "source_path": "outputs/secondary_anchor_exploratory/dmi_sa_six_arm_current_20260926/build_current_candidates.py",
+      "sha256": "c7d566dd612e2957cbe0d758e6cc257738b062fcf8cd82bde42ba21941b25893",
+      "bytes": 1404,
+      "copied": false
+    },
+    {
+      "source_path": "outputs/secondary_anchor_exploratory/dmi_sa_six_arm_current_20260926/reconstruct_flux_cache.py",
+      "sha256": "70c77a76a863a7ca800b7c3610175417b2720c5cbc3d4c1b6db331ec3cef1d32",
+      "bytes": 25844,
+      "copied": false
+    },
+    {
+      "source_path": "13_recomb_identifiability/scripts/run_sa_u1_u2_followup.py",
+      "sha256": "70823e2c2490d40732e47c5d68078afd10dae33aca6ddb5b016332a59bef8ade",
+      "bytes": 35656,
+      "copied": false
+    },
+    {
+      "source_path": "13_recomb_identifiability/outputs/sa_u1_u2_followup_20260926/current_vmax_base_weights_manifest.json",
+      "sha256": "2abf9e7c4d3c922bda8c81426001c1f27c6e43f1761e9c9073e0d8ca078bd5bc",
+      "bytes": 183,
+      "copied": false
+    },
+    {
+      "source_path": "outputs/dmi_bridge_bio0r_qualification_v1/BRIDGEBIO0R_MANIFEST.json",
+      "sha256": "d155b63f59db3479b1dfd2d87c0b9ca470358c0166496abf288a649f04890cea",
+      "bytes": 2015,
+      "copied": false
+    },
+    {
+      "source_path": "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_MANIFEST.json",
+      "sha256": "01f8004a0bf9d5358d7ce7281e827cc1a1fbe00a6750a5c063a1edad2eedf380",
+      "bytes": 6944,
+      "copied": false
+    },
+    {
+      "source_path": "outputs/dmi_bridge_a21_dual_anchor_geometry_v1/BRIDGEA21_MANIFEST.json",
+      "sha256": "db9948d7b99447a695cf8aa21429dde6d642e1fd0632bcce52643deac59e6feb",
+      "bytes": 10816,
+      "copied": false
+    },
+    {
+      "source_path": "outputs/dmi_bridge_pl2a_sign_only_prepare_v1/BRIDGEPL2A_MANIFEST.json",
+      "sha256": "8ae3eb60eb23614e379e38e3aa3cb72ec16c6bdb69aa9c74cc94499e31f1c312",
+      "bytes": 1925,
+      "copied": false
+    },
+    {
+      "source_path": "outputs/dmi_bridge_a22_dual_anchor_sign_only_utility_v1/BRIDGEA22_MANIFEST.json",
+      "sha256": "15b237151005538e5077a352868f873ef00466f4f5ea49307b781a8a8cd0e7cb",
+      "bytes": 18295,
+      "copied": false
+    },
+    {
+      "source_path": "outputs/dmi_bridge_a23_a1_a2_synthesis_v1/BRIDGEA23_MANIFEST.json",
+      "sha256": "b8e57074f3df23fe7708145bc01f51a19f946545b1c16e61628c2678dbcabd18",
+      "bytes": 3307,
+      "copied": false
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Manuscript_Draft.docx",
+      "sha256": "6b837c1229b9f495aa1dcfab4b1512c7ef4c1df85e3aef3ab07b174ac68e467b",
+      "bytes": 4916576,
+      "copied": false
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "sha256": "ae62ba34b22d6bf1d81a7c39535430abb091940ba8063e4b0aa51471143c5fcc",
+      "bytes": 1926087,
+      "copied": false
+    },
+    {
+      "source_path": "12_recomb_method_comparison/src/recomb_compare/stage11.py",
+      "sha256": "b57522bc293e88400f4ed0aed05970989f7d98873d5dbd4bc1f2a363580794f9",
+      "bytes": 18501,
+      "copied": false
+    },
+    {
+      "source_path": "pre-simulation_constraint_analysis/results/run_20260824T164247Z_corrected_analysis_A/mouse_level_dmi_input.csv",
+      "sha256": "ae3cbad6d422405780d0dc44e0e31f95770ebc204d1f80f2ccdada12bb119082",
+      "bytes": 1433,
+      "copied": false
+    },
+    {
+      "source_path": "pre-simulation_constraint_analysis/results/run_20260824T132710Z/analysis_A_capacity/mouse_level_dmi_input.csv",
+      "sha256": "488e523a0cdcb2805f85ff4e025bed7d5f221c2bb3f93c834344ccd61b083fca",
+      "bytes": 1486,
+      "copied": false
+    }
+  ],
+  "evaluation_registry": {
+    "axes": {
+      "algorithm": [
+        "CORDA",
+        "GIMME",
+        "RIPTiDe",
+        "iMAT"
+      ],
+      "rna_context_key": [
+        "training_samples=setx1,setx2",
+        "training_samples=setx1,setx2,setx3",
+        "training_samples=setx1,setx3",
+        "training_samples=setx2,setx3"
+      ],
+      "ct2a_mouse": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "gl261_mouse": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5"
+      ]
+    },
+    "rows": 400,
+    "unique_keys": 400,
+    "full_cartesian_product_verified": true,
+    "evaluations_per_method_rna_context": 25,
+    "candidate_contrasts_per_evaluation": [
+      400
+    ],
+    "arithmetic": "4 * 4 * 5 * 5 = 400",
+    "independent_draw_axis": false
+  },
+  "ensemble_jobs": {
+    "rows": 32,
+    "unique_ensembles": 32,
+    "condition_types": [
+      "rna_only"
+    ],
+    "expert_variants": [
+      "rna_only_primary"
+    ],
+    "dmi_mouse_ids": [
+      ""
+    ],
+    "ensemble_replicates": [
+      "0"
+    ],
+    "retained_vectors_per_ensemble": 20,
+    "total_candidate_vectors": 640,
+    "sampling_thinning": [
+      "100"
+    ],
+    "sampling_processes": [
+      "1"
+    ],
+    "distinct_ensemble_seed_count": 32
+  },
+  "ensemble_qc": {
+    "rows": 64,
+    "ensemble_records": 32,
+    "projection_records": 32,
+    "retained_rows": [
+      "20"
+    ],
+    "ok": [
+      "True"
+    ],
+    "samplers": [
+      "COBRApy OptGPSampler",
+      "RIPTiDe native GapSplit"
+    ]
+  },
+  "frozen_manifests": [
+    {
+      "source_path": "outputs/dmi_bridge_bio0r_qualification_v1/BRIDGEBIO0R_MANIFEST.json",
+      "status": "BIO0R_QUALIFIED_READY_FOR_BIO1",
+      "counts": {
+        "bio0_reproduction": 3200,
+        "lactate_operator_audit": 640,
+        "operator_support_audit": 3520,
+        "random_control_registry": 16,
+        "vmax_reproduction": 3200
+      },
+      "artifact_sha256": {}
+    },
+    {
+      "source_path": "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_MANIFEST.json",
+      "status": "BRIDGE_A20_PARTIAL_QUALIFICATION",
+      "counts": {
+        "A2-G_weights": 0,
+        "A2-L_weights": 3200,
+        "anchor_registry": 2,
+        "dual_anchor_weights": 3200,
+        "mouse_coordinates": 30,
+        "source_audit": 19,
+        "weight_summary": 10
+      },
+      "artifact_sha256": {
+        "BRIDGEA20_DUAL_ANCHOR_WEIGHTS.tsv.xz": "b153e2fde45dca9573c71c548783e704313f056d0980f64af60180ad90ebc1f4"
+      }
+    },
+    {
+      "source_path": "outputs/dmi_bridge_a21_dual_anchor_geometry_v1/BRIDGEA21_MANIFEST.json",
+      "status": "BRIDGE_A21_DUAL_ANCHOR_GEOMETRY_FROZEN",
+      "counts": {
+        "context_reaction_summary": 66864,
+        "contexts": 16,
+        "evaluation_registry": 400,
+        "pathway_summary": 50,
+        "reaction_evaluation_features": 1671600,
+        "reaction_summary": 4179
+      },
+      "artifact_sha256": {
+        "BRIDGEA21_ANALYSIS_CONTRACT.json": "ee1e20ed1d7bfbd566a3fc3b3c04701f3c3e4ffa720233d57ca4d5323ab8f693",
+        "BRIDGEA21_EVALUATION_REGISTRY.tsv": "9c269551193f73579c2d64d6ff5260f27363300bfc864377344e5cdb4ddfc325"
+      }
+    },
+    {
+      "source_path": "outputs/dmi_bridge_pl2a_sign_only_prepare_v1/BRIDGEPL2A_MANIFEST.json",
+      "status": "PL2A_READY_FOR_PL2B_SIGN_ONLY_UTILITY",
+      "counts": {
+        "pl1_predictor_join_rows": 1672000,
+        "reaction_registry": 4180,
+        "truth_pair_aliases_evaluable": 1110,
+        "truth_pair_aliases_non_evaluable": 90,
+        "truth_pair_aliases_total": 1200,
+        "truth_selection_rows": 480,
+        "truth_selection_zero_post_holdout_mass_rows": 18
+      },
+      "artifact_sha256": {
+        "BRIDGEPL2A_ANALYSIS_CONTRACT.json": "e5725961f739a3c75bdfbb12613e164fa9dfe8ef255b6947fd9185a528a85ab7",
+        "BRIDGEPL2A_PL1_PREDICTOR_CONTRACT.json": "ba7d16e7797abd653ff70073c97c77e532ac57cc785bab90029394c5ac7a28d9",
+        "BRIDGEPL2A_TRUTH_PAIR_REGISTRY.tsv": "2986c98deb6563e2c4f192ba1f77bbf0385976b42266363bcb968ca6d0cd3894",
+        "BRIDGEPL2A_TRUTH_SELECTION.tsv": "a3906367a89da57e471f5c9e7733c363e4e71b4715d5dd9c9309a46d9f8f630f"
+      }
+    },
+    {
+      "source_path": "outputs/dmi_bridge_a22_dual_anchor_sign_only_utility_v1/BRIDGEA22_MANIFEST.json",
+      "status": "BRIDGE_A22_SIGN_ONLY_UTILITY_FROZEN",
+      "counts": {
+        "all_distinct_truth_pairs": 885,
+        "case_rows": 3493644,
+        "context_summary_rows": 255,
+        "matched_primary_truth_pairs": 836,
+        "matched_registry_rows": 836,
+        "non_tie_cases": 1440313,
+        "nonprimary_truth_pairs": 49,
+        "reactions": 4179,
+        "truth_pair_aliases": 1200,
+        "truth_selection_aliases": 480,
+        "truth_tie_cases": 2053331
+      },
+      "artifact_sha256": {
+        "BRIDGEA22_ANALYSIS_CONTRACT.json": "1953c8c5f4288fd0df4f74b95f53ae9e490fa0159ab00383573ab72a61f4d476",
+        "BRIDGEA22_MATCHED_TRUTH_PAIR_REGISTRY.tsv": "bb935220be12d9350cdb4dc5cf9afbbace366a231b9917841791934dee2f4c28"
+      }
+    },
+    {
+      "source_path": "outputs/dmi_bridge_a23_a1_a2_synthesis_v1/BRIDGEA23_MANIFEST.json",
+      "status": "BRIDGE_A23_A1_A2_SYNTHESIS_FROZEN",
+      "counts": {
+        "BRIDGEA23_CONTROL_SUMMARY.tsv": 9,
+        "BRIDGEA23_GEOMETRY_COMPARISON.tsv": 24,
+        "BRIDGEA23_GEOMETRY_UTILITY_PERSISTENCE.tsv": 42,
+        "BRIDGEA23_MATCHED_POPULATION_AUDIT.tsv": 836,
+        "BRIDGEA23_SENSITIVITY_SUMMARY.tsv": 16,
+        "BRIDGEA23_UTILITY_COMPARISON.tsv": 3
+      },
+      "artifact_sha256": {
+        "BRIDGEA23_ANALYSIS_CONTRACT.json": "4d3c1d8c04c6c8c793efff33d86a7359800cda9e57bfb31c825017a7c6207290"
+      }
+    }
+  ],
+  "manuscript_occurrences": [
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Manuscript_Draft.docx",
+      "ooxml_paragraph_1based": 15,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role",
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Manuscript_Draft.docx",
+      "ooxml_paragraph_1based": 28,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Manuscript_Draft.docx",
+      "ooxml_paragraph_1based": 30,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role",
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Manuscript_Draft.docx",
+      "ooxml_paragraph_1based": 33,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Manuscript_Draft.docx",
+      "ooxml_paragraph_1based": 38,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Manuscript_Draft.docx",
+      "ooxml_paragraph_1based": 48,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Manuscript_Draft.docx",
+      "ooxml_paragraph_1based": 52,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Manuscript_Draft.docx",
+      "ooxml_paragraph_1based": 57,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Manuscript_Draft.docx",
+      "ooxml_paragraph_1based": 58,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Manuscript_Draft.docx",
+      "ooxml_paragraph_1based": 60,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Manuscript_Draft.docx",
+      "ooxml_paragraph_1based": 64,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Manuscript_Draft.docx",
+      "ooxml_paragraph_1based": 65,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Manuscript_Draft.docx",
+      "ooxml_paragraph_1based": 68,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Manuscript_Draft.docx",
+      "ooxml_paragraph_1based": 71,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role",
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Manuscript_Draft.docx",
+      "ooxml_paragraph_1based": 73,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Manuscript_Draft.docx",
+      "ooxml_paragraph_1based": 79,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 7,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 10,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 13,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 14,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 16,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role",
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 17,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 20,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 22,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 27,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 30,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 31,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 34,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 35,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 45,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 47,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 50,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 51,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role",
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 63,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 69,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 71,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 72,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 78,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 90,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 93,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 111,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 119,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role",
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 177,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role",
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 181,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 189,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 191,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 301,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 314,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 356,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 362,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 365,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 369,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role",
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 384,
+      "review": [
+        "S1: inspect anchor claim versus valid HEX1 diagnostic role",
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    },
+    {
+      "source_path": "manuscript_audit_inputs/RECOMB_with_A2_Supplementary_Materials_Draft.docx",
+      "ooxml_paragraph_1based": 387,
+      "review": [
+        "S2: distinguish subjects, vectors and evaluation support"
+      ]
+    }
+  ],
+  "documentation_occurrences": [
+    {
+      "path": "README.md",
+      "lines": [
+        14,
+        15,
+        22,
+        23,
+        31,
+        32,
+        33,
+        34,
+        35,
+        38
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "analyses/A1_single_anchor/README.md",
+      "lines": [
+        3
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "analyses/A2_dual_anchor/README.md",
+      "lines": [
+        3,
+        15
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "data/README.md",
+      "lines": [
+        14,
+        58
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "docs/ANALYSIS_MAP.md",
+      "lines": [
+        30,
+        32,
+        73,
+        75,
+        76,
+        80,
+        108
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "docs/DATA_PROVENANCE.md",
+      "lines": [
+        45,
+        51,
+        52,
+        53,
+        54,
+        56,
+        59,
+        60,
+        84
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "manifests/provenance/source/RECOMB_MANUSCRIPT_TECHNICAL_AUDIT.md",
+      "lines": [
+        28,
+        89,
+        91,
+        109,
+        113,
+        115,
+        127,
+        129,
+        133,
+        135,
+        139,
+        141,
+        177,
+        189,
+        227,
+        255,
+        358,
+        377,
+        413
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "manifests/provenance/source/SUPPLEMENTARY_FIGURES_WAVE1_AUDIT.md",
+      "lines": [
+        29,
+        30,
+        32,
+        39,
+        46,
+        54
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "manifests/provenance/source/docs/DMI_BRIDGE_A20_DUAL_STRONG_ANCHOR_QUALIFICATION.md",
+      "lines": [
+        17,
+        18,
+        19,
+        20,
+        48,
+        50,
+        60,
+        81,
+        95,
+        100,
+        101,
+        120,
+        127,
+        151,
+        152,
+        154,
+        173,
+        175,
+        196
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "manifests/provenance/source/docs/DMI_BRIDGE_A21_DUAL_ANCHOR_GEOMETRY.md",
+      "lines": [
+        14,
+        15,
+        38,
+        69,
+        70,
+        87,
+        92,
+        103,
+        111,
+        114,
+        117,
+        118,
+        147
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "manifests/provenance/source/docs/DMI_BRIDGE_A22_DUAL_ANCHOR_SIGN_ONLY_UTILITY.md",
+      "lines": [
+        15,
+        70,
+        95,
+        156,
+        160
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "manifests/provenance/source/docs/DMI_BRIDGE_A23_A1_A2_SYNTHESIS.md",
+      "lines": [
+        42,
+        93
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "manifests/provenance/source/docs/DMI_BRIDGE_M1_MANUSCRIPT_EVIDENCE_CONSOLIDATION.md",
+      "lines": [
+        124,
+        155,
+        174
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "manifests/provenance/source/docs/DMI_BRIDGE_M2_A2_ROBUSTNESS_EVIDENCE_CONSOLIDATION.md",
+      "lines": [
+        16,
+        127,
+        174,
+        229
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "manifests/provenance/source/docs/DMI_BRIDGE_PL1_PREDICTABILITY_LANDSCAPE.md",
+      "lines": [
+        5,
+        10,
+        17,
+        27,
+        56
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "manifests/provenance/source/docs/DMI_BRIDGE_PL2B_PRODUCTION_CONTRACT.md",
+      "lines": [
+        59,
+        85,
+        98,
+        121
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "manifests/provenance/source/docs/DMI_BRIDGE_PL2C_GEOMETRY_UTILITY_DEVELOPMENT_CONTRACT.md",
+      "lines": [
+        11,
+        36,
+        168
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "manifests/provenance/source/docs/DMI_BRIDGE_PL2D_CONFIRMATION_CONTRACT.md",
+      "lines": [
+        69,
+        143
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "manifests/provenance/source/docs/DMI_BRIDGE_PL2D_HYPOTHESIS_FREEZE_CONTRACT.md",
+      "lines": [
+        28
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "manifests/provenance/source/docs/DMI_BRIDGE_PL2D_H_SUPPORT_GATE_AMENDMENT_V1.md",
+      "lines": [
+        92
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    },
+    {
+      "path": "manifests/provenance/source/docs/DMI_BRIDGE_PL2_SIGN_ONLY_UTILITY.md",
+      "lines": [
+        6,
+        10,
+        56,
+        63,
+        64,
+        76,
+        111,
+        123,
+        133,
+        148
+      ],
+      "scope": "review candidates; valid diagnostic/count references retained"
+    }
+  ],
+  "canonical_measurement_table_lineage": {
+    "canonical_table_hash_matches_A20_pin": true,
+    "predecessor_byte_identical": false,
+    "same_subject_inventory": true,
+    "nonrate_metadata_equal": true,
+    "maximum_absolute_rate_differences": {
+      "Vmax": 1.1102230246251565e-16,
+      "Vlac": 5.551115123125783e-17,
+      "Vglx": 8.326672684688674e-17
+    },
+    "interpretation": "Canonical Bridge table is authoritative. Earlier table is not byte/numerically identical; very small differences are compatible with CSV read/write precision but causation was not established by rerunning the producer. No values changed or canonical source substituted."
+  }
+}

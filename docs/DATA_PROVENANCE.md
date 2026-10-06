@@ -47,9 +47,21 @@ The common candidate axis has 4,181 coordinates; excluding HEX1 and LDH_L yields
 dimension. Original code and schemas retain these separate definitions.
 
 [`EVALUATION_LAYOUT.json`](../manifests/provenance/EVALUATION_LAYOUT.json) records
-the exact registry identity and the 4 × 4 × 5 × 5 evaluation layout. The user's
-proposed “two mice / five draws” wording requires reconciliation with that frozen
-registry; the migration does not invent an independent reconstruction-draw axis.
+the exact registry identity and the 4 × 4 × 5 × 5 evaluation layout. The
+2026-10-06 [evaluation design audit](EVALUATION_DESIGN_AUDIT.md) verified all 400
+unique method/RNA/CT2A-mouse/GL261-mouse tuples against the full Cartesian product.
+The factors of five are biological DMI subjects (C1–C5 and G1–G5), not draws.
+All 32 frozen ensemble jobs have replicate index zero; each retains 20 vectors.
+Weighted q10/q50/q90 truth selection is deterministic. There is no independent
+five-draw factor in the evaluation design.
+
+The [anchor operator audit](ANCHOR_OPERATOR_AUDIT.md) traces raw glucose-exchange
+rank weighting separately from cached HEX1 truth-selection/coupling coordinates.
+No executed Vmax-to-HEX1 mapping or equivalence guarantee was established. S1
+remains an author decision; existing scientific labels and code are unchanged.
+Evidence identities and the compact census are recorded in
+[`S1_S2_EVIDENCE.json`](../manifests/provenance/S1_S2_EVIDENCE.json); no rights-pending
+data were copied during this follow-up.
 
 ## Copies and path/import changes
 

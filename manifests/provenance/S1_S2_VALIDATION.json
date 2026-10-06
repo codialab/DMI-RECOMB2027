@@ -1,0 +1,40 @@
+{
+  "audit_date": "2026-10-06",
+  "source_commit": "16379a169f45ec556274953eb66ae12293e1e985",
+  "starting_destination_commit": "ae0ce8e9885c70f686708e1ee5ac35e3fa231ee6",
+  "branch": "publication-migration",
+  "source_head_unchanged": true,
+  "source_tracked_tree_unchanged_clean": true,
+  "destination_scope": "Documentation and audit metadata only; checksum manifest refreshed",
+  "files_changed_or_added": [
+    "README.md",
+    "docs/ANCHOR_OPERATOR_AUDIT.md",
+    "docs/AUTHOR_CORRECTIONS_REQUIRED.md",
+    "docs/DATA_PROVENANCE.md",
+    "docs/EVALUATION_DESIGN_AUDIT.md",
+    "docs/MIGRATION_REPORT.md",
+    "manifests/checksums/SHA256SUMS.txt",
+    "manifests/provenance/S1_S2_EVIDENCE.json",
+    "manifests/provenance/S1_S2_VALIDATION.json"
+  ],
+  "scientific_code_changes": 0,
+  "figure_label_changes": 0,
+  "rights_pending_artifacts_copied": 0,
+  "scientific_workflows_run": [],
+  "tests_run": [],
+  "source_identity_digest_checks": 29,
+  "evaluation_registry_full_product_check": "PASS: 400 unique tuples equal full 4*4*5*5 Cartesian product",
+  "ensemble_job_census": "PASS: 32 unique primary RNA-only ensembles; replicate index 0; requested vectors 20",
+  "canonical_dmi_table": "PASS: A20 pinned identity; predecessor rate precision differences recorded without substitution",
+  "document_links": "PASS for edited README/provenance and three new audits",
+  "git_diff_check": "PASS; repeated on staged and committed diff",
+  "S1_verdict": "SCIENTIFIC DISCREPANCY REQUIRES AUTHOR DECISION",
+  "S2_verdict": "RESOLVED; no independent five-draw factor",
+  "release_verdict": "NOT YET REPRODUCIBLE",
+  "limitations": "No candidate-flux equivalence proof, raw-data loading, full CFF/schema validation, figure rendering or numerical-result regeneration performed.",
+  "included_release_checksums": {
+    "status": "PASS",
+    "files": 141,
+    "scope": "Included files only; no rights-pending numerical data included"
+  }
+}

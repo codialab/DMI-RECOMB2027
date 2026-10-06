@@ -119,8 +119,8 @@ ambiguities below are recorded rather than repaired by changing code.
 | ID | Issue | Required follow-up |
 |---|---|---|
 | R1 | Redistribution rights pending | Review 50 exact numerical artifacts, four conceptual SVGs and three external-source groups in `RIGHTS_REVIEW.tsv`. Confirm original ownership/derivative rights before copying. |
-| S1 | Glucose operator/anchor interpretation | A20 constructs candidate Vmax from `max(-EX_glc__D_e, 0)` while manuscript/contracts describe Vmax→HEX1. Establish the intended interpretation/equivalence; migration does not substitute HEX1 or change weights. |
-| S2 | Evaluation/draw wording | The frozen registry has 4 methods × 4 RNA contexts × 5 CT2A subjects × 5 GL261 subjects = 400 evaluations. Reconcile the proposed two-mice/five-draws description; do not invent an independent draw axis. |
+| S1 | Scientific discrepancy requires author decision; traced 2026-10-06 | A1/A2 soft weights use raw glucose-exchange uptake ranks; HEX1 is the cached truth-selection/coupling coordinate. No executed conversion or equivalence guarantee was established. See `ANCHOR_OPERATOR_AUDIT.md`; scientific labels and code remain unchanged. |
+| S2 | RESOLVED 2026-10-06: evaluation terminology | The registry is exactly 4 methods × 4 RNA contexts × 5 CT2A mice × 5 GL261 mice = 400 evaluations. Both sets of five are biological subjects; no independent five-draw factor exists. See `EVALUATION_DESIGN_AUDIT.md`. |
 | F1 | Conceptual/final artwork | Figure 1 A-C, 2 A-C, 3A and 4A have identified conceptual sources but ownership/final editorial identity remains pending. |
 | F2 | Figure 3D | Existing D SVG/raster labels are superseded case-pooled means. Final pair-level summaries are traceable, but corrected authoritative artwork/source is missing. |
 | F3 | Figure 4C | Source draws four methods; main draft uses three and moves RIPTiDe to S7. Confirm final composition and the two-stage example-selection intent. |
@@ -178,8 +178,25 @@ No legacy folder name or prior PASS report resolves these disagreements.
 
 ## Next author actions
 
-Confirm redistribution decisions, reconcile the glucose operator/evaluation
-terminology, finalize artwork and supplementary panel/table choices, and restore
+Confirm redistribution decisions, resolve the glucose operator interpretation,
+finalize artwork and supplementary panel/table choices, and restore
 missing upstream identity artifacts where a full upstream reproduction is desired.
 Then include only cleared frozen inputs, verify their source-copy checksums,
 execute selected plotting workflows and repeat the full figure/release audit.
+
+## S1/S2 follow-up, 2026-10-06
+
+The investigation adds `ANCHOR_OPERATOR_AUDIT.md`, `EVALUATION_DESIGN_AUDIT.md`
+and `AUTHOR_CORRECTIONS_REQUIRED.md`, with source identity/census material in
+`S1_S2_EVIDENCE.json`. S2 is resolved by the exact registry product and production
+job metadata; README and publication provenance terminology were clarified.
+S1 is substantive: exchange uptake determines the glucose weights, while HEX1
+has separate downstream roles. This contradicts a literal HEX1-distance claim
+in the draft supplement and the prior technical audit's E2 interpretation.
+Neither code nor scientific labels were changed to resolve it.
+
+All follow-up edits are documentation/audit material, including refreshed release
+checksums. No rights-pending data or artwork were copied. No numerical results
+were regenerated. The source commit/tracked-tree checks and destination static
+scope/whitespace checks are in `S1_S2_VALIDATION.json`. The verdict remains
+**NOT YET REPRODUCIBLE**; this follow-up does not finalize the release.

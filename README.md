@@ -22,14 +22,19 @@ Gains are in native GEM/model flux units. An operator-lineage issue remains: A20
 ranks glucose uptake `max(-EX_glc__D_e, 0)` as its candidate Vmax observable while
 the manuscript/contracts describe the glucose anchor through HEX1. Their intended
 equivalence requires author verification; the migration preserves the operator.
+The [anchor operator audit](docs/ANCHOR_OPERATOR_AUDIT.md) records the traced
+distinction and required author decision; the labels above remain under review.
 The historical label `A2-L` denotes A2
 in internal filenames and frozen table schemas; those schemas are preserved.
 
 The frozen design uses iMAT, GIMME, CORDA and RIPTiDe; four RNA contexts; two tumor
 contexts; five DMI subjects per tumor; and a full 5 × 5 mouse-comparison grid.
 An individual evaluation compares one CT2A mouse with one GL261 mouse: 4 methods ×
-4 contexts × 25 mouse pairs = **400 evaluations**. This differs from describing
-the five subjects as independent reconstruction draws. There are 32 reconstruction
+4 contexts × 5 CT2A mice × 5 GL261 mice = **400 evaluations**. Each of the 16
+method/RNA contexts contains all 25 mouse pairs exactly once. The two sets of five
+are biological DMI subjects; there is no independent five-draw factor. These
+comparisons share animals and vectors and are not independent biological replicates.
+See the [evaluation design audit](docs/EVALUATION_DESIGN_AUDIT.md). There are 32 reconstruction
 ensembles with 20 stored vectors each, and 4,179 common non-anchor reaction
 coordinates. Finite candidate/support counts are not biological replication.
 
