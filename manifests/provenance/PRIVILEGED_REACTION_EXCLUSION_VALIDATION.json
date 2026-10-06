@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-06",
+  "branch": "publication-migration",
+  "starting_destination_commit": "ce621c74ed4a5a325ebb7521d1247d9c2791b94f",
+  "source_state_final": {
+    "head": "16379a169f45ec556274953eb66ae12293e1e985",
+    "tracked_status": "",
+    "tracked_diff": "",
+    "index_listing_sha256": "d6e1d9d0b7c8a60ac59b6b3b3b0d45a7412cfea0e4f5d8911b5ecd3014cebcc3"
+  },
+  "source_HEAD_tracked_tree_and_index_unchanged": true,
+  "scientific_production_changes": 0,
+  "manuscript_or_final_figure_label_changes": 0,
+  "rights_pending_inputs_copied": 0,
+  "new_files": [
+    "analyses/audit/privileged_reaction_exclusion.py",
+    "docs/PRIVILEGED_REACTION_EXCLUSION_AUDIT.md",
+    "manifests/provenance/PRIVILEGED_REACTION_EXCLUSION_EVIDENCE.json",
+    "tables/audit/privileged_reaction_exclusion_sensitivity.tsv"
+  ],
+  "additional_audit_files": [
+    "manifests/provenance/PRIVILEGED_REACTION_EXCLUSION_VALIDATION.json",
+    "manifests/checksums/SHA256SUMS.txt"
+  ],
+  "syntax_check": "AST parse and compile in memory; no production execution/import or bytecode writes",
+  "sensitivity_rows": 378,
+  "zero_absolute_changes": true,
+  "frozen_input_hash_checks": "Cache and Figure2/3/4 hashes match recorded manifests; A23 summaries match admitted A23 manifest",
+  "scope_check": "Every previously tracked file except checksum manifest is byte-identical to starting HEAD",
+  "git_diff_check": "PASS before staging; staged whitespace and scope checked before commit",
+  "no_expensive_workflows_executed": true
+}

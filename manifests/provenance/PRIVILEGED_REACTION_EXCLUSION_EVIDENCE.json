@@ -1,0 +1,434 @@
+{
+  "audit_date": "2026-10-06",
+  "source_state_before": {
+    "head": "16379a169f45ec556274953eb66ae12293e1e985",
+    "tracked_status": "",
+    "tracked_diff": "",
+    "index_listing_sha256": "d6e1d9d0b7c8a60ac59b6b3b3b0d45a7412cfea0e4f5d8911b5ecd3014cebcc3"
+  },
+  "starting_destination_commit": "ce621c74ed4a5a325ebb7521d1247d9c2791b94f",
+  "scope": "Frozen-row filtering and aggregates only; no production execution",
+  "versions": {
+    "python": "3.12.3",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "pyarrow": "25.0.1"
+  },
+  "sources": [
+    {
+      "source_path": "outputs/secondary_anchor_exploratory/dmi_sa_six_arm_current_20260926/reconstructed/flux_cache.npz",
+      "sha256": "f9644da4ebd875cf5f0b34cc58b20faf0a0457d7c7a44635e8a010d8896c3dbb",
+      "bytes": 5653677,
+      "copied": false,
+      "expected_hash_verified": true
+    },
+    {
+      "source_path": "dmi_sa_r1_cup_reuse_20260926/selected_model/ensembles/stage4_projection_4747/metadata.json",
+      "sha256": "f5542cd608a625f098358c7f152ca6039402c3b473a1eee47f0423aedc9f9f53",
+      "bytes": 100179,
+      "copied": false,
+      "expected_hash_verified": false
+    },
+    {
+      "source_path": "13_recomb_identifiability/exports/dmi_sa_offline_feasibility/validation/rna_effects_used.csv",
+      "sha256": "d9fb9cc03a2b76314a8da5414a37189efce373c659765b9bac7bbb0b4d3c204a",
+      "bytes": 3007,
+      "copied": false,
+      "expected_hash_verified": false
+    },
+    {
+      "source_path": "13_recomb_identifiability/exports/dmi_sa_offline_feasibility/reaction_metadata/reaction_metadata.tsv",
+      "sha256": "6b7dad70307458fa6634958e4fe817a13c9ceec69e330c9ef5f9627b8902de8f",
+      "bytes": 22475117,
+      "copied": false,
+      "expected_hash_verified": false
+    },
+    {
+      "source_path": "outputs/secondary_anchor_exploratory/dmi_sa_six_arm_current_20260926/reconstruct_flux_cache.py",
+      "sha256": "70c77a76a863a7ca800b7c3610175417b2720c5cbc3d4c1b6db331ec3cef1d32",
+      "bytes": 25844,
+      "copied": false,
+      "expected_hash_verified": false
+    },
+    {
+      "source_path": "outputs/dmi_bridge_pl1_predictability_landscape_v1_resumable_v1/BRIDGEPL1_REACTION_SUMMARY.tsv",
+      "sha256": "e4c9daed2923cff1b357a1e0f7e974485453f555317e7b5e9f68d2ff4303bf10",
+      "bytes": 7603339,
+      "copied": false,
+      "expected_hash_verified": false
+    },
+    {
+      "source_path": "outputs/dmi_bridge_pl2a_sign_only_prepare_v1/BRIDGEPL2A_REACTION_REGISTRY.tsv",
+      "sha256": "30dad204d329bf7fec9cc0156a0944c7785f7676c31f2fc3a96f599b8f98095c",
+      "bytes": 184208,
+      "copied": false,
+      "expected_hash_verified": false
+    },
+    {
+      "source_path": "outputs/dmi_bridge_pl2c_geometry_utility_development_v1/BRIDGEPL2C_REACTION_SPLIT.tsv",
+      "sha256": "7dd8676508416a13f88af184110ef40e0f8d92782cd5d62b42e7006af5316e2f",
+      "bytes": 387708,
+      "copied": false,
+      "expected_hash_verified": false
+    },
+    {
+      "source_path": "outputs/dmi_bridge_a21_dual_anchor_geometry_v1/BRIDGEA21_REACTION_SUMMARY.tsv.xz",
+      "sha256": "26d513f0c4a78c832f2169a14df976b7277827dd33ad4d3eac2ebad945feed45",
+      "bytes": 2588496,
+      "copied": false,
+      "expected_hash_verified": false
+    },
+    {
+      "source_path": "outputs/dmi_bridge_a22_dual_anchor_sign_only_utility_v1/BRIDGEA22_REACTION_REGISTRY.tsv",
+      "sha256": "7064c4608e4a1eb150c85bd540bd71627016ae7c3138cf26ee504f555923be82",
+      "bytes": 184165,
+      "copied": false,
+      "expected_hash_verified": false
+    },
+    {
+      "source_path": "outputs/dmi_bridge_pl2d_confirmation_v1/BRIDGEPL2D_CONFIRMATION_REACTION.tsv",
+      "sha256": "83acc18c9bcbcf4034d9987e1ba3fde5fd54ecd5f5d2c3dcf54dc03ac91091ea",
+      "bytes": 142927,
+      "copied": false,
+      "expected_hash_verified": false
+    },
+    {
+      "source_path": "outputs/dmi_bridge_a23_a1_a2_synthesis_v1/BRIDGEA23_MANIFEST.json",
+      "sha256": "b8e57074f3df23fe7708145bc01f51a19f946545b1c16e61628c2678dbcabd18",
+      "bytes": 3307,
+      "copied": false,
+      "expected_hash_verified": true
+    },
+    {
+      "source_path": "figures/fig2/figure2_DG_points.csv.xz",
+      "sha256": "aedc195237389ccd131cb983d7948483fc84ab1d0df1d88b5f1c1601577cf161",
+      "bytes": 144940,
+      "copied": false,
+      "expected_hash_verified": true
+    },
+    {
+      "source_path": "figures/fig3/tables/fig3_gain_reaction_evaluation.parquet.xz",
+      "sha256": "7a83a31d29317f7b0d906fff73691428d98427d93d2fdebd4ef91294f8a46676",
+      "bytes": 16541408,
+      "copied": false,
+      "expected_hash_verified": true
+    },
+    {
+      "source_path": "figures/fig3/tables/fig3_gain_cue_direction.parquet.xz",
+      "sha256": "3c571ad4b97bb451d165c00fd464ccb51b0b5de8c8e69a49d3b423d78eeee30d",
+      "bytes": 7894460,
+      "copied": false,
+      "expected_hash_verified": true
+    },
+    {
+      "source_path": "figures/fig4/data/fig4_geometry_paired/algorithm=CORDA/part.parquet.xz",
+      "sha256": "0fd4d308c6d03d5ef144fb5e8c48e497e115af7bc27cdddd1010ddef4e3ba457",
+      "bytes": 29827476,
+      "copied": false,
+      "expected_hash_verified": true
+    },
+    {
+      "source_path": "figures/fig4/data/fig4_geometry_paired/algorithm=GIMME/part.parquet.xz",
+      "sha256": "f492947266440ed378540d6c0d6a40aabb8952fafef5cc728dbc8c9aa70f17ad",
+      "bytes": 24432076,
+      "copied": false,
+      "expected_hash_verified": true
+    },
+    {
+      "source_path": "figures/fig4/data/fig4_geometry_paired/algorithm=RIPTiDe/part.parquet.xz",
+      "sha256": "642fc972db1aa17854fbd631afb909fc07e9be54c7d5fdc51d23fbb60ffc2e42",
+      "bytes": 2326932,
+      "copied": false,
+      "expected_hash_verified": true
+    },
+    {
+      "source_path": "figures/fig4/data/fig4_geometry_paired/algorithm=iMAT/part.parquet.xz",
+      "sha256": "a44c629ffdc5ddcb1956d6132a8ec15d7dbb358e86b7888b512e315a73d4a070",
+      "bytes": 26366892,
+      "copied": false,
+      "expected_hash_verified": true
+    },
+    {
+      "source_path": "figures/fig4/data/fig4_panelC_candidate_groups.parquet.xz",
+      "sha256": "c3ed7de42c909954e54c8394fffa0c789bb08ddd2834a601d78b9c33cbee6f34",
+      "bytes": 27300,
+      "copied": false,
+      "expected_hash_verified": true
+    },
+    {
+      "source_path": "figures/fig4/data/fig4_panelC_candidate_metrics.parquet.xz",
+      "sha256": "1bd919cb7f0d6418e83761b1da4f6d31e0d809c6b9ba39a174d65577d98bbd65",
+      "bytes": 57864,
+      "copied": false,
+      "expected_hash_verified": true
+    },
+    {
+      "source_path": "outputs/dmi_bridge_a23_a1_a2_synthesis_v1/BRIDGEA23_GEOMETRY_COMPARISON.tsv",
+      "sha256": "e9e0561248a231d5f9480365888a76cd8c99f6d06dd04ab4d92141601fa21f2f",
+      "bytes": 4082,
+      "copied": false,
+      "expected_hash_verified": true
+    },
+    {
+      "source_path": "outputs/dmi_bridge_a23_a1_a2_synthesis_v1/BRIDGEA23_UTILITY_COMPARISON.tsv",
+      "sha256": "a59b1870d50efc87c75d3be32c5e890f0b63413e38c87a47adb65dc99f00f354",
+      "bytes": 754,
+      "copied": false,
+      "expected_hash_verified": true
+    },
+    {
+      "source_path": "outputs/dmi_bridge_a23_a1_a2_synthesis_v1/BRIDGEA23_CONTROL_SUMMARY.tsv",
+      "sha256": "e70e9361e68cfd3e8d72eb27095a0781eb564626913951b3bbe5631d83f45cb9",
+      "bytes": 1317,
+      "copied": false,
+      "expected_hash_verified": true
+    },
+    {
+      "source_path": "outputs/dmi_bridge_a23_a1_a2_synthesis_v1/BRIDGEA23_GEOMETRY_UTILITY_PERSISTENCE.tsv",
+      "sha256": "33af7c3b59a32872aee0070af10f35b72f974537bb6e1745dcc2c5fbd42afc03",
+      "bytes": 6732,
+      "copied": false,
+      "expected_hash_verified": true
+    },
+    {
+      "source_path": "outputs/dmi_bridge_m1_manuscript_evidence_v1/BRIDGEM1_DEVELOPMENT_CONFIRMATION.tsv",
+      "sha256": "1ff4c25df5e2a9915e4289e4a8cf3025d21c26a12446634bf420942d44772907",
+      "bytes": 671,
+      "copied": false,
+      "expected_hash_verified": false
+    }
+  ],
+  "membership": [
+    {
+      "source_path": "outputs/secondary_anchor_exploratory/dmi_sa_six_arm_current_20260926/reconstructed/flux_cache.npz",
+      "rows": 4181,
+      "unique_reactions": 4181,
+      "privileged_row_counts": {
+        "EX_glc__D_e": 0,
+        "HEX1": 1,
+        "LDH_L": 1
+      }
+    },
+    {
+      "source_path": "outputs/dmi_bridge_pl1_predictability_landscape_v1_resumable_v1/BRIDGEPL1_REACTION_SUMMARY.tsv",
+      "rows": 4180,
+      "unique_reactions": 4180,
+      "privileged_row_counts": {
+        "EX_glc__D_e": 0,
+        "HEX1": 0,
+        "LDH_L": 1
+      }
+    },
+    {
+      "source_path": "outputs/dmi_bridge_pl2a_sign_only_prepare_v1/BRIDGEPL2A_REACTION_REGISTRY.tsv",
+      "rows": 4180,
+      "unique_reactions": 4180,
+      "privileged_row_counts": {
+        "EX_glc__D_e": 0,
+        "HEX1": 0,
+        "LDH_L": 1
+      }
+    },
+    {
+      "source_path": "outputs/dmi_bridge_pl2c_geometry_utility_development_v1/BRIDGEPL2C_REACTION_SPLIT.tsv",
+      "rows": 4180,
+      "unique_reactions": 4180,
+      "privileged_row_counts": {
+        "EX_glc__D_e": 0,
+        "HEX1": 0,
+        "LDH_L": 1
+      }
+    },
+    {
+      "source_path": "outputs/dmi_bridge_a21_dual_anchor_geometry_v1/BRIDGEA21_REACTION_SUMMARY.tsv.xz",
+      "rows": 4179,
+      "unique_reactions": 4179,
+      "privileged_row_counts": {
+        "EX_glc__D_e": 0,
+        "HEX1": 0,
+        "LDH_L": 0
+      }
+    },
+    {
+      "source_path": "outputs/dmi_bridge_a22_dual_anchor_sign_only_utility_v1/BRIDGEA22_REACTION_REGISTRY.tsv",
+      "rows": 4179,
+      "unique_reactions": 4179,
+      "privileged_row_counts": {
+        "EX_glc__D_e": 0,
+        "HEX1": 0,
+        "LDH_L": 0
+      }
+    },
+    {
+      "source_path": "outputs/dmi_bridge_pl2d_confirmation_v1/BRIDGEPL2D_CONFIRMATION_REACTION.tsv",
+      "rows": 1045,
+      "unique_reactions": 1045,
+      "privileged_row_counts": {
+        "EX_glc__D_e": 0,
+        "HEX1": 0,
+        "LDH_L": 0
+      }
+    },
+    {
+      "source_path": "figures/fig2/figure2_DG_points.csv.xz",
+      "rows": 6620,
+      "unique_reactions": 3329,
+      "privileged_row_counts": {
+        "EX_glc__D_e": 0,
+        "HEX1": 0,
+        "LDH_L": 0
+      }
+    },
+    {
+      "source_path": "figures/fig3/tables/fig3_gain_reaction_evaluation.parquet.xz",
+      "rows": 1320474,
+      "unique_reactions": 3625,
+      "privileged_row_counts": {
+        "EX_glc__D_e": 0,
+        "HEX1": 0,
+        "LDH_L": 0
+      }
+    },
+    {
+      "source_path": "figures/fig3/tables/fig3_gain_cue_direction.parquet.xz",
+      "rows": 2640948,
+      "unique_reactions": 3625,
+      "privileged_row_counts": {
+        "EX_glc__D_e": 0,
+        "HEX1": 0,
+        "LDH_L": 0
+      }
+    },
+    {
+      "source_path": "figures/fig4/data/fig4_geometry_paired/algorithm=CORDA/part.parquet.xz",
+      "rows": 417900,
+      "unique_reactions": 4179,
+      "privileged_row_counts": {
+        "EX_glc__D_e": 0,
+        "HEX1": 0,
+        "LDH_L": 0
+      }
+    },
+    {
+      "source_path": "figures/fig4/data/fig4_geometry_paired/algorithm=GIMME/part.parquet.xz",
+      "rows": 417900,
+      "unique_reactions": 4179,
+      "privileged_row_counts": {
+        "EX_glc__D_e": 0,
+        "HEX1": 0,
+        "LDH_L": 0
+      }
+    },
+    {
+      "source_path": "figures/fig4/data/fig4_geometry_paired/algorithm=RIPTiDe/part.parquet.xz",
+      "rows": 417900,
+      "unique_reactions": 4179,
+      "privileged_row_counts": {
+        "EX_glc__D_e": 0,
+        "HEX1": 0,
+        "LDH_L": 0
+      }
+    },
+    {
+      "source_path": "figures/fig4/data/fig4_geometry_paired/algorithm=iMAT/part.parquet.xz",
+      "rows": 417900,
+      "unique_reactions": 4179,
+      "privileged_row_counts": {
+        "EX_glc__D_e": 0,
+        "HEX1": 0,
+        "LDH_L": 0
+      }
+    },
+    {
+      "source_path": "figures/fig4/data/fig4_panelC_candidate_groups.parquet.xz",
+      "rows": 100,
+      "unique_reactions": 62,
+      "privileged_row_counts": {
+        "EX_glc__D_e": 0,
+        "HEX1": 0,
+        "LDH_L": 0
+      }
+    },
+    {
+      "source_path": "figures/fig4/data/fig4_panelC_candidate_metrics.parquet.xz",
+      "rows": 400,
+      "unique_reactions": 62,
+      "privileged_row_counts": {
+        "EX_glc__D_e": 0,
+        "HEX1": 0,
+        "LDH_L": 0
+      }
+    }
+  ],
+  "policies": {
+    "A_count": 4179,
+    "B_count": 4180,
+    "C_count": 4179,
+    "A_equals_C": true,
+    "B_restores": [
+      "HEX1"
+    ],
+    "EX_present_on_candidate_axis": false
+  },
+  "upstream_axis_selection": {
+    "stage4_count": 4747,
+    "stage4_contains_EX": true,
+    "rna_subsystem_count": 68,
+    "EX_subsystems": [
+      "Exchange/demand reaction"
+    ],
+    "EX_eligible": false,
+    "recovered_axis_exact_match": true
+  },
+  "A23_case_population": {
+    "case_keys": 3493644,
+    "reactions": 4179,
+    "truth_pairs": 836
+  },
+  "fig2_baseline_parity_tolerance": 1e-06,
+  "figure_distribution_arrays_unchanged": true,
+  "figure4_example_candidates_unchanged": true,
+  "original_A1_M1_development_confirmation_records": [
+    {
+      "cohort": "DEVELOPMENT",
+      "status": "FROZEN_VALUES_REPRODUCED",
+      "finite_reactions": 2455,
+      "eta2_usefulness_rho": 0.8570601823118907,
+      "positive_contexts": 16,
+      "context_count": 16,
+      "minimum_finite_context_count": null,
+      "prespecified_reaction_holdout": false,
+      "bootstrap_median": null,
+      "bootstrap_interval_lower": null,
+      "bootstrap_interval_upper": null,
+      "bootstrap_interpretation": null,
+      "source_artifact": "outputs/dmi_bridge_pl2d_hypothesis_freeze_v1/BRIDGEPL2DH_DEVELOPMENT_SNAPSHOT.json"
+    },
+    {
+      "cohort": "CONFIRMATION",
+      "status": "PL2D_CONFIRMED",
+      "finite_reactions": 838,
+      "eta2_usefulness_rho": 0.8351435823183292,
+      "positive_contexts": 16,
+      "context_count": 16,
+      "minimum_finite_context_count": 34.0,
+      "prespecified_reaction_holdout": true,
+      "bootstrap_median": 0.8354193419051692,
+      "bootstrap_interval_lower": 0.8015629118742916,
+      "bootstrap_interval_upper": 0.8631275423376382,
+      "bootstrap_interpretation": "computational reaction-level stability, not biological replication",
+      "source_artifact": "outputs/dmi_bridge_pl2d_confirmation_v1/BRIDGEPL2D_PRIMARY_RESULT.json"
+    }
+  ],
+  "original_A1_population_note": "PL2 population 4180; no EX row; original development result retains LDH_L, unlike matched final Figure2",
+  "source_state_after": {
+    "head": "16379a169f45ec556274953eb66ae12293e1e985",
+    "tracked_status": "",
+    "tracked_diff": "",
+    "index_listing_sha256": "d6e1d9d0b7c8a60ac59b6b3b3b0d45a7412cfea0e4f5d8911b5ecd3014cebcc3"
+  },
+  "sensitivity_table_sha256": "5a04ad560330e9e93d57af692f1e21b88539a3cb4b7e5d778c6eb01355933e9e",
+  "sensitivity_rows": 378,
+  "all_absolute_changes_zero": true
+}
