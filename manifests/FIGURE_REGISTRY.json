@@ -35,7 +35,7 @@
         "2F",
         "2G"
       ],
-      "status": "READY_WHEN_INPUTS_CLEARED",
+      "status": "REPRODUCIBLE",
       "inputs": [
         "data/figure_inputs/fig2/figure2_DG_points.csv.xz"
       ],
@@ -58,7 +58,7 @@
         "3B",
         "3C"
       ],
-      "status": "READY_WHEN_INPUTS_CLEARED",
+      "status": "REPRODUCIBLE",
       "inputs": [
         "data/figure_inputs/fig3/fig3_gain_reaction_evaluation.parquet.xz"
       ],
@@ -93,7 +93,7 @@
       "panels": [
         "4B"
       ],
-      "status": "READY_WHEN_INPUTS_CLEARED",
+      "status": "REPRODUCIBLE",
       "inputs": [
         "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=iMAT/part.parquet.xz",
         "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=GIMME/part.parquet.xz",
@@ -123,7 +123,7 @@
       "panels": [
         "S1 (draft panel letters pending)"
       ],
-      "status": "READY_WHEN_INPUTS_CLEARED",
+      "status": "REPRODUCIBLE",
       "inputs": [
         "data/figure_inputs/s1/candidate_weights.tsv",
         "data/figure_inputs/s1/conditional_stratum_summary.tsv",
@@ -141,7 +141,7 @@
       "panels": [
         "S2"
       ],
-      "status": "READY_WHEN_INPUTS_CLEARED",
+      "status": "REPRODUCIBLE",
       "inputs": [
         "data/figure_inputs/s2/supp_fig2_H_dir_paired_shifts.tsv.gz",
         "data/figure_inputs/s2/supp_fig2_dominant_direction_mass_paired_shifts.tsv.gz",
@@ -155,7 +155,7 @@
       "panels": [
         "S3"
       ],
-      "status": "READY_WHEN_INPUTS_CLEARED",
+      "status": "REPRODUCIBLE",
       "inputs": [
         "data/figure_inputs/s3/supp_fig3_paired_geometry.parquet.xz",
         "data/figure_inputs/s3/supp_fig3_build_manifest.json"

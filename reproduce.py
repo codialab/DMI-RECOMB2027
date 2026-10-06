@@ -166,7 +166,7 @@ def plot(selected: str | None, output_root: str) -> dict:
         if figure["id"] not in names:
             continue
         job = {"id": figure["id"]}
-        if figure["status"] != "READY_WHEN_INPUTS_CLEARED":
+        if figure["status"] not in ["READY_WHEN_INPUTS_CLEARED", "REPRODUCIBLE"]:
             job.update(status="PENDING_AUTHOR_LINEAGE_REVIEW", issue=figure["issue"])
             jobs.append(job)
             continue
