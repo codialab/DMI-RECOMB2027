@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1800"
+   height="950"
+   viewBox="0 0 1800 950"
+   version="1.1"
+   id="svg292"
+   sodipodi:docname="recomb_figure2_ABC_rough_design_b.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview294"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.99368421"
+     inkscape:cx="118.24682"
+     inkscape:cy="397.00742"
+     inkscape:window-width="1536"
+     inkscape:window-height="891"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg292" />
+  <defs
+     id="defs10">
+    <style
+       id="style2">
+      .panel { fill:#ffffff; stroke:#1f2937; stroke-width:2.2; }
+      .header { fill:#e7f1fb; }
+      .subhead { fill:#eaf2fb; }
+      .strong { fill:#eaf4fc; stroke:#334155; stroke-width:1.7; }
+      .weak { fill:#fbf1dc; stroke:#6b5a3d; stroke-width:1.7; }
+      .predict { fill:#e8f4dc; stroke:#4b6240; stroke-width:1.7; }
+      .neutral { fill:#eef2f7; stroke:#64748b; stroke-width:1.5; }
+      .method { fill:#eeeeff; stroke:#6967a8; stroke-width:1.4; }
+      .split { stroke:#94a3b8; stroke-width:1.6; stroke-dasharray:8 8; }
+      .arrow { stroke:#111827; stroke-width:2; fill:none; marker-end:url(#arrow); }
+      .connector { stroke:#111827; stroke-width:1.8; fill:none; }
+      .axis { stroke:#111827; stroke-width:1.8; fill:none; marker-end:url(#arrowSmall); }
+      .zero { stroke:#64748b; stroke-width:1.5; stroke-dasharray:6 6; }
+      .curve { fill:#d9ecfb; stroke:#1769aa; stroke-width:3; }
+      .box { rx:12; ry:12; }
+      .title { font:700 24px Arial, Helvetica, sans-serif; fill:#0f172a; }
+      .panelLetter { font:700 46px Arial, Helvetica, sans-serif; fill:#0f172a; }
+      .label { font:700 19px Arial, Helvetica, sans-serif; fill:#111827; }
+      .body { font:400 18px Arial, Helvetica, sans-serif; fill:#1f2937; }
+      .small { font:400 16px Arial, Helvetica, sans-serif; fill:#334155; }
+      .tiny { font:400 15px Arial, Helvetica, sans-serif; fill:#475569; }
+      .boldSmall { font:700 17px Arial, Helvetica, sans-serif; fill:#1f2937; }
+      .center { text-anchor:middle; dominant-baseline:middle; }
+    </style>
+    <marker
+       id="arrow"
+       markerWidth="10"
+       markerHeight="10"
+       refX="8"
+       refY="4"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#111827"
+         id="path4" />
+    </marker>
+    <marker
+       id="arrowSmall"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="3.5"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M0,0 L7,3.5 L0,7 z"
+         fill="#111827"
+         id="path7" />
+    </marker>
+  </defs>
+  <!-- PANEL A -->
+  <rect
+     x="14.958148"
+     y="19.958149"
+     width="520.08368"
+     height="832.68372"
+     rx="18.002897"
+     class="panel"
+     id="rect12" />
+  <text
+     x="35"
+     y="68"
+     class="panelLetter"
+     id="text14">A</text>
+  <rect
+     x="90"
+     y="34"
+     width="425"
+     height="58"
+     rx="12"
+     class="header"
+     id="rect16" />
+  <text
+     x="302"
+     y="64"
+     class="title center"
+     id="text18">Quantitative and directional information</text>
+  <line
+     x1="275.39999"
+     y1="115"
+     x2="275.39999"
+     y2="799.48334"
+     class="split"
+     id="line20" />
+  <!-- A left -->
+  <rect
+     x="40"
+     y="118"
+     width="215"
+     height="48"
+     class="subhead box"
+     id="rect22" />
+  <text
+     x="148"
+     y="142"
+     class="label center"
+     id="text24"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:19px;line-height:normal;font-family:Arial, Helvetica, sans-serif">1-Strong-Anchor</text>
+  <rect
+     x="38"
+     y="190"
+     width="220"
+     height="175"
+     class="strong box"
+     id="rect26" />
+  <text
+     x="148"
+     y="225"
+     class="label center"
+     id="text28"><tspan
+       style="font-weight:normal"
+       id="tspan643">Strong quantitative</tspan></text>
+  <text
+     x="148"
+     y="250"
+     class="label center"
+     id="text30"><tspan
+       style="font-weight:normal"
+       id="tspan641">constraint</tspan></text>
+  <text
+     x="148"
+     y="279"
+     class="small center"
+     id="text32">glucose uptake</text>
+  <rect
+     x="96"
+     y="305"
+     width="105"
+     height="42"
+     rx="9"
+     fill="#fff"
+     stroke="#64748b"
+     stroke-width="1.3"
+     id="rect34" />
+  <text
+     x="149"
+     y="326"
+     class="body center"
+     id="text38"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">v<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan677">A1</tspan></text>
+  <path
+     d="M148 365 L148 405"
+     class="arrow"
+     id="path40" />
+  <rect
+     x="38"
+     y="420"
+     width="220"
+     height="205"
+     class="weak box"
+     id="rect42" />
+  <text
+     x="148"
+     y="454"
+     class="label center"
+     id="text44">Weak directional</text>
+  <text
+     x="148"
+     y="479"
+     class="label center"
+     id="text46">information</text>
+  <text
+     x="148"
+     y="519"
+     class="small center"
+     id="text48">e.g. coregulation pattern</text>
+  <text
+     x="148"
+     y="543"
+     class="small center"
+     id="text52">weak qualitative cue</text>
+  <rect
+     x="79"
+     y="562"
+     width="138"
+     height="44"
+     rx="9"
+     fill="#fff"
+     stroke="#8b7355"
+     stroke-width="1.2"
+     id="rect54" />
+  <text
+     x="148"
+     y="584"
+     class="body center"
+     id="text58"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">sign(Δv<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan507">B</tspan>)</text>
+  <path
+     d="M148 625 L148 675"
+     class="arrow"
+     id="path60" />
+  <rect
+     x="48"
+     y="690"
+     width="200"
+     height="74"
+     class="predict box"
+     id="rect62" />
+  <text
+     x="148"
+     y="727"
+     class="label center"
+     id="text66"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:19px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Predict v<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan501">B</tspan></text>
+  <!-- vS1 is glucose uptake (EX_glc__D_e); vS2 is LDH_L. HEX1 is the q10/q50/q90 selection coordinate, not a strong anchor. -->
+  <!-- A right -->
+  <rect
+     x="295"
+     y="118"
+     width="215"
+     height="48"
+     class="subhead box"
+     id="rect68" />
+  <text
+     x="403"
+     y="142"
+     class="label center"
+     id="text70"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:19px;line-height:normal;font-family:Arial, Helvetica, sans-serif">2-Strong-Anchors</text>
+  <rect
+     x="293"
+     y="190"
+     width="220"
+     height="175"
+     class="strong box"
+     id="rect72" />
+  <text
+     x="403"
+     y="225"
+     class="label center"
+     id="text74"><tspan
+       style="font-weight:normal"
+       id="tspan639">Strong quantitative</tspan></text>
+  <text
+     x="403"
+     y="250"
+     class="label center"
+     id="text76"><tspan
+       style="font-weight:normal"
+       id="tspan637">constraints</tspan></text>
+  <text
+     x="403"
+     y="279"
+     class="small center"
+     id="text78">glucose uptake + LDH_L</text>
+  <rect
+     x="315"
+     y="305"
+     width="82"
+     height="42"
+     rx="9"
+     fill="#fff"
+     stroke="#64748b"
+     stroke-width="1.3"
+     id="rect80" />
+  <rect
+     x="409"
+     y="305"
+     width="82"
+     height="42"
+     rx="9"
+     fill="#fff"
+     stroke="#64748b"
+     stroke-width="1.3"
+     id="rect82" />
+  <text
+     x="356"
+     y="326"
+     class="body center"
+     id="text86"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">v<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan673">A1</tspan></text>
+  <text
+     x="450"
+     y="326"
+     class="body center"
+     id="text90"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">v<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan669">A2</tspan></text>
+  <path
+     d="M403 365 L403 405"
+     class="arrow"
+     id="path92" />
+  <rect
+     x="293"
+     y="420"
+     width="220"
+     height="205"
+     class="weak box"
+     id="rect94" />
+  <text
+     x="403"
+     y="454"
+     class="label center"
+     id="text96">Weak directional</text>
+  <text
+     x="403"
+     y="479"
+     class="label center"
+     id="text98">information</text>
+  <text
+     x="403"
+     y="519"
+     class="small center"
+     id="text100">e.g. coregulation pattern</text>
+  <text
+     x="403"
+     y="543"
+     class="small center"
+     id="text104">weak qualitative cue</text>
+  <rect
+     x="334"
+     y="562"
+     width="138"
+     height="44"
+     rx="9"
+     fill="#fff"
+     stroke="#8b7355"
+     stroke-width="1.2"
+     id="rect106" />
+  <text
+     x="403"
+     y="584"
+     class="body center"
+     id="text110"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">sign(Δv<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan505">B</tspan>)</text>
+  <path
+     d="M403 625 L403 675"
+     class="arrow"
+     id="path112" />
+  <rect
+     x="303"
+     y="690"
+     width="200"
+     height="74"
+     class="predict box"
+     id="rect114" />
+  <text
+     x="403"
+     y="727"
+     class="label center"
+     id="text118"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:19px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Predict v<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan503">B</tspan></text>
+  <!-- PANEL B -->
+  <rect
+     x="549.95813"
+     y="19.958126"
+     width="710.08374"
+     height="832.68378"
+     rx="18.002123"
+     class="panel"
+     id="rect120" />
+  <text
+     x="570"
+     y="68"
+     class="panelLetter"
+     id="text122">B</text>
+  <rect
+     x="625"
+     y="34"
+     width="615"
+     height="58"
+     rx="12"
+     class="header"
+     id="rect124" />
+  <text
+     x="932"
+     y="64"
+     class="title center"
+     id="text126">When is directional information useful?</text>
+  <line
+     x1="902.90002"
+     y1="112"
+     x2="902.90002"
+     y2="759"
+     class="split"
+     id="line128" />
+  <!-- B left header -->
+  <rect
+     x="590"
+     y="120"
+     width="280"
+     height="82"
+     class="neutral box"
+     id="rect130" />
+  <text
+     x="730"
+     y="149"
+     class="label center"
+     id="text134">mean Δv<tspan
+   baseline-shift="sub"
+   font-size="13"
+   id="tspan132">W</tspan> close to 0</text>
+  <text
+     x="730"
+     y="178"
+     class="body center"
+     id="text136">(weak directional bias)</text>
+  <!-- B left axes -->
+  <path
+     d="M615 430 L615 250"
+     class="axis"
+     id="path138" />
+  <path
+     d="M615 430 L850 430"
+     class="axis"
+     id="path140" />
+  <line
+     x1="730"
+     y1="250"
+     x2="730"
+     y2="430"
+     class="zero"
+     id="line142" />
+  <text
+     x="730"
+     y="458"
+     class="body center"
+     id="text144">0</text>
+  <text
+     x="842"
+     y="458"
+     class="body center"
+     id="text148"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Δv<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan497">B</tspan></text>
+  <text
+     x="575"
+     y="345"
+     class="body"
+     transform="rotate(-90 575 345)"
+     text-anchor="middle"
+     id="text150">Probability density</text>
+  <!-- symmetric gaussian -->
+  <path
+     class="curve"
+     d="M615 430       C645 430, 662 414, 678 377       C693 342, 707 304, 730 304       C753 304, 767 342, 782 377       C798 414, 815 430, 850 430       L850 430 L615 430 Z"
+     id="path152" />
+  <rect
+     x="590"
+     y="505"
+     width="280"
+     height="105"
+     class="neutral box"
+     id="rect154" />
+  <text
+     x="730"
+     y="536"
+     class="label center"
+     id="text156">LOW</text>
+  <text
+     x="730"
+     y="567"
+     class="body center"
+     id="text158">fraction of magnitude</text>
+  <text
+     x="730"
+     y="592"
+     class="body center"
+     id="text160">variance explained by direction</text>
+  <path
+     d="M730 610 L730 655"
+     class="arrow"
+     id="path162" />
+  <rect
+     x="600"
+     y="670"
+     width="260"
+     height="62"
+     class="strong box"
+     id="rect164" />
+  <text
+     x="730"
+     y="701"
+     class="label center"
+     id="text166">less <tspan
+   style="font-weight:normal"
+   id="tspan809">predictive</tspan></text>
+  <!-- B right header -->
+  <rect
+     x="940"
+     y="120"
+     width="280"
+     height="82"
+     class="neutral box"
+     id="rect168" />
+  <text
+     x="1080"
+     y="161"
+     class="label center"
+     id="text170"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:19px;line-height:normal;font-family:Arial, Helvetica, sans-serif">strong directional bias</text>
+  <text
+     x="1080"
+     y="178"
+     class="body center"
+     id="text172"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif" />
+  <!-- B right axes -->
+  <path
+     d="M965 430 L965 250"
+     class="axis"
+     id="path174" />
+  <path
+     d="M965 430 L1200 430"
+     class="axis"
+     id="path176" />
+  <line
+     x1="1065"
+     y1="250"
+     x2="1065"
+     y2="430"
+     class="zero"
+     id="line178" />
+  <text
+     x="1065"
+     y="458"
+     class="body center"
+     id="text180">0</text>
+  <text
+     x="1192"
+     y="458"
+     class="body center"
+     id="text184"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Δv<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan499">B</tspan></text>
+  <text
+     x="925"
+     y="345"
+     class="body"
+     transform="rotate(-90 925 345)"
+     text-anchor="middle"
+     id="text186">Probability density</text>
+  <!-- right-shifted gaussian -->
+  <path
+     class="curve"
+     d="M965 430       C1010 430, 1030 422, 1050 398       C1072 370, 1086 330, 1105 295       C1120 268, 1145 268, 1160 295       C1178 328, 1188 384, 1200 430       L1200 430 L965 430 Z"
+     id="path188" />
+  <rect
+     x="940"
+     y="505"
+     width="280"
+     height="105"
+     class="neutral box"
+     id="rect190" />
+  <text
+     x="1080"
+     y="536"
+     class="label center"
+     id="text192">HIGH</text>
+  <text
+     x="1080"
+     y="567"
+     class="body center"
+     id="text194">fraction of magnitude</text>
+  <text
+     x="1080"
+     y="592"
+     class="body center"
+     id="text196">variance explained by direction</text>
+  <path
+     d="M1080 610 L1080 655"
+     class="arrow"
+     id="path198" />
+  <rect
+     x="950"
+     y="670"
+     width="260"
+     height="62"
+     class="strong box"
+     id="rect200" />
+  <text
+     x="1080"
+     y="701"
+     class="label center"
+     id="text202">more <tspan
+   style="font-weight:normal"
+   id="tspan811">predictive</tspan></text>
+  <!-- PANEL C -->
+  <rect
+     x="1274.9581"
+     y="19.958149"
+     width="510.08371"
+     height="832.68372"
+     rx="18.002954"
+     class="panel"
+     id="rect204" />
+  <text
+     x="1295"
+     y="68"
+     class="panelLetter"
+     id="text206">C</text>
+  <rect
+     x="1350"
+     y="34"
+     width="415"
+     height="78"
+     rx="12"
+     class="header"
+     id="rect208" />
+  <text
+     x="1557"
+     y="61"
+     class="title center"
+     id="text210">Tested across transcriptome-</text>
+  <text
+     x="1557"
+     y="88"
+     class="title center"
+     id="text212">contextualized GEMs</text>
+  <rect
+     x="1395"
+     y="135"
+     width="325"
+     height="58"
+     class="neutral box"
+     id="rect214" />
+  <text
+     x="1557"
+     y="164"
+     class="label center"
+     id="text216">Same transcriptomes</text>
+  <path
+     d="M1485 193 L1485 226"
+     class="arrow"
+     id="path218" />
+  <path
+     d="M1630 193 L1630 226"
+     class="arrow"
+     id="path220" />
+  <rect
+     x="1577.85"
+     y="229.14999"
+     width="155"
+     height="62"
+     class="strong box"
+     id="rect224" />
+  <rect
+     x="1383.4238"
+     y="228.27579"
+     width="155"
+     height="62"
+     class="strong box"
+     id="rect224-3"
+     style="fill:#eaf4fc;stroke:#334155;stroke-width:1.7" />
+  <text
+     x="1450.8909"
+     y="257.73242"
+     class="label center"
+     id="text226"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:19px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Tumor 1</text>
+  <text
+     x="1655.6237"
+     y="257.92725"
+     class="label center"
+     id="text228"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:19px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Tumor 2</text>
+  <!-- both tumors converge to shared each-tumor × each-method junction -->
+  <path
+     d="m 1445,292 v 28 h 73"
+     class="connector"
+     id="path230" />
+  <path
+     d="m 1642,292 v 28 h -124"
+     class="connector"
+     id="path232" />
+  <path
+     d="m 1558,320 v 24"
+     class="arrow"
+     id="path234" />
+  <text
+     x="1558"
+     y="357"
+     class="boldSmall center"
+     id="text236"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:17px;line-height:normal;font-family:Arial, Helvetica, sans-serif">each tumor × each method</text>
+  <!-- method group -->
+  <g
+     id="g1437"
+     transform="translate(0,-24)">
+    <rect
+       x="1310"
+       y="392"
+       width="440"
+       height="105"
+       rx="15"
+       fill="none"
+       stroke="#64748b"
+       stroke-width="1.6"
+       stroke-dasharray="8, 6"
+       id="rect238" />
+    <rect
+       x="1323"
+       y="420"
+       width="95"
+       height="52"
+       class="method box"
+       id="rect240" />
+    <rect
+       x="1428"
+       y="420"
+       width="95"
+       height="52"
+       class="method box"
+       id="rect242" />
+    <rect
+       x="1533"
+       y="420"
+       width="95"
+       height="52"
+       class="method box"
+       id="rect244" />
+    <rect
+       x="1638"
+       y="420"
+       width="95"
+       height="52"
+       class="method box"
+       id="rect246" />
+    <text
+       x="1370"
+       y="446"
+       class="label center"
+       id="text248"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:19px;line-height:normal;font-family:Arial, Helvetica, sans-serif">iMAT</text>
+    <text
+       x="1475"
+       y="446"
+       class="label center"
+       id="text250"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:19px;line-height:normal;font-family:Arial, Helvetica, sans-serif">GIMME</text>
+    <text
+       x="1580"
+       y="446"
+       class="label center"
+       id="text252"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:19px;line-height:normal;font-family:Arial, Helvetica, sans-serif">CORDA</text>
+    <text
+       x="1685"
+       y="446"
+       class="label center"
+       id="text254"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:19px;line-height:normal;font-family:Arial, Helvetica, sans-serif">RIPTiDe</text>
+  </g>
+  <path
+     d="m 1558,473 v 38"
+     class="arrow"
+     id="path256" />
+  <g
+     id="g1477"
+     transform="translate(0,-34)">
+    <rect
+       x="1390"
+       y="548"
+       width="335"
+       height="60"
+       class="strong box"
+       id="rect258" />
+    <text
+       x="1557"
+       y="578"
+       class="label center"
+       id="text260"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:19px;line-height:normal;font-family:Arial, Helvetica, sans-serif">reaction-level analysis</text>
+  </g>
+  <!-- split to development / held-out -->
+  <path
+     d="m 1557,576 v 28"
+     class="connector"
+     id="path262" />
+  <path
+     d="m 1557,604 h -100 v 29"
+     class="arrow"
+     id="path264" />
+  <path
+     d="m 1557,604 h 103 v 29"
+     class="arrow"
+     id="path266" />
+  <rect
+     x="1335"
+     y="636"
+     width="245"
+     height="82"
+     class="predict box"
+     id="rect268" />
+  <rect
+     x="1592"
+     y="636"
+     width="178"
+     height="82"
+     class="predict box"
+     id="rect270" />
+  <text
+     x="1457"
+     y="664"
+     class="label center"
+     id="text272"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:19px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Development set</text>
+  <text
+     x="1457"
+     y="693"
+     class="body center"
+     id="text274"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">(3,135 reactions)</text>
+  <text
+     x="1681"
+     y="664"
+     class="label center"
+     id="text276"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:19px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Held-out set</text>
+  <text
+     x="1681"
+     y="693"
+     class="body center"
+     id="text278"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">(1,045 reactions)</text>
+  <!-- merge to evaluation settings -->
+  <path
+     d="m 1457,718 v 30 h 101"
+     class="connector"
+     id="path280" />
+  <path
+     d="m 1681,718 v 30 h -123"
+     class="connector"
+     id="path282" />
+  <path
+     d="m 1558,748 v 22"
+     class="arrow"
+     id="path284" />
+  <rect
+     x="1300"
+     y="773"
+     width="475"
+     height="70"
+     class="strong box"
+     id="rect286" />
+  <text
+     x="1557"
+     y="800"
+     class="label center"
+     id="text288"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:19px;line-height:normal;font-family:Arial, Helvetica, sans-serif">evaluated under 1-strong and 2-strong</text>
+  <text
+     x="1557"
+     y="826"
+     class="label center"
+     id="text290"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:19px;line-height:normal;font-family:Arial, Helvetica, sans-serif">anchor settings</text>
+</svg>

@@ -1,0 +1,106 @@
+{
+  "duplicate_pair_keys": 0,
+  "evaluations": 400,
+  "matched_a1_rows": 1671600,
+  "matched_a2_rows": 1671600,
+  "metadata_keys_retained": [
+    "algorithm",
+    "rna_context_key",
+    "ct2a_mouse",
+    "gl261_mouse"
+  ],
+  "methods": [
+    "CORDA",
+    "GIMME",
+    "iMAT",
+    "RIPTiDe"
+  ],
+  "metric_checks": {
+    "H_dir": {
+      "a1_median": 0.0,
+      "a1_range": [
+        -2.021137094636221e-16,
+        0.7589448194734478
+      ],
+      "a2_median": 0.0,
+      "a2_range": [
+        -2.021137094636221e-16,
+        0.8451232817798154
+      ],
+      "excluded_nonfinite_pairs": 0,
+      "finite_a1": 1671600,
+      "finite_a2": 1671600,
+      "finite_pairs": 1671600,
+      "fraction_a2_above_a1": 0.1718521177315147,
+      "fraction_a2_below_a1": 0.039443048576214404,
+      "fraction_a2_equal_a1_within_1e-12": 0.7887048336922708,
+      "input_rows": 1671600,
+      "outside_valid_range_beyond_1e-12": 0,
+      "values_outside_exact_unit_interval_due_to_roundoff": 8445
+    },
+    "dominant_direction_mass": {
+      "a1_median": 1.0,
+      "a1_range": [
+        0.5000000000009516,
+        1.0000000000000002
+      ],
+      "a2_median": 1.0,
+      "a2_range": [
+        0.5000153140473202,
+        1.0000000000000002
+      ],
+      "excluded_nonfinite_pairs": 0,
+      "finite_a1": 1671600,
+      "finite_a2": 1671600,
+      "finite_pairs": 1671600,
+      "fraction_a2_above_a1": 0.039095477386934675,
+      "fraction_a2_below_a1": 0.16944843263938741,
+      "fraction_a2_equal_a1_within_1e-12": 0.7914560899736779,
+      "input_rows": 1671600,
+      "outside_valid_range_beyond_1e-12": 0,
+      "values_outside_exact_unit_interval_due_to_roundoff": 156943
+    }
+  },
+  "output_columns": [
+    "evaluation_id",
+    "reaction_id",
+    "algorithm",
+    "rna_context_key",
+    "ct2a_mouse",
+    "gl261_mouse",
+    "A1_H_dir",
+    "A2_H_dir",
+    "A1_dominant_direction_mass",
+    "A2_dominant_direction_mass"
+  ],
+  "output_rows": 1671600,
+  "output_sha256": "927e489b4e78fc84ccbaedd46a148532afbc633181cdb211f54e727f439e3f58",
+  "output_table": "data/figure_inputs/s3/supp_fig3_paired_geometry.parquet.xz",
+  "pairing_keys": [
+    "evaluation_id",
+    "reaction_id"
+  ],
+  "pairwise_direction_tolerance": 1e-12,
+  "per_method_rows": {
+    "CORDA": 417900,
+    "GIMME": 417900,
+    "RIPTiDe": 417900,
+    "iMAT": 417900
+  },
+  "reactions": 4179,
+  "source_geometry_rows": 1671600,
+  "source_inputs": {
+    "figures/fig4/data/fig4_geometry_paired/algorithm=CORDA/part.parquet.xz": "0fd4d308c6d03d5ef144fb5e8c48e497e115af7bc27cdddd1010ddef4e3ba457",
+    "figures/fig4/data/fig4_geometry_paired/algorithm=GIMME/part.parquet.xz": "f492947266440ed378540d6c0d6a40aabb8952fafef5cc728dbc8c9aa70f17ad",
+    "figures/fig4/data/fig4_geometry_paired/algorithm=RIPTiDe/part.parquet.xz": "642fc972db1aa17854fbd631afb909fc07e9be54c7d5fdc51d23fbb60ffc2e42",
+    "figures/fig4/data/fig4_geometry_paired/algorithm=iMAT/part.parquet.xz": "a44c629ffdc5ddcb1956d6132a8ec15d7dbb358e86b7888b512e315a73d4a070"
+  },
+  "source_manifest": "figures/fig4/data/fig4_data_manifest.json",
+  "source_manifest_status": "PASS",
+  "source_stage": "FIG4-DATA-B",
+  "source_stage_version": "1.1.0",
+  "source_unique_pair_keys": 1671600,
+  "status": "PASS",
+  "unmatched_a1_rows": 0,
+  "unmatched_a2_rows": 0
+}

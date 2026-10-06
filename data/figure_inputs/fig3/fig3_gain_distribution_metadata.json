@@ -1,0 +1,207 @@
+{
+  "aggregation": "arithmetic mean across valid distinct matched synthetic truths within each reaction x evaluation",
+  "aggregation_unit": "anchor_setting x reaction_id x evaluation_id",
+  "anchor_qc": {
+    "A1": {
+      "cue_endpoint_rows": 1320474,
+      "directional_advantage_identity_max_abs_error": 0.0,
+      "excluded_truth_ties": 2053331,
+      "matched_case_rows_including_ties": 3493644,
+      "matched_truth_pairs": 836,
+      "missing_aggregate_values": 0,
+      "reaction_evaluation_rows": 660237,
+      "rows_outside_common_population_filtered": 836,
+      "source_manifest": "outputs/dmi_bridge_pl2b_sign_only_utility_v1/BRIDGEPL2B_MANIFEST.json",
+      "valid_synthetic_truth_case_rows": 1440313
+    },
+    "A2-L": {
+      "cue_endpoint_rows": 1320474,
+      "directional_advantage_identity_max_abs_error": 0.0,
+      "excluded_truth_ties": 2053331,
+      "matched_case_rows_including_ties": 3493644,
+      "matched_truth_pairs": 836,
+      "missing_aggregate_values": 0,
+      "reaction_evaluation_rows": 660237,
+      "rows_outside_common_population_filtered": 0,
+      "source_manifest": "outputs/dmi_bridge_a22_dual_anchor_sign_only_utility_v1/BRIDGEA22_MANIFEST.json",
+      "valid_synthetic_truth_case_rows": 1440313
+    }
+  },
+  "compression": {
+    "check": "CRC64",
+    "format": "XZ",
+    "method": "XZ wrapper around Parquet bytes",
+    "parquet_engine": "pyarrow",
+    "parquet_internal_codec": "zstd",
+    "preset": 9
+  },
+  "cue_direction_definition": "correct or wrong endpoint direction; aggregated into a separate long table",
+  "directional_advantage_aggregation_audit": [
+    {
+      "anchor_setting": "A1",
+      "difference_between_aggregation_means": -0.008960173517732525,
+      "display_label": "A1",
+      "reaction_evaluation_directional_advantage_mean": 0.024133718031918716,
+      "truth_level_correct_mean_minus_wrong_mean": 0.03309389154965124,
+      "truth_level_directional_advantage_calculated": false
+    },
+    {
+      "anchor_setting": "A2-L",
+      "difference_between_aggregation_means": -0.0016294314557105116,
+      "display_label": "A2",
+      "reaction_evaluation_directional_advantage_mean": 0.052905717474604916,
+      "truth_level_correct_mean_minus_wrong_mean": 0.05453514893031543,
+      "truth_level_directional_advantage_calculated": false
+    }
+  ],
+  "directional_advantage_definition": "correct_gain_mean - wrong_gain_mean, calculated only after each gain is averaged within reaction_id x evaluation_id; identity checked within 1e-12",
+  "exclusion": "TRUTH_TIE cases excluded from gains; A1-non-evaluable truth pairs excluded by the frozen matched registry; the extra A1 LDH_L target is excluded to match the A2-L reaction universe",
+  "file_sizes": {
+    "fig3_directional_advantage_summary.parquet.xz": {
+      "after_xz_bytes": 2324,
+      "before_xz_bytes": 9087
+    },
+    "fig3_gain_cue_direction.parquet.xz": {
+      "after_xz_bytes": 7894460,
+      "before_xz_bytes": 8952398
+    },
+    "fig3_gain_definition_audit.parquet.xz": {
+      "after_xz_bytes": 2776,
+      "before_xz_bytes": 8860
+    },
+    "fig3_gain_reaction_evaluation.parquet.xz": {
+      "after_xz_bytes": 16541408,
+      "before_xz_bytes": 16983833
+    },
+    "fig3_gain_summary.parquet.xz": {
+      "after_xz_bytes": 2496,
+      "before_xz_bytes": 9023
+    }
+  },
+  "g_info_definition": "correct_absolute_error_gain - random_sign_expected_gain; verified equal to 0.5 * (correct_gain - wrong_gain)",
+  "gain_definition_audit": {
+    "gain_measures": {
+      "correct_cue_gain": "correct-direction absolute-error gain",
+      "g_info": "correct gain minus random-sign expected gain",
+      "wrong_cue_gain": "wrong-direction absolute-error gain"
+    },
+    "quantile_probabilities": [
+      0.05,
+      0.25,
+      0.5,
+      0.75,
+      0.95
+    ],
+    "quantiles_are_descriptive_not_confidence_intervals": true,
+    "reaction_evaluation_level": "one aggregated gain per observed reaction x evaluation",
+    "truth_level": "valid non-tie synthetic truth gain values"
+  },
+  "inclusion": "836 distinct truth pairs admitted by frozen A1 evaluation QC, joined by exact truth_pair_id; common 4,179 reaction universe",
+  "missingness": {
+    "fig3_directional_advantage_summary.parquet.xz": {
+      "anchor_setting": 0,
+      "display_label": 0,
+      "mean": 0,
+      "median": 0,
+      "missing_count": 0,
+      "n_evaluations": 0,
+      "n_observations": 0,
+      "n_reactions": 0,
+      "negative_fraction": 0,
+      "positive_fraction": 0,
+      "q05": 0,
+      "q95": 0,
+      "standard_deviation": 0,
+      "zero_fraction": 0
+    },
+    "fig3_gain_cue_direction.parquet.xz": {
+      "anchor_setting": 0,
+      "cue_direction": 0,
+      "evaluation_id": 0,
+      "gain_mean": 0,
+      "reaction_id": 0
+    },
+    "fig3_gain_definition_audit.parquet.xz": {
+      "aggregation_definition": 0,
+      "anchor_setting": 0,
+      "display_label": 0,
+      "gain_measure": 0,
+      "mean_gain": 0,
+      "median_gain": 0,
+      "n_observations": 0,
+      "q05": 0,
+      "q25": 0,
+      "q50": 0,
+      "q75": 0,
+      "q95": 0,
+      "standard_deviation": 0
+    },
+    "fig3_gain_reaction_evaluation.parquet.xz": {
+      "anchor_setting": 0,
+      "correct_gain_mean": 0,
+      "directional_advantage": 0,
+      "evaluation_id": 0,
+      "g_info_mean": 0,
+      "n_truth_direction_negative": 0,
+      "n_truth_direction_positive": 0,
+      "n_valid_synthetic_truths": 0,
+      "reaction_id": 0,
+      "wrong_gain_mean": 0
+    },
+    "fig3_gain_summary.parquet.xz": {
+      "anchor_setting": 0,
+      "cue_direction": 0,
+      "display_label": 0,
+      "gain_measure": 0,
+      "mean_gain": 0,
+      "median_gain": 0,
+      "missing_gain_count": 0,
+      "n_reaction_evaluations": 0,
+      "q05": 0,
+      "q25": 0,
+      "q50": 0,
+      "q75": 0,
+      "q95": 0,
+      "sd_gain": 0
+    }
+  },
+  "output_sha256": {
+    "fig3_directional_advantage_summary.parquet.xz": "d2ec6a86e344877f878b63e9ad03c5de0823f821b7527b8e4191f1ab5d39afab",
+    "fig3_gain_cue_direction.parquet.xz": "3c571ad4b97bb451d165c00fd464ccb51b0b5de8c8e69a49d3b423d78eeee30d",
+    "fig3_gain_definition_audit.parquet.xz": "32370fc711e923d1476464e7e16e62b8f1f44cee7e1ae0de967cf695de0f4533",
+    "fig3_gain_reaction_evaluation.parquet.xz": "7a83a31d29317f7b0d906fff73691428d98427d93d2fdebd4ef91294f8a46676",
+    "fig3_gain_summary.parquet.xz": "0529bab84c6ad4cfc4a3c9e0d07ad418afcab3be52d2254183400dcd679af482"
+  },
+  "outputs": [
+    "fig3_gain_reaction_evaluation.parquet.xz",
+    "fig3_gain_cue_direction.parquet.xz",
+    "fig3_gain_summary.parquet.xz",
+    "fig3_gain_definition_audit.parquet.xz",
+    "fig3_directional_advantage_summary.parquet.xz"
+  ],
+  "row_counts": {
+    "fig3_directional_advantage_summary.parquet.xz": 2,
+    "fig3_gain_cue_direction.parquet.xz": 2640948,
+    "fig3_gain_definition_audit.parquet.xz": 12,
+    "fig3_gain_reaction_evaluation.parquet.xz": 1320474,
+    "fig3_gain_summary.parquet.xz": 6
+  },
+  "schema": "recomb.fig3.gain_distribution_metadata.v2",
+  "source_manifest_sha256": {
+    "outputs/dmi_bridge_a22_dual_anchor_sign_only_utility_v1/BRIDGEA22_MANIFEST.json": "15b237151005538e5077a352868f873ef00466f4f5ea49307b781a8a8cd0e7cb",
+    "outputs/dmi_bridge_a23_a1_a2_synthesis_v1/BRIDGEA23_MANIFEST.json": "b8e57074f3df23fe7708145bc01f51a19f946545b1c16e61628c2678dbcabd18",
+    "outputs/dmi_bridge_pl2b_sign_only_utility_v1/BRIDGEPL2B_MANIFEST.json": "7d9ca97a3f4ea5aa8b0b983e09ee83fc3c82f326d1b1cbf9c6137cfadf25539d"
+  },
+  "summary_statistics": {
+    "quantile_interpolation": "linear",
+    "standard_deviation_ddof": 1
+  },
+  "truth_direction_preservation": "positive and negative direction counts among valid truths are retained in the wide table; truth ties are separately counted in QC",
+  "uncompressed_logical_parquet_sha256": {
+    "fig3_directional_advantage_summary.parquet.xz": "ab05521138c3291b3f95f8afc7e033db2b7d6904f6029d7eb90203e9bc0b7217",
+    "fig3_gain_cue_direction.parquet.xz": "5e1577753f8b72612a63caeafbf45ef2a256522f85057fc07c042f8f84a8162a",
+    "fig3_gain_definition_audit.parquet.xz": "99288e35a1d1d37828864ffa671e904104374d4fd405d89091654a4651808fa3",
+    "fig3_gain_reaction_evaluation.parquet.xz": "2069a8c6ba1d9086ae74a562f10c208d5e1a6924aa30a948129b32ecc129831c",
+    "fig3_gain_summary.parquet.xz": "5022e61fb8c838a6a5c9b0ac745df588c4993d5d4278f3a44af6dc3247861a1b"
+  }
+}

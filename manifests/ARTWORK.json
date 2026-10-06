@@ -1,0 +1,295 @@
+{
+  "schema": "recomb.artwork.v1",
+  "source_repository": "project_MRI_brain_tumor",
+  "source_commit": "225279129",
+  "rights_basis": "Project-generated artwork and editable components authorized by release task; source SVG identities recorded. Current assembly status remains distinct from redistribution status.",
+  "artifacts": [
+    {
+      "path": "figures/released/fig1/recomb_figure1_editable_2.svg",
+      "sha256": "1fd21447ab4e8bfe99e6d86be15a66862196580639f57381318c0ae67dac1478",
+      "bytes": 68913,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/fig1/recomb_figure_1.png",
+      "sha256": "92c585861e7e0d251507d61ee836c90158ba9db64cec61a5caec8256e9899430",
+      "bytes": 1545469,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/fig2/figure2_DG_usefulness_scatter.png",
+      "sha256": "17938e7f72d7f1b43075a8dc322a659944b51179f93bef59edf3fc2564b8c5f3",
+      "bytes": 447723,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/fig2/figure2_DG_usefulness_scatter.svg",
+      "sha256": "13eb4333d0c29da9f46b9cda589fcb64e571d06ebe4b778e9a0f5e4acff4b48a",
+      "bytes": 797348,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/fig2/recomb_figure2_ABCDEFG.png",
+      "sha256": "ff5ac9c4463d0fb6e4ee5281ff22eb7cab668cc71b5f271329cfbcb68053096a",
+      "bytes": 363059,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/fig2/recomb_figure2_ABCDEFG.svg",
+      "sha256": "ae080f78d710ab26c0988245ca1c26d3b7d6b00ba43823b2cbd259154309966f",
+      "bytes": 1530231,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/fig2/recomb_figure2_ABC_rough_design_b.svg",
+      "sha256": "d80ae7550ec27e281594c6d9d83dc7ac1e333246f433535d2737f34b923a93a7",
+      "bytes": 23373,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/fig3/fig3ABCD.png",
+      "sha256": "cb00cc7d65ff5cd8027fffc5d9caff803693d97f8f325f09c5955471edd977eb",
+      "bytes": 1773355,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "COMPOSITE_IDENTITY_REQUIRES_MANUSCRIPT_ASSEMBLY_REVIEW"
+    },
+    {
+      "path": "figures/released/fig3/figure3_panelA_directional_information_gain_v2b.svg",
+      "sha256": "a6fb5feb72ed795e44f168f7fa64ecac489632174f78d39e921926638bb90aa9",
+      "bytes": 12386,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/fig3/figure3_panelD_directional_specificity_v2.svg",
+      "sha256": "f34fe493ad8a2444795877a29c7940a76e3be1f35d69afaa0be0c79344eae365",
+      "bytes": 4773,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "SUPERSEDED_PROVENANCE_ONLY"
+    },
+    {
+      "path": "figures/released/fig4/figure4_combined.png",
+      "sha256": "fc3bc04b9e7e7aacbe1601eb758efda34bcb78dc3d842a39c52f65c933af6b54",
+      "bytes": 212556,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/fig4/figure4_combined.svg",
+      "sha256": "1fe8ef81cd6d470c51186025f51c245dd64da849c1ca170d4b9a38209a8a8164",
+      "bytes": 311006,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/fig4/figure4_panelA_draft_b.svg",
+      "sha256": "b6411f4ed25205bf543ce8da0d9d446b9823b930e1ddf5b3bc4ddf433ab372a8",
+      "bytes": 6891,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig1/README.md",
+      "sha256": "d0ed4d9445295ca9e8c1372d481274f777fb8cfcf359412ec746fb5f0aba4082",
+      "bytes": 2806,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig1/outputs/supp_fig1.png",
+      "sha256": "ab5ddcf4b50bbc73bf2cfa48ae4934672bd9d83939b14f1b812db9e3795f16dd",
+      "bytes": 2029522,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig1/outputs/supp_fig1.svg",
+      "sha256": "859a5acce8bd455abc838cd9042b75db31d242fdd252eb61466daf6f364567a9",
+      "bytes": 786081,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig1/validation_report.md",
+      "sha256": "18f4e21530578f95320b383a147bf4bed8bef8cd52d0326faebd30ed97434527",
+      "bytes": 4754,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig2/README.md",
+      "sha256": "af913746bab97085f816c2b1ec632cf65ba513a1a6e0bb6807e92c3b921dfdc6",
+      "bytes": 3196,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig2/outputs/supp_fig2.png",
+      "sha256": "a6e5e7ed192331681e3227782db086ae65f15c57f1a9e73652eb311b0212596f",
+      "bytes": 314466,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig2/outputs/supp_fig2.svg",
+      "sha256": "e43c8ec0ef54e60009c79bfdc8b86d2776051a23834a2ca4d5e8324fca694af6",
+      "bytes": 200842,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig2/validation_report.md",
+      "sha256": "647442ac41108cc4fb95e275c54ed6b84cece9788add925e59f586ab6b7b8abe",
+      "bytes": 5047,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig3/README.md",
+      "sha256": "ce0869e0ea6cd8b7c56884c1f7740ffd3d0475fbf6d5b5583fa4f6d34bc7a9f0",
+      "bytes": 2733,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig3/outputs/supp_fig3.png",
+      "sha256": "eb4b618cab77512fce38f9cb7ec0ea0393a846f10f38384d92427e839dd01738",
+      "bytes": 611916,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig3/outputs/supp_fig3.svg",
+      "sha256": "d77e8d8a45e0b99ce3155c6d09ad4682ad4b47f0d21bcffd5aea0791cdde9eae",
+      "bytes": 416914,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig3/validation_report.md",
+      "sha256": "7a2f6f56525ed331463632b8f596f0622d327eb3c942a47085c33152147f7e8c",
+      "bytes": 5868,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig4/README.md",
+      "sha256": "f6cf17602c622b90f18120937d4bc137fd08d2e2f1ed285500e8a162a5f8fbd6",
+      "bytes": 2383,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig4/outputs/supp_fig4.png",
+      "sha256": "a015b565cb46164643d3b79a30e01711a7636ed6ffc7bc1027c1afc71d61b882",
+      "bytes": 403960,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig4/outputs/supp_fig4.svg",
+      "sha256": "76c27f229e5759240fb0562c31cd317dbdcf581430646bdc55222047585894ab",
+      "bytes": 124724,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig4/validation_report.md",
+      "sha256": "8a6a3925c51623c36c8b2dc4939bac8d1b3a4de2ae3e47e08922a095102aacb9",
+      "bytes": 4236,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig5/README.md",
+      "sha256": "a80b71c0fd03d4c16740c71129788ba508a8ae477949ce8ce8fcc5911ab4803d",
+      "bytes": 4500,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig5/outputs/supp_fig5.png",
+      "sha256": "3bf0795dc6abfda11c4e8e21f7edb23dc97bed43b419ea55a0f2407abfe6b348",
+      "bytes": 438224,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig5/outputs/supp_fig5.svg",
+      "sha256": "3fecaad0121610d5a2c5e71ea6d6aaa6bf4ad37258f2f76f9fc8cf0b2bc77959",
+      "bytes": 121996,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig5/validation_report.md",
+      "sha256": "5c5237fbb2522f5a8a21bc66b6671eca74b0fe38d917c2cd67d5529f2ca8d3b4",
+      "bytes": 6814,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig6/README.md",
+      "sha256": "ee09ac3d705186271a5f03ba9da1d69b6376b8d28c8d6f0818d93f6e354d5409",
+      "bytes": 3261,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig6/outputs/supp_fig6.png",
+      "sha256": "9451b294d676648e6b972bf047a7406633b49c11bb54c96a84b451f2c45c5d0c",
+      "bytes": 316840,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig6/outputs/supp_fig6.svg",
+      "sha256": "ad8e85756a5e2df9e0906f7d03467a1741b5ffa24fdbee73555dd6b0cefafd5c",
+      "bytes": 133330,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig6/validation_report.md",
+      "sha256": "a3520903714c5d7e13be58406da3d885c63af7318fc9526d20757f00dc3d334c",
+      "bytes": 3301,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig7/README.md",
+      "sha256": "962008a129b0546f8b8a09b32619356f96870a18ade97b6fdc57e8e96b3018b6",
+      "bytes": 2924,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig7/outputs/supp_fig7.png",
+      "sha256": "a9ba7f1c7837403d9d836570017dbd0adcc0091b68f982b77554d6cf2ec9b868",
+      "bytes": 774558,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig7/outputs/supp_fig7.svg",
+      "sha256": "88da4457ecfec32edcf31f37ffa2c7ab8476a3b2328655de8eaf05b311872a31",
+      "bytes": 254394,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    },
+    {
+      "path": "figures/released/supp_fig7/validation_report.md",
+      "sha256": "a60b2562d5fe5ca2a78e68c0fceb9015b5f5a041fc2470231fd82f81e75f8edd",
+      "bytes": 4741,
+      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
+      "classification": "CURRENT_SOURCE_ARTWORK"
+    }
+  ]
+}

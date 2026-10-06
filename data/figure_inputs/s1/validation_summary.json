@@ -1,0 +1,154 @@
+{
+  "a1_weight_provenance": {
+    "manifest": "figures/fig4/data/fig4_data_manifest.json",
+    "sha256": "843e17b7012a6fa212d1e9ac9e1dc6e309e854d94ab5c4b3f9e316b589768f4f"
+  },
+  "anchors": {
+    "A1": "1-Strong-Anchor (glucose uptake)",
+    "A2": "2-Strong-Anchors (glucose uptake + LDH_L)"
+  },
+  "concentrated_strata": {
+    "conditional_ess_le_2": 153,
+    "max_weight_ge_0_5": 181,
+    "singleton_positive_support": 0
+  },
+  "ess_ranges": {
+    "conditional_max": 16.23665494713355,
+    "conditional_min": 1.0,
+    "contrast_product_max": 201.03249444757122,
+    "contrast_product_min": 1.0000000058045098,
+    "global_max": 19.99999999999999,
+    "global_min": 19.999999999999716,
+    "post_holdout_pair_max": 10.30309717239945,
+    "post_holdout_pair_min": 0.999932745417679
+  },
+  "holdout_status_counts": {
+    "EVALUABLE": 462,
+    "NON_EVALUABLE_ZERO_POST_HOLDOUT_MASS under the frozen normalized-weight representation": 18
+  },
+  "input_files": {
+    "figures/fig4/data/fig4_data_manifest.json": {
+      "bytes": 326448,
+      "frozen_manifest_verified": true,
+      "sha256": "2e603c24e53816c3ef0456d14e2ae69d4844e764925d184f2221d6fff482a119"
+    },
+    "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_DUAL_ANCHOR_WEIGHTS.tsv.xz": {
+      "bytes": 69204,
+      "frozen_manifest_verified": true,
+      "sha256": "b153e2fde45dca9573c71c548783e704313f056d0980f64af60180ad90ebc1f4"
+    },
+    "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_MANIFEST.json": {
+      "bytes": 6944,
+      "frozen_manifest_verified": false,
+      "sha256": "01f8004a0bf9d5358d7ce7281e827cc1a1fbe00a6750a5c063a1edad2eedf380"
+    },
+    "outputs/dmi_bridge_a22_dual_anchor_sign_only_utility_v1/BRIDGEA22_MANIFEST.json": {
+      "bytes": 18295,
+      "frozen_manifest_verified": false,
+      "sha256": "15b237151005538e5077a352868f873ef00466f4f5ea49307b781a8a8cd0e7cb"
+    },
+    "outputs/dmi_bridge_a22_dual_anchor_sign_only_utility_v1/BRIDGEA22_MATCHED_TRUTH_PAIR_REGISTRY.tsv": {
+      "bytes": 308703,
+      "frozen_manifest_verified": true,
+      "sha256": "bb935220be12d9350cdb4dc5cf9afbbace366a231b9917841791934dee2f4c28"
+    },
+    "outputs/dmi_bridge_a22_dual_anchor_sign_only_utility_v1/BRIDGEA22_TRUTH_SUPPORT_AUDIT.tsv": {
+      "bytes": 376411,
+      "frozen_manifest_verified": true,
+      "sha256": "d01b6f1ea42ef6aa7b4295525d656feaa2f662366b44f6cb9d88e59e2052abd3"
+    },
+    "outputs/dmi_bridge_bio0_audit_v1/BRIDGEBIO0_FOUR_ARM_WEIGHTS.tsv.xz": {
+      "bytes": 148948,
+      "frozen_manifest_verified": true,
+      "sha256": "843e17b7012a6fa212d1e9ac9e1dc6e309e854d94ab5c4b3f9e316b589768f4f"
+    },
+    "outputs/dmi_bridge_bio0_audit_v1/BRIDGEBIO0_MANIFEST.json": {
+      "bytes": 1358,
+      "frozen_manifest_verified": false,
+      "sha256": "40df8378876820bb616fdbdc8ef8a0f77d43e36f464104fca6cae9a16b39d7c1"
+    },
+    "outputs/dmi_bridge_pl1_predictability_landscape_v1_resumable_v1/BRIDGEPL1_EVALUATION_REGISTRY.tsv": {
+      "bytes": 25605,
+      "frozen_manifest_verified": true,
+      "sha256": "aa468dcec11dea764682bd3d7eb14c03c003063e74d92080d0bfaabb366290a3"
+    },
+    "outputs/dmi_bridge_pl1_predictability_landscape_v1_resumable_v1/BRIDGEPL1_MANIFEST.json": {
+      "bytes": 6918,
+      "frozen_manifest_verified": false,
+      "sha256": "b0f81620ff24f5791dd964a8063416784db86a358b0464b8c68a504e84e5f529"
+    },
+    "outputs/dmi_bridge_pl2a_sign_only_prepare_v1/BRIDGEPL2A_MANIFEST.json": {
+      "bytes": 1925,
+      "frozen_manifest_verified": false,
+      "sha256": "8ae3eb60eb23614e379e38e3aa3cb72ec16c6bdb69aa9c74cc94499e31f1c312"
+    },
+    "outputs/dmi_bridge_pl2a_sign_only_prepare_v1/BRIDGEPL2A_TRUTH_PAIR_REGISTRY.tsv": {
+      "bytes": 380528,
+      "frozen_manifest_verified": true,
+      "sha256": "2986c98deb6563e2c4f192ba1f77bbf0385976b42266363bcb968ca6d0cd3894"
+    },
+    "outputs/dmi_bridge_pl2a_sign_only_prepare_v1/BRIDGEPL2A_TRUTH_SELECTION.tsv": {
+      "bytes": 190393,
+      "frozen_manifest_verified": true,
+      "sha256": "a3906367a89da57e471f5c9e7733c363e4e71b4715d5dd9c9309a46d9f8f630f"
+    },
+    "outputs/dmi_bridge_pl2b_sign_only_utility_v1/BRIDGEPL2B_DISTINCT_TRUTH_PAIR_REGISTRY.tsv": {
+      "bytes": 337545,
+      "frozen_manifest_verified": true,
+      "sha256": "dc81f5f43d93491ea854479e5e318e0bfbc3fdc5e86fa3a5828b0c415b1dcd09"
+    },
+    "outputs/dmi_bridge_pl2b_sign_only_utility_v1/BRIDGEPL2B_MANIFEST.json": {
+      "bytes": 25020,
+      "frozen_manifest_verified": true,
+      "sha256": "7d9ca97a3f4ea5aa8b0b983e09ee83fc3c82f326d1b1cbf9c6137cfadf25539d"
+    }
+  },
+  "keys": {
+    "candidate_weights": 6400,
+    "conditional_strata": 320,
+    "truth_pairs": 836
+  },
+  "methods": [
+    "iMAT",
+    "GIMME",
+    "CORDA",
+    "RIPTiDe"
+  ],
+  "output_row_counts": {
+    "candidate_weights": 6400,
+    "conditional_strata": 320,
+    "contrast_product_support": 800,
+    "global_ess": 20,
+    "post_holdout_candidate_support": 480,
+    "post_holdout_pair_support": 3344
+  },
+  "production_vs_exploratory": "Inputs are frozen BIO0/A20/PL1/PL2A/A22 production outputs. No secondary-anchor exploratory outputs are used.",
+  "rna_contexts": [
+    "training_samples=setx1,setx2",
+    "training_samples=setx1,setx3",
+    "training_samples=setx2,setx3",
+    "training_samples=setx1,setx2,setx3"
+  ],
+  "source_row_counts": {
+    "A1_A2_post_holdout_support_rows": 3344,
+    "A1_candidate_weights_before_arm_filter": 12800,
+    "A1_strong_anchor_baseline": 3200,
+    "A22_matched_truth_pairs": 836,
+    "A2_weights": 3200,
+    "PL1_evaluation_registry": 400,
+    "PL2A_truth_selection": 480
+  },
+  "status": "PASS",
+  "tumors": [
+    "CT2A",
+    "GL261"
+  ],
+  "weight_checks": {
+    "conditional_normalization_atol": 1e-10,
+    "duplicate_keys": 0,
+    "max_abs_conditional_normalization_error": 2.220446049250313e-16,
+    "max_abs_global_normalization_error": 8.104628079763643e-15,
+    "negative": 0,
+    "nonfinite": 0
+  }
+}

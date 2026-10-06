@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1700"
+   height="1080"
+   viewBox="0 0 1700 1080"
+   version="1.1"
+   id="svg213"
+   sodipodi:docname="figure3_panelA_directional_information_gain_v2.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview215"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.55092593"
+     inkscape:cx="852.20168"
+     inkscape:cy="541.81513"
+     inkscape:window-width="1536"
+     inkscape:window-height="795"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg213" />
+  <defs
+     id="defs7">
+    <marker
+       id="arrow"
+       markerWidth="10"
+       markerHeight="10"
+       refX="8.5"
+       refY="3.5"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M0,0 L9,3.5 L0,7 Z"
+         fill="#222"
+         id="path2" />
+    </marker>
+    <style
+       id="style5">
+      .title { font-family: Arial, Helvetica, sans-serif; font-size: 34px; font-weight: 700; fill: #111; }
+      .subtitle { font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: 600; fill: #222; }
+      .label { font-family: Arial, Helvetica, sans-serif; font-size: 22px; fill: #222; }
+      .small { font-family: Arial, Helvetica, sans-serif; font-size: 19px; fill: #333; }
+      .small2 { font-family: Arial, Helvetica, sans-serif; font-size: 17px; fill: #444; }
+      .math { font-family: &quot;DejaVu Serif&quot;, &quot;Times New Roman&quot;, serif; font-size: 25px; fill: #111; }
+      .mathbig { font-family: &quot;DejaVu Serif&quot;, &quot;Times New Roman&quot;, serif; font-size: 29px; fill: #111; }
+      .axis { stroke: #222; stroke-width: 3; fill: none; }
+      .tick { stroke: #222; stroke-width: 2.5; }
+      .error { stroke: #666; stroke-width: 2; fill: none; }
+      .box { fill: #fafafa; stroke: #c8c8c8; stroke-width: 1.8; rx: 10; ry: 10; }
+      .divider { stroke: #d4d4d4; stroke-width: 1.5; }
+      .muted { fill: #555; }
+    </style>
+  </defs>
+  <!-- Panel title -->
+  <text
+     x="55"
+     y="64"
+     class="title"
+     id="text9">A</text>
+  <text
+     x="115"
+     y="64"
+     class="title"
+     id="text11">Defining directional-information gain</text>
+  <!-- Axis -->
+  <text
+     x="860"
+     y="132"
+     text-anchor="middle"
+     class="subtitle"
+     id="text15">Magnitude prediction |Δv<tspan
+   baseline-shift="sub"
+   font-size="17"
+   id="tspan13">B</tspan>|</text>
+  <line
+     x1="155"
+     y1="255"
+     x2="1510"
+     y2="255"
+     class="axis"
+     marker-end="url(#arrow)"
+     id="line17" />
+  <!-- 0 -->
+  <circle
+     cx="155"
+     cy="255"
+     r="7"
+     fill="#222"
+     id="circle19" />
+  <text
+     x="155"
+     y="227"
+     text-anchor="middle"
+     class="math"
+     id="text21">0</text>
+  <!-- m* -->
+  <line
+     x1="460"
+     y1="239"
+     x2="460"
+     y2="271"
+     class="tick"
+     id="line23" />
+  <circle
+     cx="460"
+     cy="255"
+     r="8"
+     fill="#222"
+     id="circle25" />
+  <text
+     x="460"
+     y="205"
+     text-anchor="middle"
+     class="mathbig"
+     id="text29">
+    m<tspan
+   baseline-shift="super"
+   font-size="20"
+   id="tspan27">*</tspan></text>
+  <text
+     x="460"
+     y="302"
+     text-anchor="middle"
+     class="small"
+     id="text31">truth</text>
+  <!-- m_correct -->
+  <line
+     x1="665"
+     y1="239"
+     x2="665"
+     y2="271"
+     class="tick"
+     id="line33" />
+  <circle
+     cx="665"
+     cy="255"
+     r="8"
+     fill="#222"
+     id="circle35" />
+  <text
+     x="665"
+     y="205"
+     text-anchor="middle"
+     class="mathbig"
+     id="text39">
+    m̂<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan37">correct</tspan></text>
+  <text
+     x="665"
+     y="302"
+     text-anchor="middle"
+     class="small"
+     id="text43">after correct sign(Δv<tspan
+   baseline-shift="sub"
+   font-size="14"
+   id="tspan41">B</tspan>)</text>
+  <!-- m0 -->
+  <line
+     x1="900"
+     y1="239"
+     x2="900"
+     y2="271"
+     class="tick"
+     id="line45" />
+  <circle
+     cx="900"
+     cy="255"
+     r="8"
+     fill="#222"
+     id="circle47" />
+  <text
+     x="900"
+     y="205"
+     text-anchor="middle"
+     class="mathbig"
+     id="text51">
+    m̂<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan49">0</tspan></text>
+  <text
+     x="900"
+     y="302"
+     text-anchor="middle"
+     class="small"
+     id="text53">without sign information</text>
+  <!-- m_wrong -->
+  <line
+     x1="1195"
+     y1="239"
+     x2="1195"
+     y2="271"
+     class="tick"
+     id="line55" />
+  <circle
+     cx="1195"
+     cy="255"
+     r="8"
+     fill="#222"
+     id="circle57" />
+  <text
+     x="1195"
+     y="205"
+     text-anchor="middle"
+     class="mathbig"
+     id="text61">
+    m̂<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan59">wrong</tspan></text>
+  <text
+     x="1195"
+     y="302"
+     text-anchor="middle"
+     class="small"
+     id="text65">after wrong sign(Δv<tspan
+   baseline-shift="sub"
+   font-size="14"
+   id="tspan63">B</tspan>)</text>
+  <!-- Error spans -->
+  <!-- correct -->
+  <line
+     x1="460"
+     y1="360"
+     x2="665"
+     y2="360"
+     class="error"
+     id="line67" />
+  <line
+     x1="460"
+     y1="353"
+     x2="460"
+     y2="367"
+     class="error"
+     id="line69" />
+  <line
+     x1="665"
+     y1="353"
+     x2="665"
+     y2="367"
+     class="error"
+     id="line71" />
+  <text
+     x="562.5"
+     y="391"
+     text-anchor="middle"
+     class="small2 muted"
+     id="text77">
+    correct-sign error  |m̂<tspan
+   baseline-shift="sub"
+   font-size="13"
+   id="tspan73">correct</tspan> − m<tspan
+   baseline-shift="super"
+   font-size="13"
+   id="tspan75">*</tspan>|
+  </text>
+  <!-- baseline -->
+  <line
+     x1="460"
+     y1="430"
+     x2="900"
+     y2="430"
+     class="error"
+     id="line79" />
+  <line
+     x1="460"
+     y1="423"
+     x2="460"
+     y2="437"
+     class="error"
+     id="line81" />
+  <line
+     x1="900"
+     y1="423"
+     x2="900"
+     y2="437"
+     class="error"
+     id="line83" />
+  <text
+     x="680"
+     y="461"
+     text-anchor="middle"
+     class="small2 muted"
+     id="text89">
+    baseline error  |m̂<tspan
+   baseline-shift="sub"
+   font-size="13"
+   id="tspan85">0</tspan> − m<tspan
+   baseline-shift="super"
+   font-size="13"
+   id="tspan87">*</tspan>|
+  </text>
+  <!-- wrong -->
+  <line
+     x1="460"
+     y1="500"
+     x2="1195"
+     y2="500"
+     class="error"
+     id="line91" />
+  <line
+     x1="460"
+     y1="493"
+     x2="460"
+     y2="507"
+     class="error"
+     id="line93" />
+  <line
+     x1="1195"
+     y1="493"
+     x2="1195"
+     y2="507"
+     class="error"
+     id="line95" />
+  <text
+     x="827.5"
+     y="531"
+     text-anchor="middle"
+     class="small2 muted"
+     id="text101">
+    wrong-sign error  |m̂<tspan
+   baseline-shift="sub"
+   font-size="13"
+   id="tspan97">wrong</tspan> − m<tspan
+   baseline-shift="super"
+   font-size="13"
+   id="tspan99">*</tspan>|
+  </text>
+  <!-- Definitions / equations box -->
+  <rect
+     x="110"
+     y="580"
+     width="1480"
+     height="310"
+     class="box"
+     id="rect103" />
+  <text
+     x="155"
+     y="625"
+     class="subtitle"
+     id="text105">Definitions and sign-informed estimates</text>
+  <line
+     x1="155"
+     y1="644"
+     x2="1545"
+     y2="644"
+     class="divider"
+     id="line107" />
+  <!-- left column -->
+  <text
+     x="180"
+     y="700"
+     class="math"
+     id="text121">
+    Δv<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan109">B</tspan><tspan
+   baseline-shift="super"
+   font-size="18"
+   id="tspan111">*</tspan>
+    = v<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan113">B,c1</tspan><tspan
+   baseline-shift="super"
+   font-size="18"
+   id="tspan115">*</tspan>
+    − v<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan117">B,c2</tspan><tspan
+   baseline-shift="super"
+   font-size="18"
+   id="tspan119">*</tspan></text>
+  <text
+     x="464"
+     y="700"
+     class="label"
+     id="text123">true signed flux difference (C1 − C2)</text>
+  <text
+     x="180"
+     y="755"
+     class="math"
+     id="text131">
+    m<tspan
+   baseline-shift="super"
+   font-size="18"
+   id="tspan125">*</tspan> = |Δv<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan127">B</tspan><tspan
+   baseline-shift="super"
+   font-size="18"
+   id="tspan129">*</tspan>|
+  </text>
+  <text
+     x="464"
+     y="755"
+     class="label"
+     id="text133">true magnitude</text>
+  <text
+     x="180"
+     y="810"
+     class="math"
+     id="text143">
+    m̂<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan135">0</tspan> = Σ<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan137">i</tspan> w<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan139">i</tspan>|Δv<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan141">B,i</tspan>|
+  </text>
+  <text
+     x="464"
+     y="810"
+     class="label"
+     id="text145">baseline magnitude estimate</text>
+  <!-- right column -->
+  <text
+     x="1015"
+     y="700"
+     class="math"
+     id="text157">
+    m̂<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan147">correct</tspan>
+    = Σ<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan149">i</tspan> w<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan151">i</tspan><tspan
+   baseline-shift="super"
+   font-size="18"
+   id="tspan153">correct</tspan>|Δv<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan155">B,i</tspan>|
+  </text>
+  <text
+     x="1015"
+     y="755"
+     class="math"
+     id="text169">
+    m̂<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan159">wrong</tspan>
+    = Σ<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan161">i</tspan> w<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan163">i</tspan><tspan
+   baseline-shift="super"
+   font-size="18"
+   id="tspan165">wrong</tspan>|Δv<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan167">B,i</tspan>|
+  </text>
+  <text
+     x="1015"
+     y="820"
+     class="math"
+     id="text183">
+    w<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan171">i</tspan><tspan
+   baseline-shift="super"
+   font-size="18"
+   id="tspan173">correct</tspan>
+    ∝ w<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan175">i</tspan> exp[ λ sign(Δv<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan177">B</tspan><tspan
+   baseline-shift="super"
+   font-size="18"
+   id="tspan179">*</tspan>) sign(Δv<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan181">B,i</tspan>) ]
+  </text>
+  <text
+     x="1015"
+     y="865"
+     class="math"
+     id="text197">
+    w<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan185">i</tspan><tspan
+   baseline-shift="super"
+   font-size="18"
+   id="tspan187">wrong</tspan>
+    ∝ w<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan189">i</tspan> exp[ −λ sign(Δv<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan191">B</tspan><tspan
+   baseline-shift="super"
+   font-size="18"
+   id="tspan193">*</tspan>) sign(Δv<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan195">B,i</tspan>) ]
+  </text>
+  <!-- Gain box -->
+  <rect
+     x="250"
+     y="930"
+     width="1200"
+     height="110"
+     class="box"
+     id="rect199" />
+  <text
+     x="850"
+     y="972"
+     text-anchor="middle"
+     class="mathbig"
+     id="text209">
+    g = |m̂<tspan
+   baseline-shift="sub"
+   font-size="20"
+   id="tspan201">0</tspan> − m<tspan
+   baseline-shift="super"
+   font-size="20"
+   id="tspan203">*</tspan>| − |m̂<tspan
+   baseline-shift="sub"
+   font-size="20"
+   id="tspan205">sign</tspan> − m<tspan
+   baseline-shift="super"
+   font-size="20"
+   id="tspan207">*</tspan>|
+  </text>
+  <text
+     x="850"
+     y="1015"
+     text-anchor="middle"
+     class="label"
+     id="text211">
+    g &gt; 0: improved       ·       g = 0: unchanged       ·       g &lt; 0: worsened
+  </text>
+</svg>

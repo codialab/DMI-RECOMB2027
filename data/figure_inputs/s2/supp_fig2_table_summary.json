@@ -1,0 +1,179 @@
+{
+  "anchor_definitions": {
+    "A1": "1-Strong-Anchor (glucose uptake)",
+    "A2": "2-Strong-Anchors (glucose uptake + LDH_L)"
+  },
+  "methods": {
+    "CORDA": {
+      "input_rows": 417900,
+      "metrics": {
+        "H_dir": {
+          "a1_max": 0.7589448194734478,
+          "a1_min": -2.021137094636221e-16,
+          "a2_max": 0.6370515591543982,
+          "a2_min": -2.021137094636221e-16,
+          "delta_max": 0.6368674086151015,
+          "delta_mean": 0.04871510675490786,
+          "delta_median": 0.0,
+          "delta_min": -0.6309263136969828,
+          "excluded_nonfinite": 0,
+          "finite_paired_count": 417900,
+          "original_paired_count": 417900
+        },
+        "dominant_direction_mass": {
+          "a1_max": 1.0000000000000002,
+          "a1_min": 0.5000136242023109,
+          "a2_max": 1.0000000000000002,
+          "a2_min": 0.5000423044252724,
+          "delta_max": 0.49862539394811634,
+          "delta_mean": -0.024846252848674387,
+          "delta_median": 0.0,
+          "delta_min": -0.49981246953376335,
+          "excluded_nonfinite": 0,
+          "finite_paired_count": 417900,
+          "original_paired_count": 417900
+        }
+      },
+      "unique_pairs": 417900
+    },
+    "GIMME": {
+      "input_rows": 417900,
+      "metrics": {
+        "H_dir": {
+          "a1_max": 0.6309297533115372,
+          "a1_min": -2.021137094636221e-16,
+          "a2_max": 0.6309297531445187,
+          "a2_min": -2.021137094636201e-16,
+          "delta_max": 0.6309297526302353,
+          "delta_mean": 0.034685446879121125,
+          "delta_median": 0.0,
+          "delta_min": -0.6309164153983475,
+          "excluded_nonfinite": 0,
+          "finite_paired_count": 417900,
+          "original_paired_count": 417900
+        },
+        "dominant_direction_mass": {
+          "a1_max": 1.0000000000000002,
+          "a1_min": 0.5000119488812899,
+          "a2_max": 1.0000000000000002,
+          "a2_min": 0.5000153140473202,
+          "delta_max": 0.49729321137619553,
+          "delta_mean": -0.017647548890663965,
+          "delta_median": 0.0,
+          "delta_min": -0.4999846761472434,
+          "excluded_nonfinite": 0,
+          "finite_paired_count": 417900,
+          "original_paired_count": 417900
+        }
+      },
+      "unique_pairs": 417900
+    },
+    "RIPTiDe": {
+      "input_rows": 417900,
+      "metrics": {
+        "H_dir": {
+          "a1_max": 0.6309297535714574,
+          "a1_min": -2.021137094636221e-16,
+          "a2_max": 0.8451232817798154,
+          "a2_min": 0.0,
+          "delta_max": 0.8449977707352633,
+          "delta_mean": 0.0006813212326024577,
+          "delta_median": 0.0,
+          "delta_min": -0.6129920077408305,
+          "excluded_nonfinite": 0,
+          "finite_paired_count": 417900,
+          "original_paired_count": 417900
+        },
+        "dominant_direction_mass": {
+          "a1_max": 1.0000000000000002,
+          "a1_min": 0.5000000000009516,
+          "a2_max": 1.0000000000000002,
+          "a2_min": 0.5004171612026455,
+          "delta_max": 0.47930101772607514,
+          "delta_mean": -1.9159578764011892e-05,
+          "delta_median": 0.0,
+          "delta_min": -0.4959168746060084,
+          "excluded_nonfinite": 0,
+          "finite_paired_count": 417900,
+          "original_paired_count": 417900
+        }
+      },
+      "unique_pairs": 417900
+    },
+    "iMAT": {
+      "input_rows": 417900,
+      "metrics": {
+        "H_dir": {
+          "a1_max": 0.630929753361048,
+          "a1_min": -2.021137094636221e-16,
+          "a2_max": 0.6309297513522761,
+          "a2_min": -2.0211370946362127e-16,
+          "delta_max": 0.6309293967165553,
+          "delta_mean": 0.02223573689240068,
+          "delta_median": 0.0,
+          "delta_min": -0.63092968997775,
+          "excluded_nonfinite": 0,
+          "finite_paired_count": 417900,
+          "original_paired_count": 417900
+        },
+        "dominant_direction_mass": {
+          "a1_max": 1.0000000000000002,
+          "a1_min": 0.5000107507759565,
+          "a2_max": 1.0000000000000002,
+          "a2_min": 0.5000349143225897,
+          "delta_max": 0.49981523282247586,
+          "delta_mean": -0.010692454893383137,
+          "delta_median": 0.0,
+          "delta_min": -0.49969003822724656,
+          "excluded_nonfinite": 0,
+          "finite_paired_count": 417900,
+          "original_paired_count": 417900
+        }
+      },
+      "unique_pairs": 417900
+    }
+  },
+  "metrics": {
+    "H_dir": {
+      "exclusions": 0,
+      "label": "Directional entropy",
+      "output": "data/figure_inputs/s2/supp_fig2_H_dir_paired_shifts.tsv.gz",
+      "output_rows": 1671600,
+      "output_sha256": "4d0c2aff465c26602c0f29c43809e73d0aa453082683d71f7df1c0252ceff558",
+      "panel_n_by_method": {
+        "CORDA": 417900,
+        "GIMME": 417900,
+        "RIPTiDe": 417900,
+        "iMAT": 417900
+      }
+    },
+    "dominant_direction_mass": {
+      "exclusions": 0,
+      "label": "Dominant-direction mass",
+      "output": "data/figure_inputs/s2/supp_fig2_dominant_direction_mass_paired_shifts.tsv.gz",
+      "output_rows": 1671600,
+      "output_sha256": "1e21345e74e6bd605ff790c5306a7c94f1c6199cdfc40b7c0687bf7e1b23fab8",
+      "panel_n_by_method": {
+        "CORDA": 417900,
+        "GIMME": 417900,
+        "RIPTiDe": 417900,
+        "iMAT": 417900
+      }
+    }
+  },
+  "pairing_keys": [
+    "evaluation_id",
+    "reaction_id"
+  ],
+  "population_expected": 1671600,
+  "source_artifacts": {
+    "figures/fig4/data/fig4_geometry_paired/algorithm=CORDA/part.parquet.xz": "0fd4d308c6d03d5ef144fb5e8c48e497e115af7bc27cdddd1010ddef4e3ba457",
+    "figures/fig4/data/fig4_geometry_paired/algorithm=GIMME/part.parquet.xz": "f492947266440ed378540d6c0d6a40aabb8952fafef5cc728dbc8c9aa70f17ad",
+    "figures/fig4/data/fig4_geometry_paired/algorithm=RIPTiDe/part.parquet.xz": "642fc972db1aa17854fbd631afb909fc07e9be54c7d5fdc51d23fbb60ffc2e42",
+    "figures/fig4/data/fig4_geometry_paired/algorithm=iMAT/part.parquet.xz": "a44c629ffdc5ddcb1956d6132a8ec15d7dbb358e86b7888b512e315a73d4a070"
+  },
+  "source_manifest": "figures/fig4/data/fig4_data_manifest.json",
+  "source_manifest_sha256": "2e603c24e53816c3ef0456d14e2ae69d4844e764925d184f2221d6fff482a119",
+  "status": "PASS",
+  "tolerance": 5e-12
+}

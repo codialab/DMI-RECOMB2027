@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1700" height="1080" viewBox="0 0 1700 1080" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+.title { font-family: Arial, Helvetica, sans-serif; font-size:34px; font-weight:700; fill:#111; }
+.subtitle { font-family: Arial, Helvetica, sans-serif; font-size:25px; font-weight:600; fill:#222; }
+.label { font-family: Arial, Helvetica, sans-serif; font-size:22px; fill:#222; }
+.small { font-family: Arial, Helvetica, sans-serif; font-size:19px; fill:#444; }
+.smallbold { font-family: Arial, Helvetica, sans-serif; font-size:19px; font-weight:700; fill:#222; }
+.math { font-family:"DejaVu Serif","Times New Roman",serif; font-size:23px; fill:#111; }
+.axis { stroke:#222; stroke-width:3; }
+.tick { stroke:#555; stroke-width:2; }
+.zero { stroke:#777; stroke-width:2.5; stroke-dasharray:7 7; }
+.connector { stroke:#555; stroke-width:4; stroke-linecap:round; }
+.bracket { stroke:#777; stroke-width:2.2; fill:none; }
+.box { fill:#fafafa; stroke:#c8c8c8; stroke-width:1.8; }
+</style>
+</defs>
+
+<text x="55" y="64" class="title">D</text>
+<text x="115" y="64" class="title">Directional specificity increases with a second strong anchor</text>
+<text x="1025.0" y="160" text-anchor="middle" class="subtitle">Mean magnitude-prediction gain</text>
+
+<rect x="270" y="220" width="1330" height="610" rx="10" ry="10" class="box"/>
+
+<text x="707.6" y="262" text-anchor="middle" class="smallbold">wrong cue</text>
+<text x="1371.3" y="262" text-anchor="middle" class="smallbold">correct cue</text>
+
+<line x1="1097.1" y1="280" x2="1097.1" y2="785" class="zero"/>
+<line x1="520" y1="790" x2="1530" y2="790" class="axis"/>
+<line x1="520.0" y1="780" x2="520.0" y2="800" class="tick"/>
+<text x="520.0" y="832" text-anchor="middle" class="small">-0.04</text>
+<line x1="664.3" y1="780" x2="664.3" y2="800" class="tick"/>
+<text x="664.3" y="832" text-anchor="middle" class="small">-0.03</text>
+<line x1="808.6" y1="780" x2="808.6" y2="800" class="tick"/>
+<text x="808.6" y="832" text-anchor="middle" class="small">-0.02</text>
+<line x1="952.9" y1="780" x2="952.9" y2="800" class="tick"/>
+<text x="952.9" y="832" text-anchor="middle" class="small">-0.01</text>
+<line x1="1097.1" y1="780" x2="1097.1" y2="800" class="tick"/>
+<text x="1097.1" y="832" text-anchor="middle" class="smallbold">0</text>
+<line x1="1241.4" y1="780" x2="1241.4" y2="800" class="tick"/>
+<text x="1241.4" y="832" text-anchor="middle" class="small">+0.01</text>
+<line x1="1385.7" y1="780" x2="1385.7" y2="800" class="tick"/>
+<text x="1385.7" y="832" text-anchor="middle" class="small">+0.02</text>
+<line x1="1530.0" y1="780" x2="1530.0" y2="800" class="tick"/>
+<text x="1530.0" y="832" text-anchor="middle" class="small">+0.03</text>
+
+<text x="300" y="393" class="subtitle">1-Strong-Anchor</text>
+<text x="300" y="431" class="small">glucose uptake</text>
+
+<line x1="825.0" y1="405" x2="1302.5" y2="405" class="connector"/>
+<circle cx="825.0" cy="405" r="10" fill="#222"/>
+<circle cx="1302.5" cy="405" r="10" fill="#222"/>
+
+<text x="825.0" y="371" text-anchor="middle" class="math">-0.0189</text>
+<text x="1302.5" y="371" text-anchor="middle" class="math">+0.0142</text>
+
+<rect x="948.8" y="434" width="230" height="32" fill="#fafafa"/>
+<text x="1063.8" y="458" text-anchor="middle" class="math">correct − wrong = 0.0331</text>
+<line x1="825.0" y1="483" x2="1302.5" y2="483" class="bracket"/>
+<line x1="825.0" y1="474" x2="825.0" y2="492" class="bracket"/>
+<line x1="1302.5" y1="474" x2="1302.5" y2="492" class="bracket"/>
+
+<text x="300" y="653" class="subtitle">2-Strong-Anchors</text>
+<text x="300" y="691" class="small">glucose uptake + LDH_L</text>
+
+<line x1="639.3" y1="665" x2="1426.1" y2="665" class="connector"/>
+<circle cx="639.3" cy="665" r="10" fill="#222"/>
+<circle cx="1426.1" cy="665" r="10" fill="#222"/>
+
+<text x="639.3" y="631" text-anchor="middle" class="math">-0.0317</text>
+<text x="1426.1" y="631" text-anchor="middle" class="math">+0.0228</text>
+
+<rect x="917.7" y="694" width="230" height="32" fill="#fafafa"/>
+<text x="1032.7" y="718" text-anchor="middle" class="math">correct − wrong = 0.0545</text>
+<line x1="639.3" y1="743" x2="1426.1" y2="743" class="bracket"/>
+<line x1="639.3" y1="734" x2="639.3" y2="752" class="bracket"/>
+<line x1="1426.1" y1="734" x2="1426.1" y2="752" class="bracket"/>
+
+<text x="520" y="900" text-anchor="start" class="small">worse prediction</text>
+<text x="1530" y="900" text-anchor="end" class="small">improved prediction</text>
+
+<text x="850" y="972" text-anchor="middle" class="label">
+Correct directional information improves prediction; the wrong direction worsens it.
+</text>
+<text x="850" y="1010" text-anchor="middle" class="small">
+The correct-versus-wrong separation is larger with two strong anchors.
+</text>
+</svg>

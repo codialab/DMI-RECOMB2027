@@ -1,0 +1,11 @@
+FIG4-DATA-B QC SUMMARY
+
+Status: PASS
+Geometry rows: 1,671,600
+Utility rows: 3,493,644
+Panel C candidate groups: 100
+Panel C method metrics rows: 400
+Panel C support rows: 320,000
+Truth equality: PASS (atol=1e-12)
+Support entropy QC: PASS (max abs err=1.77e-14, tol=5e-12)
+Generated outputs: 12 canonical files
