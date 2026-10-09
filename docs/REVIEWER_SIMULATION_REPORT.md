@@ -476,7 +476,8 @@ Suggested manuscript/supplement follow-up: (i) retain the exact Figure 2
 round-trip float parsing convention in any derived correlation table; (ii)
 report matched eta2/entropy comparisons with panel-specific denominators; (iii)
 present the truth-exclusion analysis explicitly as a post-hoc sensitivity
-measure; and (iv) describe the ESS40 reversal and the loss of conditional
+measure; and (iv) report that the corrected ESS40 reversal disappears on both
+ESS-specific and fixed-common populations, alongside the loss of conditional
 support at ESS10. These sensitivity analyses do not warrant claims of
 independent biological validation. This report does not edit manuscript or
 supplementary files.
