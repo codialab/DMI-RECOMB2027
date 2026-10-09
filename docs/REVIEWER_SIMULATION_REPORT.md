@@ -197,60 +197,129 @@ and 0.8286; all corresponding 2,000-replicate block-bootstrap intervals remain
 positive. Grouped predictive scores are in `predictive_models.tsv.gz`, and exact
 fold identities are in `fold_assignments.tsv.gz`.
 
-## Experiments 3–4 and explicit answers
+## Experiments 3–4: post-hoc sensitivity results
 
-Experiments 3 and 4 were not run. This checkout contains compact summaries, not
-the original whole candidate vectors, exact candidate IDs/truth-pair selection
-registries, candidate-level raw observables, per-mouse ranks, or the 320-candidate
-weight inputs. Relevant upstream `outputs/` artifacts and bulk `external_data/`
-inputs are omitted from the public reproducibility checkout. No `--source-root`
-was supplied or accessed. The manifest records these missing artifact classes;
-providing the original vector cache plus frozen identities/weights would enable
-the 19×19 truth-excluded descriptor pilot and alternative truth selections.
-Providing original observables, ranks, and baseline weighting inputs at the
-320-candidate tumor–mouse pool level would enable ESS 10/20/40 calibration on
-the fixed original truth pairs. Until then, truth-vector inclusion sensitivity,
-truth-selection sensitivity, and calibration robustness remain unknown.
+These analyses use the authorized, read-only scientific checkout. The four
+primary source files passed their expected SHA-256 checks. The carbon-normalized
+flux cache is used for candidate-vector geometry and frozen prediction outcomes;
+A1 glucose weighting uses raw panel `max(-EX_glc__D_e, 0)`, and A2 lactate
+weighting uses raw panel `max(-LDH_L, 0)`. Those operators reproduce the frozen
+candidate observables. HEX1 is used only for synthetic-truth selection and
+geometry diagnostics. No reconstruction, sampling, frozen source data, or
+production output was changed.
 
-1. **Does eta2 add predictive value beyond linear entropy?** Yes in A1 and A2
-   development grouped CV; adding eta2 reduces MAE by 0.01234 and 0.00728,
-   respectively. A2 remains post-freeze robustness, and marginal rho rankings
-   are not uniform across anchors.
-2. **Does that improvement remain with nonlinear entropy?** Yes in these
-   post-hoc fixed-alpha comparisons: eta2 reduces MAE by 0.00997 in A1 and
-   0.00519 in A2 development, with positive Spearman changes.
-3. **Does the improvement remain after accounting for non-tie coverage?** Yes
-   in development grouped CV: adding eta2 to H_dir plus coverage reduces MAE by
-   0.01117 in A1 and 0.00565 in A2.
-4. **Does the positive association survive exclusion of unmapped pathways?**
-   Yes. Eta2 reaction and equal-pathway associations and block intervals stay
-   positive in all four mapped-only populations.
-5. **Are conclusions consistent across A1 and A2?** Incremental model
-   performance is directionally consistent, but descriptor rankings are not:
-   entropy rho exceeds eta2 rho in A2 development and held-out robustness.
-   A2 is never independent confirmation.
-6. **Which conclusions are supported only by post-hoc analyses?** The nonlinear
-   entropy, coverage-adjusted, mapped-only, all A2, and model-based confirmation
-   comparisons are post-hoc and do not establish independent biological
-   confirmation.
-7. **Is eta2 sensitive to including truth vectors in descriptor construction?**
-   Unknown; Experiment 3A could not run without original vectors and truth IDs.
-8. **Is the result sensitive to synthetic-truth selection?** Unknown; Experiment
-   3B could not run without those same frozen candidate identities and vectors.
-9. **Is the A2 gain difference robust to weighting calibration?** Unknown;
-   Experiment 4 could not run without original calibration observables, ranks,
-   and weights. Current A2 results do not isolate a causal effect of adding a
-   second measurement.
+The source panel contains 4,181 reactions. The PL1 descriptor inventory is
+4,180 (excluding HEX1); weak-cue outcomes use the distinct 4,179-reaction
+population (excluding HEX1 and LDH_L). The 400 evaluations are 16 method/RNA
+settings crossed with 25 CT2A–GL261 mouse pairs. They are computational cases,
+not independent biological replicates. Reaction-level associations and grouped
+cross-validation are post-hoc summaries; correlated reactions and pathways
+limit independent-reaction interpretations.
 
-The results permit stating that eta2 is positively associated with the frozen
-usefulness response under reaction and pathway-level analyses, and that eta2
-adds predictive value beyond linear entropy, cubic entropy, and entropy plus
-coverage in these post-hoc grouped model comparisons. They do **not**
-establish universal descriptor superiority, biological replication across the
-400 evaluations, truth-selection independence, robustness to truth-vector
-exclusion or weighting recalibration, or independent A2 confirmation. The
-Figure 2 point-table/statistics-table association parity passed under the
-original float parsing convention.
+### Experiment 3A: exclude the selected whole truth vectors from geometry
+
+The recomputed 20×20 descriptors reproduced the frozen PL1/A21 reaction-summary
+medians and finite counts on the shared 4,179-reaction population. The maximum
+absolute median difference was `1.64e-15`; a four-method deterministic 19×19
+pilot also passed the frozen PL1 descriptor implementation to floating-point
+precision. The full comparison retained 836 distinct evaluable truth pairs in
+both A1 and A2 and removed each selected whole candidate vector before
+renormalizing the corresponding 19-vector weights.
+
+For every reaction, 20×20 and 19×19 geometry summaries and their differences
+are reported over the same distinct truth-pair population. Median absolute
+changes were 0.0098 for η², 0.0056 for direction entropy, and 0.0034 for
+dominant-direction mass. The η²–usefulness comparisons use the same finite-η²
+reaction set for both geometries within each arm: 3,289 reactions in A1 and
+3,326 in A2. These 19×19 descriptors depend on which truth vectors were
+selected and are therefore **truth-exclusion sensitivity measures**, not
+independently available pre-cue predictors.
+
+| Arm | Geometry | Partial rank η² given entropy | Grouped-CV MAE improvement, all | Confirmation-holdout improvement |
+|---|---|---:|---:|---:|
+| A1 | Original 20×20 | 0.395 | 0.00409 | 0.00297 |
+| A1 | Truth-excluded 19×19 | 0.452 | 0.00443 | 0.00317 |
+| A2 | Original 20×20 | 0.288 | 0.00254 | 0.00287 |
+| A2 | Truth-excluded 19×19 | 0.288 | 0.00324 | 0.00357 |
+
+η² retains positive incremental association beyond entropy for both geometries
+and arms. Grouped-CV MAE improves in these matched finite-reaction populations,
+although the size varies by arm and split. This supports robustness to removing
+the selected whole truth vectors from geometry calculation; it does not make the
+truth-dependent descriptors available before truth selection.
+
+### Experiment 3B: alternative synthetic-truth selections
+
+The frozen q10/q50/q90 truth selection was compared with weighted HEX1
+q20/q50/q80 selection and four seeded weighted random selections (seeds
+20271028–20271031; three whole-vector selections per candidate pool, with
+replacement). Candidate IDs were selected once and reused in paired A1–A2
+outcomes. Duplicate selections are recorded. Each scenario has 1,200 selection
+rows, of which 1,110 are evaluable. After collapsing repeated identities to
+distinct evaluation/truth-pair cases, support is 836 for the frozen selection,
+803 for q20/q50/q80, and 721–742 across the four random selections. The reduced
+alternative counts are reported rather than treating duplicate pairings as
+additional cases.
+
+Across these six scenarios, the partial rank association of the frozen 20×20
+η² descriptor with usefulness, conditional on entropy, ranges from 0.836–0.848
+in A1 and 0.871–0.884 in A2. Adding η² reduces all-reaction grouped-CV MAE by
+0.00021–0.00032 in A1 and 0.01294–0.01329 in A2. On the confirmation holdout,
+A1’s MAE change is slightly unfavorable (about −0.0003) across scenarios,
+whereas A2’s improvement remains positive (0.0076–0.0092). Thus the association
+is stable under these alternative selections, while A1’s incremental predictive
+gain is small and does not consistently improve the holdout score.
+
+These scenarios resample the same 20 frozen vectors and weights. They alter the
+synthetic benchmark population; they do not provide independent biological
+validation.
+
+### Experiment 4: global ESS calibration sensitivity
+
+A1 and A2 weights were recalibrated with the original rank-based operators at
+the tumor–mouse pool level of 320 candidates. Recalibration at target ESS 20
+exactly reproduced the frozen weights for all ten mice (maximum absolute weight
+difference 0 for both arms). Raw candidate-panel observables were used for both
+anchor operators. λ remained 0.25 and the original truth identities were
+retained.
+
+At ESS 10, conditional support remained in 137/160 A1 and 156/160 A2
+method/context strata; some strata had zero conditional support and were not
+redistributed. The common paired truth-pair support is 428/836 at ESS 10 and
+836/836 at ESS 20 and ESS 40. Conditional ESS and product-weight ESS are
+provided for all settings.
+
+| Global ESS | Mean usefulness A1 | Mean usefulness A2 | Correct-minus-wrong gain A1 | Correct-minus-wrong gain A2 |
+|---:|---:|---:|---:|---:|
+| 10 | 0.1122 | 0.2209 | 0.00200 | 0.00235 |
+| 20 | 0.1692 | 0.2500 | 0.03309 | 0.05454 |
+| 40 | 0.2506 | 0.2924 | 0.15118 | 0.14630 |
+
+Wrong-cue mean gains remain negative at each target. A2 has higher usefulness
+at all three targets, and a larger correct-minus-wrong separation at ESS 10 and
+20. The separation reverses slightly at ESS 40, where A1 is larger. Thus the
+larger A2 gain is not qualitatively stable across the full calibration range.
+The η²–usefulness Spearman association remains positive at all targets
+(0.823–0.864 across arms); partial rank η² given entropy also remains positive
+(0.476–0.586). These comparisons are calibration sensitivities, not estimates
+of the isolated causal effect of adding a measurement.
+
+### Updated answers
+
+1. **Does η² retain incremental information when truth vectors are excluded
+   from geometry?** Yes in the matched finite-reaction populations for both
+   arms. Treat the 19×19 values as truth-exclusion sensitivity descriptors.
+2. **Are associations sensitive to alternative truth selection?** The partial
+   η² association remains positive across the q20/q50/q80 and four seeded
+   selections. A1’s incremental MAE improvement is very small and is not
+   positive on the confirmation holdout; A2’s is positive in these scenarios.
+3. **Is the larger A2 gain robust to weighting calibration?** Not across the
+   entire ESS range. A2 usefulness is higher at ESS 10, 20, and 40, but its
+   correct-minus-wrong separation is lower than A1 at ESS 40.
+4. **Do these results provide independent biological confirmation?** No. They
+   reuse the frozen candidates, mice, and synthetic truth-generation framework.
+   The 400 evaluations and repeated reaction/truth-pair rows are not independent
+   biological replicates.
 
 ## Outputs, tests, and suggested manuscript follow-up
 
@@ -262,17 +331,21 @@ original float parsing convention.
   `predictive_models.tsv.gz`, `pathway_within_associations.tsv.gz`,
   `pathway_blocked_robustness.tsv.gz`, `fold_assignments.tsv.gz`, and
   `development_oof_predictions.tsv.gz`.
-- `manifest.json` records input hashes, seeds, denominators, deferred input
-  requirements, and post-hoc interpretation limits. No figure was added because
-  the tables directly show the comparisons and intervals.
-- Tests: **9 passed**; `python reproduce.py validate` passed all eight scientific
-  checks. Full numerical analysis completed from released tables;
-  no solver, reconstruction, OptGP sampling, or GapSplit rerun occurred.
+- `manifest.json` and the existing tables retain Experiments 1–2 provenance.
+  New compressed results are in `reproduced/reviewer_checks/experiment_3/` and
+  `experiment_4/`; manifests and `analysis_code_hashes.json` record input hashes,
+  code hashes, seeds, support counts, calibration settings, and interpretation
+  limits. No raw candidate vectors were copied.
+- The four new candidate-sensitivity tests passed. The existing Experiments 1–2
+  numerical results and test records above are preserved. No manuscript or
+  supplementary file was edited, and no reconstruction, OptGP sampling, or
+  GapSplit rerun occurred.
 
 Suggested manuscript/supplement follow-up: (i) retain the exact Figure 2
 round-trip float parsing convention in any derived correlation table; (ii)
-report the matched eta2/entropy model comparison and its panel-specific limits;
-(iii) add a pathway-blocked robustness table with reaction and pathway
-denominators and explicitly non-biological interpretation; and (iv) label
-Experiments 3–4 as unavailable until the required original source artifacts can
-be analyzed. This report does not edit manuscript or supplementary files.
+report matched eta2/entropy comparisons with panel-specific denominators; (iii)
+present the truth-exclusion analysis explicitly as a post-hoc sensitivity
+measure; and (iv) describe the ESS40 reversal and the loss of conditional
+support at ESS10. These sensitivity analyses do not warrant claims of
+independent biological validation. This report does not edit manuscript or
+supplementary files.
