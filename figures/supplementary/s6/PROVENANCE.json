@@ -1,0 +1,61 @@
+{
+  "figure": "S6",
+  "source_repository": "project_MRI_brain_tumor",
+  "source_commit": "3e2fffc4d7d18469cc9e5affe9c274178413c212",
+  "source_notebook": "figures/supp_fig6/supp_fig6.ipynb",
+  "source_notebook_sha256": "1e5133bbd08d325b09679ce25771e595f0833f9610dc405261ce5d244f75bf04",
+  "source_plot_cells_sha256": {
+    "1": "c17d1c9108e66bf045a221604a680b332ab4dfd8c6d6b042ec39750c823ae6e8",
+    "2": "42e484ddac3726e17f9d90cd76674eab15216d689c556ab310fdf58f8ea10ed7"
+  },
+  "source_reference_outputs": [
+    {
+      "path": "figures/supp_fig6/outputs/supp_fig6.svg",
+      "sha256": "d30625114da482d99fd6b4b63abf65ef8fea85c32b317eb2163752d047abfac4"
+    },
+    {
+      "path": "figures/supp_fig6/outputs/supp_fig6.png",
+      "sha256": "733d35ba3e3cbcdfdfd4396e3819929209393f6d7439c4902d3f04a78262a14c"
+    }
+  ],
+  "publication_script": "figures/supplementary/s6/plot_s6.py",
+  "publication_inputs": [
+    {
+      "path": "data/figure_inputs/fig4/fig4_data_manifest.json",
+      "sha256": "96a5cdaa50f148ba462e88d66b02d14aa3df75299713738eafd9eb1f23dd3def",
+      "bytes": 326448
+    },
+    {
+      "path": "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=CORDA/part.parquet.xz",
+      "sha256": "0fd4d308c6d03d5ef144fb5e8c48e497e115af7bc27cdddd1010ddef4e3ba457",
+      "bytes": 29827476
+    },
+    {
+      "path": "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=GIMME/part.parquet.xz",
+      "sha256": "f492947266440ed378540d6c0d6a40aabb8952fafef5cc728dbc8c9aa70f17ad",
+      "bytes": 24432076
+    },
+    {
+      "path": "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=iMAT/part.parquet.xz",
+      "sha256": "a44c629ffdc5ddcb1956d6132a8ec15d7dbb358e86b7888b512e315a73d4a070",
+      "bytes": 26366892
+    },
+    {
+      "path": "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=RIPTiDe/part.parquet.xz",
+      "sha256": "642fc972db1aa17854fbd631afb909fc07e9be54c7d5fdc51d23fbb60ffc2e42",
+      "bytes": 2326932
+    }
+  ],
+  "adaptation": "Adapted the two-panel plotting cell to read existing publication-frozen paired geometry partitions. Paired eta-squared changes are calculated from the frozen A1 and A2 columns; sign-state transitions use the frozen A1/A2 state counts. No numerical inputs or scientific definitions changed.",
+  "publication_script_sha256": "f7676fd9a4adc4fb9a4395b41458501f5efb9501dc998a8731ed95f8d0220712",
+  "publication_outputs": [
+    {
+      "path": "figures/released/supp_fig6/outputs/supp_fig6.svg",
+      "sha256": "3f518a72821406cf48e70fec5ad6b3d3e9b531a3104137adf569e2f6f12f3732"
+    },
+    {
+      "path": "figures/released/supp_fig6/outputs/supp_fig6.png",
+      "sha256": "733d35ba3e3cbcdfdfd4396e3819929209393f6d7439c4902d3f04a78262a14c"
+    }
+  ]
+}

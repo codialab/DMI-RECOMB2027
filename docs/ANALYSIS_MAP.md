@@ -1,6 +1,6 @@
 # Manuscript analysis and figure map
 
-Current release authority: source checkout `22527912996cecedd17bb23c0b7ba93e889ad4ad`, current manuscript technical audit, and current supplementary S1–S3 audit. For release reproduction status, use [REPRODUCIBILITY_MATRIX.md](REPRODUCIBILITY_MATRIX.md); this document retains the migration-era panel analysis and records historical source/draft discrepancies.
+Current release authority: source checkout `22527912996cecedd17bb23c0b7ba93e889ad4ad` for frozen inputs, canonical RECOMB 2027 Google Docs for editorial figure content, the current manuscript technical audit, and the supplementary S1–S3 audit. For release reproduction status, use [REPRODUCIBILITY_MATRIX.md](REPRODUCIBILITY_MATRIX.md); this document retains migration-era analysis where it does not conflict with current editorial decisions.
 
 The current source audit validates S1–S3 as distinct supplementary roles: S1 candidate weighting/support, S2 method-stratified A2−A1 shifts, and S3 pooled paired A1/A2 geometry. Current standalone S1–S3 plots and frozen inputs are now included. The current matrix supersedes stale statements below that these panels lack matching workflows. S4–S7 remain partial or unresolved as described in the current matrix.
 
@@ -12,9 +12,10 @@ lists exact included numerical paths, source and destination hashes, and current
 
 | Figure/panel | Plotting code or artwork | Frozen inputs / upstream code | Expected output and manuscript metric |
 |---|---|---|---|
-| 1A | Conceptual artwork only; source `figures/fig1/recomb_figure1_final_download.svg`, withheld for artwork/rights review | No numerical dependency | DMI observables mapped to a few GEM coordinates; most fluxes remain unmeasured |
-| 1B | Same conceptual SVG | No numerical dependency; illustrative densities | Anchoring may change a distribution while preserving a projected feasible range |
-| 1C | Same conceptual SVG | No numerical dependency | Separates feasibility, feasible ranges and sampled distributions; motivates two questions |
+| 1A | Current editable artwork `figures/released/fig1/recomb_figure1_editable_2.svg`; rasterized by `figures/main/fig1/render_fig1.py` | No numerical dependency | One or two quantitative anchors reweight candidate flux vectors; a different reaction's signed flux difference may remain unidentified |
+| 1B | Same four-panel SVG; panel B wording is corrected | No numerical dependency | A weak cue specifies direction without directly conveying magnitude information |
+| 1C | Same four-panel SVG; illustrative values are caption-checked | No numerical dependency | Equal sign uncertainty can accompany η² values 0 versus 0.90 and magnitude estimates 5 versus 4.27 |
+| 1D | Same four-panel SVG | No numerical dependency | Benchmark design: 4 methods × 4 RNA contexts × 25 cross-tumor mouse comparisons = 400 evaluations across 4,179 non-anchor reactions |
 | 2A–B | Conceptual artwork; source `recomb_figure2_ABC_rough_design_b.svg` requires editorial/rights review | No numerical dependency | Strong anchors plus a separate weak sign-only cue; direction–magnitude coupling |
 | 2C | Same conceptual source | No quantitative plot dependency; context design audited in Stage-11 configuration | Four methods and four RNA specifications; development/holdout distinction |
 | 2D | `figures/main/fig2/plot_fig2_dg.py` | `data/figure_inputs/fig2/figure2_DG_points.csv.xz`; upstream export builder in `figures/main/fig2/upstream/`; PL1 + PL2C + A23 | `reproduced/figures/fig2DG/figure2_DG_usefulness_scatter.{svg,png}`; A1 development usefulness frequency, n=2,454, rho≈0.857 |
@@ -58,7 +59,7 @@ additional panel letters or scientific comparisons have been invented.
 | S3 | PL2C/PL2D supportive results and M1 facts identify alternative descriptors and the continuous information-advantage endpoint | Draft requests descriptor comparisons and separate continuous information advantage. The current S3 paired-geometry plot is validated and reproducible from its included frozen table. |
 | S4 | Legacy `supp_fig4` builder/plot cells retained as provenance; PL2D bootstrap/supportive results provide upstream evidence | Bootstrap and separate development/confirmation/context plots exist. Draft also requires coverage-adjusted and reaction-exclusion analyses; current workflow does not cover all requested panels. |
 | S5 | Legacy `supp_fig5` builder/plot cells retained as provenance; final Figure 3 pair tables and PL2B/A22 control tables | Existing context gains/outcome composition partially match. Draft requests negative tails and reliability curves with explicit case/pair weighting. Missing portions must not be replaced by an exploratory scan. |
-| S6 | Legacy `supp_fig6` builder/plot cells retained as provenance; Figure 4 geometry partitions, PL1/A21 descriptors and A23 comparison evidence | Legacy workflow displays three geometry diagnostics. Draft requests eight descriptors with their own finite populations and unduplicated evaluation-level ESS. Partial coverage only. |
+| S6 | `figures/supplementary/s6/plot_s6.py`; four frozen Figure 4 geometry partitions listed in the figure registry | Two-panel output is reproducible: method-stratified paired η² changes and pooled supported-sign-state transitions. Non-tie coverage remains an analysis diagnostic but is not plotted; eight paired summaries are Table S7. |
 | S7 | Legacy `supp_fig7` builder/plot cells retained as provenance; Figure 4 candidate/support tables | Draft requests the FACOAL204 selection audit and exact degenerate RIPTiDe counterpart. Legacy workflow adds two post hoc examples and says no specific frozen main-example selection criterion was found. Author reconciliation required. |
 
 Legacy code cells in `manifests/provenance/legacy_figure_code/` contain no notebook

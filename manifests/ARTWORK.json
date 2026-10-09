@@ -2,21 +2,31 @@
   "schema": "recomb.artwork.v1",
   "source_repository": "project_MRI_brain_tumor",
   "source_commit": "225279129",
-  "rights_basis": "Project-generated artwork and editable components authorized by release task; source SVG identities recorded. Current assembly status remains distinct from redistribution status.",
+  "rights_basis": "Project-generated artwork and editable components authorized for this publication synchronization; source SVG identities and generated-output provenance are recorded. Current composition is distinct from any third-party source rights.",
   "artifacts": [
     {
       "path": "figures/released/fig1/recomb_figure1_editable_2.svg",
-      "sha256": "1fd21447ab4e8bfe99e6d86be15a66862196580639f57381318c0ae67dac1478",
-      "bytes": 68913,
-      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
-      "classification": "CURRENT_SOURCE_ARTWORK"
+      "sha256": "edd9f23d6ebb48d84e7dff20d815c07ddf0ab6da4fbafe661502302f3afce1b4",
+      "bytes": 72910,
+      "source_commit": "3e2fffc4d7d18469cc9e5affe9c274178413c212",
+      "classification": "CURRENT_SOURCE_ARTWORK",
+      "source_path": "figures/fig1/recomb_figure1_5_panelC_prediction_notation.svg",
+      "source_sha256": "a935ac6fa468615fcb204bd4c7fe759e8b63aadf51e81778755bfad720d0fe2e"
     },
     {
       "path": "figures/released/fig1/recomb_figure_1.png",
-      "sha256": "92c585861e7e0d251507d61ee836c90158ba9db64cec61a5caec8256e9899430",
-      "bytes": 1545469,
-      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
-      "classification": "CURRENT_SOURCE_ARTWORK"
+      "sha256": "194a31411dfd9631e84e642377c3442ca638e7887159e6a46799fc5a47c6c9ba",
+      "bytes": 596568,
+      "source_commit": "3e2fffc4d7d18469cc9e5affe9c274178413c212",
+      "classification": "CURRENT_SOURCE_ARTWORK",
+      "source_path": "figures/fig1/recomb_figure1_6_finalized_inkscape.png",
+      "source_sha256": "d8bdc4b8883933631fc26c8d1652c28f5dae581bef64486dd40ae40ff7251d5a",
+      "generated_by": "Inkscape 1.2.2; 2,400 px width; white background",
+      "generated_from": "figures/fig1/recomb_figure1_5_panelC_prediction_notation.svg",
+      "png_dpi_metadata": [
+        137.795,
+        137.795
+      ]
     },
     {
       "path": "figures/released/fig2/figure2_DG_usefulness_scatter.png",
@@ -244,17 +254,29 @@
     },
     {
       "path": "figures/released/supp_fig6/outputs/supp_fig6.png",
-      "sha256": "9451b294d676648e6b972bf047a7406633b49c11bb54c96a84b451f2c45c5d0c",
-      "bytes": 316840,
-      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
-      "classification": "CURRENT_SOURCE_ARTWORK"
+      "sha256": "733d35ba3e3cbcdfdfd4396e3819929209393f6d7439c4902d3f04a78262a14c",
+      "bytes": 355719,
+      "source_commit": "3e2fffc4d7d18469cc9e5affe9c274178413c212",
+      "classification": "CURRENT_SOURCE_ARTWORK",
+      "source_path": "figures/supp_fig6/outputs/supp_fig6.png",
+      "source_sha256": "733d35ba3e3cbcdfdfd4396e3819929209393f6d7439c4902d3f04a78262a14c",
+      "generated_by": "figures/supplementary/s6/plot_s6.py",
+      "generated_from": "figures/supp_fig6/outputs/supp_fig6.svg",
+      "source_notebook": "figures/supp_fig6/supp_fig6.ipynb",
+      "source_notebook_sha256": "1e5133bbd08d325b09679ce25771e595f0833f9610dc405261ce5d244f75bf04"
     },
     {
       "path": "figures/released/supp_fig6/outputs/supp_fig6.svg",
-      "sha256": "ad8e85756a5e2df9e0906f7d03467a1741b5ffa24fdbee73555dd6b0cefafd5c",
-      "bytes": 133330,
-      "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
-      "classification": "CURRENT_SOURCE_ARTWORK"
+      "sha256": "3f518a72821406cf48e70fec5ad6b3d3e9b531a3104137adf569e2f6f12f3732",
+      "bytes": 141053,
+      "source_commit": "3e2fffc4d7d18469cc9e5affe9c274178413c212",
+      "classification": "CURRENT_SOURCE_ARTWORK",
+      "source_path": "figures/supp_fig6/outputs/supp_fig6.svg",
+      "source_sha256": "d30625114da482d99fd6b4b63abf65ef8fea85c32b317eb2163752d047abfac4",
+      "generated_by": "figures/supplementary/s6/plot_s6.py",
+      "generated_from": "figures/supp_fig6/outputs/supp_fig6.svg",
+      "source_notebook": "figures/supp_fig6/supp_fig6.ipynb",
+      "source_notebook_sha256": "1e5133bbd08d325b09679ce25771e595f0833f9610dc405261ce5d244f75bf04"
     },
     {
       "path": "figures/released/supp_fig6/validation_report.md",

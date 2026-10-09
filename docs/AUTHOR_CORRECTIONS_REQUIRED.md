@@ -55,12 +55,12 @@ current design statements are correct and should be retained.
 | `manifests/provenance/legacy_figure_code/build_supp_fig5_tables.py` | Display labels, lines 238 and 253 |
 | `manifests/provenance/legacy_figure_code/build_supp_fig7_tables.py` | ARMS line 33 and manifest labels lines 231–232 |
 
-Original conceptual SVGs remain rights-pending and uncopied. Figure 1 mappings,
-Figure 2 anchor schematics and Figure 4A's transition need the same author-approved
-distinction between observables and intracellular diagnostic coordinates. Their
-source paths are in `ANALYSIS_MAP.md` and `RIGHTS_REVIEW.tsv`. No new artwork was
-prepared. Generic A1/A2 identifiers and genuine HEX1 coupling labels require no
-automatic replacement.
+The Figure 1 four-panel SVG has since been adopted for the current manuscript,
+with its PNG export and provenance recorded in the publication package. The
+separate Figure 2 anchor schematics, Figure 3A, and Figure 4A artwork remain
+subject to their own review. Their source history is documented in
+`ANALYSIS_MAP.md`. Generic A1/A2 identifiers and genuine HEX1 coupling labels
+require no automatic replacement.
 
 ## Documentation changes applied
 

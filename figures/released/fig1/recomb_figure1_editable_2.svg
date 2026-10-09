@@ -5,7 +5,7 @@
    viewBox="0 0 1672 941"
    version="1.1"
    id="svg907"
-   sodipodi:docname="recomb_figure1_editable.svg"
+   sodipodi:docname="recomb_figure1_5_panelC_prediction_notation.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -22,8 +22,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="0.70936111"
-     inkscape:cx="774.64072"
-     inkscape:cy="409.52344"
+     inkscape:cx="780.2796"
+     inkscape:cy="415.16231"
      inkscape:window-width="1920"
      inkscape:window-height="1131"
      inkscape:window-x="0"
@@ -660,14 +660,20 @@
      stroke-width="0"
      id="rect157" />
   <text
-     x="212"
+     x="224"
      y="386"
      class="font"
-     font-size="18"
+     font-size="18px"
      font-weight="700"
      text-anchor="start"
      fill="#111827"
-     id="text159">Focus:  Δv_B = v_B,c1 − v_B,c2</text>
+     id="text159">Focus: Δv<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan902">B</tspan> = v<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan898">B,c1</tspan> − v<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan900">B,c2</tspan></text>
   <text
      x="490"
      y="106"
@@ -1841,18 +1847,25 @@
      text-anchor="middle"
      fill="#111827"
      id="text451"><tspan
+       sodipodi:role="line"
+       id="tspan918"
        x="365"
-       dy="0"
-       id="tspan447">Quantitative anchors narrow feasible ranges, but uncertainty</tspan><tspan
+       y="450"><tspan
+         x="365"
+         dy="0"
+         id="tspan447">Quantitative anchors reweight feasible flux states;</tspan></tspan><tspan
+       sodipodi:role="line"
+       id="tspan920"
        x="365"
-       dy="23.6"
-       id="tspan449">remains in Δv<tspan
+       y="475"><tspan
+         x="365"
+         id="tspan449">uncertainty remains in Δv<tspan
    style="font-size:65%;baseline-shift:sub"
    id="tspan1950">B</tspan> = Δv<tspan
    style="font-size:65%;baseline-shift:sub"
    id="tspan1952">B,c1</tspan> - Δv<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan1954">B,c2</tspan>.</tspan></text>
+   id="tspan1954">B,c2</tspan>.</tspan></tspan></text>
   <text
      x="26"
      y="546"
@@ -2249,11 +2262,11 @@
      fill="#111827"
      id="text551">after cue</text>
   <rect
-     x="205"
+     x="140"
      y="858"
-     width="365"
+     width="489.89999"
      height="44"
-     rx="8"
+     rx="10.737535"
      ry="8"
      fill="#eef2f7"
      stroke="none"
@@ -2263,466 +2276,546 @@
      x="388"
      y="887"
      class="font"
-     font-size="18"
+     font-size="18px"
      font-weight="400"
      text-anchor="middle"
      fill="#111827"
-     id="text555">No direct magnitude information.</text>
+     id="text555">A directional cue does not directly convey magnitude information.</text>
   <text
      x="757"
      y="42"
-     class="font"
-     font-size="28"
-     font-weight="700"
-     text-anchor="start"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="28px"
      fill="#111827"
-     id="text557">C.</text>
+     text-anchor="start"
+     font-weight="700"
+     id="panelC_label">C.</text>
   <text
      x="803"
      y="42"
-     class="font"
-     font-size="25"
-     font-weight="700"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="25px"
+     fill="#111827"
      text-anchor="start"
-     fill="#111827"
-     id="text559">Residual flux geometry determines whether the cue helps</text>
-  <rect
-     x="748"
-     y="60"
-     width="440"
-     height="505"
-     rx="8"
-     ry="8"
-     fill="#ffffff"
-     stroke="#bae6fd"
-     stroke-width="1.5"
-     id="rect561" />
-  <rect
-     x="1200"
-     y="60"
-     width="440"
-     height="505"
-     rx="8"
-     ry="8"
-     fill="#ffffff"
-     stroke="#bae6fd"
-     stroke-width="1.5"
-     id="rect563" />
-  <rect
-     x="748"
-     y="60"
-     width="440"
-     height="42"
-     rx="8"
-     ry="8"
-     fill="#eef8ff"
-     stroke="none"
-     stroke-width="0"
-     id="rect565" />
-  <rect
-     x="1200"
-     y="60"
-     width="440"
-     height="42"
-     rx="8"
-     ry="8"
-     fill="#eef8ff"
-     stroke="none"
-     stroke-width="0"
-     id="rect567" />
-  <text
-     x="968.0"
-     y="90"
-     class="font"
-     font-size="25"
      font-weight="700"
-     text-anchor="middle"
-     fill="#111827"
-     id="text569">Direction already clear</text>
-  <text
-     x="1420.0"
-     y="90"
-     class="font"
-     font-size="25"
-     font-weight="700"
-     text-anchor="middle"
-     fill="#111827"
-     id="text571">Direction unresolved</text>
+     id="panelC_title">Same direction uncertainty, different magnitude information</text>
   <rect
-     x="818"
-     y="112"
-     width="300"
-     height="46"
-     rx="7"
-     ry="7"
+     x="752"
+     y="59"
+     width="900"
+     height="49"
      fill="#f0fdf4"
-     stroke="#16a34a"
-     stroke-width="2"
-     id="rect573" />
+     stroke="#a7f3d0"
+     stroke-width="1.2"
+     rx="10"
+     ry="10"
+     id="panelC_common_sign_balance" />
   <text
-     x="968"
-     y="142"
-     class="font"
-     font-size="18px"
-     font-weight="700"
-     text-anchor="middle"
+     x="775"
+     y="89"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="19px"
      fill="#111827"
-     id="text575">Supplied weak cue: Δv<tspan
-   style="font-size:65%;baseline-shift:sub"
-   id="tspan2430">B</tspan> &gt; 0</text>
-  <rect
-     x="1270"
-     y="112"
-     width="300"
-     height="46"
-     rx="7"
-     ry="7"
-     fill="#f0fdf4"
-     stroke="#16a34a"
-     stroke-width="2"
-     id="rect577" />
-  <text
-     x="1420"
-     y="142"
-     class="font"
-     font-size="18px"
-     font-weight="700"
-     text-anchor="middle"
-     fill="#111827"
-     id="text579">Supplied weak cue: Δv<tspan
-   style="font-size:65%;baseline-shift:sub"
-   id="tspan2428">B</tspan> &gt; 0</text>
-  <line
-     x1="808"
-     y1="395"
-     x2="1158"
-     y2="395"
-     stroke="#111827"
-     stroke-width="2"
-     marker-end="url(#arrow)"
-     id="line581" />
-  <line
-     x1="808"
-     y1="395"
-     x2="808"
-     y2="185"
-     stroke="#111827"
-     stroke-width="2"
-     marker-end="url(#arrow)"
-     id="line583" />
-  <line
-     x1="948"
-     y1="395"
-     x2="948"
-     y2="205"
-     stroke="#6b7280"
-     stroke-width="1.7"
-     stroke-dasharray="8 6"
-     id="line585" />
-  <text
-     x="948"
-     y="421"
-     class="font"
-     font-size="16"
-     font-weight="400"
-     text-anchor="middle"
-     fill="#111827"
-     id="text587">0</text>
-  <text
-     x="1083"
-     y="421"
-     class="font"
-     font-size="18px"
-     font-weight="700"
      text-anchor="start"
-     fill="#111827"
-     id="text589">Δv<tspan
-   style="font-size:65%;baseline-shift:sub"
-   id="tspan2424">B</tspan></text>
+     font-weight="700"
+     id="text291">Both: P(negative) = P(positive) = 0.50</text>
   <text
-     x="790"
-     y="290.0"
-     class="font"
-     font-size="16"
-     transform="rotate(-90 790,290.0)"
-     text-anchor="middle"
-     id="text591">probability</text>
-  <g
-     id="g1398"
-     transform="translate(-195.65,26.603906)">
-    <line
-       x1="1018"
-       y1="181"
-       x2="1053"
-       y2="181"
-       stroke="#6b7280"
-       stroke-width="2"
-       stroke-dasharray="8, 6"
-       id="line593" />
-    <text
-       x="1063"
-       y="186"
-       class="font"
-       font-size="14px"
-       font-weight="400"
-       text-anchor="start"
-       fill="#111827"
-       id="text595">before cue</text>
-    <line
-       x1="1018"
-       y1="203"
-       x2="1053"
-       y2="203"
-       stroke="#2563eb"
-       stroke-width="3"
-       id="line597" />
-    <text
-       x="1063"
-       y="208"
-       class="font"
-       font-size="14px"
-       font-weight="400"
-       text-anchor="start"
-       fill="#111827"
-       id="text599">after cue</text>
-  </g>
-  <g
-     id="g1398-7"
-     transform="translate(252.43521,26.603906)">
-    <line
-       x1="1018"
-       y1="181"
-       x2="1053"
-       y2="181"
-       stroke="#6b7280"
-       stroke-width="2"
-       stroke-dasharray="8, 6"
-       id="line593-5" />
-    <text
-       x="1063"
-       y="186"
-       class="font"
-       font-size="14px"
-       font-weight="400"
-       text-anchor="start"
-       fill="#111827"
-       id="text595-3"
-       style="font-family:Arial, Helvetica, sans-serif;fill:#111827">before cue</text>
-    <line
-       x1="1018"
-       y1="203"
-       x2="1053"
-       y2="203"
-       stroke="#2563eb"
-       stroke-width="3"
-       id="line597-5" />
-    <text
-       x="1063"
-       y="208"
-       class="font"
-       font-size="14px"
-       font-weight="400"
-       text-anchor="start"
-       fill="#111827"
-       id="text599-6"
-       style="font-family:Arial, Helvetica, sans-serif;fill:#111827">after cue</text>
-  </g>
-  <path
-     d="M883,390 C923,392 958,375 998,305 C1033,240 1068,235 1108,305 C1143,367 1168,388 1193,391"
-     stroke="#6b7280"
-     stroke-width="2"
-     fill="none"
-     stroke-dasharray="8 6"
-     id="path601" />
-  <path
-     d="M888,390 C928,391 963,370 1003,300 C1036,240 1070,245 1110,307 C1146,371 1173,389 1198,391"
-     stroke="#2563eb"
-     stroke-width="3"
-     fill="none"
-     id="path603" />
-  <line
-     x1="1260"
-     y1="395"
-     x2="1610"
-     y2="395"
-     stroke="#111827"
-     stroke-width="2"
-     marker-end="url(#arrow)"
-     id="line605" />
-  <line
-     x1="1260"
-     y1="395"
-     x2="1260"
-     y2="185"
-     stroke="#111827"
-     stroke-width="2"
-     marker-end="url(#arrow)"
-     id="line607" />
-  <line
-     x1="1400"
-     y1="395"
-     x2="1400"
-     y2="205"
-     stroke="#6b7280"
-     stroke-width="1.7"
-     stroke-dasharray="8 6"
-     id="line609" />
-  <text
-     x="1400"
-     y="421"
-     class="font"
-     font-size="16"
-     font-weight="400"
-     text-anchor="middle"
-     fill="#111827"
-     id="text611">0</text>
-  <text
-     x="1535"
-     y="421"
-     class="font"
+     x="1225"
+     y="89"
+     font-family="Arial, Helvetica, sans-serif"
      font-size="18px"
-     font-weight="700"
+     fill="#111827"
      text-anchor="start"
-     fill="#111827"
-     id="text613">Δv<tspan
-   style="font-size:65%;baseline-shift:sub"
-   id="tspan2426">B</tspan></text>
-  <text
-     x="1242"
-     y="290.0"
-     class="font"
-     font-size="16"
-     transform="rotate(-90 1242,290.0)"
-     text-anchor="middle"
-     id="text615">probability</text>
-  <path
-     d="M1280,391 C1315,389 1335,330 1370,320 C1400,313 1415,370 1430,375 C1465,387 1495,265 1545,263 C1590,261 1610,380 1655,391"
-     stroke="#6b7280"
-     stroke-width="2"
-     fill="none"
-     stroke-dasharray="8 6"
-     id="path625" />
-  <path
-     d="M1285,391 C1325,390 1350,360 1380,365 C1410,369 1430,385 1450,383 C1485,377 1505,220 1552,213 C1598,210 1612,379 1658,391"
-     stroke="#2563eb"
-     stroke-width="3"
-     fill="none"
-     id="path627" />
-  <rect
-     x="763"
-     y="445"
-     width="410"
-     height="58"
-     rx="7"
-     ry="7"
-     fill="#ffe4e6"
-     stroke="none"
-     stroke-width="0"
-     id="rect629" />
-  <text
-     x="968"
-     y="481"
-     class="font"
-     font-size="18"
-     font-weight="400"
-     text-anchor="middle"
-     fill="#111827"
-     id="text631">Estimated magnitude changes little.</text>
-  <rect
-     x="763"
-     y="511"
-     width="410"
-     height="50"
-     rx="7"
-     ry="7"
-     fill="#eaf3ff"
-     stroke="none"
-     stroke-width="0"
-     id="rect633" />
-  <text
-     x="968"
-     y="542"
-     class="font"
-     font-size="19"
      font-weight="700"
-     text-anchor="middle"
-     fill="#111827"
-     id="text635">Weak cue is mostly redundant.</text>
+     id="text295">Positive cue: d = +1, λ = 0.25</text>
   <rect
-     x="1215"
-     y="445"
-     width="410"
-     height="58"
-     rx="7"
-     ry="7"
-     fill="#ffe4e6"
-     stroke="none"
-     stroke-width="0"
-     id="rect637" />
-  <text
-     x="1420"
-     y="472"
-     class="font"
-     font-size="17"
-     font-weight="400"
-     text-anchor="middle"
-     fill="#111827"
-     id="text643"><tspan
-       x="1420"
-       dy="0"
-       id="tspan639">Estimated magnitude changes in the</tspan><tspan
-       x="1420"
-       dy="20.06"
-       id="tspan641">correct direction.</tspan></text>
+     x="752"
+     y="118"
+     width="440"
+     height="443"
+     fill="#ffffff"
+     stroke="#bfdbfe"
+     stroke-width="1.5"
+     rx="10"
+     ry="10"
+     id="panelC_comparison_card_1" />
   <rect
-     x="1215"
-     y="511"
-     width="410"
-     height="50"
-     rx="7"
-     ry="7"
-     fill="#eaf3ff"
+     x="753"
+     y="119"
+     width="438"
+     height="57"
+     fill="#eff6ff"
      stroke="none"
-     stroke-width="0"
-     id="rect645" />
+     stroke-width="1.2"
+     rx="8"
+     ry="8"
+     id="rect298" />
   <text
-     x="1420"
-     y="542"
-     class="font"
-     font-size="19"
+     x="972"
+     y="145"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="21px"
+     fill="#111827"
+     text-anchor="middle"
      font-weight="700"
+     id="text300">Equal mean magnitudes</text>
+  <text
+     x="972"
+     y="168"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="18px"
+     fill="#475569"
      text-anchor="middle"
+     font-weight="700"
+     id="text302">η² = 0</text>
+  <text
+     x="778"
+     y="206"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="15px"
+     fill="#475569"
+     text-anchor="start"
+     id="text304">Four equally weighted states (25% each)</text>
+  <line
+     x1="810"
+     y1="363"
+     x2="1156"
+     y2="363"
+     stroke="#111827"
+     stroke-width="1.9"
+     id="line306" />
+  <path
+     d="m 1156,363 -10,-5 v 10 z"
      fill="#111827"
-     id="text647">Weak cue becomes informative.</text>
+     id="path308" />
+  <line
+     x1="972"
+     y1="222"
+     x2="972"
+     y2="363"
+     stroke="#94a3b8"
+     stroke-width="1.5"
+     stroke-dasharray="5, 5"
+     id="line310" />
+  <text
+     x="972"
+     y="219"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="15px"
+     fill="#64748b"
+     text-anchor="middle"
+     id="text312">0</text>
+  <text
+     x="1153"
+     y="387"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="17px"
+     fill="#111827"
+     text-anchor="end"
+     font-weight="700"
+     id="text314">Δv_B</text>
   <rect
-     x="748"
-     y="578"
-     width="892"
-     height="68"
+     x="850"
+     y="249"
+     width="20"
+     height="110"
+     fill="#fb7185"
+     stroke="none"
+     stroke-width="1.2"
+     rx="5"
+     ry="5"
+     id="panelC_bar_1_1" />
+  <text
+     x="860"
+     y="238"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="16px"
+     fill="#475569"
+     text-anchor="middle"
+     font-weight="700"
+     id="text317">¼</text>
+  <text
+     x="860"
+     y="384"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="16px"
+     fill="#be123c"
+     text-anchor="middle"
+     font-weight="700"
+     id="text319">-7</text>
+  <rect
+     x="914"
+     y="249"
+     width="20"
+     height="110"
+     fill="#fb7185"
+     stroke="none"
+     stroke-width="1.2"
+     rx="5"
+     ry="5"
+     id="panelC_bar_1_2" />
+  <text
+     x="924"
+     y="238"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="16px"
+     fill="#475569"
+     text-anchor="middle"
+     font-weight="700"
+     id="text322">¼</text>
+  <text
+     x="924"
+     y="384"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="16px"
+     fill="#be123c"
+     text-anchor="middle"
+     font-weight="700"
+     id="text324">-3</text>
+  <rect
+     x="1010"
+     y="249"
+     width="20"
+     height="110"
+     fill="#3b82f6"
+     stroke="none"
+     stroke-width="1.2"
+     rx="5"
+     ry="5"
+     id="panelC_bar_1_3" />
+  <text
+     x="1020"
+     y="238"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="16px"
+     fill="#475569"
+     text-anchor="middle"
+     font-weight="700"
+     id="text327">¼</text>
+  <text
+     x="1020"
+     y="384"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="16px"
+     fill="#1d4ed8"
+     text-anchor="middle"
+     font-weight="700"
+     id="text329">+3</text>
+  <rect
+     x="1074"
+     y="249"
+     width="20"
+     height="110"
+     fill="#3b82f6"
+     stroke="none"
+     stroke-width="1.2"
+     rx="5"
+     ry="5"
+     id="panelC_bar_1_4" />
+  <text
+     x="1084"
+     y="238"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="16px"
+     fill="#475569"
+     text-anchor="middle"
+     font-weight="700"
+     id="text332">¼</text>
+  <text
+     x="1084"
+     y="384"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="16px"
+     fill="#1d4ed8"
+     text-anchor="middle"
+     font-weight="700"
+     id="text334">+7</text>
+  <rect
+     x="766"
+     y="402"
+     width="412"
+     height="100"
+     fill="#f8fafc"
+     stroke="#e2e8f0"
+     stroke-width="1"
      rx="9"
      ry="9"
-     fill="#eafbea"
+     id="rect336" />
+  <text
+     x="972"
+     y="430"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="16px"
+     fill="#475569"
+     text-anchor="middle"
+     id="text338"
+     font-weight="500">Predicted magnitude</text>
+  <text
+     x="972"
+     y="533"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="17px"
+     fill="#334155"
+     text-anchor="middle"
+     id="text348">Negative mean = 5 · Positive mean = 5</text>
+  <rect
+     x="1204"
+     y="118"
+     width="440"
+     height="443"
+     fill="#ffffff"
+     stroke="#bfdbfe"
+     stroke-width="1.5"
+     rx="10"
+     ry="10"
+     id="panelC_comparison_card_2" />
+  <rect
+     x="1205"
+     y="119"
+     width="438"
+     height="57"
+     fill="#eff6ff"
      stroke="none"
-     stroke-width="0"
-     id="rect649" />
+     stroke-width="1.2"
+     rx="8"
+     ry="8"
+     id="rect351" />
   <text
-     x="1194"
-     y="606"
-     class="font"
-     font-size="22"
+     x="1424"
+     y="145"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="21px"
+     fill="#111827"
+     text-anchor="middle"
      font-weight="700"
-     text-anchor="middle"
-     fill="#111827"
-     id="text651">Same sign cue, different value.</text>
+     id="text353">Different mean magnitudes</text>
   <text
-     x="1194"
-     y="633"
-     class="font"
-     font-size="17"
-     font-weight="400"
+     x="1424"
+     y="168"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="18px"
+     fill="#475569"
      text-anchor="middle"
+     font-weight="700"
+     id="text355">η² = 0.90</text>
+  <text
+     x="1230"
+     y="206"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="15px"
+     fill="#475569"
+     text-anchor="start"
+     id="text357">Four equally weighted states (25% each)</text>
+  <line
+     x1="1262"
+     y1="363"
+     x2="1608"
+     y2="363"
+     stroke="#111827"
+     stroke-width="1.9"
+     id="line359" />
+  <path
+     d="m 1608,363 -10,-5 v 10 z"
      fill="#111827"
-     id="text653">The value of directional information is determined by the residual distribution P(Δv_B).</text>
+     id="path361" />
+  <line
+     x1="1424"
+     y1="222"
+     x2="1424"
+     y2="363"
+     stroke="#94a3b8"
+     stroke-width="1.5"
+     stroke-dasharray="5, 5"
+     id="line363" />
+  <text
+     x="1424"
+     y="219"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="15px"
+     fill="#64748b"
+     text-anchor="middle"
+     id="text365">0</text>
+  <text
+     x="1605"
+     y="387"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="17px"
+     fill="#111827"
+     text-anchor="end"
+     font-weight="700"
+     id="text367">Δv_B</text>
+  <rect
+     x="1270"
+     y="249"
+     width="20"
+     height="110"
+     fill="#fb7185"
+     stroke="none"
+     stroke-width="1.2"
+     rx="5"
+     ry="5"
+     id="panelC_bar_2_1" />
+  <text
+     x="1280"
+     y="238"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="16px"
+     fill="#475569"
+     text-anchor="middle"
+     font-weight="700"
+     id="text370">¼</text>
+  <text
+     x="1280"
+     y="384"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="16px"
+     fill="#be123c"
+     text-anchor="middle"
+     font-weight="700"
+     id="text372">-9</text>
+  <rect
+     x="1302"
+     y="249"
+     width="20"
+     height="110"
+     fill="#fb7185"
+     stroke="none"
+     stroke-width="1.2"
+     rx="5"
+     ry="5"
+     id="panelC_bar_2_2" />
+  <text
+     x="1312"
+     y="238"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="16px"
+     fill="#475569"
+     text-anchor="middle"
+     font-weight="700"
+     id="text375">¼</text>
+  <text
+     x="1312"
+     y="384"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="16px"
+     fill="#be123c"
+     text-anchor="middle"
+     font-weight="700"
+     id="text377">-7</text>
+  <rect
+     x="1430"
+     y="249"
+     width="20"
+     height="110"
+     fill="#3b82f6"
+     stroke="none"
+     stroke-width="1.2"
+     rx="5"
+     ry="5"
+     id="panelC_bar_2_3" />
+  <text
+     x="1440"
+     y="238"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="16px"
+     fill="#475569"
+     text-anchor="middle"
+     font-weight="700"
+     id="text380">¼</text>
+  <text
+     x="1440"
+     y="384"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="16px"
+     fill="#1d4ed8"
+     text-anchor="middle"
+     font-weight="700"
+     id="text382">+1</text>
+  <rect
+     x="1462"
+     y="249"
+     width="20"
+     height="110"
+     fill="#3b82f6"
+     stroke="none"
+     stroke-width="1.2"
+     rx="5"
+     ry="5"
+     id="panelC_bar_2_4" />
+  <text
+     x="1472"
+     y="238"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="16px"
+     fill="#475569"
+     text-anchor="middle"
+     font-weight="700"
+     id="text385">¼</text>
+  <text
+     x="1472"
+     y="384"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="16px"
+     fill="#1d4ed8"
+     text-anchor="middle"
+     font-weight="700"
+     id="text387">+3</text>
+  <rect
+     x="1218"
+     y="402"
+     width="412"
+     height="100"
+     fill="#f8fafc"
+     stroke="#e2e8f0"
+     stroke-width="1"
+     rx="9"
+     ry="9"
+     id="rect389" />
+  <text
+     x="1424"
+     y="430"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="16px"
+     fill="#475569"
+     text-anchor="middle"
+     id="text391"
+     font-weight="500">Predicted magnitude</text>
+  <text
+     x="1424"
+     y="533"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="17px"
+     fill="#334155"
+     text-anchor="middle"
+     id="text401">Negative mean = 8 · Positive mean = 2</text>
+  <rect
+     x="752"
+     y="574"
+     width="900"
+     height="67"
+     fill="#e9f9e9"
+     stroke="none"
+     stroke-width="1.2"
+     rx="10"
+     ry="10"
+     id="panelC_takeaway" />
+  <text
+     x="1202"
+     y="601"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="20px"
+     fill="#111827"
+     text-anchor="middle"
+     font-weight="700"
+     id="text404">Same sign entropy (H ≈ 0.63), different coupling (η² = 0 vs 0.90).</text>
+  <text
+     x="1202"
+     y="628"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="17px"
+     fill="#334155"
+     text-anchor="middle"
+     id="text406">Knowing the direction can change the magnitude estimate only when sign groups differ.</text>
   <text
      x="757"
      y="702"
@@ -2880,61 +2973,61 @@
        dy="0"
        id="tspan687">4 RNA contexts</tspan></text>
   <path
-     d="M902,770 C910,763 918,777 926,770 C934,763 942,777 950,770"
+     d="m 890,770 c 8,-7 16,7 24,0 8,-7 16,7 24,0"
      stroke="#3b82f6"
      stroke-width="2.2"
      fill="none"
      id="path691" />
   <text
-     x="963"
+     x="951"
      y="775"
      class="font"
-     font-size="12"
+     font-size="12px"
      font-weight="400"
      text-anchor="start"
      fill="#111827"
      id="text693">RNA set A</text>
   <path
-     d="M902,794 C910,787 918,801 926,794 C934,787 942,801 950,794"
+     d="m 890,794 c 8,-7 16,7 24,0 8,-7 16,7 24,0"
      stroke="#22c55e"
      stroke-width="2.2"
      fill="none"
      id="path695" />
   <text
-     x="963"
+     x="951"
      y="799"
      class="font"
-     font-size="12"
+     font-size="12px"
      font-weight="400"
      text-anchor="start"
      fill="#111827"
      id="text697">RNA set B</text>
   <path
-     d="M902,818 C910,811 918,825 926,818 C934,811 942,825 950,818"
+     d="m 890,818 c 8,-7 16,7 24,0 8,-7 16,7 24,0"
      stroke="#f59e0b"
      stroke-width="2.2"
      fill="none"
      id="path699" />
   <text
-     x="963"
+     x="951"
      y="823"
      class="font"
-     font-size="12"
+     font-size="12px"
      font-weight="400"
      text-anchor="start"
      fill="#111827"
      id="text701">RNA set C</text>
   <path
-     d="M902,842 C910,835 918,849 926,842 C934,835 942,849 950,842"
+     d="m 890,842 c 8,-7 16,7 24,0 8,-7 16,7 24,0"
      stroke="#8b5cf6"
      stroke-width="2.2"
      fill="none"
      id="path703" />
   <text
-     x="963"
+     x="951"
      y="847"
      class="font"
-     font-size="12"
+     font-size="12px"
      font-weight="400"
      text-anchor="start"
      fill="#111827"
@@ -3717,4 +3810,62 @@
      text-anchor="middle"
      fill="#111827"
      id="text905">Evaluations span methods, RNA contexts, and cross-tumor mouse comparisons.</text>
+  <text
+     id="panelC_predicted_magnitude_left"
+     x="972"
+     y="473"
+     text-anchor="middle"
+     font-family="DejaVu Sans, Arial, sans-serif"
+     font-size="26px"
+     fill="#111827"
+     font-weight="600"
+     xml:space="preserve"><tspan
+       font-style="italic"
+       id="tspan472">m̂</tspan><tspan
+       font-size="15px"
+       baseline-shift="sub"
+       id="tspan474">0</tspan><tspan
+       id="tspan476"> = 5  </tspan><tspan
+       fill="#64748b"
+       id="tspan478">→</tspan><tspan
+       id="tspan480">  </tspan><tspan
+       font-style="italic"
+       fill="#111827"
+       id="tspan482">m̂</tspan><tspan
+       font-size="15px"
+       baseline-shift="sub"
+       font-style="italic"
+       fill="#111827"
+       id="tspan484">sign</tspan><tspan
+       fill="#111827"
+       id="tspan486"> = 5</tspan></text>
+  <text
+     id="panelC_predicted_magnitude_right"
+     x="1424"
+     y="473"
+     text-anchor="middle"
+     font-family="DejaVu Sans, Arial, sans-serif"
+     font-size="26px"
+     fill="#111827"
+     font-weight="600"
+     xml:space="preserve"><tspan
+       font-style="italic"
+       id="tspan489">m̂</tspan><tspan
+       font-size="15px"
+       baseline-shift="sub"
+       id="tspan491">0</tspan><tspan
+       id="tspan493"> = 5  </tspan><tspan
+       fill="#64748b"
+       id="tspan495">→</tspan><tspan
+       id="tspan497">  </tspan><tspan
+       font-style="italic"
+       fill="#166534"
+       id="tspan499">m̂</tspan><tspan
+       font-size="15px"
+       baseline-shift="sub"
+       font-style="italic"
+       fill="#166534"
+       id="tspan502">sign</tspan><tspan
+       fill="#166534"
+       id="tspan504"> = 4.27</tspan></text>
 </svg>

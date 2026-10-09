@@ -1,19 +1,20 @@
 {
   "schema": "recomb.figure_registry.v1",
   "source_commit": "22527912996cecedd17bb23c0b7ba93e889ad4ad",
-  "authority": "Current manuscript drafts + RECOMB_MANUSCRIPT_TECHNICAL_AUDIT.md",
+  "authority": "Canonical RECOMB 2027 Google Docs (main and Supplementary Materials; verified 2026-10-09) + frozen migration technical audit",
   "figures": [
     {
       "id": "fig1",
       "panels": [
         "1A",
         "1B",
-        "1C"
+        "1C",
+        "1D"
       ],
-      "status": "AUTHOR_REVIEW_REQUIRED",
+      "status": "REPRODUCIBLE",
       "inputs": [],
-      "plotting_script": null,
-      "issue": "Conceptual artwork; matching source SVG identified but ownership/final artwork identity not cleared. No numerical data dependency."
+      "plotting_script": "figures/main/fig1/render_fig1.py",
+      "issue": "Conceptual A–D artwork with no numerical input; the script packages the editable SVG and regenerates the 2,400-pixel publication PNG with Inkscape."
     },
     {
       "id": "fig2ABC",
@@ -187,12 +188,19 @@
     {
       "id": "s6",
       "panels": [
-        "S6 (draft panel letters pending)"
+        "S6A",
+        "S6B"
       ],
-      "status": "AUTHOR_REVIEW_REQUIRED",
-      "inputs": [],
-      "plotting_script": null,
-      "issue": "Legacy S6 plots three geometry diagnostics, while draft requests eight descriptors with metric-specific denominators and unduplicated evaluation ESS. Do not silently extend the scientific workflow."
+      "status": "REPRODUCIBLE",
+      "inputs": [
+        "data/figure_inputs/fig4/fig4_data_manifest.json",
+        "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=CORDA/part.parquet.xz",
+        "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=GIMME/part.parquet.xz",
+        "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=iMAT/part.parquet.xz",
+        "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=RIPTiDe/part.parquet.xz"
+      ],
+      "plotting_script": "figures/supplementary/s6/plot_s6.py",
+      "issue": "Canonical two-panel S6: η² paired-change ECDF on 573,882 finite keys and supported-sign-state transition matrix on all 1,671,600 keys. Non-tie coverage remains documented but is not plotted; descriptor summaries are Table S7."
     },
     {
       "id": "s7",

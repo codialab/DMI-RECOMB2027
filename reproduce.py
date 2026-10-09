@@ -116,6 +116,23 @@ def validate_frozen() -> dict:
     for method, block in geometry.groupby("algorithm"):
         assert len(block) == 417900
     result["scientific_checks"].append("Figure 4 400 evaluations × 4,179 reactions, one-to-one paired keys")
+    eta1 = geometry["A1_direction_explained_magnitude_variance"].to_numpy(float)
+    eta2 = geometry["A2_direction_explained_magnitude_variance"].to_numpy(float)
+    eta_finite = np.isfinite(eta1) & np.isfinite(eta2)
+    eta_counts = geometry.loc[eta_finite].groupby("algorithm").size().to_dict()
+    assert eta_counts == {"CORDA": 212164, "GIMME": 141365, "RIPTiDe": 12423, "iMAT": 207930}
+    states = pd.crosstab(geometry.A1_supported_sign_state_count.astype(int),
+                         geometry.A2_supported_sign_state_count.astype(int))
+    states = states.reindex(index=[1, 2, 3], columns=[1, 2, 3], fill_value=0)
+    expected_states = np.array([[1293850, 1055, 0], [0, 376470, 0], [0, 0, 225]])
+    assert np.array_equal(states.to_numpy(), expected_states)
+    non_tie_delta = (geometry.A2_non_tie_coverage.to_numpy(float)
+                     - geometry.A1_non_tie_coverage.to_numpy(float))
+    assert np.isfinite(non_tie_delta).all() and np.sum(np.abs(non_tie_delta) > 1e-12) == 776
+    assert np.isclose(non_tie_delta.mean(), -0.00003375, rtol=0, atol=1e-8)
+    result["scientific_checks"].append(
+        "Supplementary Figure 6 η² finite pairs, sign-state transitions, and retained non-tie-coverage diagnostic"
+    )
     s1 = pd.read_csv(inside("data/figure_inputs/s1/candidate_weights.tsv"), sep="\t")
     s1_strata = pd.read_csv(inside("data/figure_inputs/s1/conditional_stratum_summary.tsv"), sep="\t")
     assert len(s1) == 6400 and len(s1_strata) == 320

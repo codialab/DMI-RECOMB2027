@@ -9,7 +9,7 @@ render is evidence/artwork, not by itself a successful rebuild.
 
 | Manuscript element | Included source/input | Reproduction status | Population / endpoint and qualification |
 |---|---|---|---|
-| Fig. 1A–C | Current editable SVG and PNG in `figures/released/fig1/` | Artwork retained; conceptual and composition review remains | No numerical endpoint. Editable component retained; final assembly identity is not asserted. |
+| Fig. 1A–D | Current editable SVG and 2,400-pixel PNG in `figures/released/fig1/`; `render_fig1.py` | **Reproducible** (`fig1`; Inkscape renderer, no numerical inputs) | Canonical caption confirms four panels, Figure 1C values, and the 400-evaluation/4,179-reaction design in panel D. |
 | Fig. 2A–C | Current composite and rough conceptual SVG in `figures/released/fig2/` | Artwork retained; conceptual panels not data-regenerated | No numerical endpoint. |
 | Fig. 2D–G | Frozen `figure2_DG_points.csv.xz`; `plot_fig2_dg.py` | **Reproducible** (`fig2DG`) | Plotted reaction counts 2,454 / 2,485 / 838 / 843; Spearman ρ = 0.8571160 / 0.8339440 / 0.8351436 / 0.8493657. Point table and aggregation are source-frozen. |
 | Fig. 3A | Current editable SVG in `figures/released/fig3/` | Artwork retained; conceptual content | No numerical endpoint. |
@@ -28,12 +28,12 @@ render is evidence/artwork, not by itself a successful rebuild.
 | Fig. S3 | Current source render and source audit retained | **Reproducible** (`s3`; notebook-cell plot extraction) | Pooled A1/A2 geometry relationship; same 1,671,600 paired rows. Tiny serialization differences are recorded in the current source audit. |
 | Fig. S4 | Current source render and its validation report | Artwork retained; full manuscript scope not established | Existing source covers bootstrap/development/context panels; source audit notes additional draft coverage and reaction-exclusion requests. |
 | Fig. S5 | Current source render and its validation report | Artwork retained; full manuscript scope not established | Existing source covers context gains/outcome composition; draft also requests negative tails and reliability curves. |
-| Fig. S6 | Current source render and its validation report | Artwork retained; full descriptor set not established | Existing source plots three geometry diagnostics; the draft requests eight descriptors with metric-specific denominators and unduplicated evaluation ESS. |
+| Fig. S6 | Frozen Figure 4 geometry partitions; `figures/supplementary/s6/plot_s6.py`; current SVG/PNG | **Reproducible** (`s6`; publication plotting script) | Two canonical panels: η² paired-change ECDF (573,882 finite keys) and supported-sign-state transition matrix (1,671,600 keys). Non-tie coverage remains documented but is not plotted; eight paired summaries belong to Table S7. |
 | Fig. S7 | Current source render and selection manifest | Artwork retained; example lineage unresolved | Two post-hoc examples are recorded; the exact frozen main-example selection rule remains unresolved. |
 | Table S2 / aggregation audit | `fig3_gain_definition_audit.parquet.xz` under `data/processed/aggregation_audit/` | Provenance-only | Case-pooled definitions are superseded for primary Figure 3 results; primary summaries use equal-weight matched-pair aggregation. |
 
 The root CLI regenerates quantitative panels with current standalone plotting code
-and authoritative inputs (Fig. 2D–G, 3B–D, 4B–C, and S1–S3). Current S1–S7
+and authoritative inputs (Fig. 2D–G, 3B–D, 4B–C, and S1–S3 and S6). Current S1–S7
 artwork, notebook/source provenance, and source audits are retained under `figures/released/` and `manifests/provenance/source/` as
 appropriate; unresolved items are not relabeled as reproducible. `status`,
 `validate`, `figures`, and `tables` never run upstream reconstruction, Gurobi,
