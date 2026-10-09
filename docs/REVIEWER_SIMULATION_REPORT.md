@@ -1,8 +1,8 @@
 # Reviewer-requested sensitivity analyses
 
-Status: completed for Experiments 1–2 from released compact tables; Experiments
-3–4 deferred because their required upstream artifacts are not included in this
-repository. All results below are post-hoc robustness analyses. No manuscript or
+Status: Experiments 1–4 have been implemented and evaluated as post-hoc
+robustness analyses. Experiments 1–2 use released compact tables; Experiments
+3–4 use the authorized read-only scientific checkout. No manuscript or
 supplementary material, production pipeline, frozen input, candidate vector, or
 canonical result was modified.
 
@@ -197,7 +197,13 @@ and 0.8286; all corresponding 2,000-replicate block-bootstrap intervals remain
 positive. Grouped predictive scores are in `predictive_models.tsv.gz`, and exact
 fold identities are in `fold_assignments.tsv.gz`.
 
-## Experiments 3–4: post-hoc sensitivity results
+## Superseded Experiments 3–4 results (initial implementation)
+
+The numerical findings in this historical section were superseded after review
+identified pooled truth-pair aggregation, confirmation-fold leakage, and a
+changing eligible truth-pair population in ESS comparisons. Do not cite these
+values as the current results. They are retained to preserve the analysis
+history; corrected results appear in the next section.
 
 These analyses use the authorized, read-only scientific checkout. The four
 primary source files passed their expected SHA-256 checks. The carbon-normalized
@@ -321,6 +327,131 @@ of the isolated causal effect of adding a measurement.
    The 400 evaluations and repeated reaction/truth-pair rows are not independent
    biological replicates.
 
+## Corrected Experiments 3–4: current findings
+
+All primary endpoints now follow the frozen two-stage rule: distinct truth-pair
+cases are averaged within each evaluation after excluding ties, then defined
+evaluations receive equal weight in the reaction summary. Evaluation counts and
+finite denominators are retained. Directional usefulness still requires both
+correct-cue gain and information advantage to exceed `1e-12`; λ is 0.25. The
+synthetic unequal-case-count test confirms this differs from direct pooling.
+Baseline case outcomes use round-trip parsing of frozen PL2B/A22 values. This
+avoids near-tolerance flips from recomputing binary endpoints through a different
+floating-point path.
+
+Predictive models now use fixed α=1 Ridge, with scaling and fitting restricted
+to development reactions. Five-fold pathway GroupKFold is used for development
+out-of-fold scores. The complete development fit is then applied unchanged to
+confirmation reactions. Confirmation has already informed the broader
+manuscript revision, so these are post-hoc robustness comparisons, not
+prospective independent validation.
+
+### Experiment 3A
+
+Original 20×20 geometry parity passes with maximum median discrepancy
+`1.64e-15`. The 836 frozen matched distinct truth pairs produce 1,546,230
+evaluation×reaction rows per arm; round-trip frozen-case endpoint parity passes
+for A1/PL2B and A2/A22. The weak-cue universe remains 4,179 reactions. The
+19×19 descriptor excludes each selected whole vector and renormalizes the
+remaining weights. It depends on truth identity and remains a
+**truth-exclusion sensitivity descriptor**, not a predictor available before
+truth selection.
+
+η²–usefulness Spearman associations remain positive for both geometries:
+development/confirmation 0.857/0.835 (A1, 20×20), 0.887/0.856 (A1, 19×19),
+0.834/0.849 (A2, 20×20), and 0.827/0.839 (A2, 19×19). Partial rank
+associations controlling for entropy are also positive (A1 0.414/0.343 and
+0.485/0.406; A2 0.283/0.310 and 0.256/0.301 for development/confirmation).
+Adding η² to the entropy model reduces MAE in development grouped CV and in
+confirmation from the development fit: 0.0044/0.0027 and 0.0055/0.0040 for A1
+(20×20/19×19), and 0.0032/0.0029 and 0.0028/0.0029 for A2. Thus the
+truth-exclusion association and incremental score persist, though the A2
+partial association weakens slightly under exclusion.
+
+### Experiment 3B
+
+The six scenarios retain their own distinct-pair populations: 836 frozen
+q10/q50/q90 pairs, 803 q20/q50/q80 pairs, and 742, 727, 739, and 721 pairs for
+random seeds 20271028–20271031. Each has 1,200 selection rows and 1,110
+evaluable selection rows; duplicate vector selections are recorded and are not
+counted as additional distinct truth pairs. Each scenario retains 370 distinct
+contributing evaluations. The same selected candidate IDs are used in paired
+A1–A2 comparisons; every scenario has the same 3,291 shared finite reactions
+(2,453 development and 838 confirmation). The exported tables include exact
+scenario-level pair and evaluation counts.
+
+η² associations and partial associations controlling for entropy are positive
+for every scenario. Across the four alternatives and the frozen baseline, η²
+Spearman ranges 0.830–0.870 (A1) and 0.915–0.922 (A2) in development, with
+partial rank ranges 0.841–0.848 and 0.893–0.898, respectively. Incremental
+development-CV MAE improvement is small for A1 (0.00077–0.00089) and larger for
+A2 (0.01618–0.01661). On confirmation, η² worsens A1 MAE by 0.00070–0.00078
+and improves A2 MAE by 0.01165–0.01225. Therefore the η² association is
+selection-robust, but incremental prediction is not equally robust across
+anchors: the A1 confirmation benefit disappears, while A2’s remains positive.
+
+These selections resample the same frozen vectors and weights and change the
+synthetic benchmark population. They do not add biological validation.
+
+### Experiment 4
+
+ESS20 weight parity passes exactly for all ten mouse pools. The frozen original
+truth identities and raw candidate-panel observables are retained; glucose uses
+`max(-EX_glc__D_e, 0)` and lactate uses `max(-LDH_L, 0)`. Calibration remains at
+the global 320-candidate tumor–mouse pool. The ESS20 endpoint table matches the
+corrected PL2B/A22 outcomes for both arms, including usefulness and pair/tie
+counts. An initial vector-recomputed endpoint differed for one evaluation×
+reaction per arm near the threshold; all ESS20 results below use the frozen
+case decisions.
+
+Each arm has 3,625 finite reaction-level endpoint summaries. Paired A1–A2
+predictive models use the identical finite reaction intersections at each target
+(3,275, 3,291, and 3,331 reactions for ESS10, ESS20, and ESS40 respectively).
+
+| Population | ESS | Truth pairs | Evaluations | A1 correct−wrong | A2 correct−wrong | A1 usefulness | A2 usefulness |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| ESS-specific | 10 | 428 | 164 | 0.00142 | 0.00209 | 0.0919 | 0.1940 |
+| ESS-specific | 20 | 836 | 370 | 0.02018 | 0.04975 | 0.1386 | 0.2156 |
+| ESS-specific | 40 | 836 | 370 | 0.10129 | 0.11020 | 0.2117 | 0.2541 |
+| Fixed common | 10 | 428 | 164 | 0.00142 | 0.00209 | 0.0919 | 0.1940 |
+| Fixed common | 20 | 428 | 164 | 0.03820 | 0.09422 | 0.1585 | 0.2349 |
+| Fixed common | 40 | 428 | 164 | 0.19237 | 0.21144 | 0.2303 | 0.2641 |
+
+The fixed population is the exact intersection of truth identities supported at
+ESS10/20/40 in both arms (428 pairs). A2’s correct-minus-wrong gain separation
+is greater at all targets in both population definitions. The previously
+reported ESS40 A1-over-A2 reversal does **not** persist after equal-evaluation
+aggregation and frozen endpoint restoration. ESS10 has conditional support in
+137/160 A1 and 156/160 A2 context strata; conditional ESS and product-weight
+ESS are in the output tables. Across ESS settings, η² associations remain
+positive; the corrected development-fitted confirmation MAE improvement ranges
+0.0050–0.0104 (A1) and 0.0053–0.0105 (A2) across the reported ESS/population
+comparisons. Paired models use identical finite reactions (3,275, 3,291, and
+3,331 by ESS target).
+
+These contrasts describe calibration sensitivity, not the isolated causal
+effect of adding lactate measurement. Reactions remain correlated features, and
+reaction-level rows are not biological replicates.
+
+### Assessment and manuscript use
+
+1. η² retains a positive association after truth-vector exclusion.
+2. Development-fitted η² improves confirmation MAE in 3A and across ESS
+   calibration in Experiment 4. In 3B it improves A2 but worsens A1 confirmation
+   MAE, so avoid a universal incremental-prediction claim.
+3. Positive η² associations are robust across all alternative truth selections;
+   prediction gains are anchor-dependent.
+4. The A2–A1 gain-separation advantage is stable across ESS targets after
+   correcting the aggregation and controlling truth-pair eligibility.
+5. The ESS40 reversal disappears on both ESS-specific and fixed-common
+   populations.
+6. The defensible findings are methodological sensitivity results about
+   synthetic candidate benchmarks. None establishes biological validity.
+7. A manuscript may report the positive association and the A2-specific
+   robustness, with the A1 3B failure, calibration dependence, post-hoc status,
+   and truth-dependent geometry clearly stated. Do not claim independent
+   biological validation.
+
 ## Outputs, tests, and suggested manuscript follow-up
 
 - `analyses/reviewer_checks/run_reviewer_checks.py` implements the released-table
@@ -332,11 +463,11 @@ of the isolated causal effect of adding a measurement.
   `pathway_blocked_robustness.tsv.gz`, `fold_assignments.tsv.gz`, and
   `development_oof_predictions.tsv.gz`.
 - `manifest.json` and the existing tables retain Experiments 1–2 provenance.
-  New compressed results are in `reproduced/reviewer_checks/experiment_3/` and
-  `experiment_4/`; manifests and `analysis_code_hashes.json` record input hashes,
-  code hashes, seeds, support counts, calibration settings, and interpretation
-  limits. No raw candidate vectors were copied.
-- The four new candidate-sensitivity tests passed. The existing Experiments 1–2
+  Corrected results are in `reproduced/reviewer_checks/corrected/`; these files
+  are gitignored. The compact tracked reviewer bundle is
+  `analyses/reviewer_checks/exports/candidate_sensitivity_review_bundle.zip`.
+  No candidate vectors or raw case rows are included.
+- The candidate-sensitivity suite and complete test suite passed. The existing Experiments 1–2
   numerical results and test records above are preserved. No manuscript or
   supplementary file was edited, and no reconstruction, OptGP sampling, or
   GapSplit rerun occurred.
