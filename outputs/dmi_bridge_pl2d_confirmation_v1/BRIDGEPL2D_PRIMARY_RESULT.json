@@ -1,0 +1,208 @@
+{
+  "context_count": 16,
+  "context_min_finite_reactions": 34,
+  "context_results": [
+    {
+      "algorithm": "CORDA",
+      "direction": "POSITIVE",
+      "evaluable": true,
+      "finite_primary_reaction_pairs": 638,
+      "rho": 0.8615709651518334,
+      "rho_finite": true,
+      "rna_context_key": "training_samples=setx1,setx2",
+      "support_gate_ge_30": true,
+      "total_confirmation_reactions": 1045
+    },
+    {
+      "algorithm": "CORDA",
+      "direction": "POSITIVE",
+      "evaluable": true,
+      "finite_primary_reaction_pairs": 622,
+      "rho": 0.917413085378426,
+      "rho_finite": true,
+      "rna_context_key": "training_samples=setx1,setx2,setx3",
+      "support_gate_ge_30": true,
+      "total_confirmation_reactions": 1045
+    },
+    {
+      "algorithm": "CORDA",
+      "direction": "POSITIVE",
+      "evaluable": true,
+      "finite_primary_reaction_pairs": 636,
+      "rho": 0.835508710277233,
+      "rho_finite": true,
+      "rna_context_key": "training_samples=setx1,setx3",
+      "support_gate_ge_30": true,
+      "total_confirmation_reactions": 1045
+    },
+    {
+      "algorithm": "CORDA",
+      "direction": "POSITIVE",
+      "evaluable": true,
+      "finite_primary_reaction_pairs": 625,
+      "rho": 0.8033259370546311,
+      "rho_finite": true,
+      "rna_context_key": "training_samples=setx2,setx3",
+      "support_gate_ge_30": true,
+      "total_confirmation_reactions": 1045
+    },
+    {
+      "algorithm": "GIMME",
+      "direction": "POSITIVE",
+      "evaluable": true,
+      "finite_primary_reaction_pairs": 417,
+      "rho": 0.8725549680346419,
+      "rho_finite": true,
+      "rna_context_key": "training_samples=setx1,setx2",
+      "support_gate_ge_30": true,
+      "total_confirmation_reactions": 1045
+    },
+    {
+      "algorithm": "GIMME",
+      "direction": "POSITIVE",
+      "evaluable": true,
+      "finite_primary_reaction_pairs": 427,
+      "rho": 0.8291664542264614,
+      "rho_finite": true,
+      "rna_context_key": "training_samples=setx1,setx2,setx3",
+      "support_gate_ge_30": true,
+      "total_confirmation_reactions": 1045
+    },
+    {
+      "algorithm": "GIMME",
+      "direction": "POSITIVE",
+      "evaluable": true,
+      "finite_primary_reaction_pairs": 428,
+      "rho": 0.8623055494297821,
+      "rho_finite": true,
+      "rna_context_key": "training_samples=setx1,setx3",
+      "support_gate_ge_30": true,
+      "total_confirmation_reactions": 1045
+    },
+    {
+      "algorithm": "GIMME",
+      "direction": "POSITIVE",
+      "evaluable": true,
+      "finite_primary_reaction_pairs": 428,
+      "rho": 0.7522061087568049,
+      "rho_finite": true,
+      "rna_context_key": "training_samples=setx2,setx3",
+      "support_gate_ge_30": true,
+      "total_confirmation_reactions": 1045
+    },
+    {
+      "algorithm": "RIPTiDe",
+      "direction": "POSITIVE",
+      "evaluable": true,
+      "finite_primary_reaction_pairs": 34,
+      "rho": 0.8180009151584534,
+      "rho_finite": true,
+      "rna_context_key": "training_samples=setx1,setx2",
+      "support_gate_ge_30": true,
+      "total_confirmation_reactions": 1045
+    },
+    {
+      "algorithm": "RIPTiDe",
+      "direction": "POSITIVE",
+      "evaluable": true,
+      "finite_primary_reaction_pairs": 37,
+      "rho": 0.9255128993068104,
+      "rho_finite": true,
+      "rna_context_key": "training_samples=setx1,setx2,setx3",
+      "support_gate_ge_30": true,
+      "total_confirmation_reactions": 1045
+    },
+    {
+      "algorithm": "RIPTiDe",
+      "direction": "POSITIVE",
+      "evaluable": true,
+      "finite_primary_reaction_pairs": 34,
+      "rho": 0.8630429374676548,
+      "rho_finite": true,
+      "rna_context_key": "training_samples=setx1,setx3",
+      "support_gate_ge_30": true,
+      "total_confirmation_reactions": 1045
+    },
+    {
+      "algorithm": "RIPTiDe",
+      "direction": "POSITIVE",
+      "evaluable": true,
+      "finite_primary_reaction_pairs": 39,
+      "rho": 0.27561031478816606,
+      "rho_finite": true,
+      "rna_context_key": "training_samples=setx2,setx3",
+      "support_gate_ge_30": true,
+      "total_confirmation_reactions": 1045
+    },
+    {
+      "algorithm": "iMAT",
+      "direction": "POSITIVE",
+      "evaluable": true,
+      "finite_primary_reaction_pairs": 593,
+      "rho": 0.8792615682344324,
+      "rho_finite": true,
+      "rna_context_key": "training_samples=setx1,setx2",
+      "support_gate_ge_30": true,
+      "total_confirmation_reactions": 1045
+    },
+    {
+      "algorithm": "iMAT",
+      "direction": "POSITIVE",
+      "evaluable": true,
+      "finite_primary_reaction_pairs": 593,
+      "rho": 0.8359066617099844,
+      "rho_finite": true,
+      "rna_context_key": "training_samples=setx1,setx2,setx3",
+      "support_gate_ge_30": true,
+      "total_confirmation_reactions": 1045
+    },
+    {
+      "algorithm": "iMAT",
+      "direction": "POSITIVE",
+      "evaluable": true,
+      "finite_primary_reaction_pairs": 592,
+      "rho": 0.7716524661180787,
+      "rho_finite": true,
+      "rna_context_key": "training_samples=setx1,setx3",
+      "support_gate_ge_30": true,
+      "total_confirmation_reactions": 1045
+    },
+    {
+      "algorithm": "iMAT",
+      "direction": "POSITIVE",
+      "evaluable": true,
+      "finite_primary_reaction_pairs": 588,
+      "rho": 0.8679764452393902,
+      "rho_finite": true,
+      "rna_context_key": "training_samples=setx2,setx3",
+      "support_gate_ge_30": true,
+      "total_confirmation_reactions": 1045
+    }
+  ],
+  "finite_reactions": 838,
+  "overall_rho": 0.8351435823183292,
+  "positive_contexts": 16,
+  "rule": {
+    "bootstrap_replicates": 5000,
+    "bootstrap_seed": 20260929,
+    "confirmation_case_rows": 873620,
+    "confirmation_evaluation_reaction_rows": 386650,
+    "confirmation_reactions": 1045,
+    "context_count": 16,
+    "development_case_rows_skipped_before_outcome_parse": 2620860,
+    "gain_tolerance": 1e-12,
+    "primary_feature": "sign_magnitude_eta2",
+    "primary_minimum_finite_reactions": 700,
+    "primary_minimum_finite_reactions_per_context": 30,
+    "primary_minimum_positive_contexts": 12,
+    "primary_minimum_rho": 0.5,
+    "schema": "bridge.pl2d.confirmation.v1",
+    "supportive_feature_directions": {
+      "directional_entropy3": "POSITIVE",
+      "dominant_sign_mass": "NEGATIVE",
+      "n_supported_sign_states": "POSITIVE"
+    }
+  },
+  "schema": "bridge.pl2d.primary.v1",
+  "status": "PL2D_CONFIRMED"
+}

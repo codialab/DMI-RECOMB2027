@@ -1,0 +1,31 @@
+{
+  "a2_g_used": false,
+  "case_logical_content_sha256": "70321eb7d322f06a3c1e29c048d08f9b4c55d291763b5194f6d626325ed786f4",
+  "counts": {
+    "all_distinct_truth_pairs": 885,
+    "case_rows": 3493644,
+    "context_summary_rows": 255,
+    "matched_primary_truth_pairs": 836,
+    "non_tie_cases": 1440313,
+    "nonprimary_truth_pairs": 49,
+    "reactions": 4179,
+    "truth_pair_aliases": 1200,
+    "truth_selection_aliases": 480,
+    "truth_tie_cases": 2053331
+  },
+  "degenerate_break_even_sentinel_mismatches": 74,
+  "lambda_zero_maximum_deviation": 2.2737367544323206e-13,
+  "scalar_batch_break_even_gain_scale_maximum_deviation": 1.9538347877600983e-13,
+  "scalar_batch_maximum_deviation": 2.2737367544323206e-13,
+  "schema": "bridge.a22.qc.v1",
+  "status": "PASS",
+  "support": {
+    "matched_evaluable": 836,
+    "nonprimary_a2l_evaluable": 49,
+    "post_pool_size": 19,
+    "primary_post_ess_max": 15.72855815749855,
+    "primary_post_ess_min": 1.0,
+    "primary_post_mass_max": 1.0,
+    "primary_post_mass_min": 8.41366539625424e-06
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "code_sha256": {
+    "scripts/dmi_bridge_a21_dual_anchor_geometry_core_v1.py": "b13d0863a3c4322bfde46e725e5325618cdb9a30b7209dcd53d00f960bbd2ed6",
+    "scripts/dmi_bridge_a21_dual_anchor_geometry_v1.py": "220911a3246833c5cfa0de4d4db6f6cd2ad8247c3cd8b03b1c42c82cc951838a",
+    "scripts/dmi_bridge_pl1_predictability_batch_v1.py": "087fe171ea4f13266d46e198a740fb4cbf6be64852a3e6a5a1fe53c6fcc326b3",
+    "scripts/dmi_bridge_pl1_predictability_core_v1.py": "bdb254a4aa075870a92f503e3dd551998f924f9a8f95f7086663357c20408408",
+    "scripts/dmi_bridge_pl1_predictability_landscape_v1.py": "712c9c8f507a11a5b5f459aebcf681c536c35ac7e2f10c6585330fb19a419823",
+    "scripts/dmi_bridge_pl1_predictability_resume_v1.py": "599e055d548b47f494914119d3555e0d977e5c2232c94f0390e821313f9e0944"
+  },
+  "completed_contexts": {
+    "0": {
+      "file": "features_context_00.tsv.xz",
+      "rows": 104475,
+      "sha256": "6c09171de435b570169da1537179cb5027521c1b6242c5e30e4b46ce6b3e95d7"
+    },
+    "1": {
+      "file": "features_context_01.tsv.xz",
+      "rows": 104475,
+      "sha256": "16c9ba743b1e35c6786764271665808f45d9f5b2cac5f0f38d5cf21bb2dd2cd3"
+    },
+    "10": {
+      "file": "features_context_10.tsv.xz",
+      "rows": 104475,
+      "sha256": "742d3ddbadef070da867b225a058de09deca8426ac64782e61cb23b0ebd4c4ab"
+    },
+    "11": {
+      "file": "features_context_11.tsv.xz",
+      "rows": 104475,
+      "sha256": "9de4ea24f3b0e9703af596674f206952666e1e7c8f7c20dffa0e834c70d637aa"
+    },
+    "12": {
+      "file": "features_context_12.tsv.xz",
+      "rows": 104475,
+      "sha256": "880fb3abb7fd6394d1e2a617b264096d87db932954fd949ed4782a1117f84840"
+    },
+    "13": {
+      "file": "features_context_13.tsv.xz",
+      "rows": 104475,
+      "sha256": "634b53920091f527cecb9969124198c23c4d4728619cb3d848ee37f63edecc54"
+    },
+    "14": {
+      "file": "features_context_14.tsv.xz",
+      "rows": 104475,
+      "sha256": "ce216e322e5ae477c127bd286db1584b699af467ebbca860405e3da9b26563c4"
+    },
+    "15": {
+      "file": "features_context_15.tsv.xz",
+      "rows": 104475,
+      "sha256": "771f0adf158ce5f012db094a3e4760ce4735c95cad6d968a28acafb32d4549c5"
+    },
+    "2": {
+      "file": "features_context_02.tsv.xz",
+      "rows": 104475,
+      "sha256": "18d247b729e2c50892b0565192cfa4f08d56af7c2a96ef95d5896d35dddcbe1f"
+    },
+    "3": {
+      "file": "features_context_03.tsv.xz",
+      "rows": 104475,
+      "sha256": "e255078761f8bdd48fd204874133b37981af2e017453cdcc99689228afc66c82"
+    },
+    "4": {
+      "file": "features_context_04.tsv.xz",
+      "rows": 104475,
+      "sha256": "1f751a9b296a6261c6127a3f4493cef587cabe86ed3641a2c01c8d72ddfd136b"
+    },
+    "5": {
+      "file": "features_context_05.tsv.xz",
+      "rows": 104475,
+      "sha256": "ac054347ae3db0fe0b6078057ca666b6eaead71441d3de6e58e56833d4b32534"
+    },
+    "6": {
+      "file": "features_context_06.tsv.xz",
+      "rows": 104475,
+      "sha256": "248bc442521a46b4b72b719a29237708a9fba1456bdb7ea148d90bf8548fbece"
+    },
+    "7": {
+      "file": "features_context_07.tsv.xz",
+      "rows": 104475,
+      "sha256": "e003c56c171ebfe6990923bb1dd27dcf8c50dd5a62594e385d5820593c0d67c0"
+    },
+    "8": {
+      "file": "features_context_08.tsv.xz",
+      "rows": 104475,
+      "sha256": "e51151e899e4029fc7fb99b65f40ee02acfbf013ae75f41625e5d300d1e59ee3"
+    },
+    "9": {
+      "file": "features_context_09.tsv.xz",
+      "rows": 104475,
+      "sha256": "b4fd0ea9db6ac2df7fee12ebf70d6563fd583fd4f0839a06e251f3156e7eb547"
+    }
+  },
+  "metric_fields": [
+    "cartesian_support",
+    "joint_ess",
+    "max_joint_mass",
+    "delta_a_mean",
+    "delta_a_sd",
+    "delta_b_mean",
+    "delta_b_sd",
+    "delta_b_q10",
+    "delta_b_q50",
+    "delta_b_q90",
+    "delta_b_width80",
+    "uniform_delta_b_mean",
+    "uniform_delta_b_sd",
+    "uniform_delta_b_q10",
+    "uniform_delta_b_q50",
+    "uniform_delta_b_q90",
+    "uniform_delta_b_width80",
+    "anchor_sd_contraction",
+    "anchor_width80_contraction",
+    "p_negative",
+    "p_tie",
+    "p_positive",
+    "dominant_sign_mass",
+    "directional_entropy3",
+    "n_supported_sign_states",
+    "negative_ess",
+    "tie_ess",
+    "positive_ess",
+    "negative_abs_mean",
+    "negative_abs_q10",
+    "negative_abs_q50",
+    "negative_abs_q90",
+    "negative_abs_width80",
+    "positive_abs_mean",
+    "positive_abs_q10",
+    "positive_abs_q50",
+    "positive_abs_q90",
+    "positive_abs_width80",
+    "negative_width80_contraction_vs_all",
+    "positive_width80_contraction_vs_all",
+    "sign_magnitude_eta2",
+    "sign_magnitude_correlation",
+    "delta_anchor_target_correlation",
+    "abs_delta_anchor_target_correlation",
+    "delta_hex1_mean",
+    "delta_hex1_sd",
+    "delta_hex1_target_correlation",
+    "abs_delta_hex1_target_correlation",
+    "delta_lactate_mean",
+    "delta_lactate_sd",
+    "delta_lactate_target_correlation",
+    "abs_delta_lactate_target_correlation"
+  ],
+  "schema": "bridge.a21.context_work.v1",
+  "source_sha256": {
+    "12_recomb_method_comparison/outputs_dmi_fraction_ensemble_v2/DMI_FRACTION_ENSEMBLE_PROVENANCE.json": "fd05e5febba47a92005619db38c53b3ba4896d81eb498226d87c61f1e9536168",
+    "12_recomb_method_comparison/outputs_dmi_fraction_ensemble_v2/candidate_fraction_table.tsv.xz": "421c2c1d196fbd088a4e92e2ecc998ad578aab814a025fff8e1c843597fed1da",
+    "12_recomb_method_comparison/outputs_dmi_fraction_ensemble_v2/ensemble_selection.tsv": "ffaa8bedba3bc1e4a11f2cdb930de7d0b128936afb88f325125380a5586e8c70",
+    "12_recomb_method_comparison/outputs_stage12b/dmi_single_anchor_weights.tsv.xz": "b3357587b70329fca7d77b99e4b6c6487feccb54ac7f251d8a0a8437353a8030",
+    "13_recomb_identifiability/outputs/sa_u1_u2_followup_20260926/current_vmax_base_weights.tsv.xz": "91121bf1251354505cde5f5ae783dc8d14bc9a22ecdf8daa06be1e5d82e3385d",
+    "13_recomb_identifiability/outputs/sa_u1_u2_followup_20260926/current_vmax_base_weights_manifest.json": "2abf9e7c4d3c922bda8c81426001c1f27c6e43f1761e9c9073e0d8ca078bd5bc",
+    "analysis/brain_glioma_gem/config/dmi_to_gem_mapping.tsv": "3002fa055a5efaccc27044c3a158351a3f845e5a31c8e8688e34728e6575b489",
+    "outputs/dmi_bridge3a_registry_v1/BRIDGE3A_OPERATOR_AUDIT.json": "37deb5887ebe3f74976e96fb2a7e2614f952d065d537aeeb74a66cb2fa52f8f8",
+    "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_ANCHOR_REGISTRY.tsv": "18ae24892e4989fac21dbccd33a53ce78b8aaaaebe72ab01b198a86e3ab3da69",
+    "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_DUAL_ANCHOR_WEIGHTS.tsv.xz": "b153e2fde45dca9573c71c548783e704313f056d0980f64af60180ad90ebc1f4",
+    "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_MANIFEST.json": "01f8004a0bf9d5358d7ce7281e827cc1a1fbe00a6750a5c063a1edad2eedf380",
+    "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_MOUSE_COORDINATES.tsv": "f41d0fef703b52201de7ed8a86d888bdca28d5262ce52145bf8e53b00a81e944",
+    "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_SOURCE_AUDIT.tsv": "7c6afc84d758472a5c5626f6f9a0137292c01eae03302841cccd7f7ec276c834",
+    "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_STATUS.json": "d53b02cc7f15d4e72e2eb05cfe8a51b092fd0535f718de7e416d80b46f7594f8",
+    "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_WEIGHT_SUMMARY.tsv": "d318c4a2afc4498c42894c2597623388b2aeb019d5e59c27a62455b51603f723",
+    "outputs/dmi_bridge_bio0_audit_v1/BRIDGEBIO0_ANALYSIS_CONTRACT.json": "5e991aa58275e1545628bd9b3e9014b20c1fe799bfcc9810a0d6d712a28c8e2a",
+    "outputs/dmi_bridge_bio0_audit_v1/BRIDGEBIO0_FOUR_ARM_WEIGHTS.tsv.xz": "843e17b7012a6fa212d1e9ac9e1dc6e309e854d94ab5c4b3f9e316b589768f4f",
+    "outputs/dmi_bridge_bio0_audit_v1/BRIDGEBIO0_MANIFEST.json": "40df8378876820bb616fdbdc8ef8a0f77d43e36f464104fca6cae9a16b39d7c1",
+    "outputs/dmi_bridge_bio0_audit_v1/BRIDGEBIO0_OPERATOR_REGISTRY.tsv": "c843e7289910665b2a2e54976fbc7c30294c570fe089d3946d8e2019cdb2fec0",
+    "outputs/dmi_bridge_bio0_audit_v1/BRIDGEBIO0_REACTION_PANEL.tsv": "f6e881ef949b2a519f0ac731d0dd8b08dba0d44f40e24ca94e18a47017907f4d",
+    "outputs/dmi_bridge_bio0_audit_v1/BRIDGEBIO0_SOURCE_AUDIT.json": "acf214cf3bbdb9a0737673e7808696da83f7b52cef599d43f660c21ba5b59787",
+    "outputs/dmi_bridge_bio0_audit_v1/BRIDGEBIO0_SUPPORT_AUDIT.tsv": "340c6ef821a093d4d7949b6488cdba2fa6cf9c3300b54b9a8b057016339de69e",
+    "outputs/dmi_bridge_bio0r_qualification_v1/BRIDGEBIO0R_IDENTITY_AUDIT.json": "5b816176e2532ff076defd5fab103afa4210d9162990c85812209a7f6fa6f4a1",
+    "outputs/dmi_bridge_bio0r_qualification_v1/BRIDGEBIO0R_MANIFEST.json": "d155b63f59db3479b1dfd2d87c0b9ca470358c0166496abf288a649f04890cea",
+    "outputs/dmi_bridge_bio0r_qualification_v1/BRIDGEBIO0R_SOURCE_AUDIT.json": "33ab67e8d8d12b84cdee1fc43b36bdba6b3680e9451bc01ed071e5fecd1c6fc4",
+    "outputs/dmi_bridge_bio0r_qualification_v1/BRIDGEBIO0R_VMAX_REPRODUCTION.tsv": "4843397b2f2b777fe8d3a1070812068bd6d434c2fd4888b8024f79d14cccd295",
+    "outputs/dmi_bridge_m1_manuscript_evidence_v1/BRIDGEM1_MANIFEST.json": "201ba9f4fc2f74290d991cd294aec558c5e5dd23282877e871a5c0669a44cdde",
+    "outputs/dmi_bridge_m1_manuscript_evidence_v1/BRIDGEM1_SOURCE_AUDIT.json": "07c16a60e79969c2a751cf1e7e471fdce88510723cec716b5bc3fe4b100ea073",
+    "outputs/dmi_bridge_pl1_predictability_landscape_v1_resumable_v1/BRIDGEPL1_MANIFEST.json": "b0f81620ff24f5791dd964a8063416784db86a358b0464b8c68a504e84e5f529",
+    "outputs/dmi_bridge_pl1_predictability_landscape_v1_resumable_v1/BRIDGEPL1_REACTION_EVALUATION_FEATURES.part-000.tsv.xz": "b4bc2a1ff5aeebc380761dbbe43368ee19fa3402439e1820b380c06e38a599d4",
+    "outputs/dmi_bridge_pl1_predictability_landscape_v1_resumable_v1/BRIDGEPL1_REACTION_EVALUATION_FEATURES.part-001.tsv.xz": "9538f8a9246abf3df86d894aee0ceec68d00332c13556c0aaca18f68c655fa3f",
+    "outputs/dmi_bridge_pl1_predictability_landscape_v1_resumable_v1/BRIDGEPL1_REACTION_EVALUATION_FEATURES.part-002.tsv.xz": "650f1a22de5e02ba9259172d0bbd8d1cc3fd3312537a2f6832e0f2a55069f8ab",
+    "outputs/dmi_bridge_pl1_predictability_landscape_v1_resumable_v1/BRIDGEPL1_REACTION_EVALUATION_FEATURES.part-003.tsv.xz": "3428f2aa8519a9607bb9dab2566d1c164c478408fdab8ac731c1589fa3a2f0d2",
+    "outputs/dmi_bridge_pl1_predictability_landscape_v1_resumable_v1/BRIDGEPL1_REACTION_EVALUATION_FEATURES.parts.json": "97c70016f53ca8497da5d7c34865f90e5c9dd3dbd32ffb531252492ba024cb21",
+    "outputs/secondary_anchor_exploratory/dmi_sa_six_arm_current_20260926/current_candidate_observables.csv": "946cd613d673c9aa9367bce705ad5d05562c6a174acc830fbbd36cb395aa5504",
+    "outputs/secondary_anchor_exploratory/dmi_sa_six_arm_current_20260926/reconstruct_flux_cache.py": "70c77a76a863a7ca800b7c3610175417b2720c5cbc3d4c1b6db331ec3cef1d32",
+    "outputs/secondary_anchor_exploratory/dmi_sa_six_arm_current_20260926/reconstructed/flux_cache.npz": "f9644da4ebd875cf5f0b34cc58b20faf0a0457d7c7a44635e8a010d8896c3dbb",
+    "pre-simulation_constraint_analysis/results/run_20260824T164247Z_corrected_analysis_A/mouse_level_dmi_input.csv": "ae3cbad6d422405780d0dc44e0e31f95770ebc204d1f80f2ccdada12bb119082",
+    "scripts/dmi_bridge_bio0r_repo_qualification_v1.py": "de50fc12ab6382a69d0242beedd799e427fa00e026fcb3e9618f1f2ce66e2b1d"
+  },
+  "status_fields": [
+    "target_delta_degenerate",
+    "target_abs_magnitude_degenerate",
+    "anchor_delta_degenerate",
+    "sign_magnitude_status",
+    "anchor_target_coupling_status",
+    "hex1_delta_degenerate",
+    "hex1_target_coupling_status",
+    "lactate_delta_degenerate",
+    "lactate_target_coupling_status"
+  ]
+}

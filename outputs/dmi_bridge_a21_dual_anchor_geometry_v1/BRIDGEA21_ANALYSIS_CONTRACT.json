@@ -1,0 +1,49 @@
+{
+  "a1_comparable_features": [
+    "sign_magnitude_eta2",
+    "sign_magnitude_correlation",
+    "directional_entropy3",
+    "dominant_sign_mass",
+    "n_supported_sign_states",
+    "anchor_width80_contraction",
+    "joint_ess",
+    "abs_delta_anchor_target_correlation"
+  ],
+  "a2_g_used": false,
+  "a2_only_supportive_features": [
+    "delta_lactate_target_correlation",
+    "abs_delta_lactate_target_correlation"
+  ],
+  "common_anchor_coupling_semantics": "HEX1_contrast_preserved_exactly_for_A1_A2_comparability",
+  "forbidden": [
+    "weak_prior",
+    "truth",
+    "PL2_outcomes",
+    "gene_scores",
+    "new_weight_fitting",
+    "solver",
+    "FVA",
+    "sampling",
+    "reconstruction",
+    "reaction_ranking",
+    "composite_dual_anchor_bridgeability_score"
+  ],
+  "primary_scan": {
+    "exclude_same_pathway_or_proximal_reactions": false,
+    "pathway_exclusion_is_sensitivity_only": true,
+    "pathway_relation_is_annotation": true,
+    "preselect_reactions": false,
+    "scope": "all_admissible_finite_flux_cache_reactions_except_HEX1_and_LDH_L"
+  },
+  "qualified_input_arm": "A2-L",
+  "reference": "uniform_weights_on_the_exact_same_finite_candidate_support",
+  "schema": "bridge.a21.dual_anchor_geometry.v1",
+  "second_anchor_observable": "lac_production=max(-LDH_L,0)",
+  "stage_role": "OUTCOME_BLIND_DUAL_ANCHOR_PREDICTABILITY_LANDSCAPE",
+  "status_on_success": "BRIDGE_A21_DUAL_ANCHOR_GEOMETRY_FROZEN",
+  "strong_anchor_set": [
+    "HEX1",
+    "LDH_L"
+  ],
+  "weight_semantics": "A2-L_weights_conditioned_and_normalized_within_exact_method_x_RNA_context"
+}

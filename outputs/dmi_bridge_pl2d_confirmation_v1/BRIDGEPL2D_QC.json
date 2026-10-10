@@ -1,0 +1,33 @@
+{
+  "bootstrap_replicate_count": 5000,
+  "complete_pl1_join": true,
+  "counts": {
+    "bootstrap_rows": 5000,
+    "confirmation_cases": 873620,
+    "confirmation_evaluation_reaction_rows": 386650,
+    "confirmation_reactions": 1045,
+    "context_rows": 16,
+    "development_skipped_before_outcome_parse": 2620860,
+    "non_tie_cases": 359099,
+    "pl1_all_rows": 1672000,
+    "reaction_rows": 1045,
+    "truth_tie_cases": 514521
+  },
+  "maximum_information_advantage_identity_deviation": 0.0,
+  "maximum_random_sign_identity_deviation": 0.0,
+  "no_development_reaction_in_outputs": true,
+  "no_quantile_alias_weighting": true,
+  "numerical_reference_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "python": "3.12.3",
+    "scipy": "1.17.1"
+  },
+  "pathway_annotations_invariant": true,
+  "predictor_aggregation_independent_of_response_availability": true,
+  "primary_result_frozen_before_supportive": true,
+  "schema": "bridge.pl2d.qc.v1",
+  "source_admission_passed_before_confirmation_opening": true,
+  "status": "PASS",
+  "unique_confirmation_cases": true
+}

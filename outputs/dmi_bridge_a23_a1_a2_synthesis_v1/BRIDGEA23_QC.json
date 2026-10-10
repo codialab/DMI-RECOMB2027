@@ -1,0 +1,37 @@
+{
+  "a1_confirmation_parity": "PASS",
+  "a2_g_used": false,
+  "a2_joint_ess_range_from_frozen_qc": [
+    1.0003546460968287,
+    201.0324944475824
+  ],
+  "audit_only_truth_pairs_excluded": 49,
+  "bootstrap": {
+    "finite_replicates": 5000,
+    "nonfinite_replicates": 0,
+    "replicates": 5000,
+    "rho_median": 0.8488457925736193,
+    "rho_q025": 0.823810132333918,
+    "rho_q975": 0.8714723352450245,
+    "rng": "numpy.random.Generator(PCG64)",
+    "seed": 20260929
+  },
+  "confirmation_reactions": 1045,
+  "development_reactions": 3134,
+  "geometry_keys": 1671600,
+  "matched_case_keys": 3493644,
+  "matched_truth_pairs": 836,
+  "primary_finite_reactions": {
+    "CONFIRMATION_HOLDOUT": {
+      "a1": 838,
+      "a2": 843
+    },
+    "DEVELOPMENT": {
+      "a1": 2454,
+      "a2": 2485
+    }
+  },
+  "reactions": 4179,
+  "schema": "bridge.a23.qc.v1",
+  "status": "PASS"
+}

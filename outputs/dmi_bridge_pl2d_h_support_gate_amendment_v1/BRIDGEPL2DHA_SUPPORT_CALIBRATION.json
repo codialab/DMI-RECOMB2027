@@ -1,0 +1,99 @@
+{
+  "amended_context_floor": 30,
+  "confirmation_reaction_count": 1045,
+  "confirmation_support_statement": "No confirmation support value was inspected.",
+  "confirmation_support_values_inspected": false,
+  "derived_context_floor": 30,
+  "development_context_support": [
+    {
+      "algorithm": "CORDA",
+      "finite_reactions": 1847,
+      "rna_context_key": "training_samples=setx1,setx2"
+    },
+    {
+      "algorithm": "CORDA",
+      "finite_reactions": 1815,
+      "rna_context_key": "training_samples=setx1,setx2,setx3"
+    },
+    {
+      "algorithm": "CORDA",
+      "finite_reactions": 1854,
+      "rna_context_key": "training_samples=setx1,setx3"
+    },
+    {
+      "algorithm": "CORDA",
+      "finite_reactions": 1841,
+      "rna_context_key": "training_samples=setx2,setx3"
+    },
+    {
+      "algorithm": "GIMME",
+      "finite_reactions": 1235,
+      "rna_context_key": "training_samples=setx1,setx2"
+    },
+    {
+      "algorithm": "GIMME",
+      "finite_reactions": 1264,
+      "rna_context_key": "training_samples=setx1,setx2,setx3"
+    },
+    {
+      "algorithm": "GIMME",
+      "finite_reactions": 1237,
+      "rna_context_key": "training_samples=setx1,setx3"
+    },
+    {
+      "algorithm": "GIMME",
+      "finite_reactions": 1283,
+      "rna_context_key": "training_samples=setx2,setx3"
+    },
+    {
+      "algorithm": "RIPTiDe",
+      "finite_reactions": 129,
+      "rna_context_key": "training_samples=setx1,setx2"
+    },
+    {
+      "algorithm": "RIPTiDe",
+      "finite_reactions": 159,
+      "rna_context_key": "training_samples=setx1,setx2,setx3"
+    },
+    {
+      "algorithm": "RIPTiDe",
+      "finite_reactions": 134,
+      "rna_context_key": "training_samples=setx1,setx3"
+    },
+    {
+      "algorithm": "RIPTiDe",
+      "finite_reactions": 162,
+      "rna_context_key": "training_samples=setx2,setx3"
+    },
+    {
+      "algorithm": "iMAT",
+      "finite_reactions": 1729,
+      "rna_context_key": "training_samples=setx1,setx2"
+    },
+    {
+      "algorithm": "iMAT",
+      "finite_reactions": 1737,
+      "rna_context_key": "training_samples=setx1,setx2,setx3"
+    },
+    {
+      "algorithm": "iMAT",
+      "finite_reactions": 1701,
+      "rna_context_key": "training_samples=setx1,setx3"
+    },
+    {
+      "algorithm": "iMAT",
+      "finite_reactions": 1726,
+      "rna_context_key": "training_samples=setx2,setx3"
+    }
+  ],
+  "development_reaction_count": 3135,
+  "minimum_development_context_support": 129,
+  "original_context_floor": 100,
+  "proportional_confirmation_support": 43.0,
+  "proportional_confirmation_support_denominator": 1,
+  "proportional_confirmation_support_numerator": 43,
+  "retention_fraction": 0.7,
+  "retention_fraction_denominator": 10,
+  "retention_fraction_numerator": 7,
+  "schema": "bridge.pl2d_h.support_gate_amendment.v1"
+}

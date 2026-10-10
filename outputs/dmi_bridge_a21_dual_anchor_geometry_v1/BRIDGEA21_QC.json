@@ -1,0 +1,18 @@
+{
+  "a2_g_used": false,
+  "completed_contexts": 16,
+  "conditioned_joint_ess_max": 201.0324944475824,
+  "conditioned_joint_ess_min": 1.0003546460968287,
+  "row_counts": {
+    "context_reaction_summary": 66864,
+    "contexts": 16,
+    "evaluation_registry": 400,
+    "pathway_summary": 50,
+    "reaction_evaluation_features": 1671600,
+    "reaction_summary": 4179
+  },
+  "same_anchor_subsystem": true,
+  "scalar_parity": "PASS",
+  "scientific_outcomes_computed": false,
+  "status": "PASS"
+}

@@ -1,0 +1,179 @@
+{
+  "column_names": [
+    "evaluation_id",
+    "algorithm",
+    "rna_context_key",
+    "ct2a_mouse",
+    "gl261_mouse",
+    "reaction_id",
+    "subsystem",
+    "same_subsystem_as_HEX1",
+    "same_subsystem_as_LDH_L",
+    "proximal_set_member",
+    "cartesian_support",
+    "joint_ess",
+    "max_joint_mass",
+    "delta_a_mean",
+    "delta_a_sd",
+    "delta_b_mean",
+    "delta_b_sd",
+    "delta_b_q10",
+    "delta_b_q50",
+    "delta_b_q90",
+    "delta_b_width80",
+    "uniform_delta_b_mean",
+    "uniform_delta_b_sd",
+    "uniform_delta_b_q10",
+    "uniform_delta_b_q50",
+    "uniform_delta_b_q90",
+    "uniform_delta_b_width80",
+    "anchor_sd_contraction",
+    "anchor_width80_contraction",
+    "p_negative",
+    "p_tie",
+    "p_positive",
+    "dominant_sign_mass",
+    "directional_entropy3",
+    "n_supported_sign_states",
+    "negative_ess",
+    "tie_ess",
+    "positive_ess",
+    "negative_abs_mean",
+    "negative_abs_q10",
+    "negative_abs_q50",
+    "negative_abs_q90",
+    "negative_abs_width80",
+    "positive_abs_mean",
+    "positive_abs_q10",
+    "positive_abs_q50",
+    "positive_abs_q90",
+    "positive_abs_width80",
+    "negative_width80_contraction_vs_all",
+    "positive_width80_contraction_vs_all",
+    "sign_magnitude_eta2",
+    "sign_magnitude_correlation",
+    "delta_anchor_target_correlation",
+    "abs_delta_anchor_target_correlation",
+    "delta_hex1_mean",
+    "delta_hex1_sd",
+    "delta_hex1_target_correlation",
+    "abs_delta_hex1_target_correlation",
+    "delta_lactate_mean",
+    "delta_lactate_sd",
+    "delta_lactate_target_correlation",
+    "abs_delta_lactate_target_correlation",
+    "target_delta_degenerate",
+    "target_abs_magnitude_degenerate",
+    "anchor_delta_degenerate",
+    "sign_magnitude_status",
+    "anchor_target_coupling_status",
+    "hex1_delta_degenerate",
+    "hex1_target_coupling_status",
+    "lactate_delta_degenerate",
+    "lactate_target_coupling_status"
+  ],
+  "format": "tsv.xz.parts",
+  "logical_artifact": "BRIDGEA21_REACTION_EVALUATION_FEATURES",
+  "logical_content_sha256": "50bc3e47239e4b22d0931246f4fa0d5d126a5b69226d47cb342cb8a5b3ee99d2",
+  "number_of_parts": 16,
+  "parts": [
+    {
+      "bytes": 14862536,
+      "filename": "BRIDGEA21_REACTION_EVALUATION_FEATURES.part-000.tsv.xz",
+      "rows": 104475,
+      "sha256": "6c09171de435b570169da1537179cb5027521c1b6242c5e30e4b46ce6b3e95d7"
+    },
+    {
+      "bytes": 14860956,
+      "filename": "BRIDGEA21_REACTION_EVALUATION_FEATURES.part-001.tsv.xz",
+      "rows": 104475,
+      "sha256": "16c9ba743b1e35c6786764271665808f45d9f5b2cac5f0f38d5cf21bb2dd2cd3"
+    },
+    {
+      "bytes": 14485248,
+      "filename": "BRIDGEA21_REACTION_EVALUATION_FEATURES.part-002.tsv.xz",
+      "rows": 104475,
+      "sha256": "18d247b729e2c50892b0565192cfa4f08d56af7c2a96ef95d5896d35dddcbe1f"
+    },
+    {
+      "bytes": 15213908,
+      "filename": "BRIDGEA21_REACTION_EVALUATION_FEATURES.part-003.tsv.xz",
+      "rows": 104475,
+      "sha256": "e255078761f8bdd48fd204874133b37981af2e017453cdcc99689228afc66c82"
+    },
+    {
+      "bytes": 11115356,
+      "filename": "BRIDGEA21_REACTION_EVALUATION_FEATURES.part-004.tsv.xz",
+      "rows": 104475,
+      "sha256": "1f751a9b296a6261c6127a3f4493cef587cabe86ed3641a2c01c8d72ddfd136b"
+    },
+    {
+      "bytes": 10392768,
+      "filename": "BRIDGEA21_REACTION_EVALUATION_FEATURES.part-005.tsv.xz",
+      "rows": 104475,
+      "sha256": "ac054347ae3db0fe0b6078057ca666b6eaead71441d3de6e58e56833d4b32534"
+    },
+    {
+      "bytes": 10804236,
+      "filename": "BRIDGEA21_REACTION_EVALUATION_FEATURES.part-006.tsv.xz",
+      "rows": 104475,
+      "sha256": "248bc442521a46b4b72b719a29237708a9fba1456bdb7ea148d90bf8548fbece"
+    },
+    {
+      "bytes": 12482528,
+      "filename": "BRIDGEA21_REACTION_EVALUATION_FEATURES.part-007.tsv.xz",
+      "rows": 104475,
+      "sha256": "e003c56c171ebfe6990923bb1dd27dcf8c50dd5a62594e385d5820593c0d67c0"
+    },
+    {
+      "bytes": 1639932,
+      "filename": "BRIDGEA21_REACTION_EVALUATION_FEATURES.part-008.tsv.xz",
+      "rows": 104475,
+      "sha256": "e51151e899e4029fc7fb99b65f40ee02acfbf013ae75f41625e5d300d1e59ee3"
+    },
+    {
+      "bytes": 1617812,
+      "filename": "BRIDGEA21_REACTION_EVALUATION_FEATURES.part-009.tsv.xz",
+      "rows": 104475,
+      "sha256": "b4fd0ea9db6ac2df7fee12ebf70d6563fd583fd4f0839a06e251f3156e7eb547"
+    },
+    {
+      "bytes": 1673456,
+      "filename": "BRIDGEA21_REACTION_EVALUATION_FEATURES.part-010.tsv.xz",
+      "rows": 104475,
+      "sha256": "742d3ddbadef070da867b225a058de09deca8426ac64782e61cb23b0ebd4c4ab"
+    },
+    {
+      "bytes": 1530852,
+      "filename": "BRIDGEA21_REACTION_EVALUATION_FEATURES.part-011.tsv.xz",
+      "rows": 104475,
+      "sha256": "9de4ea24f3b0e9703af596674f206952666e1e7c8f7c20dffa0e834c70d637aa"
+    },
+    {
+      "bytes": 12351428,
+      "filename": "BRIDGEA21_REACTION_EVALUATION_FEATURES.part-012.tsv.xz",
+      "rows": 104475,
+      "sha256": "880fb3abb7fd6394d1e2a617b264096d87db932954fd949ed4782a1117f84840"
+    },
+    {
+      "bytes": 13762380,
+      "filename": "BRIDGEA21_REACTION_EVALUATION_FEATURES.part-013.tsv.xz",
+      "rows": 104475,
+      "sha256": "634b53920091f527cecb9969124198c23c4d4728619cb3d848ee37f63edecc54"
+    },
+    {
+      "bytes": 12766064,
+      "filename": "BRIDGEA21_REACTION_EVALUATION_FEATURES.part-014.tsv.xz",
+      "rows": 104475,
+      "sha256": "ce216e322e5ae477c127bd286db1584b699af467ebbca860405e3da9b26563c4"
+    },
+    {
+      "bytes": 12409696,
+      "filename": "BRIDGEA21_REACTION_EVALUATION_FEATURES.part-015.tsv.xz",
+      "rows": 104475,
+      "sha256": "771f0adf158ce5f012db094a3e4760ce4735c95cad6d968a28acafb32d4549c5"
+    }
+  ],
+  "schema": "bridge.a21.partitioned_tsv.v1",
+  "total_data_rows": 1671600
+}

@@ -1,0 +1,74 @@
+{
+  "completed_parts": {
+    "BRIDGEA22_CASE_OUTCOMES.part-000.tsv.xz": {
+      "bytes": 2077836,
+      "filename": "BRIDGEA22_CASE_OUTCOMES.part-000.tsv.xz",
+      "lambda_zero_maximum_deviation": 4.973799150320701e-14,
+      "rows": 25074,
+      "scalar_batch_break_even_gain_scale_maximum_deviation": 2.111725700908241e-15,
+      "scalar_batch_maximum_deviation": 1.4210854715202004e-14,
+      "sha256": "c345df52a403dab946b9000f85f5c3a82284d1213f9a9dd68ae9182fc0770b37"
+    },
+    "BRIDGEA22_CASE_OUTCOMES.part-001.tsv.xz": {
+      "bytes": 2601548,
+      "filename": "BRIDGEA22_CASE_OUTCOMES.part-001.tsv.xz",
+      "lambda_zero_maximum_deviation": 2.842170943040401e-14,
+      "rows": 29253,
+      "scalar_batch_break_even_gain_scale_maximum_deviation": 1.56465529154929e-15,
+      "scalar_batch_maximum_deviation": 1.7763568394002505e-14,
+      "sha256": "ffc486847dfed2ee9633968330a32bf7ce6368302efee7cda21aca98c23c599e"
+    },
+    "BRIDGEA22_CASE_OUTCOMES.part-002.tsv.xz": {
+      "bytes": 2492664,
+      "filename": "BRIDGEA22_CASE_OUTCOMES.part-002.tsv.xz",
+      "lambda_zero_maximum_deviation": 2.842170943040401e-14,
+      "rows": 25074,
+      "scalar_batch_break_even_gain_scale_maximum_deviation": 2.5983285682704265e-18,
+      "scalar_batch_maximum_deviation": 1.7763568394002505e-14,
+      "sha256": "e4bf62049febb44bbf24d8d701c909db7456f88a392068d99d0e8c3b4ea4dc0f"
+    },
+    "BRIDGEA22_CASE_OUTCOMES.part-003.tsv.xz": {
+      "bytes": 2701356,
+      "filename": "BRIDGEA22_CASE_OUTCOMES.part-003.tsv.xz",
+      "lambda_zero_maximum_deviation": 3.552713678800501e-14,
+      "rows": 29253,
+      "scalar_batch_break_even_gain_scale_maximum_deviation": 1.8625456283022383e-15,
+      "scalar_batch_maximum_deviation": 6.394884621840902e-14,
+      "sha256": "489c523840f6263ceea38e067fa04a63f9f0ba7fa9a0e0296b281588c359c19b"
+    }
+  },
+  "fingerprint": {
+    "a20_weights_sha256": "b153e2fde45dca9573c71c548783e704313f056d0980f64af60180ad90ebc1f4",
+    "a21_feature_logical_content_sha256": "50bc3e47239e4b22d0931246f4fa0d5d126a5b69226d47cb342cb8a5b3ee99d2",
+    "block_size": 64,
+    "implementation_sha256": {
+      "scripts/dmi_bridge_a22_dual_anchor_sign_only_core_v1.py": "f02dc1f44aafcee5788ff28b7850950122810abd6154f12568170a4324d4c3d2",
+      "scripts/dmi_bridge_a22_dual_anchor_sign_only_utility_v1.py": "ab7196dffc0cdb2d18a948d406eabed58d2298afd6defef3767d4d5b076a260e",
+      "scripts/dmi_bridge_pl2_sign_only_core_v1.py": "9a32da4aa7c58ad7d9bfb29f38f37aa2a05813da4503675c3bf43c9542b0d4ce",
+      "scripts/dmi_bridge_pl2b_batch_v1.py": "7da76f5e2d4f2f05a0c8f865014fa9a31954a8abf8ea0a03ea2700cc26b68c7b",
+      "scripts/dmi_bridge_pl2b_production_v1.py": "87c79432915f12f87d6c105b5aa07c1fa55ce287ca5ad87898e333572d8525e3"
+    },
+    "lambda_grid": [
+      0.0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "parts": 128,
+    "predecessor_manifest_sha256": {
+      "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_MANIFEST.json": "01f8004a0bf9d5358d7ce7281e827cc1a1fbe00a6750a5c063a1edad2eedf380",
+      "outputs/dmi_bridge_a21_dual_anchor_geometry_v1/BRIDGEA21_MANIFEST.json": "db9948d7b99447a695cf8aa21429dde6d642e1fd0632bcce52643deac59e6feb",
+      "outputs/dmi_bridge_pl2a_sign_only_prepare_v1/BRIDGEPL2A_MANIFEST.json": "8ae3eb60eb23614e379e38e3aa3cb72ec16c6bdb69aa9c74cc94499e31f1c312",
+      "outputs/dmi_bridge_pl2b_sign_only_utility_v1/BRIDGEPL2B_MANIFEST.json": "7d9ca97a3f4ea5aa8b0b983e09ee83fc3c82f326d1b1cbf9c6137cfadf25539d"
+    },
+    "reliability_grid": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "schema": "bridge.a22.fingerprint.v1"
+  },
+  "schema": "bridge.a22.work.v1"
+}

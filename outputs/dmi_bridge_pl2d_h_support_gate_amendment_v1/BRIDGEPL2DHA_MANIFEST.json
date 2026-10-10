@@ -1,0 +1,38 @@
+{
+  "amended_minimum_finite_reactions_per_context": 30,
+  "artifact_sha256": {
+    "BRIDGEPL2DHA_AMENDED_CONFIRMATION_CONTRACT.json": "08baccb983fa7690d1e10dd965b95d42f0223a798e797dbf0b0c1a830491cfb4",
+    "BRIDGEPL2DHA_SOURCE_AUDIT.json": "9d5855a025f73db10bc0c3d25309376de309ec782323087896dbffbdd03555d4",
+    "BRIDGEPL2DHA_SUPPORT_CALIBRATION.json": "e28d25523d31333d6360ab60bcf8f4a0c3c8799233f310571d97f9e1805a2381"
+  },
+  "confirmation_geometry_utility_analysis_invoked": false,
+  "confirmation_outcomes_accessed": false,
+  "confirmation_predictor_values_accessed": false,
+  "confirmation_support_counts_accessed": false,
+  "contract_semantic_diff": [
+    "primary.minimum_finite_reactions_per_context",
+    "status_rule.PL2D_INSUFFICIENT_SUPPORT"
+  ],
+  "implementation_sha256": {
+    "amendment_adapter_sha256": "4c0801e0adfa7338807fe81b426c08702a1905ea11535d45982748aba2866ca4",
+    "amendment_contract_document_sha256": "5fa69753c30f5d81f4c6a0ca2e8a6cc006b11e1850b17abf892381b4d30e6cc3",
+    "amendment_core_sha256": "3f9f8b1b37840d0c2a446d13238060ef31887820a064ab22c32e124c51d120db",
+    "amendment_patch_sha256": "b7c53dd5e7848fb8a57d4a56d7804652cae445e943287be1cd232bef412741a3"
+  },
+  "original_minimum_finite_reactions_per_context": 100,
+  "original_pl2d_h_artifact_sha256": {
+    "BRIDGEPL2DH_CONFIRMATION_CONTRACT.json": "ac7fa325491ab96402fc774bc3c3f3843a884fa711c8bf1104eb056390bb2054",
+    "BRIDGEPL2DH_CONFIRMATION_REGISTRY.tsv": "02a38afe3cb25b8c85a7774c1f20118ad9601ba74f0df0fbff021ba2494bd2e5",
+    "BRIDGEPL2DH_DEVELOPMENT_SNAPSHOT.json": "ebd60bbdd480ec83fe233e068a398776b4bd4ff964cc4bc6bf8c615c66cc28b8",
+    "BRIDGEPL2DH_SOURCE_AUDIT.json": "21f8ea38f331922034a869a75864b33da72455a66d7e403725cb16016d7a05c9"
+  },
+  "original_pl2d_h_manifest_sha256": "a1dd76d6b40e741e07efe64c34bc39eaad289a46bf6c870917a4f59cab688427",
+  "original_pl2d_h_preserved": true,
+  "pl2d_confirmation_status": "NOT_RUN",
+  "primary_context_count": 16,
+  "primary_minimum_finite_reactions": 700,
+  "primary_minimum_positive_contexts": 12,
+  "primary_minimum_rho": 0.5,
+  "schema": "bridge.pl2d_h.support_gate_amendment.v1",
+  "status": "PL2D_H_SUPPORT_GATE_AMENDED_READY_FOR_CONFIRMATION"
+}

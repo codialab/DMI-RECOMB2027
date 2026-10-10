@@ -1,0 +1,4180 @@
+reaction_id	subsystem	same_subsystem_as_HEX1	proximal_set_member
+10FTHF5GLUtl	UNMAPPED_PATHWAY	false	false
+10FTHF5GLUtm	Transport, mitochondrial	false	false
+10FTHF6GLUtl	UNMAPPED_PATHWAY	false	false
+10FTHF6GLUtm	Transport, mitochondrial	false	false
+10FTHF7GLUtl	UNMAPPED_PATHWAY	false	false
+10FTHF7GLUtm	Transport, mitochondrial	false	false
+10FTHFtl	UNMAPPED_PATHWAY	false	false
+10FTHFtm	Transport, mitochondrial	false	false
+11DOCRTSLte	Transport, extracellular	false	false
+11DOCRTSTRNte	Transport, extracellular	false	false
+17AHPRGNLONEte	Transport, extracellular	false	false
+17AHPRGSTRNte	Transport, extracellular	false	false
+1MNCAMt	Transport, extracellular	false	false
+1PPDCRp	UNMAPPED_PATHWAY	false	false
+2AMACSULT	Methionine and cysteine metabolism	false	false
+2DR1PP	Pyrimidine catabolism	false	false
+2H3MVc	Valine, leucine, and isoleucine metabolism	false	false
+2HATVACIDhc	Drug metabolism	false	false
+2HATVACIDteb	Drug metabolism	false	false
+2HATVACIDtep	Drug metabolism	false	false
+2HATVLACteb	Drug metabolism	false	false
+2HATVLACtep	Drug metabolism	false	false
+2HBO	UNMAPPED_PATHWAY	false	false
+2HIVc	Valine, leucine, and isoleucine metabolism	false	false
+2M3HVACc	UNMAPPED_PATHWAY	false	false
+2M3HVACte	Transport, extracellular	false	false
+2M3OVACm	UNMAPPED_PATHWAY	false	false
+2M3OVACtm	Transport, mitochondrial	false	false
+2M3OVCOAm	UNMAPPED_PATHWAY	false	false
+2MB2COAc	Fatty acid oxidation	false	false
+2MCITt	Transport, extracellular	false	false
+2OBUTt	Transport, extracellular	false	false
+2OXOADOXm	UNMAPPED_PATHWAY	false	false
+34DHALDD	Tyrosine metabolism	false	false
+34DHOXPEGOX	Tyrosine metabolism	false	false
+34DHOXPEGt	Transport, extracellular	false	false
+34DHPEAR	Tyrosine metabolism	false	false
+34DHPEt	Transport, extracellular	false	false
+34DHPHAMT	Tyrosine metabolism	false	false
+34DHPHELAT1tc	Transport, extracellular	false	false
+34DHPHEt	Transport, extracellular	false	false
+34DHPLACOX_NADP	Tyrosine metabolism	false	false
+34DHXMANDACOX	Tyrosine metabolism	false	false
+34DHXMANDACOX_NADP	Tyrosine metabolism	false	false
+34HPLFM	UNMAPPED_PATHWAY	false	false
+34HPPOR	Tyrosine metabolism	false	false
+3AIBSYMPt	Transport, extracellular	false	false
+3AIBTm	Valine, leucine, and isoleucine metabolism	false	false
+3AIBt	Transport, extracellular	false	false
+3AIBt1	Transport, extracellular	false	false
+3AIBtm	Transport, mitochondrial	false	false
+3DPHBH1	UNMAPPED_PATHWAY	false	false
+3DPHBH2	UNMAPPED_PATHWAY	false	false
+3DSPHR	Sphingolipid metabolism	false	false
+3HADICOAx	Fatty acid oxidation	false	false
+3HADPACte	Transport, extracellular	false	false
+3HADPACtxc	Transport, peroxisomal	false	false
+3HADPACx	Fatty acid oxidation	false	false
+3HBCOARc	Fatty acid oxidation	false	false
+3HIVAcm	Valine, leucine, and isoleucine metabolism	false	false
+3HIVActe	Transport, extracellular	false	false
+3HIVActm	Transport, mitochondrial	false	false
+3HPPt	Transport, extracellular	false	false
+3HPPtm	Transport, mitochondrial	false	false
+3HPVSTETteb	Drug metabolism	false	false
+3HPVSTETtev	Drug metabolism	false	false
+3HPVSteb	Drug metabolism	false	false
+3HPVStep	Drug metabolism	false	false
+3ISPVSteb	Drug metabolism	false	false
+3ISPVStep	Drug metabolism	false	false
+3M4HDXPAC	Tyrosine metabolism	false	false
+3MLDAt	Transport, extracellular	false	false
+3MOBt2im	Transport, mitochondrial	false	false
+3MOPt2im	Transport, mitochondrial	false	false
+3MOX4HOXPGALDOX	Tyrosine metabolism	false	false
+3MOX4HOXPGALDOX_NADP	Tyrosine metabolism	false	false
+3MOXTYRESSte	Transport, extracellular	false	false
+3MOXTYROX	Tyrosine metabolism	false	false
+3OHSEBACte	Transport, extracellular	false	false
+3OHSEBACtxc	Transport, peroxisomal	false	false
+3OHSEBACx	Fatty acid oxidation	false	false
+3OHSEBCOAx	Fatty acid oxidation	false	false
+3OHSUBACte	Transport, extracellular	false	false
+3OHSUBACtxc	Transport, peroxisomal	false	false
+3OHSUBACx	Fatty acid oxidation	false	false
+3OHSUBCOAx	Fatty acid oxidation	false	false
+3SALAASPm	Transport, mitochondrial	false	false
+3SALATAi	Methionine and cysteine metabolism	false	false
+3SALATAim	Methionine and cysteine metabolism	false	false
+3SPYRSP	Methionine and cysteine metabolism	false	false
+3SPYRSPm	Methionine and cysteine metabolism	false	false
+41R1H2MAE12BOOX	Tyrosine metabolism	false	false
+41R2A1H12BOOX	Tyrosine metabolism	false	false
+42A12BOOX	Tyrosine metabolism	false	false
+4AABUTNt	Transport, extracellular	false	false
+4CMCOAS	Phenylalanine metabolism	false	false
+4HALDD	Phenylalanine metabolism	false	false
+4HATVACIDhc	Drug metabolism	false	false
+4HATVACIDteb	Drug metabolism	false	false
+4HATVACIDtep	Drug metabolism	false	false
+4HATVLACteb	Drug metabolism	false	false
+4HATVLACtep	Drug metabolism	false	false
+4HBZtm	Transport, mitochondrial	false	false
+4HOXPACDOX_NADP	Tyrosine metabolism	false	false
+4HPROLTASCT1	Transport, extracellular	false	false
+4HPRO_LTte	Transport, extracellular	false	false
+4MOPt2im	Transport, mitochondrial	false	false
+4MPTNLte	Transport, extracellular	false	false
+4MPTNLtm	Transport, mitochondrial	false	false
+4OHPROIMINOtc	Transport, extracellular	false	false
+56DHPVSteb	Drug metabolism	false	false
+56DHPVStev	Drug metabolism	false	false
+56EPPVSteb	Drug metabolism	false	false
+56EPPVStev	Drug metabolism	false	false
+5ADTSTSTERONESULT	Steroid metabolism	false	false
+5AOPtm	Heme synthesis	false	false
+5DHFtl	UNMAPPED_PATHWAY	false	false
+5EIPENCm	Fatty acid oxidation	false	false
+5EIPENCte	Transport, extracellular	false	false
+5EIPENCtm	Transport, mitochondrial	false	false
+5HLTDL	Tryptophan metabolism	false	false
+5HOXINDACTOX	Tryptophan metabolism	false	false
+5HOXINOXDA	Tryptophan metabolism	false	false
+5MTAte	Transport, extracellular	false	false
+5MTHFt	Transport, extracellular	false	false
+5OXPROt	Transport, extracellular	false	false
+5THFtl	UNMAPPED_PATHWAY	false	false
+5THFtm	Transport, mitochondrial	false	false
+6DHFtl	UNMAPPED_PATHWAY	false	false
+6DHFtm	Transport, mitochondrial	false	false
+6EPSteb	Drug metabolism	false	false
+6EPVStep	Drug metabolism	false	false
+6THFtl	UNMAPPED_PATHWAY	false	false
+7DHCHSTEROLtr	Transport, endoplasmic reticular	false	false
+7DHFtl	UNMAPPED_PATHWAY	false	false
+7DHFtm	Transport, mitochondrial	false	false
+7HPVSteb	Drug metabolism	false	false
+7HPVStev	Drug metabolism	false	false
+7THFtl	UNMAPPED_PATHWAY	false	false
+7THFtm	Transport, mitochondrial	false	false
+A4GALTc	Sphingolipid metabolism	false	false
+A4GALTg	Sphingolipid metabolism	false	false
+AACOAT	UNMAPPED_PATHWAY	false	false
+AADSACYCL	UNMAPPED_PATHWAY	false	false
+AASAD3	UNMAPPED_PATHWAY	false	false
+ABTArm	Glutamate metabolism	false	true
+ABUTD	UNMAPPED_PATHWAY	false	false
+ABUTt4_2_r	Transport, extracellular	false	false
+ACACT10m	Valine, leucine, and isoleucine metabolism	false	false
+ACACT1m	Tryptophan metabolism	false	false
+ACACT1r	Tryptophan metabolism	false	false
+ACACT1x	Cholesterol metabolism	false	false
+ACACT4m	Fatty acid oxidation	false	false
+ACACT5m	Fatty acid oxidation	false	false
+ACACT6m	Fatty acid oxidation	false	false
+ACACT6p	Fatty acid oxidation	false	false
+ACACT7m	Fatty acid oxidation	false	false
+ACACT8p	Fatty acid oxidation	false	false
+ACACT9p	Fatty acid oxidation	false	false
+ACACtx	Transport, peroxisomal	false	false
+ACALDtm	Transport, mitochondrial	false	false
+ACCOAC	Fatty acid oxidation	false	false
+ACCOALm	UNMAPPED_PATHWAY	false	false
+ACCOAgt	Transport, extracellular	false	false
+ACCOAtr	Transport, endoplasmic reticular	false	false
+ACChex	Fatty acid oxidation	false	false
+ACER11r	Sphingolipid metabolism	false	false
+ACER22g	Sphingolipid metabolism	false	false
+ACER23g	Sphingolipid metabolism	false	false
+ACER31r	Sphingolipid metabolism	false	false
+ACETONEt2	Transport, extracellular	false	false
+ACGAGBSIDEtg	UNMAPPED_PATHWAY	false	false
+ACGAGBSIDEtl	UNMAPPED_PATHWAY	false	false
+ACGALK	Aminosugar metabolism	false	false
+ACGALK2	Aminosugar metabolism	false	false
+ACGALtly	UNMAPPED_PATHWAY	false	false
+ACGAM2E	Aminosugar metabolism	false	false
+ACGAM6PS	Aminosugar metabolism	false	false
+ACGAMK	Aminosugar metabolism	false	false
+ACGAMPM	Aminosugar metabolism	false	false
+ACGAMtly	UNMAPPED_PATHWAY	false	false
+ACITL	Citric acid cycle	false	true
+ACLYSHYc	UNMAPPED_PATHWAY	false	false
+ACLYStm	Transport, extracellular	false	false
+ACMPtu	Drug metabolism	false	false
+ACNAM9PL	Aminosugar metabolism	false	false
+ACNAM9PL2	Aminosugar metabolism	false	false
+ACNAMPH	Aminosugar metabolism	false	false
+ACNAMlt	UNMAPPED_PATHWAY	false	false
+ACNAMt2	Transport, extracellular	false	false
+ACNMCT	Aminosugar metabolism	false	false
+ACNML	Aminosugar metabolism	false	false
+ACOAD10m	Valine, leucine, and isoleucine metabolism	false	false
+ACOAD8m	Valine, leucine, and isoleucine metabolism	false	false
+ACOAD9m	Valine, leucine, and isoleucine metabolism	false	false
+ACOADH100_m	Fatty acid oxidation	false	false
+ACOADH120_m	Fatty acid oxidation	false	false
+ACOADH160_m	Fatty acid oxidation	false	false
+ACOADH60_m	Fatty acid oxidation	false	false
+ACOAO4p	Fatty acid oxidation	false	false
+ACOAO5p	Fatty acid oxidation	false	false
+ACOAO7p	Fatty acid oxidation	false	false
+ACOAO8p	Fatty acid oxidation	false	false
+ACOAR2m	Fatty acid oxidation	false	false
+ACOAR4m	Fatty acid oxidation	false	false
+ACOAR5m	Fatty acid oxidation	false	false
+ACOAR7m	Fatty acid oxidation	false	false
+ACONT	Citric acid cycle	false	true
+ACONTm	Citric acid cycle	false	true
+ACP1_FMN	UNMAPPED_PATHWAY	false	false
+ACP1e	Transport, extracellular	false	false
+ACRNtm	Transport, mitochondrial	false	false
+ACRNtp	Transport, peroxisomal	false	false
+ACTLMO	Pyruvate metabolism	false	true
+ACTNMO	Pyruvate metabolism	false	true
+ACYP	Glycolysis/gluconeogenesis	true	true
+ACt2m	Transport, mitochondrial	false	false
+ACtg	UNMAPPED_PATHWAY	false	false
+ADA	Purine catabolism	false	false
+ADADir	Pyrimidine catabolism	false	false
+ADAe	Purine catabolism	false	false
+ADCim	UNMAPPED_PATHWAY	false	false
+ADK1	Nucleotide interconversion	false	false
+ADK1m	Nucleotide interconversion	false	false
+ADK3	Nucleotide interconversion	false	false
+ADKd	Nucleotide interconversion	false	false
+ADMDC	Arginine and proline metabolism	false	false
+ADNCYC	Nucleotide interconversion	false	false
+ADNK1	Nucleotide interconversion	false	false
+ADNK1m	Nucleotide interconversion	false	false
+ADNt	Transport, extracellular	false	false
+ADNtl	UNMAPPED_PATHWAY	false	false
+ADNtm	Transport, mitochondrial	false	false
+ADPCOACROT	Fatty acid oxidation	false	false
+ADPRDP	Nucleotide interconversion	false	false
+ADRNCOAtx	Transport, peroxisomal	false	false
+ADRNCPT1	Fatty acid oxidation	false	false
+ADRNCPT2	Fatty acid oxidation	false	false
+ADRNCRNt	Fatty acid oxidation	false	false
+ADSK	Nucleotide interconversion	false	false
+ADSL1r	Nucleotide interconversion	false	false
+ADSL2r	Purine synthesis	false	false
+ADSS	Nucleotide interconversion	false	false
+AG13T16g	UNMAPPED_PATHWAY	false	false
+AG13T17g	UNMAPPED_PATHWAY	false	false
+AG13T18g	UNMAPPED_PATHWAY	false	false
+AG13T1g	UNMAPPED_PATHWAY	false	false
+AG13T2g	UNMAPPED_PATHWAY	false	false
+AG13T3g	UNMAPPED_PATHWAY	false	false
+AGDC	Aminosugar metabolism	false	false
+AGPAT1_1	Triacylglycerol synthesis	false	false
+AGPAT4	Glycerophospholipid metabolism	false	false
+AHANDROSTANte	Transport, extracellular	false	false
+AHCYStr	Transport, endoplasmic reticular	false	false
+AHCi	Methionine and cysteine metabolism	false	false
+AICART	Purine synthesis	false	false
+AIRCr	Purine synthesis	false	false
+AK2LGCHOLABCt	Transport, extracellular	false	false
+AK2LGCHOLt	Transport, extracellular	false	false
+AKGCITtm	Transport, mitochondrial	false	false
+AKGDm	Citric acid cycle	false	true
+AKGICITtm	Transport, peroxisomal	false	false
+AKGMALtm	Transport, mitochondrial	false	false
+ALAALACNc	Transport, extracellular	false	false
+ALAARGCYSt	Transport, extracellular	false	false
+ALAARGGLYt	Transport, extracellular	false	false
+ALAASNLEUt	Transport, extracellular	false	false
+ALAASNNaEx	Transport, extracellular	false	false
+ALACYSNaEx	Transport, extracellular	false	false
+ALADGLNexR	Transport, extracellular	false	false
+ALADGLYexR	Transport, extracellular	false	false
+ALAGLNNaEx	Transport, extracellular	false	false
+ALAGLNexR	Transport, extracellular	false	false
+ALAGLYLYSt	Transport, extracellular	false	false
+ALAGLYexR	Transport, extracellular	false	false
+ALAHISALAt	Transport, extracellular	false	false
+ALALYSTHRt	Transport, extracellular	false	false
+ALAR	UNMAPPED_PATHWAY	false	false
+ALASERNaEx	Transport, extracellular	false	false
+ALASm	Glycine, serine, alanine, and threonine metabolism	false	false
+ALATA_L	Glutamate metabolism	false	true
+ALATA_Lm	Citric acid cycle	false	true
+ALATHRNaEx	Transport, extracellular	false	false
+ALAt4	Transport, extracellular	false	false
+ALCD1	Miscellaneous	false	false
+ALCD19y	Glycerophospholipid metabolism	false	false
+ALCD21_D	Pyruvate metabolism	false	true
+ALCD22_D	Pyruvate metabolism	false	true
+ALCD22_L	Pyruvate metabolism	false	true
+ALDD19x_P	Phenylalanine metabolism	false	false
+ALDD19xr	Phenylalanine metabolism	false	false
+ALDD20x	Tryptophan metabolism	false	false
+ALDD20xm	Tryptophan metabolism	false	false
+ALDD21	Fatty acid oxidation	false	false
+ALDD2x	Glycolysis/gluconeogenesis	true	true
+ALDD2xm	Glycolysis/gluconeogenesis	true	true
+ALDD2y	Glycolysis/gluconeogenesis	true	true
+ALOX5	Eicosanoid metabolism	false	false
+ALOX52	Eicosanoid metabolism	false	false
+ALR2	Pyruvate metabolism	false	true
+ALR3	Pyruvate metabolism	false	true
+AMACR2p	Bile acid synthesis	false	false
+AMANK	Aminosugar metabolism	false	false
+AMETr	Transport, endoplasmic reticular	false	false
+AMETt2m	Transport, mitochondrial	false	false
+AMPDA	Nucleotide interconversion	false	false
+AMPTASECG	Glutathione metabolism	false	false
+AMPTASEPG	Transport, extracellular	false	false
+ANDRSTANDRte	Transport, extracellular	false	false
+ANDRSTNDNte	Transport, extracellular	false	false
+APAT2rm	UNMAPPED_PATHWAY	false	false
+APNPT	UNMAPPED_PATHWAY	false	false
+APRTO2	Arginine and proline metabolism	false	false
+ARACHCOAtx	Transport, peroxisomal	false	false
+ARACHCPT1	Fatty acid oxidation	false	false
+ARACHCPT2	Fatty acid oxidation	false	false
+ARACHCRNt	Fatty acid oxidation	false	false
+ARACHDCOAtx	Transport, peroxisomal	false	false
+ARACHDFATPtc	Transport, extracellular	false	false
+ARACHDtr	Transport, endoplasmic reticular	false	false
+ARGALAALAt	Transport, extracellular	false	false
+ARGALAPHEt	Transport, extracellular	false	false
+ARGALATHRt	Transport, extracellular	false	false
+ARGARGLYSt	Transport, extracellular	false	false
+ARGARGMETt	Transport, extracellular	false	false
+ARGARGt	Transport, extracellular	false	false
+ARGCYSGLYt	Transport, extracellular	false	false
+ARGCYSSERt	Transport, extracellular	false	false
+ARGDr	Arginine and proline metabolism	false	false
+ARGGLUGLUt	Transport, extracellular	false	false
+ARGGLUPROt	Transport, extracellular	false	false
+ARGGLYGLYt	Transport, extracellular	false	false
+ARGHISTHRt	Transport, extracellular	false	false
+ARGLEUPHEt	Transport, extracellular	false	false
+ARGLYSASPt	Transport, extracellular	false	false
+ARGN	Urea cycle	false	false
+ARGPHEARGt	Transport, extracellular	false	false
+ARGPROMETt	Transport, extracellular	false	false
+ARGPROTHRt	Transport, extracellular	false	false
+ARGSERSERt	Transport, extracellular	false	false
+ARGSL	UNMAPPED_PATHWAY	false	false
+ARGSS	UNMAPPED_PATHWAY	false	false
+ARGTYRVALt	Transport, extracellular	false	false
+ARGVALCYSt	Transport, extracellular	false	false
+ARGVALTRPt	Transport, extracellular	false	false
+ARSA	Sphingolipid metabolism	false	false
+ASAH1	Sphingolipid metabolism	false	false
+ASCBt	Transport, extracellular	false	false
+ASNALANaEx	Transport, extracellular	false	false
+ASNASNARGt	Transport, extracellular	false	false
+ASNCYSCYSt	Transport, extracellular	false	false
+ASNCYSNaEx	Transport, extracellular	false	false
+ASNGLNNaEx	Transport, extracellular	false	false
+ASNMETPROt	Transport, extracellular	false	false
+ASNNm	UNMAPPED_PATHWAY	false	false
+ASNPHEASPt	Transport, extracellular	false	false
+ASNPHECYSt	Transport, extracellular	false	false
+ASNS1	UNMAPPED_PATHWAY	false	false
+ASNSERNaEx	Transport, extracellular	false	false
+ASNTHRNaEx	Transport, extracellular	false	false
+ASNTYRGLYt	Transport, extracellular	false	false
+ASNTYRPHEt	Transport, extracellular	false	false
+ASNTYRTHRt	Transport, extracellular	false	false
+ASNt4	Transport, extracellular	false	false
+ASNtm	Transport, mitochondrial	false	false
+ASP1DC	UNMAPPED_PATHWAY	false	false
+ASPALAARGt	Transport, extracellular	false	false
+ASPASNGLUt	Transport, extracellular	false	false
+ASPCT	Pyrimidine synthesis	false	false
+ASPDTDe	Transport, extracellular	false	false
+ASPDt6	Transport, extracellular	false	false
+ASPGLUPROt	Transport, extracellular	false	false
+ASPGLUTRPt	Transport, extracellular	false	false
+ASPGLUm	Transport, mitochondrial	false	false
+ASPGLUt	Transport, extracellular	false	false
+ASPHISCYSt	Transport, extracellular	false	false
+ASPHISPROt	Transport, extracellular	false	false
+ASPLYSGLUt	Transport, extracellular	false	false
+ASPLYSHISt	Transport, extracellular	false	false
+ASPMETASPt	Transport, extracellular	false	false
+ASPNATm	UNMAPPED_PATHWAY	false	false
+ASPPROLYSt	Transport, extracellular	false	false
+ASPT	Glutamate metabolism	false	true
+ASPTA	UNMAPPED_PATHWAY	false	false
+ASPTAm	UNMAPPED_PATHWAY	false	false
+ASPVALASNt	Transport, extracellular	false	false
+ASPt6	Transport, extracellular	false	false
+ATP1ter	Transport, endoplasmic reticular	false	false
+ATP2ter	Transport, endoplasmic reticular	false	false
+ATPH1e	Nucleotide interconversion	false	false
+ATPH2e	Nucleotide interconversion	false	false
+ATPasel_1	UNMAPPED_PATHWAY	false	false
+ATPtg	UNMAPPED_PATHWAY	false	false
+ATPtm	Transport, mitochondrial	false	false
+ATVACIDhc	Drug metabolism	false	false
+ATVACIDtdu	Drug metabolism	false	false
+ATVACIDtu	Drug metabolism	false	false
+ATVLACtdhc	Drug metabolism	false	false
+ATVLACtu	Drug metabolism	false	false
+B3GALT3g	Sphingolipid metabolism	false	false
+B3GALT41g	Sphingolipid metabolism	false	false
+B3GALT42g	Sphingolipid metabolism	false	false
+B3GALT43g	Sphingolipid metabolism	false	false
+B3GALT44g	Sphingolipid metabolism	false	false
+B3GALT5g	Sphingolipid metabolism	false	false
+B3GALTg	UNMAPPED_PATHWAY	false	false
+B3GNT11g	UNMAPPED_PATHWAY	false	false
+B3GNT310g	UNMAPPED_PATHWAY	false	false
+B3GNT312g	UNMAPPED_PATHWAY	false	false
+B3GNT38g	Glycosphingolipid metabolism	false	false
+B3GNT51g	UNMAPPED_PATHWAY	false	false
+BAAT3x	Bile acid synthesis	false	false
+BALABETAtc	Transport, extracellular	false	false
+BALAPAT1tc2	Transport, extracellular	false	false
+BAMPPALDOX	UNMAPPED_PATHWAY	false	false
+BETALDHx	Glycine, serine, alanine, and threonine metabolism	false	false
+BETALDHy	Glycine, serine, alanine, and threonine metabolism	false	false
+BGAL1e	Sphingolipid metabolism	false	false
+BGAL1l	Sphingolipid metabolism	false	false
+BGAL2l	Sphingolipid metabolism	false	false
+BGAL3l	Sphingolipid metabolism	false	false
+BILIRED2	Heme synthesis	false	false
+BILIRUBt2	Transport, extracellular	false	false
+BPNT	Nucleotide interconversion	false	false
+BPNT2	Nucleotide interconversion	false	false
+BUTt	Transport, extracellular	false	false
+C03681te	Transport, extracellular	false	false
+C04805td	Transport, extracellular	false	false
+C05299te	Transport, extracellular	false	false
+C05301te	Transport, extracellular	false	false
+C05302te	Transport, extracellular	false	false
+C05769te2	Transport, extracellular	false	false
+C05770te	Transport, extracellular	false	false
+C06439t	Transport, extracellular	false	false
+C10DCCACT	Fatty acid oxidation	false	false
+C141ACBP	Fatty acid oxidation	false	false
+C142ACBP	Fatty acid oxidation	false	false
+C14STR	Cholesterol metabolism	false	false
+C14STRr	Cholesterol metabolism	false	false
+C160CPT1	Fatty acid oxidation	false	false
+C160CPT2	Fatty acid oxidation	false	false
+C160CRNt	Fatty acid oxidation	false	false
+C161CPT12	Fatty acid oxidation	false	false
+C161CPT2	Fatty acid oxidation	false	false
+C161CPT22	Fatty acid oxidation	false	false
+C161CRN2t	Fatty acid oxidation	false	false
+C161CRNt	Fatty acid oxidation	false	false
+C162ACBP	Fatty acid oxidation	false	false
+C180CPT1	Fatty acid oxidation	false	false
+C180CPT2	Fatty acid oxidation	false	false
+C180CRNt	Fatty acid oxidation	false	false
+C181CPT2	Fatty acid oxidation	false	false
+C181CRNt	Fatty acid oxidation	false	false
+C204CPT1	Fatty acid oxidation	false	false
+C204CPT2	Fatty acid oxidation	false	false
+C204CRNt	Fatty acid oxidation	false	false
+C226CPT1	Fatty acid oxidation	false	false
+C226CPT2	Fatty acid oxidation	false	false
+C3STDH1	Cholesterol metabolism	false	false
+C3STDH1Pr	Cholesterol metabolism	false	false
+C3STDH1r	Cholesterol metabolism	false	false
+C3STKR2r	Cholesterol metabolism	false	false
+C4CRNCPT2	Fatty acid oxidation	false	false
+C4DCCACT	Fatty acid oxidation	false	false
+C4STMO1r	Cholesterol metabolism	false	false
+C4STMO2Pr	Cholesterol metabolism	false	false
+C4STMO2r	Cholesterol metabolism	false	false
+C4tcx	Transport, peroxisomal	false	false
+C4tmc	Transport, mitochondrial	false	false
+C4x	Transport, peroxisomal	false	false
+C6COAt	Transport, peroxisomal	false	false
+C6CRNtcx	Transport, peroxisomal	false	false
+C6DCCACT	Fatty acid oxidation	false	false
+C80CPT1	Fatty acid oxidation	false	false
+C9BRxtc	Transport, peroxisomal	false	false
+CA24GSc	Bile acid synthesis	false	false
+CA24Gte	Transport, extracellular	false	false
+CA2t	Transport, extracellular	false	false
+CA3Sabc	Transport, extracellular	false	false
+CA3St	Transport, extracellular	false	false
+CAATPS_1	Transport, extracellular	false	false
+CAMPt	Transport, extracellular	false	false
+CAPROICc	Fatty acid oxidation	false	false
+CARN140t_m	Transport, mitochondrial	false	false
+CARN160t_m	Transport, mitochondrial	false	false
+CARN180t_m	Transport, mitochondrial	false	false
+CARN1819Zt_m	Transport, mitochondrial	false	false
+CARN1829Z12Zt_m	Transport, mitochondrial	false	false
+CARN1836Z9Z12Zt_m	Transport, mitochondrial	false	false
+CATm	ROS detoxification	false	false
+CATp	Miscellaneous	false	false
+CBASPte	Transport, extracellular	false	false
+CBPPer	Glycolysis/gluconeogenesis	true	true
+CBPS	Pyrimidine synthesis	false	false
+CBPter	Transport, endoplasmic reticular	false	false
+CBR2	Eicosanoid metabolism	false	false
+CDCA24GSc	Bile acid synthesis	false	false
+CDCA24Gte	Transport, extracellular	false	false
+CDCA3GSc	Bile acid synthesis	false	false
+CDCA3Gte	Transport, extracellular	false	false
+CDCA6AH	Bile acid synthesis	false	false
+CDIPTr	Glycerophospholipid metabolism	false	false
+CDPDAGtm	Transport, mitochondrial	false	false
+CDS	Glycerophospholipid metabolism	false	false
+CDSm	Glycerophospholipid metabolism	false	false
+CE1261t	Transport, extracellular	false	false
+CE1352te	Transport, extracellular	false	false
+CE1918te	Transport, extracellular	false	false
+CE2006te	Transport, extracellular	false	false
+CE2209te	Transport, extracellular	false	false
+CE2211te	Transport, extracellular	false	false
+CE2510ABCt	Transport, extracellular	false	false
+CE2510t	Transport, extracellular	false	false
+CE2512te	Transport, extracellular	false	false
+CE2537ABCt	Transport, extracellular	false	false
+CE2537ATP	Transport, extracellular	false	false
+CE2705t	Transport, extracellular	false	false
+CE5025t	Transport, extracellular	false	false
+CE5026t	Transport, extracellular	false	false
+CE5072te	Transport, extracellular	false	false
+CE7090te	Transport, extracellular	false	false
+CEPTC	Glycerophospholipid metabolism	false	false
+CEPTE	Glycerophospholipid metabolism	false	false
+CERK	Sphingolipid metabolism	false	false
+CERT1gt	UNMAPPED_PATHWAY	false	false
+CERT1rt	Transport, endoplasmic reticular	false	false
+CERT2rt	Transport, endoplasmic reticular	false	false
+CGLYt3_2	Transport, extracellular	false	false
+CGMPt	Transport, extracellular	false	false
+CH25H	Bile acid synthesis	false	false
+CHLPCTD	Glycerophospholipid metabolism	false	false
+CHLSTD78I	Cholesterol metabolism	false	false
+CHLSTI_1	Cholesterol metabolism	false	false
+CHOLESACATc_1	Cholesterol metabolism	false	false
+CHOLESTTDe	Transport, extracellular	false	false
+CHOLESTle_1	Transport, extracellular	false	false
+CHOLK	Glycerophospholipid metabolism	false	false
+CHOLPtg	UNMAPPED_PATHWAY	false	false
+CHSTEROLSULT	Steroid metabolism	false	false
+CHSTEROLt1	Transport, mitochondrial	false	false
+CHSTEROLt2	Transport, mitochondrial	false	false
+CHSTEROLt3	Transport, mitochondrial	false	false
+CHSTEROLtrc	Transport, endoplasmic reticular	false	false
+CITL	Citric acid cycle	false	true
+CITt2r	Transport, extracellular	false	false
+CITt4_1	Transport, extracellular	false	false
+CITtam	Transport, mitochondrial	false	false
+CITtbm	Transport, mitochondrial	false	false
+CITtcm	Transport, mitochondrial	false	false
+CK_cho	Urea cycle	false	false
+CKc_cho	Urea cycle	false	false
+CLFORtex2	Transport, extracellular	false	false
+CLHCO3tex2	Transport, extracellular	false	false
+CLOHtex2	Transport, extracellular	false	false
+CLOHtex2_1	Transport, extracellular	false	false
+CLOXAtex2	Transport, extracellular	false	false
+CLPNDCPT1	Fatty acid oxidation	false	false
+CLPNDCPT2	Fatty acid oxidation	false	false
+CLPNDCRNt	Fatty acid oxidation	false	false
+CLS_hs	Glycerophospholipid metabolism	false	false
+CMPACNAtg	UNMAPPED_PATHWAY	false	false
+CMPSASn	Aminosugar metabolism	false	false
+CO2ter	Transport, endoplasmic reticular	false	false
+CO2tg	UNMAPPED_PATHWAY	false	false
+CO2tm	Transport, mitochondrial	false	false
+CO2tp	Transport, peroxisomal	false	false
+COAtp	Transport, peroxisomal	false	false
+COAtr	Transport, endoplasmic reticular	false	false
+COQ3m	UNMAPPED_PATHWAY	false	false
+COQ5m	UNMAPPED_PATHWAY	false	false
+COQ6m	UNMAPPED_PATHWAY	false	false
+COQ7m	UNMAPPED_PATHWAY	false	false
+CORE2GTg	UNMAPPED_PATHWAY	false	false
+CORE3GTg	UNMAPPED_PATHWAY	false	false
+CORE4GTg	UNMAPPED_PATHWAY	false	false
+CORE6GTg	UNMAPPED_PATHWAY	false	false
+CORTSNti	Transport, endoplasmic reticular	false	false
+COt	Transport, extracellular	false	false
+CPK1	Nucleotide interconversion	false	false
+CPPPGO	Heme synthesis	false	false
+CREATt4_2_r	Transport, extracellular	false	false
+CREATtmdiffir	Urea cycle	false	false
+CRNCARtm	Transport, mitochondrial	false	false
+CRNtim	Transport, mitochondrial	false	false
+CRNtp	Transport, peroxisomal	false	false
+CRTSLtr	Transport, endoplasmic reticular	false	false
+CRVS1tev	Drug metabolism	false	false
+CRVSATPtu	Drug metabolism	false	false
+CRVSM1hr	Drug metabolism	false	false
+CRVSM1teb	Drug metabolism	false	false
+CRVSM23hr	Drug metabolism	false	false
+CRVSM23teb	Drug metabolism	false	false
+CRVSM23tev	Drug metabolism	false	false
+CRVSM24teb	Drug metabolism	false	false
+CRVSM24tev	Drug metabolism	false	false
+CRVStu	Drug metabolism	false	false
+CSAPASEly	Chondroitin sulfate degradation	false	false
+CSAtu	Drug metabolism	false	false
+CSBPASEly	Chondroitin sulfate degradation	false	false
+CSCPASEly	Chondroitin sulfate degradation	false	false
+CSDPASEly	Chondroitin sulfate degradation	false	false
+CSEPASEly	Chondroitin sulfate degradation	false	false
+CSNAT2x	Fatty acid oxidation	false	false
+CSPG_At	Transport, extracellular	false	false
+CSPG_Atly	UNMAPPED_PATHWAY	false	false
+CSPG_Bt	Transport, extracellular	false	false
+CSPG_Btly	UNMAPPED_PATHWAY	false	false
+CSPG_Ct	Transport, extracellular	false	false
+CSPG_Ctly	UNMAPPED_PATHWAY	false	false
+CSPG_Dt	Transport, extracellular	false	false
+CSPG_Dtly	UNMAPPED_PATHWAY	false	false
+CSPG_Et	Transport, extracellular	false	false
+CSPG_Etly	UNMAPPED_PATHWAY	false	false
+CSm	Citric acid cycle	false	true
+CTPS1	Nucleotide interconversion	false	false
+CTPS2	Pyrimidine synthesis	false	false
+CVM1GLUChc	Drug metabolism	false	false
+CVM23GLUChc	Drug metabolism	false	false
+CYSALANaEx	Transport, extracellular	false	false
+CYSASNMETt	Transport, extracellular	false	false
+CYSASNNaEx	Transport, extracellular	false	false
+CYSASPPHEt	Transport, extracellular	false	false
+CYSCYSt	Transport, extracellular	false	false
+CYSGLNMETt	Transport, extracellular	false	false
+CYSGLNNaEx	Transport, extracellular	false	false
+CYSGLUHISt	Transport, extracellular	false	false
+CYSGLUTRPt	Transport, extracellular	false	false
+CYSGLUexR	Transport, extracellular	false	false
+CYSGLYPTASEe_1	Tyrosine metabolism	false	false
+CYSGLYex	Transport, extracellular	false	false
+CYSLEUTHRt	Transport, extracellular	false	false
+CYSSERMETt	Transport, extracellular	false	false
+CYSSERNaEx	Transport, extracellular	false	false
+CYSTA	Methionine and cysteine metabolism	false	false
+CYSTGL	Methionine and cysteine metabolism	false	false
+CYSTHRNaEx	Transport, extracellular	false	false
+CYSTYRASNt	Transport, extracellular	false	false
+CYST_Ltr	Transport, extracellular	false	false
+CYSt4	Transport, extracellular	false	false
+CYTD	Pyrimidine catabolism	false	false
+CYTDK1	Nucleotide interconversion	false	false
+CYTDK2	Pyrimidine synthesis	false	false
+CYTDt	Transport, extracellular	false	false
+CYTDtl	UNMAPPED_PATHWAY	false	false
+CYTDtm	Transport, mitochondrial	false	false
+CYTK1	Nucleotide interconversion	false	false
+CYTK10	Nucleotide interconversion	false	false
+CYTK10n	Nucleotide interconversion	false	false
+CYTK11	Nucleotide interconversion	false	false
+CYTK11n	Nucleotide interconversion	false	false
+CYTK12	Nucleotide interconversion	false	false
+CYTK12n	Nucleotide interconversion	false	false
+CYTK13	Nucleotide interconversion	false	false
+CYTK13n	Nucleotide interconversion	false	false
+CYTK14	Nucleotide interconversion	false	false
+CYTK14n	Nucleotide interconversion	false	false
+CYTK1m	Nucleotide interconversion	false	false
+CYTK1n	Nucleotide interconversion	false	false
+CYTK2	Nucleotide interconversion	false	false
+CYTK2_1	Nucleotide interconversion	false	false
+CYTK2n	Nucleotide interconversion	false	false
+CYTK3	Nucleotide interconversion	false	false
+CYTK3n	Nucleotide interconversion	false	false
+CYTK4	Nucleotide interconversion	false	false
+CYTK4n	Nucleotide interconversion	false	false
+CYTK5n	Nucleotide interconversion	false	false
+CYTK6n	Nucleotide interconversion	false	false
+CYTK7	Nucleotide interconversion	false	false
+CYTK7n	Nucleotide interconversion	false	false
+CYTK8	Nucleotide interconversion	false	false
+CYTK8n	Nucleotide interconversion	false	false
+CYTK9	Nucleotide interconversion	false	false
+CYTK9n	Nucleotide interconversion	false	false
+Coqe	Transport, extracellular	false	false
+DACGST	Tyrosine metabolism	false	false
+DACT	Tyrosine metabolism	false	false
+DADA	Nucleotide interconversion	false	false
+DADAe	Nucleotide interconversion	false	false
+DADK	Nucleotide interconversion	false	false
+DADNt4	Transport, extracellular	false	false
+DAGK_hs	Glycerophospholipid metabolism	false	false
+DAGKn_hs	Glycerophospholipid metabolism	false	false
+DAG_HStg	UNMAPPED_PATHWAY	false	false
+DCA24GSc	Bile acid synthesis	false	false
+DCA24Gte	Transport, extracellular	false	false
+DCA3GSc	Bile acid synthesis	false	false
+DCA3Gte	Transport, extracellular	false	false
+DCA3Sabc	Transport, extracellular	false	false
+DCA3St	Transport, extracellular	false	false
+DCHOLESTANCOAc	Bile acid synthesis	false	false
+DCIm	Fatty acid oxidation	false	false
+DCK1n	Nucleotide interconversion	false	false
+DCK2n	Nucleotide interconversion	false	false
+DCMPDA	Pyrimidine catabolism	false	false
+DCSPTN1CPT1	Fatty acid oxidation	false	false
+DCSPTN1CPT2	Fatty acid oxidation	false	false
+DCSPTN1CRNt	Fatty acid oxidation	false	false
+DCYTD	Pyrimidine catabolism	false	false
+DCYTtm	Transport, mitochondrial	false	false
+DDPGAm	Arginine and proline metabolism	false	false
+DECDPtm	Transport, mitochondrial	false	false
+DES21	Sphingolipid metabolism	false	false
+DESAT16	Fatty acid synthesis	false	false
+DESAT16_2	Fatty acid synthesis	false	false
+DESAT18	Fatty acid synthesis	false	false
+DESAT18_11	Fatty acid synthesis	false	false
+DESAT18_12	Fatty acid synthesis	false	false
+DESAT18_3	Fatty acid synthesis	false	false
+DESAT18_5	Fatty acid synthesis	false	false
+DESAT18_9	Fatty acid synthesis	false	false
+DESAT20_1	Fatty acid synthesis	false	false
+DESAT20_2	Fatty acid synthesis	false	false
+DESAT22_1p	Fatty acid synthesis	false	false
+DGCHOLtx	Transport, peroxisomal	false	false
+DGK1	Nucleotide interconversion	false	false
+DGK2m	Nucleotide interconversion	false	false
+DGNSK	Nucleotide interconversion	false	false
+DGNSKm	Nucleotide interconversion	false	false
+DGSNtm	Transport, mitochondrial	false	false
+DGTPtm_cho	Transport, mitochondrial	false	false
+DGULND	Pentose phosphate pathway	false	false
+DHAAt1r	Transport, extracellular	false	false
+DHAPtm	Transport, mitochondrial	false	false
+DHCR241r	Cholesterol metabolism	false	false
+DHCR242r	Cholesterol metabolism	false	false
+DHCR243r	Cholesterol metabolism	false	false
+DHCR71r	Cholesterol metabolism	false	false
+DHCR72r	Cholesterol metabolism	false	false
+DHCRD1	Sphingolipid metabolism	false	false
+DHCRD2	Sphingolipid metabolism	false	false
+DHDPBMTm	UNMAPPED_PATHWAY	false	false
+DHEASULT	Steroid metabolism	false	false
+DHEAtr	Transport, endoplasmic reticular	false	false
+DHFR	Folate metabolism	false	false
+DHFR2i	Folate metabolism	false	false
+DHFRim	Folate metabolism	false	false
+DHFtl	UNMAPPED_PATHWAY	false	false
+DHFtm	Transport, mitochondrial	false	false
+DHORD9	Pyrimidine synthesis	false	false
+DHORTS	Pyrimidine synthesis	false	false
+DHPM1	Pyrimidine catabolism	false	false
+DHPR	Tetrahydrobiopterin metabolism	false	false
+DHRT_ibcoa	Valine, leucine, and isoleucine metabolism	false	false
+DIGALSGALSIDEATPte	Transport, extracellular	false	false
+DIGALSIDEtl	UNMAPPED_PATHWAY	false	false
+DLNLCGCPT1	Fatty acid oxidation	false	false
+DLNLCGCPT2	Fatty acid oxidation	false	false
+DLNLCGCRNt	Fatty acid oxidation	false	false
+DMATT	Cholesterol metabolism	false	false
+DMATTx	Cholesterol metabolism	false	false
+DNADDP	NAD metabolism	false	false
+DNDPt10m	Transport, mitochondrial	false	false
+DNDPt11m	Transport, mitochondrial	false	false
+DNDPt12m	Transport, mitochondrial	false	false
+DNDPt13m	Transport, mitochondrial	false	false
+DNDPt14m	Transport, mitochondrial	false	false
+DNDPt15m	Transport, mitochondrial	false	false
+DNDPt16m	Transport, mitochondrial	false	false
+DNDPt17m	Transport, mitochondrial	false	false
+DNDPt18m	Transport, mitochondrial	false	false
+DNDPt19m	Transport, mitochondrial	false	false
+DNDPt1m	Transport, mitochondrial	false	false
+DNDPt20m	Transport, mitochondrial	false	false
+DNDPt21m	Transport, mitochondrial	false	false
+DNDPt23m	Transport, mitochondrial	false	false
+DNDPt24m	Transport, mitochondrial	false	false
+DNDPt25m	Transport, mitochondrial	false	false
+DNDPt28m	Transport, mitochondrial	false	false
+DNDPt2m	Transport, mitochondrial	false	false
+DNDPt30m	Transport, mitochondrial	false	false
+DNDPt31m	Transport, mitochondrial	false	false
+DNDPt32m	Transport, mitochondrial	false	false
+DNDPt37m	Transport, mitochondrial	false	false
+DNDPt38m	Transport, mitochondrial	false	false
+DNDPt39m	Transport, mitochondrial	false	false
+DNDPt3m	Transport, mitochondrial	false	false
+DNDPt40m	Transport, mitochondrial	false	false
+DNDPt41m	Transport, mitochondrial	false	false
+DNDPt42m	Transport, mitochondrial	false	false
+DNDPt43m	Transport, mitochondrial	false	false
+DNDPt44m	Transport, mitochondrial	false	false
+DNDPt45m	Transport, mitochondrial	false	false
+DNDPt46m	Transport, mitochondrial	false	false
+DNDPt47m	Transport, mitochondrial	false	false
+DNDPt48m	Transport, mitochondrial	false	false
+DNDPt49m	Transport, mitochondrial	false	false
+DNDPt4m	Transport, mitochondrial	false	false
+DNDPt50m	Transport, mitochondrial	false	false
+DNDPt51m	Transport, mitochondrial	false	false
+DNDPt52m	Transport, mitochondrial	false	false
+DNDPt53m	Transport, mitochondrial	false	false
+DNDPt54m	Transport, mitochondrial	false	false
+DNDPt55m	Transport, mitochondrial	false	false
+DNDPt56m	Transport, mitochondrial	false	false
+DNDPt57m	Transport, mitochondrial	false	false
+DNDPt58m	Transport, mitochondrial	false	false
+DNDPt59m	Transport, mitochondrial	false	false
+DNDPt5m	Transport, mitochondrial	false	false
+DNDPt60m	Transport, mitochondrial	false	false
+DNDPt61m	Transport, mitochondrial	false	false
+DNDPt62m	Transport, mitochondrial	false	false
+DNDPt63m	Transport, mitochondrial	false	false
+DNDPt6m	Transport, mitochondrial	false	false
+DNDPt7m	Transport, mitochondrial	false	false
+DOCO13ECOAtxc	Transport, peroxisomal	false	false
+DOCO13EFATP	Fatty acid oxidation	false	false
+DOCOSACT	Fatty acid oxidation	false	false
+DOCOSACTDr	Fatty acid oxidation	false	false
+DOCOSCOAtxc	Transport, peroxisomal	false	false
+DOPA4SFt	Transport, extracellular	false	false
+DOPABMO_1	Tyrosine metabolism	false	false
+DOPAMT	Tyrosine metabolism	false	false
+DOPAOQCYS	Tyrosine metabolism	false	false
+DOPASFt	Transport, extracellular	false	false
+DOPASULT	Tyrosine metabolism	false	false
+DOPASULT4	Tyrosine metabolism	false	false
+DOPAc	Tyrosine metabolism	false	false
+DPCOAK	UNMAPPED_PATHWAY	false	false
+DPCOAKm	UNMAPPED_PATHWAY	false	false
+DPCOAPP	UNMAPPED_PATHWAY	false	false
+DPGM	Glycolysis/gluconeogenesis	true	true
+DPGase	Glycolysis/gluconeogenesis	true	true
+DPHMBDCm	UNMAPPED_PATHWAY	false	false
+DPMVD	UNMAPPED_PATHWAY	false	false
+DPMVDx	Cholesterol metabolism	false	false
+DPPS	Miscellaneous	false	false
+DRBK	Pentose phosphate pathway	false	false
+DRPA	Pentose phosphate pathway	false	false
+DSAT	Sphingolipid metabolism	false	false
+DSMSTEROLte	Transport, extracellular	false	false
+DSMSTEROLtr	Transport, endoplasmic reticular	false	false
+DSMSTOLR	Cholesterol metabolism	false	false
+DSPVSteb	Drug metabolism	false	false
+DSPVStev	Drug metabolism	false	false
+DSREDUCr	UNMAPPED_PATHWAY	false	false
+DTMPK	Nucleotide interconversion	false	false
+DTMPKm	Pyrimidine synthesis	false	false
+DURAD	Pyrimidine catabolism	false	false
+DURADx	Pyrimidine catabolism	false	false
+DURIK1	Nucleotide interconversion	false	false
+DURIK1m	Nucleotide interconversion	false	false
+DURIPP	Nucleotide interconversion	false	false
+DUTCP	Nucleotide interconversion	false	false
+DUTPDPm	Nucleotide interconversion	false	false
+DUTPDPn	Nucleotide interconversion	false	false
+DUTUP	Nucleotide interconversion	false	false
+D_LACt2	Transport, extracellular	false	false
+D_LACtm	Transport, mitochondrial	false	false
+EANDRSTRNte	Transport, extracellular	false	false
+EBP1r	Cholesterol metabolism	false	false
+EBP2r	Cholesterol metabolism	false	false
+ECOAH12m	Valine, leucine, and isoleucine metabolism	false	false
+ECOAH1m	Tryptophan metabolism	false	false
+ECOAH1x	Tryptophan metabolism	false	false
+ECOAH4m	Fatty acid oxidation	false	false
+ECOAH5m	Fatty acid oxidation	false	false
+ECOAH9m	Valine, leucine, and isoleucine metabolism	false	false
+ECOAR	Fatty acid synthesis	false	false
+EHGLAT2m	Arginine and proline metabolism	false	false
+EHGLATm	Arginine and proline metabolism	false	false
+EIC21114TRc	Fatty acid oxidation	false	false
+EIC21114TRte	Transport, extracellular	false	false
+EICOSTETCPT1	Fatty acid oxidation	false	false
+EICOSTETCPT2	Fatty acid oxidation	false	false
+EICOSTETCRNt	Fatty acid oxidation	false	false
+ELAIDCPT1	Fatty acid oxidation	false	false
+ELAIDCPT2	Fatty acid oxidation	false	false
+ELAIDCRNt	Fatty acid oxidation	false	false
+ENO	Glycolysis/gluconeogenesis	true	true
+ESTRADIOLt	Transport, extracellular	false	false
+ESTRADIOLtr	Transport, endoplasmic reticular	false	false
+ESTRONEtr	Transport, endoplasmic reticular	false	false
+ESTSULT	Steroid metabolism	false	false
+ETF	Fatty acid oxidation	false	false
+ETFQO	Fatty acid oxidation	false	false
+ETHAK	Glycerophospholipid metabolism	false	false
+ETHAMPtr	Transport, extracellular	false	false
+ETHAt	Transport, extracellular	false	false
+EX_lthstrl_e	Transport, extracellular	false	false
+F1Atg	UNMAPPED_PATHWAY	false	false
+FACOAE120	Fatty acid oxidation	false	false
+FACOAE140	Fatty acid oxidation	false	false
+FACOAE160	Fatty acid oxidation	false	false
+FACOAE161	Fatty acid oxidation	false	false
+FACOAE180	Fatty acid synthesis	false	false
+FACOAE181	Fatty acid synthesis	false	false
+FACOAE1829Z12Z	Fatty acid oxidation	false	false
+FACOAE1836Z9Z12Z	Fatty acid oxidation	false	false
+FACOAE1839Z12Z15Z	Fatty acid oxidation	false	false
+FACOAL140	Fatty acid oxidation	false	false
+FACOAL150	Fatty acid oxidation	false	false
+FACOAL160	Fatty acid oxidation	false	false
+FACOAL170	Fatty acid oxidation	false	false
+FACOAL180	Fatty acid oxidation	false	false
+FACOAL181	Fatty acid oxidation	false	false
+FACOAL1812	Fatty acid synthesis	false	false
+FACOAL1813	Fatty acid oxidation	false	false
+FACOAL1821	Fatty acid oxidation	false	false
+FACOAL1822	Fatty acid oxidation	false	false
+FACOAL1831	Fatty acid oxidation	false	false
+FACOAL1832	Fatty acid oxidation	false	false
+FACOAL184	Fatty acid oxidation	false	false
+FACOAL191	Fatty acid oxidation	false	false
+FACOAL204	Fatty acid oxidation	false	false
+FACOAL2042	Fatty acid oxidation	false	false
+FACOAL205	Fatty acid oxidation	false	false
+FACOAL224	Fatty acid oxidation	false	false
+FACOAL2251	Fatty acid oxidation	false	false
+FACOAL2252	Fatty acid oxidation	false	false
+FACOAL226	Fatty acid oxidation	false	false
+FACOAL244_1	Fatty acid oxidation	false	false
+FACOAL245_1	Fatty acid oxidation	false	false
+FACOAL245_2	Fatty acid oxidation	false	false
+FACOAL246_1	Fatty acid oxidation	false	false
+FACOAL260	Fatty acid oxidation	false	false
+FADDP	UNMAPPED_PATHWAY	false	false
+FADDPle	UNMAPPED_PATHWAY	false	false
+FADH2tru	Transport, endoplasmic reticular	false	false
+FADH2tx	Transport, peroxisomal	false	false
+FADRx2	UNMAPPED_PATHWAY	false	false
+FADtru	Transport, endoplasmic reticular	false	false
+FADtx	Transport, peroxisomal	false	false
+FAEL183	Fatty acid synthesis	false	false
+FAEL184	Fatty acid synthesis	false	false
+FAEL204	Fatty acid synthesis	false	false
+FAEL205	Fatty acid synthesis	false	false
+FALDH	Tyrosine metabolism	false	false
+FAOXC10080m	Fatty acid oxidation	false	false
+FAOXC101C102m	Fatty acid oxidation	false	false
+FAOXC101C102x	Fatty acid oxidation	false	false
+FAOXC101C8m	Fatty acid oxidation	false	false
+FAOXC101C8x	Fatty acid oxidation	false	false
+FAOXC101x	Fatty acid oxidation	false	false
+FAOXC102C101m	Fatty acid oxidation	false	false
+FAOXC102C101x	Fatty acid oxidation	false	false
+FAOXC102C103m	Fatty acid oxidation	false	false
+FAOXC102C103x	Fatty acid oxidation	false	false
+FAOXC102C81m	Fatty acid oxidation	false	false
+FAOXC102C81x	Fatty acid oxidation	false	false
+FAOXC102m	Fatty acid oxidation	false	false
+FAOXC102x	Fatty acid oxidation	false	false
+FAOXC103C102m	Fatty acid oxidation	false	false
+FAOXC103C102x	Fatty acid oxidation	false	false
+FAOXC10C10OHm	Fatty acid oxidation	false	false
+FAOXC10DCC8DCx	Fatty acid oxidation	false	false
+FAOXC120100m	Fatty acid oxidation	false	false
+FAOXC121C101m	Fatty acid oxidation	false	false
+FAOXC121C10x	Fatty acid oxidation	false	false
+FAOXC121x	Fatty acid oxidation	false	false
+FAOXC122C101m	Fatty acid oxidation	false	false
+FAOXC122m	Fatty acid oxidation	false	false
+FAOXC122x	Fatty acid oxidation	false	false
+FAOXC123C102m	Fatty acid oxidation	false	false
+FAOXC123C102x	Fatty acid oxidation	false	false
+FAOXC123m	Fatty acid oxidation	false	false
+FAOXC123x	Fatty acid oxidation	false	false
+FAOXC12C12OHm	Fatty acid oxidation	false	false
+FAOXC12DCC10DCx	Fatty acid oxidation	false	false
+FAOXC12DCTc	Fatty acid oxidation	false	false
+FAOXC12DCx	Fatty acid oxidation	false	false
+FAOXC140	Fatty acid oxidation	false	false
+FAOXC140120m	Fatty acid oxidation	false	false
+FAOXC140120x	Fatty acid oxidation	false	false
+FAOXC141C121m	Fatty acid oxidation	false	false
+FAOXC141C121x	Fatty acid oxidation	false	false
+FAOXC142C122m	Fatty acid oxidation	false	false
+FAOXC142C122x	Fatty acid oxidation	false	false
+FAOXC143C123m	Fatty acid oxidation	false	false
+FAOXC143C123x	Fatty acid oxidation	false	false
+FAOXC14C14OHm	Fatty acid oxidation	false	false
+FAOXC14DCC12DCx	Fatty acid oxidation	false	false
+FAOXC160	Fatty acid oxidation	false	false
+FAOXC160140m	Fatty acid oxidation	false	false
+FAOXC160140x	Fatty acid oxidation	false	false
+FAOXC16080m	Fatty acid oxidation	false	false
+FAOXC161802m	Fatty acid oxidation	false	false
+FAOXC16180m	Fatty acid oxidation	false	false
+FAOXC161C141m	Fatty acid oxidation	false	false
+FAOXC161C141x	Fatty acid oxidation	false	false
+FAOXC162C142m	Fatty acid oxidation	false	false
+FAOXC163C142x	Fatty acid oxidation	false	false
+FAOXC163C143m	Fatty acid oxidation	false	false
+FAOXC163C164Gm	Fatty acid oxidation	false	false
+FAOXC163C164x	Fatty acid oxidation	false	false
+FAOXC163GC142m	Fatty acid oxidation	false	false
+FAOXC163Gm	Fatty acid oxidation	false	false
+FAOXC163x	Fatty acid oxidation	false	false
+FAOXC164C143m	Fatty acid oxidation	false	false
+FAOXC164C143x	Fatty acid oxidation	false	false
+FAOXC164C163x	Fatty acid oxidation	false	false
+FAOXC164C165m	Fatty acid oxidation	false	false
+FAOXC164C165x	Fatty acid oxidation	false	false
+FAOXC164GC163m	Fatty acid oxidation	false	false
+FAOXC164m	Fatty acid oxidation	false	false
+FAOXC164x	Fatty acid oxidation	false	false
+FAOXC165C164m	Fatty acid oxidation	false	false
+FAOXC165C164x	Fatty acid oxidation	false	false
+FAOXC16Brx	Fatty acid oxidation	false	false
+FAOXC16DCC14DCx	Fatty acid oxidation	false	false
+FAOXC16DCr	Fatty acid oxidation	false	false
+FAOXC16OHC16r	Fatty acid oxidation	false	false
+FAOXC180	Fatty acid oxidation	false	false
+FAOXC1811601m	Fatty acid oxidation	false	false
+FAOXC1811602m_1	Fatty acid oxidation	false	false
+FAOXC1811603m	Fatty acid oxidation	false	false
+FAOXC181C161m	Fatty acid oxidation	false	false
+FAOXC181C161x	Fatty acid oxidation	false	false
+FAOXC182806m	Fatty acid oxidation	false	false
+FAOXC18280m	Fatty acid oxidation	false	false
+FAOXC182C162m	Fatty acid oxidation	false	false
+FAOXC183803m	Fatty acid oxidation	false	false
+FAOXC183806m	Fatty acid oxidation	false	false
+FAOXC183806x	Fatty acid oxidation	false	false
+FAOXC183C163Gm	Fatty acid oxidation	false	false
+FAOXC183C163m	Fatty acid oxidation	false	false
+FAOXC18480m	Fatty acid oxidation	false	false
+FAOXC18480x	Fatty acid oxidation	false	false
+FAOXC184C163m	Fatty acid oxidation	false	false
+FAOXC184C163x	Fatty acid oxidation	false	false
+FAOXC184C164m	Fatty acid oxidation	false	false
+FAOXC184C164x	Fatty acid oxidation	false	false
+FAOXC184m	Fatty acid oxidation	false	false
+FAOXC184x	Fatty acid oxidation	false	false
+FAOXC185C164m	Fatty acid oxidation	false	false
+FAOXC185m	Fatty acid oxidation	false	false
+FAOXC200180m	Fatty acid oxidation	false	false
+FAOXC201C181x	Fatty acid oxidation	false	false
+FAOXC2031836m	Fatty acid oxidation	false	false
+FAOXC204	Fatty acid oxidation	false	false
+FAOXC204184m	Fatty acid oxidation	false	false
+FAOXC204C184m	Fatty acid oxidation	false	false
+FAOXC204C205x	Fatty acid oxidation	false	false
+FAOXC2051843m	Fatty acid oxidation	false	false
+FAOXC205C184x	Fatty acid oxidation	false	false
+FAOXC205C185m	Fatty acid oxidation	false	false
+FAOXC221C201x	Fatty acid oxidation	false	false
+FAOXC2242046m	Fatty acid oxidation	false	false
+FAOXC2251836m	Fatty acid oxidation	false	false
+FAOXC2252053m	Fatty acid oxidation	false	false
+FAOXC225C204m	Fatty acid oxidation	false	false
+FAOXC225C204x	Fatty acid oxidation	false	false
+FAOXC225C226m	Fatty acid oxidation	false	false
+FAOXC225C226x	Fatty acid oxidation	false	false
+FAOXC225m	Fatty acid oxidation	false	false
+FAOXC225x	Fatty acid oxidation	false	false
+FAOXC226	Fatty acid oxidation	false	false
+FAOXC226205m	Fatty acid oxidation	false	false
+FAOXC226C205m	Fatty acid oxidation	false	false
+FAOXC226C225m	Fatty acid oxidation	false	false
+FAOXC226C225x	Fatty acid oxidation	false	false
+FAOXC226C227m	Fatty acid oxidation	false	false
+FAOXC226m	Fatty acid oxidation	false	false
+FAOXC227C226m	Fatty acid oxidation	false	false
+FAOXC22OHC22r	Fatty acid oxidation	false	false
+FAOXC240200x_1	Fatty acid oxidation	false	false
+FAOXC260240x_1	Fatty acid oxidation	false	false
+FAOXC5C5OHm	Fatty acid oxidation	false	false
+FAOXC61C4m	Fatty acid oxidation	false	false
+FAOXC61C4x	Fatty acid oxidation	false	false
+FAOXC61m	Fatty acid oxidation	false	false
+FAOXC61x	Fatty acid oxidation	false	false
+FAOXC6C4m	Fatty acid oxidation	false	false
+FAOXC80	Fatty acid oxidation	false	false
+FAOXC81C61m	Fatty acid oxidation	false	false
+FAOXC81C61x	Fatty acid oxidation	false	false
+FAOXC8C6m	Fatty acid oxidation	false	false
+FAOXC8DCC6DCx	Fatty acid oxidation	false	false
+FAOXOHC16C16DCc	Fatty acid oxidation	false	false
+FAOXOHC22C22DCc	Fatty acid oxidation	false	false
+FAOXTC101TC102m	Fatty acid oxidation	false	false
+FAOXTC102C101m	Fatty acid oxidation	false	false
+FAOXTC122TC101m	Fatty acid oxidation	false	false
+FAOXTC122m	Fatty acid oxidation	false	false
+FAOXTC142TC122m	Fatty acid oxidation	false	false
+FAOXTC162TC142m	Fatty acid oxidation	false	false
+FAOXTC182TC162m	Fatty acid oxidation	false	false
+FAS180	Fatty acid synthesis	false	false
+FATP1t	Transport, extracellular	false	false
+FATP2t	Transport, extracellular	false	false
+FATP3t	Transport, extracellular	false	false
+FBA	Glycolysis/gluconeogenesis	true	true
+FBA2	Fructose and mannose metabolism	false	false
+FBA4	UNMAPPED_PATHWAY	false	false
+FCLT	Heme synthesis	false	false
+FCLTm	Heme synthesis	false	false
+FDH	Fatty acid oxidation	false	false
+FE2t	Transport, extracellular	false	false
+FE2utm	Transport, mitochondrial	false	false
+FE3R2e_1	Heme synthesis	false	false
+FMNAT	UNMAPPED_PATHWAY	false	false
+FOAXC122C101x	Fatty acid oxidation	false	false
+FOLABCCte	Transport, extracellular	false	false
+FOLOAT1tc	Transport, extracellular	false	false
+FOLR2	Folate metabolism	false	false
+FOLt2	Transport, extracellular	false	false
+FORtm	Transport, mitochondrial	false	false
+FORtr	Transport, endoplasmic reticular	false	false
+FPGS2	Folate metabolism	false	false
+FPGS2m	Folate metabolism	false	false
+FPGS3	Folate metabolism	false	false
+FPGS3m	Folate metabolism	false	false
+FPGS4_1	Folate metabolism	false	false
+FPGS4m_1	Folate metabolism	false	false
+FPGS5	Folate metabolism	false	false
+FPGS5m	Folate metabolism	false	false
+FPGS6	Folate metabolism	false	false
+FPGS6m	Folate metabolism	false	false
+FPGS7_1	Folate metabolism	false	false
+FPGS7m_1	Folate metabolism	false	false
+FPGS8	Folate metabolism	false	false
+FPGS8m	Folate metabolism	false	false
+FPGS9	Folate metabolism	false	false
+FPGS9m	Folate metabolism	false	false
+FPGS_1	Folate metabolism	false	false
+FPGSm_1	Folate metabolism	false	false
+FRDPtc	Transport, peroxisomal	false	false
+FRDPtcr	Transport, endoplasmic reticular	false	false
+FTHFCLm	Folate metabolism	false	false
+FTHFDH	Folate metabolism	false	false
+FTHFLi	Folate metabolism	false	false
+FTHFLmi	Folate metabolism	false	false
+FUC13GALACGLCGAL14ACGLCGALGLUSIDEte	Transport, extracellular	false	false
+FUC14GALACGLCGALGLUSIDEte	Transport, extracellular	false	false
+FUC14GALACGLCGALGLUSIDEtg	UNMAPPED_PATHWAY	false	false
+FUCACNGAL14ACGLCGALGLUSIDEte	Transport, extracellular	false	false
+FUM	Citric acid cycle	false	true
+FUMAC	Tyrosine metabolism	false	false
+FUMSO4tm	Transport, mitochondrial	false	false
+FUMm	Citric acid cycle	false	true
+FUT12g	UNMAPPED_PATHWAY	false	false
+FUT92g	UNMAPPED_PATHWAY	false	false
+G14T18g	UNMAPPED_PATHWAY	false	false
+G14T19g	UNMAPPED_PATHWAY	false	false
+G14T20g	UNMAPPED_PATHWAY	false	false
+G14T21g	UNMAPPED_PATHWAY	false	false
+G14T2g	UNMAPPED_PATHWAY	false	false
+G14T3g	UNMAPPED_PATHWAY	false	false
+G14T4g	UNMAPPED_PATHWAY	false	false
+G14T5g	UNMAPPED_PATHWAY	false	false
+G3PD	Glycerophospholipid metabolism	false	false
+G3PD1ir	Glycerophospholipid metabolism	false	false
+G3PD1irm	Glycerophospholipid metabolism	false	false
+G3PD2	Glycerophospholipid metabolism	false	false
+G3PD2m	Glycolysis/gluconeogenesis	true	true
+G5SADs	Urea cycle	false	false
+G5SDym	Urea cycle	false	false
+G6PDA	Aminosugar metabolism	false	false
+G6PDH2c	Pentose phosphate pathway	false	false
+G6PDH2er	Pentose phosphate pathway	false	false
+G6PDH2r	Pentose phosphate pathway	false	false
+G6PPer	Glycolysis/gluconeogenesis	true	true
+G6Pt6er	Transport, endoplasmic reticular	false	false
+G6Pter	Transport, endoplasmic reticular	false	false
+GA1tl	Transport, extracellular	false	false
+GACMTRc	Urea cycle	false	false
+GAL3ST11	Sphingolipid metabolism	false	false
+GAL3ST12	Sphingolipid metabolism	false	false
+GALASE16ly	Keratan sulfate degradation	false	false
+GALASE17ly	Keratan sulfate degradation	false	false
+GALASE18ly	Keratan sulfate degradation	false	false
+GALASE19ly	Keratan sulfate degradation	false	false
+GALASE20ly	Keratan sulfate degradation	false	false
+GALGLUSIDEtg	UNMAPPED_PATHWAY	false	false
+GALGLUSIDEtl	UNMAPPED_PATHWAY	false	false
+GALGT1	Sphingolipid metabolism	false	false
+GALGT2	Sphingolipid metabolism	false	false
+GALGT3	Sphingolipid metabolism	false	false
+GALGT4	Sphingolipid metabolism	false	false
+GALKr	Galactose metabolism	false	false
+GALNACT1g	Chondroitin synthesis	false	false
+GALNACT2g	Chondroitin synthesis	false	false
+GALNACT3g	Chondroitin synthesis	false	false
+GALNACT4g	Chondroitin synthesis	false	false
+GALNACT5g	Chondroitin synthesis	false	false
+GALNTg	UNMAPPED_PATHWAY	false	false
+GALOR	Galactose metabolism	false	false
+GALSIDEtl	UNMAPPED_PATHWAY	false	false
+GALT	Galactose metabolism	false	false
+GALT2g	Chondroitin synthesis	false	false
+GALTg	Chondroitin synthesis	false	false
+GALUi	Galactose metabolism	false	false
+GALt1r	Transport, extracellular	false	false
+GALtly	UNMAPPED_PATHWAY	false	false
+GAMt1r	Transport, extracellular	false	false
+GAO1	Sphingolipid metabolism	false	false
+GAO1g	Sphingolipid metabolism	false	false
+GAO2	Sphingolipid metabolism	false	false
+GAO2g	Sphingolipid metabolism	false	false
+GAPD	Glycolysis/gluconeogenesis	true	true
+GARFT	Purine synthesis	false	false
+GBA	Sphingolipid metabolism	false	false
+GBAl	Sphingolipid metabolism	false	false
+GBGT1	Sphingolipid metabolism	false	false
+GBSIDEtl	UNMAPPED_PATHWAY	false	false
+GCA3Sabc	Transport, extracellular	false	false
+GCA3St	Transport, extracellular	false	false
+GCALDD	UNMAPPED_PATHWAY	false	false
+GCALDDm	UNMAPPED_PATHWAY	false	false
+GCC2cm	Glycine, serine, alanine, and threonine metabolism	false	false
+GCCam	Glycine, serine, alanine, and threonine metabolism	false	false
+GCCbim	Glycine, serine, alanine, and threonine metabolism	false	false
+GCCcm	Glycine, serine, alanine, and threonine metabolism	false	false
+GCDCA3Sabc	Transport, extracellular	false	false
+GCDCA3St	Transport, extracellular	false	false
+GCPNn	Nucleotide interconversion	false	false
+GD1Atg	UNMAPPED_PATHWAY	false	false
+GD1Btl	UNMAPPED_PATHWAY	false	false
+GD1Cte	Transport, extracellular	false	false
+GD3tlc	UNMAPPED_PATHWAY	false	false
+GDCA3Sabc	Transport, extracellular	false	false
+GDCA3St	Transport, extracellular	false	false
+GDHm	Glutamate metabolism	false	true
+GDPFUCtg	UNMAPPED_PATHWAY	false	false
+GDPtg	UNMAPPED_PATHWAY	false	false
+GDR	Glutathione metabolism	false	false
+GDRm	Glutathione metabolism	false	false
+GF6PTA	Aminosugar metabolism	false	false
+GGH_10FTHF5GLUl	Folate metabolism	false	false
+GGH_10FTHF6GLUl	Folate metabolism	false	false
+GGH_10FTHF7GLUl	Folate metabolism	false	false
+GGH_5DHFl	Folate metabolism	false	false
+GGH_5THFl	Folate metabolism	false	false
+GGH_6DHFl	Folate metabolism	false	false
+GGH_6THFl	Folate metabolism	false	false
+GGH_7DHFl	Folate metabolism	false	false
+GGH_7THFl	Folate metabolism	false	false
+GGLUCT	Glutathione metabolism	false	false
+GGT5r	Eicosanoid metabolism	false	false
+GGTAe2	Glutathione metabolism	false	false
+GGTe_1	Tyrosine metabolism	false	false
+GHMT2r	Glycine, serine, alanine, and threonine metabolism	false	false
+GHMT2rm	Glycine, serine, alanine, and threonine metabolism	false	false
+GK1	Nucleotide interconversion	false	false
+GLA2l	Sphingolipid metabolism	false	false
+GLACter	Transport, endoplasmic reticular	false	false
+GLAl	Sphingolipid metabolism	false	false
+GLB1	Sphingolipid metabolism	false	false
+GLCAASE1ly	UNMAPPED_PATHWAY	false	false
+GLCAASE4ly	Chondroitin sulfate degradation	false	false
+GLCAASE5ly	Chondroitin sulfate degradation	false	false
+GLCAASE6ly	Chondroitin sulfate degradation	false	false
+GLCAASE7ly	Chondroitin sulfate degradation	false	false
+GLCAASE8ly	UNMAPPED_PATHWAY	false	false
+GLCAASE9ly	UNMAPPED_PATHWAY	false	false
+GLCAE1g	Chondroitin synthesis	false	false
+GLCAE2g	Chondroitin synthesis	false	false
+GLCAT2g	Chondroitin synthesis	false	false
+GLCAT3g	Chondroitin synthesis	false	false
+GLCAT4g	Chondroitin synthesis	false	false
+GLCAT5g	Chondroitin synthesis	false	false
+GLCAT6g	Chondroitin synthesis	false	false
+GLCAT7g	Chondroitin synthesis	false	false
+GLCAT8g	Chondroitin synthesis	false	false
+GLCAT9g	Chondroitin synthesis	false	false
+GLCATg	Chondroitin synthesis	false	false
+GLCNACASE1ly	UNMAPPED_PATHWAY	false	false
+GLCNACASE2ly	UNMAPPED_PATHWAY	false	false
+GLCNACASE3ly	UNMAPPED_PATHWAY	false	false
+GLCNACASE4ly	UNMAPPED_PATHWAY	false	false
+GLCNACASE5ly	UNMAPPED_PATHWAY	false	false
+GLCNACDASg	Chondroitin synthesis	false	false
+GLCNACT1g	Chondroitin synthesis	false	false
+GLCNACT2g	Chondroitin synthesis	false	false
+GLCNACT3g	Chondroitin synthesis	false	false
+GLCNACT4g	Chondroitin synthesis	false	false
+GLCNACT5g	Chondroitin synthesis	false	false
+GLCRt1	Transport, extracellular	false	false
+GLCURter	Transport, endoplasmic reticular	false	false
+GLCURtly	UNMAPPED_PATHWAY	false	false
+GLCURtr	Transport, extracellular	false	false
+GLCt1	Transport, extracellular	false	false
+GLCter	Transport, endoplasmic reticular	false	false
+GLCtg	UNMAPPED_PATHWAY	false	false
+GLCtly	UNMAPPED_PATHWAY	false	false
+GLNALANaEx	Transport, extracellular	false	false
+GLNASNGLNt	Transport, extracellular	false	false
+GLNASNNaEx	Transport, extracellular	false	false
+GLNCYSNaEx	Transport, extracellular	false	false
+GLNHISHISt	Transport, extracellular	false	false
+GLNHISLYSt	Transport, extracellular	false	false
+GLNLYSLYSt	Transport, extracellular	false	false
+GLNLYSTRPt	Transport, extracellular	false	false
+GLNPROGLUt	Transport, extracellular	false	false
+GLNS	Glutamate metabolism	false	true
+GLNSERNaEx	Transport, extracellular	false	false
+GLNTHRNaEx	Transport, extracellular	false	false
+GLNTRPGLUt	Transport, extracellular	false	false
+GLNTYRLEUt	Transport, extracellular	false	false
+GLNt4	Transport, extracellular	false	false
+GLNtm	Transport, mitochondrial	false	false
+GLU5Km	Urea cycle	false	false
+GLU5SAtmc	Transport, mitochondrial	false	false
+GLUARGLEUt	Transport, extracellular	false	false
+GLUASNLEUt	Transport, extracellular	false	false
+GLUCYS	Glutathione metabolism	false	false
+GLUDC	Glutamate metabolism	false	true
+GLUDym	Glutamate metabolism	false	true
+GLUGLUt	Transport, extracellular	false	false
+GLUILELYSt	Transport, extracellular	false	false
+GLULEUt	Transport, extracellular	false	false
+GLUMETHISt	Transport, extracellular	false	false
+GLUMETt	Transport, extracellular	false	false
+GLUNm	Glutamate metabolism	false	true
+GLUPRT	Purine synthesis	false	false
+GLUTCOAACBP	Fatty acid oxidation	false	false
+GLUTCOADHm	Tryptophan metabolism	false	false
+GLUTHRLYSt	Transport, extracellular	false	false
+GLUTHRt	Transport, extracellular	false	false
+GLUTRPALAt	Transport, extracellular	false	false
+GLUVESSEC	Transport, extracellular	false	false
+GLUt2m	Transport, mitochondrial	false	false
+GLUt6	Transport, extracellular	false	false
+GLUt7l	UNMAPPED_PATHWAY	false	false
+GLUtr	Transport, endoplasmic reticular	false	false
+GLXO1	UNMAPPED_PATHWAY	false	false
+GLXtm	Transport, mitochondrial	false	false
+GLXtp	Transport, peroxisomal	false	false
+GLY3Pt	Transport, peroxisomal	false	false
+GLYALDDr	Miscellaneous	false	false
+GLYAMDTRc	Urea cycle	false	false
+GLYC2P3Pc	Transport, extracellular	false	false
+GLYC3Ptm	Transport, mitochondrial	false	false
+GLYCK2	UNMAPPED_PATHWAY	false	false
+GLYCLTDy	UNMAPPED_PATHWAY	false	false
+GLYCLTt	Transport, extracellular	false	false
+GLYCLTtm	Transport, mitochondrial	false	false
+GLYCLm	Transport, extracellular	false	false
+GLYC_St	Transport, extracellular	false	false
+GLYCtm	Transport, mitochondrial	false	false
+GLYGLYCNc	Transport, extracellular	false	false
+GLYHISASNt	Transport, extracellular	false	false
+GLYHISLYSt	Transport, extracellular	false	false
+GLYK	Glycerophospholipid metabolism	false	false
+GLYKm	Glycerophospholipid metabolism	false	false
+GLYLEUHYDROc	Transport, extracellular	false	false
+GLYLYSCYSt	Transport, extracellular	false	false
+GLYLYSPHEt	Transport, extracellular	false	false
+GLYOX	Pyruvate metabolism	false	true
+GLYOXm	Pyruvate metabolism	false	true
+GLYOp	Glycine, serine, alanine, and threonine metabolism	false	false
+GLYPROPRO1c	Transport, extracellular	false	false
+GLYSARCNc	Transport, extracellular	false	false
+GLYTYRLYSt	Transport, extracellular	false	false
+GLYVALHISt	Transport, extracellular	false	false
+GLYt4	Transport, extracellular	false	false
+GLYtm	Transport, mitochondrial	false	false
+GLYtp	Transport, peroxisomal	false	false
+GMAND	Fructose and mannose metabolism	false	false
+GMPR	Nucleotide interconversion	false	false
+GMPS	Bile acid synthesis	false	false
+GMPS2	Nucleotide interconversion	false	false
+GMPtg	UNMAPPED_PATHWAY	false	false
+GND	Pentose phosphate pathway	false	false
+GNDc	Pentose phosphate pathway	false	false
+GNDer	Pentose phosphate pathway	false	false
+GNMT	Glycine, serine, alanine, and threonine metabolism	false	false
+GPAM_hs_1	Triacylglycerol synthesis	false	false
+GPDDA1	Glycerophospholipid metabolism	false	false
+GPDDACHOL	Glycerophospholipid metabolism	false	false
+GQ1Btg	UNMAPPED_PATHWAY	false	false
+GRTT	Cholesterol metabolism	false	false
+GRTTx	Cholesterol metabolism	false	false
+GSNt	Transport, extracellular	false	false
+GSNtl	UNMAPPED_PATHWAY	false	false
+GTHOm	Glutamate metabolism	false	true
+GTHOr	Glutamate metabolism	false	true
+GTHPe	Glutathione metabolism	false	false
+GTHPi	Glutathione metabolism	false	false
+GTHPm	Glutathione metabolism	false	false
+GTHRDt	Glutathione metabolism	false	false
+GTHRDtr	Transport, endoplasmic reticular	false	false
+GTHS	Glutathione metabolism	false	false
+GTMLTe	Glutathione metabolism	false	false
+GTPCI	Tetrahydrobiopterin metabolism	false	false
+GUACYC	Nucleotide interconversion	false	false
+GUDCA3Sabc	Transport, extracellular	false	false
+GUDCA3St	Transport, extracellular	false	false
+GULN3D	Pentose phosphate pathway	false	false
+GULND	Miscellaneous	false	false
+H2O2t	Transport, extracellular	false	false
+H2O2tm	Transport, mitochondrial	false	false
+H2O2tp	Transport, peroxisomal	false	false
+H2Ot	Transport, extracellular	false	false
+H2Oter	Transport, endoplasmic reticular	false	false
+H2Otg	UNMAPPED_PATHWAY	false	false
+H2Otly	UNMAPPED_PATHWAY	false	false
+H2Otp	Transport, peroxisomal	false	false
+HACD1m	Tryptophan metabolism	false	false
+HACD1x	Tryptophan metabolism	false	false
+HACD4m	Fatty acid oxidation	false	false
+HACD5m	Fatty acid oxidation	false	false
+HACD6m	Fatty acid oxidation	false	false
+HACD6p	Fatty acid oxidation	false	false
+HACD9m	Valine, leucine, and isoleucine metabolism	false	false
+HAS1	UNMAPPED_PATHWAY	false	false
+HAS2	UNMAPPED_PATHWAY	false	false
+HAtly	UNMAPPED_PATHWAY	false	false
+HBZOPT10m	UNMAPPED_PATHWAY	false	false
+HC02220t	Transport, extracellular	false	false
+HC02220te	Transport, extracellular	false	false
+HCA24GSc	Bile acid synthesis	false	false
+HCA24Gte	Transport, extracellular	false	false
+HCA6GSc	Bile acid synthesis	false	false
+HCA6Gte	Transport, extracellular	false	false
+HCO3E	Miscellaneous	false	false
+HCO3Ee	Miscellaneous	false	false
+HDCACBP	Fatty acid oxidation	false	false
+HDCAter	Transport, endoplasmic reticular	false	false
+HDD2COAtx	Transport, peroxisomal	false	false
+HDD2CRNte	Transport, extracellular	false	false
+HDD2CRNte2	Transport, extracellular	false	false
+HDDACBP	Fatty acid oxidation	false	false
+HDECAACBP	Fatty acid oxidation	false	false
+HDECEACBP	Fatty acid oxidation	false	false
+HEX7	Fructose and mannose metabolism	false	false
+HEXA1l	Sphingolipid metabolism	false	false
+HEXA2l	Sphingolipid metabolism	false	false
+HEXAHBl	Sphingolipid metabolism	false	false
+HEXCCOAtx	Transport, peroxisomal	false	false
+HEXCOAACBP	Fatty acid oxidation	false	false
+HEXDIACtd	Transport, extracellular	false	false
+HEXDIACtr	Fatty acid oxidation	false	false
+HEXDICOAACBP	Fatty acid oxidation	false	false
+HEXDICOAACBPx	Fatty acid oxidation	false	false
+HEXDTRm	Fatty acid oxidation	false	false
+HEXDTRte	Transport, extracellular	false	false
+HEXDTRtm	Transport, mitochondrial	false	false
+HGENTISt	Transport, extracellular	false	false
+HGNTOR	Tyrosine metabolism	false	false
+HIBDm	Valine, leucine, and isoleucine metabolism	false	false
+HISARGCYSt	Transport, extracellular	false	false
+HISARGSERt	Transport, extracellular	false	false
+HISASPt	Transport, extracellular	false	false
+HISCYSCYSt	Transport, extracellular	false	false
+HISDC	UNMAPPED_PATHWAY	false	false
+HISGLNALAt	Transport, extracellular	false	false
+HISGLUGLNt	Transport, extracellular	false	false
+HISGLUt	Transport, extracellular	false	false
+HISGLYLYSt	Transport, extracellular	false	false
+HISHISLYSt	Transport, extracellular	false	false
+HISLYSALAt	Transport, extracellular	false	false
+HISLYSGLUt	Transport, extracellular	false	false
+HISLYSILEt	Transport, extracellular	false	false
+HISLYSTHRt	Transport, extracellular	false	false
+HISLYSVALt	Transport, extracellular	false	false
+HISMETGLNt	Transport, extracellular	false	false
+HISMETt	Transport, extracellular	false	false
+HISPHEARGt	Transport, extracellular	false	false
+HISPROLYSt	Transport, extracellular	false	false
+HISTASE	UNMAPPED_PATHWAY	false	false
+HISTRPHISt	Transport, extracellular	false	false
+HISt4	Transport, extracellular	false	false
+HIVCACBP	Fatty acid oxidation	false	false
+HKYNRtr	Transport, extracellular	false	false
+HMBS	Heme synthesis	false	false
+HMGCOAR	Cholesterol metabolism	false	false
+HMGCOARx	Cholesterol metabolism	false	false
+HMGCOAS	Cholesterol metabolism	false	false
+HMGCOASm	Cholesterol metabolism	false	false
+HMGCOAtm	Transport, mitochondrial	false	false
+HMGCOAtx	Transport, peroxisomal	false	false
+HMGLm	Cholesterol metabolism	false	false
+HMGLx	Cholesterol metabolism	false	false
+HMR_0019	Transport, extracellular	false	false
+HMR_0020	Transport, endoplasmic reticular	false	false
+HMR_0164	Transport, extracellular	false	false
+HMR_0167	Transport, extracellular	false	false
+HMR_0170	Transport, extracellular	false	false
+HMR_0176	Transport, extracellular	false	false
+HMR_0177	Fatty acid synthesis	false	false
+HMR_0178	Transport, mitochondrial	false	false
+HMR_0183	Transport, extracellular	false	false
+HMR_0188	Fatty acid synthesis	false	false
+HMR_0191	Transport, extracellular	false	false
+HMR_0192	Fatty acid synthesis	false	false
+HMR_0193	Fatty acid oxidation	false	false
+HMR_0194	Transport, extracellular	false	false
+HMR_0200	Fatty acid synthesis	false	false
+HMR_0201	Fatty acid oxidation	false	false
+HMR_0203	Transport, extracellular	false	false
+HMR_0204	Fatty acid synthesis	false	false
+HMR_0206	Fatty acid oxidation	false	false
+HMR_0207	Transport, extracellular	false	false
+HMR_0208	Transport, extracellular	false	false
+HMR_0209	Fatty acid synthesis	false	false
+HMR_0210	Fatty acid oxidation	false	false
+HMR_0211	Transport, extracellular	false	false
+HMR_0214	Fatty acid oxidation	false	false
+HMR_0232	Transport, extracellular	false	false
+HMR_0233	Fatty acid synthesis	false	false
+HMR_0234	Fatty acid oxidation	false	false
+HMR_0235	Transport, extracellular	false	false
+HMR_0238	Fatty acid oxidation	false	false
+HMR_0240	Transport, extracellular	false	false
+HMR_0241	Fatty acid synthesis	false	false
+HMR_0242	Fatty acid oxidation	false	false
+HMR_0243	Transport, extracellular	false	false
+HMR_0244	Transport, extracellular	false	false
+HMR_0245	Fatty acid synthesis	false	false
+HMR_0246	Fatty acid oxidation	false	false
+HMR_0247	Transport, extracellular	false	false
+HMR_0254	Transport, extracellular	false	false
+HMR_0255	Fatty acid synthesis	false	false
+HMR_0256	Fatty acid oxidation	false	false
+HMR_0257	Transport, extracellular	false	false
+HMR_0260	Fatty acid oxidation	false	false
+HMR_0267	Fatty acid synthesis	false	false
+HMR_0268	Fatty acid oxidation	false	false
+HMR_0270	Transport, extracellular	false	false
+HMR_0271	Fatty acid synthesis	false	false
+HMR_0272	Fatty acid oxidation	false	false
+HMR_0273	Transport, extracellular	false	false
+HMR_0276	Fatty acid oxidation	false	false
+HMR_0278	Transport, extracellular	false	false
+HMR_0279	Fatty acid synthesis	false	false
+HMR_0280	Fatty acid oxidation	false	false
+HMR_0281	Transport, extracellular	false	false
+HMR_0288	Transport, extracellular	false	false
+HMR_0289	Fatty acid synthesis	false	false
+HMR_0290	Fatty acid oxidation	false	false
+HMR_0291	Transport, extracellular	false	false
+HMR_0292	Transport, extracellular	false	false
+HMR_0293	Fatty acid synthesis	false	false
+HMR_0296	Transport, extracellular	false	false
+HMR_0297	Fatty acid synthesis	false	false
+HMR_0298	Fatty acid oxidation	false	false
+HMR_0299	Transport, extracellular	false	false
+HMR_0300	Transport, extracellular	false	false
+HMR_0301	Fatty acid synthesis	false	false
+HMR_0302	Fatty acid oxidation	false	false
+HMR_0303	Transport, extracellular	false	false
+HMR_0304	Transport, extracellular	false	false
+HMR_0305	Fatty acid synthesis	false	false
+HMR_0306	Fatty acid oxidation	false	false
+HMR_0307	Transport, extracellular	false	false
+HMR_0308	Transport, extracellular	false	false
+HMR_0309	Fatty acid synthesis	false	false
+HMR_0310	Fatty acid oxidation	false	false
+HMR_0311	Transport, extracellular	false	false
+HMR_0319	Fatty acid synthesis	false	false
+HMR_0322	Transport, extracellular	false	false
+HMR_0323	Fatty acid synthesis	false	false
+HMR_0324	Fatty acid oxidation	false	false
+HMR_0325	Transport, extracellular	false	false
+HMR_0326	Transport, extracellular	false	false
+HMR_0327	Fatty acid synthesis	false	false
+HMR_0328	Fatty acid oxidation	false	false
+HMR_0329	Transport, extracellular	false	false
+HMR_0344	Transport, extracellular	false	false
+HMR_0345	Fatty acid synthesis	false	false
+HMR_0346	Fatty acid oxidation	false	false
+HMR_0347	Transport, extracellular	false	false
+HMR_0354	Fatty acid oxidation	false	false
+HMR_0358	Fatty acid oxidation	false	false
+HMR_0362	Fatty acid oxidation	false	false
+HMR_0366	Fatty acid oxidation	false	false
+HMR_0370	Fatty acid oxidation	false	false
+HMR_0374	Fatty acid oxidation	false	false
+HMR_0378	Fatty acid oxidation	false	false
+HMR_0380	Transport, extracellular	false	false
+HMR_0381	Fatty acid synthesis	false	false
+HMR_0382	Fatty acid oxidation	false	false
+HMR_0383	Transport, extracellular	false	false
+HMR_0384	Transport, extracellular	false	false
+HMR_0385	Fatty acid synthesis	false	false
+HMR_0386	Fatty acid oxidation	false	false
+HMR_0387	Transport, extracellular	false	false
+HMR_0388	Transport, extracellular	false	false
+HMR_0389	Fatty acid synthesis	false	false
+HMR_0390	Fatty acid oxidation	false	false
+HMR_0391	Transport, extracellular	false	false
+HMR_0392	Transport, extracellular	false	false
+HMR_0393	Fatty acid synthesis	false	false
+HMR_0394	Fatty acid oxidation	false	false
+HMR_0395	Transport, extracellular	false	false
+HMR_0406	Fatty acid oxidation	false	false
+HMR_0410	Fatty acid oxidation	false	false
+HMR_0414	Fatty acid oxidation	false	false
+HMR_0418	Fatty acid oxidation	false	false
+HMR_0422	Fatty acid oxidation	false	false
+HMR_0426	Fatty acid oxidation	false	false
+HMR_0428	Transport, extracellular	false	false
+HMR_0429	Fatty acid synthesis	false	false
+HMR_0430	Fatty acid oxidation	false	false
+HMR_0431	Transport, extracellular	false	false
+HMR_0432	Transport, extracellular	false	false
+HMR_0433	Fatty acid synthesis	false	false
+HMR_0434	Fatty acid oxidation	false	false
+HMR_0435	Transport, extracellular	false	false
+HMR_0436	Transport, extracellular	false	false
+HMR_0437	Fatty acid synthesis	false	false
+HMR_0438	Fatty acid oxidation	false	false
+HMR_0439	Transport, extracellular	false	false
+HMR_0582	Glycerophospholipid metabolism	false	false
+HMR_0586	Glycerophospholipid metabolism	false	false
+HMR_0593	Glycerophospholipid metabolism	false	false
+HMR_0597	Glycerophospholipid metabolism	false	false
+HMR_0598	Glycerophospholipid metabolism	false	false
+HMR_0601	Glycerophospholipid metabolism	false	false
+HMR_0614	Glycerophospholipid metabolism	false	false
+HMR_0625	Glycerophospholipid metabolism	false	false
+HMR_0629	Glycerophospholipid metabolism	false	false
+HMR_0634	Glycerophospholipid metabolism	false	false
+HMR_0642	Glycerophospholipid metabolism	false	false
+HMR_0653	Glycerophospholipid metabolism	false	false
+HMR_0654	Glycerophospholipid metabolism	false	false
+HMR_0657	Glycerophospholipid metabolism	false	false
+HMR_0672	Glycerophospholipid metabolism	false	false
+HMR_0678	Glycerophospholipid metabolism	false	false
+HMR_0750	Sphingolipid metabolism	false	false
+HMR_0753	Sphingolipid metabolism	false	false
+HMR_0758	Sphingolipid metabolism	false	false
+HMR_0761	Sphingolipid metabolism	false	false
+HMR_0765	Sphingolipid metabolism	false	false
+HMR_0767	Sphingolipid metabolism	false	false
+HMR_0769	UNMAPPED_PATHWAY	false	false
+HMR_0770	Transport, extracellular	false	false
+HMR_0783	Sphingolipid metabolism	false	false
+HMR_0793	Glycosphingolipid metabolism	false	false
+HMR_0795	Sphingolipid metabolism	false	false
+HMR_0803	Glycosphingolipid metabolism	false	false
+HMR_0805	Glycosphingolipid metabolism	false	false
+HMR_0806	Glycosphingolipid metabolism	false	false
+HMR_0807	Glycosphingolipid metabolism	false	false
+HMR_0808	Glycosphingolipid metabolism	false	false
+HMR_0810	Glycosphingolipid metabolism	false	false
+HMR_0811	Glycosphingolipid metabolism	false	false
+HMR_0812	Glycosphingolipid metabolism	false	false
+HMR_0814	Glycosphingolipid metabolism	false	false
+HMR_0815	Glycosphingolipid metabolism	false	false
+HMR_0816	Glycosphingolipid metabolism	false	false
+HMR_0817	Glycosphingolipid metabolism	false	false
+HMR_0819	Glycosphingolipid metabolism	false	false
+HMR_0820	Glycosphingolipid metabolism	false	false
+HMR_0821	Glycosphingolipid metabolism	false	false
+HMR_0822	Glycosphingolipid metabolism	false	false
+HMR_0823	Glycosphingolipid metabolism	false	false
+HMR_0824	Glycosphingolipid metabolism	false	false
+HMR_0825	Glycosphingolipid metabolism	false	false
+HMR_0827	Glycosphingolipid metabolism	false	false
+HMR_0828	Glycosphingolipid metabolism	false	false
+HMR_0829	Glycosphingolipid metabolism	false	false
+HMR_0830	Glycosphingolipid metabolism	false	false
+HMR_0831	UNMAPPED_PATHWAY	false	false
+HMR_0835	Glycosphingolipid metabolism	false	false
+HMR_0836	Glycosphingolipid metabolism	false	false
+HMR_0837	Glycosphingolipid metabolism	false	false
+HMR_0841	Glycosphingolipid metabolism	false	false
+HMR_0842	Glycosphingolipid metabolism	false	false
+HMR_0843	Glycosphingolipid metabolism	false	false
+HMR_0844	Glycosphingolipid metabolism	false	false
+HMR_0846	Glycosphingolipid metabolism	false	false
+HMR_0847	Glycosphingolipid metabolism	false	false
+HMR_0849	Glycosphingolipid metabolism	false	false
+HMR_0855	Glycosphingolipid metabolism	false	false
+HMR_0859	Glycosphingolipid metabolism	false	false
+HMR_0875	Glycosphingolipid metabolism	false	false
+HMR_0876	Glycosphingolipid metabolism	false	false
+HMR_0878	Glycosphingolipid metabolism	false	false
+HMR_0889	Glycosphingolipid metabolism	false	false
+HMR_0890	Glycosphingolipid metabolism	false	false
+HMR_0910	Glycosphingolipid metabolism	false	false
+HMR_0911	Glycosphingolipid metabolism	false	false
+HMR_0942	UNMAPPED_PATHWAY	false	false
+HMR_0946	UNMAPPED_PATHWAY	false	false
+HMR_0950	UNMAPPED_PATHWAY	false	false
+HMR_0954	UNMAPPED_PATHWAY	false	false
+HMR_0960	UNMAPPED_PATHWAY	false	false
+HMR_0962	Transport, mitochondrial	false	false
+HMR_0963	UNMAPPED_PATHWAY	false	false
+HMR_0980	UNMAPPED_PATHWAY	false	false
+HMR_0981	UNMAPPED_PATHWAY	false	false
+HMR_1081	Leukotriene metabolism	false	false
+HMR_1085	Leukotriene metabolism	false	false
+HMR_1102	Leukotriene metabolism	false	false
+HMR_1126	Leukotriene metabolism	false	false
+HMR_1127	Leukotriene metabolism	false	false
+HMR_1129	Leukotriene metabolism	false	false
+HMR_1280	Leukotriene metabolism	false	false
+HMR_1284	Transport, mitochondrial	false	false
+HMR_1305	Eicosanoid metabolism	false	false
+HMR_1307	Eicosanoid metabolism	false	false
+HMR_1311	Transport, endoplasmic reticular	false	false
+HMR_1321	Eicosanoid metabolism	false	false
+HMR_1390	Eicosanoid metabolism	false	false
+HMR_1392	Transport, endoplasmic reticular	false	false
+HMR_1465	Cholesterol metabolism	false	false
+HMR_1467	Cholesterol metabolism	false	false
+HMR_1477	Cholesterol metabolism	false	false
+HMR_1478	Cholesterol metabolism	false	false
+HMR_1479	Cholesterol metabolism	false	false
+HMR_1490	Cholesterol metabolism	false	false
+HMR_1493	Cholesterol metabolism	false	false
+HMR_1494	Cholesterol metabolism	false	false
+HMR_1495	Cholesterol metabolism	false	false
+HMR_1500	Cholesterol metabolism	false	false
+HMR_1502	Cholesterol metabolism	false	false
+HMR_1503	Cholesterol metabolism	false	false
+HMR_1504	Cholesterol metabolism	false	false
+HMR_1505	Cholesterol metabolism	false	false
+HMR_1509	Cholesterol metabolism	false	false
+HMR_1516	Cholesterol metabolism	false	false
+HMR_1536	Cholesterol metabolism	false	false
+HMR_1538	Cholesterol metabolism	false	false
+HMR_1539	Cholesterol metabolism	false	false
+HMR_1540	Cholesterol metabolism	false	false
+HMR_1543	Cholesterol metabolism	false	false
+HMR_1544	Cholesterol metabolism	false	false
+HMR_1545	Cholesterol metabolism	false	false
+HMR_1546	Cholesterol metabolism	false	false
+HMR_1547	Cholesterol metabolism	false	false
+HMR_1548	Cholesterol metabolism	false	false
+HMR_1549	Cholesterol metabolism	false	false
+HMR_1550	Cholesterol metabolism	false	false
+HMR_1551	Cholesterol metabolism	false	false
+HMR_1552	Cholesterol metabolism	false	false
+HMR_1557	Cholesterol metabolism	false	false
+HMR_1565	Cholesterol metabolism	false	false
+HMR_1623	Transport, peroxisomal	false	false
+HMR_1627	Bile acid synthesis	false	false
+HMR_1630	Transport, mitochondrial	false	false
+HMR_1635	Bile acid synthesis	false	false
+HMR_1637	Bile acid synthesis	false	false
+HMR_1644	Steroid metabolism	false	false
+HMR_1651	Steroid metabolism	false	false
+HMR_1653	Bile acid synthesis	false	false
+HMR_1701	Transport, peroxisomal	false	false
+HMR_1706	Bile acid synthesis	false	false
+HMR_1738	Bile acid synthesis	false	false
+HMR_1739	Bile acid synthesis	false	false
+HMR_1740	Bile acid synthesis	false	false
+HMR_1742	Bile acid synthesis	false	false
+HMR_1744	Transport, mitochondrial	false	false
+HMR_1746	Bile acid synthesis	false	false
+HMR_1748	Bile acid synthesis	false	false
+HMR_1750	Bile acid synthesis	false	false
+HMR_1752	Transport, mitochondrial	false	false
+HMR_1754	Bile acid synthesis	false	false
+HMR_1758	Transport, peroxisomal	false	false
+HMR_1760	Bile acid synthesis	false	false
+HMR_1766	Bile acid synthesis	false	false
+HMR_1767	Bile acid synthesis	false	false
+HMR_1768	Bile acid synthesis	false	false
+HMR_1769	Bile acid synthesis	false	false
+HMR_1770	Bile acid synthesis	false	false
+HMR_1771	Bile acid synthesis	false	false
+HMR_1781	Bile acid synthesis	false	false
+HMR_1785	Bile acid synthesis	false	false
+HMR_1786	Bile acid synthesis	false	false
+HMR_1916	UNMAPPED_PATHWAY	false	false
+HMR_1927	Steroid metabolism	false	false
+HMR_1928	Steroid metabolism	false	false
+HMR_1929	Steroid metabolism	false	false
+HMR_1944	UNMAPPED_PATHWAY	false	false
+HMR_1968	UNMAPPED_PATHWAY	false	false
+HMR_1971	UNMAPPED_PATHWAY	false	false
+HMR_1976	UNMAPPED_PATHWAY	false	false
+HMR_1981	Steroid metabolism	false	false
+HMR_1996	Steroid metabolism	false	false
+HMR_2029	UNMAPPED_PATHWAY	false	false
+HMR_2041	Steroid metabolism	false	false
+HMR_2088	UNMAPPED_PATHWAY	false	false
+HMR_2089	UNMAPPED_PATHWAY	false	false
+HMR_2190	Fatty acid synthesis	false	false
+HMR_2193	Fatty acid synthesis	false	false
+HMR_2210	Fatty acid synthesis	false	false
+HMR_2211	Fatty acid synthesis	false	false
+HMR_2215	Fatty acid synthesis	false	false
+HMR_2217	Fatty acid synthesis	false	false
+HMR_2218	Fatty acid synthesis	false	false
+HMR_2219	Fatty acid synthesis	false	false
+HMR_2259	Fatty acid synthesis	false	false
+HMR_2260	Fatty acid synthesis	false	false
+HMR_2261	Fatty acid synthesis	false	false
+HMR_2262	Fatty acid synthesis	false	false
+HMR_2263	Fatty acid synthesis	false	false
+HMR_2264	Fatty acid synthesis	false	false
+HMR_2265	Fatty acid synthesis	false	false
+HMR_2266	Fatty acid synthesis	false	false
+HMR_2281	Fatty acid synthesis	false	false
+HMR_2282	Fatty acid synthesis	false	false
+HMR_2284	Fatty acid synthesis	false	false
+HMR_2287	Fatty acid synthesis	false	false
+HMR_2292	Fatty acid synthesis	false	false
+HMR_2293	Fatty acid synthesis	false	false
+HMR_2295	Fatty acid synthesis	false	false
+HMR_2296	Fatty acid synthesis	false	false
+HMR_2332	Fatty acid synthesis	false	false
+HMR_2334	Fatty acid synthesis	false	false
+HMR_2336	Fatty acid synthesis	false	false
+HMR_2338	Fatty acid synthesis	false	false
+HMR_2342	Fatty acid synthesis	false	false
+HMR_2343	Fatty acid synthesis	false	false
+HMR_2344	Fatty acid synthesis	false	false
+HMR_2345	Fatty acid synthesis	false	false
+HMR_2347	Fatty acid synthesis	false	false
+HMR_2348	Fatty acid synthesis	false	false
+HMR_2349	Fatty acid synthesis	false	false
+HMR_2350	Fatty acid synthesis	false	false
+HMR_2353	Fatty acid synthesis	false	false
+HMR_2354	Fatty acid synthesis	false	false
+HMR_2355	Fatty acid synthesis	false	false
+HMR_2356	Fatty acid synthesis	false	false
+HMR_2359	Fatty acid synthesis	false	false
+HMR_2361	Fatty acid synthesis	false	false
+HMR_2362	Fatty acid synthesis	false	false
+HMR_2363	Fatty acid synthesis	false	false
+HMR_2364	Fatty acid synthesis	false	false
+HMR_2365	Fatty acid synthesis	false	false
+HMR_2368	Fatty acid synthesis	false	false
+HMR_2374	Fatty acid synthesis	false	false
+HMR_2376	Fatty acid synthesis	false	false
+HMR_2380	Fatty acid synthesis	false	false
+HMR_2391	Fatty acid synthesis	false	false
+HMR_2393	Fatty acid synthesis	false	false
+HMR_2395	Fatty acid synthesis	false	false
+HMR_2433	Fatty acid synthesis	false	false
+HMR_2434	Fatty acid synthesis	false	false
+HMR_2435	Fatty acid synthesis	false	false
+HMR_2436	Fatty acid synthesis	false	false
+HMR_2472	Fatty acid synthesis	false	false
+HMR_2484	Fatty acid synthesis	false	false
+HMR_2495	Fatty acid synthesis	false	false
+HMR_2530	Fatty acid synthesis	false	false
+HMR_2533	Fatty acid synthesis	false	false
+HMR_2535	Fatty acid synthesis	false	false
+HMR_2537	Fatty acid synthesis	false	false
+HMR_2540	Fatty acid synthesis	false	false
+HMR_2541	Fatty acid synthesis	false	false
+HMR_2542	Fatty acid synthesis	false	false
+HMR_2543	Fatty acid synthesis	false	false
+HMR_2581	Fatty acid synthesis	false	false
+HMR_2603	Transport, mitochondrial	false	false
+HMR_2604	Transport, mitochondrial	false	false
+HMR_2608	Fatty acid oxidation	false	false
+HMR_2609	Transport, mitochondrial	false	false
+HMR_2610	Transport, mitochondrial	false	false
+HMR_2611	Fatty acid oxidation	false	false
+HMR_2613	Transport, mitochondrial	false	false
+HMR_2621	Transport, mitochondrial	false	false
+HMR_2622	Transport, mitochondrial	false	false
+HMR_2624	Transport, mitochondrial	false	false
+HMR_2633	Fatty acid oxidation	false	false
+HMR_2634	Transport, mitochondrial	false	false
+HMR_2635	Transport, mitochondrial	false	false
+HMR_2644	Transport, mitochondrial	false	false
+HMR_2649	Transport, mitochondrial	false	false
+HMR_2650	Transport, mitochondrial	false	false
+HMR_2652	Transport, mitochondrial	false	false
+HMR_2653	Transport, mitochondrial	false	false
+HMR_2657	Fatty acid oxidation	false	false
+HMR_2659	Transport, mitochondrial	false	false
+HMR_2661	Transport, mitochondrial	false	false
+HMR_2666	Fatty acid oxidation	false	false
+HMR_2667	Transport, mitochondrial	false	false
+HMR_2668	Transport, mitochondrial	false	false
+HMR_2669	Fatty acid oxidation	false	false
+HMR_2670	Transport, mitochondrial	false	false
+HMR_2671	Transport, mitochondrial	false	false
+HMR_2673	Transport, mitochondrial	false	false
+HMR_2675	Fatty acid oxidation	false	false
+HMR_2676	Transport, mitochondrial	false	false
+HMR_2677	Transport, mitochondrial	false	false
+HMR_2679	Transport, mitochondrial	false	false
+HMR_2681	Fatty acid oxidation	false	false
+HMR_2682	Transport, mitochondrial	false	false
+HMR_2683	Transport, mitochondrial	false	false
+HMR_2684	Fatty acid oxidation	false	false
+HMR_2685	Transport, mitochondrial	false	false
+HMR_2686	Transport, mitochondrial	false	false
+HMR_2687	Fatty acid oxidation	false	false
+HMR_2688	Transport, mitochondrial	false	false
+HMR_2689	Transport, mitochondrial	false	false
+HMR_2690	Fatty acid oxidation	false	false
+HMR_2691	Transport, mitochondrial	false	false
+HMR_2692	Transport, mitochondrial	false	false
+HMR_2693	Fatty acid oxidation	false	false
+HMR_2695	Transport, mitochondrial	false	false
+HMR_2697	Transport, mitochondrial	false	false
+HMR_2699	Fatty acid oxidation	false	false
+HMR_2700	Transport, mitochondrial	false	false
+HMR_2701	Transport, mitochondrial	false	false
+HMR_2702	Fatty acid oxidation	false	false
+HMR_2703	Transport, mitochondrial	false	false
+HMR_2704	Transport, mitochondrial	false	false
+HMR_2705	Fatty acid oxidation	false	false
+HMR_2706	Transport, mitochondrial	false	false
+HMR_2707	Transport, mitochondrial	false	false
+HMR_2708	Fatty acid oxidation	false	false
+HMR_2709	Transport, mitochondrial	false	false
+HMR_2710	Transport, mitochondrial	false	false
+HMR_2711	Fatty acid oxidation	false	false
+HMR_2712	Transport, mitochondrial	false	false
+HMR_2713	Transport, mitochondrial	false	false
+HMR_2715	Transport, mitochondrial	false	false
+HMR_2718	Transport, mitochondrial	false	false
+HMR_2722	Transport, mitochondrial	false	false
+HMR_2727	Transport, mitochondrial	false	false
+HMR_2731	Transport, mitochondrial	false	false
+HMR_2733	Fatty acid oxidation	false	false
+HMR_2734	Transport, mitochondrial	false	false
+HMR_2735	Transport, mitochondrial	false	false
+HMR_2736	Fatty acid oxidation	false	false
+HMR_2737	Transport, mitochondrial	false	false
+HMR_2738	Transport, mitochondrial	false	false
+HMR_2739	Fatty acid oxidation	false	false
+HMR_2740	Transport, mitochondrial	false	false
+HMR_2741	Transport, mitochondrial	false	false
+HMR_2753	Transport, mitochondrial	false	false
+HMR_2757	Transport, mitochondrial	false	false
+HMR_2760	Transport, mitochondrial	false	false
+HMR_2764	Transport, mitochondrial	false	false
+HMR_2768	Fatty acid oxidation	false	false
+HMR_2769	Transport, mitochondrial	false	false
+HMR_2770	Transport, mitochondrial	false	false
+HMR_2771	Fatty acid oxidation	false	false
+HMR_2772	Transport, mitochondrial	false	false
+HMR_2773	Transport, mitochondrial	false	false
+HMR_2774	Fatty acid oxidation	false	false
+HMR_2775	Transport, mitochondrial	false	false
+HMR_2776	Transport, mitochondrial	false	false
+HMR_2817	Transport, endoplasmic reticular	false	false
+HMR_2819	Transport, endoplasmic reticular	false	false
+HMR_2857	Transport, endoplasmic reticular	false	false
+HMR_2859	Transport, endoplasmic reticular	false	false
+HMR_2942	Fatty acid synthesis	false	false
+HMR_2943	Fatty acid synthesis	false	false
+HMR_2944	Fatty acid synthesis	false	false
+HMR_2945	Fatty acid synthesis	false	false
+HMR_2946	Fatty acid synthesis	false	false
+HMR_2947	Fatty acid synthesis	false	false
+HMR_2948	Fatty acid synthesis	false	false
+HMR_2951	Fatty acid synthesis	false	false
+HMR_2954	Fatty acid synthesis	false	false
+HMR_2955	Fatty acid synthesis	false	false
+HMR_2956	Fatty acid synthesis	false	false
+HMR_2957	Fatty acid synthesis	false	false
+HMR_2961	Fatty acid synthesis	false	false
+HMR_2962	Fatty acid synthesis	false	false
+HMR_2963	Fatty acid synthesis	false	false
+HMR_2964	Fatty acid synthesis	false	false
+HMR_2965	Fatty acid synthesis	false	false
+HMR_2966	Fatty acid synthesis	false	false
+HMR_2967	Fatty acid synthesis	false	false
+HMR_2968	Fatty acid synthesis	false	false
+HMR_2969	Fatty acid synthesis	false	false
+HMR_2970	Fatty acid synthesis	false	false
+HMR_2971	Fatty acid synthesis	false	false
+HMR_2972	Fatty acid synthesis	false	false
+HMR_2973	Fatty acid synthesis	false	false
+HMR_2974	Fatty acid synthesis	false	false
+HMR_2975	Fatty acid synthesis	false	false
+HMR_2976	Fatty acid synthesis	false	false
+HMR_2977	Fatty acid synthesis	false	false
+HMR_2978	Fatty acid synthesis	false	false
+HMR_2979	Fatty acid synthesis	false	false
+HMR_2980	Fatty acid synthesis	false	false
+HMR_2982	Fatty acid synthesis	false	false
+HMR_2983	Fatty acid synthesis	false	false
+HMR_2985	Fatty acid synthesis	false	false
+HMR_2986	Fatty acid synthesis	false	false
+HMR_2988	Fatty acid synthesis	false	false
+HMR_2989	Fatty acid synthesis	false	false
+HMR_2990	Fatty acid synthesis	false	false
+HMR_2994	Fatty acid synthesis	false	false
+HMR_2998	Fatty acid synthesis	false	false
+HMR_2999	Fatty acid synthesis	false	false
+HMR_3001	Fatty acid synthesis	false	false
+HMR_3002	Fatty acid synthesis	false	false
+HMR_3003	Fatty acid synthesis	false	false
+HMR_3021	Transport, peroxisomal	false	false
+HMR_3023	Transport, peroxisomal	false	false
+HMR_3053	Fatty acid oxidation	false	false
+HMR_3057	Fatty acid oxidation	false	false
+HMR_3058	Fatty acid oxidation	false	false
+HMR_3059	Fatty acid oxidation	false	false
+HMR_3062	Fatty acid oxidation	false	false
+HMR_3063	Fatty acid oxidation	false	false
+HMR_3064	Fatty acid oxidation	false	false
+HMR_3065	Fatty acid oxidation	false	false
+HMR_3066	Fatty acid oxidation	false	false
+HMR_3067	Fatty acid oxidation	false	false
+HMR_3068	Fatty acid oxidation	false	false
+HMR_3069	Fatty acid oxidation	false	false
+HMR_3070	Fatty acid oxidation	false	false
+HMR_3071	Fatty acid oxidation	false	false
+HMR_3072	Fatty acid oxidation	false	false
+HMR_3073	Fatty acid oxidation	false	false
+HMR_3075	Fatty acid oxidation	false	false
+HMR_3076	Fatty acid oxidation	false	false
+HMR_3094	Fatty acid oxidation	false	false
+HMR_3095	Fatty acid oxidation	false	false
+HMR_3096	Fatty acid oxidation	false	false
+HMR_3097	Fatty acid oxidation	false	false
+HMR_3098	Fatty acid oxidation	false	false
+HMR_3099	Fatty acid oxidation	false	false
+HMR_3100	Fatty acid oxidation	false	false
+HMR_3101	Fatty acid oxidation	false	false
+HMR_3102	Fatty acid oxidation	false	false
+HMR_3106	Transport, peroxisomal	false	false
+HMR_3107	Fatty acid oxidation	false	false
+HMR_3108	Fatty acid oxidation	false	false
+HMR_3109	Fatty acid oxidation	false	false
+HMR_3110	Fatty acid oxidation	false	false
+HMR_3111	Fatty acid oxidation	false	false
+HMR_3112	Fatty acid oxidation	false	false
+HMR_3113	Fatty acid oxidation	false	false
+HMR_3114	Fatty acid oxidation	false	false
+HMR_3115	Fatty acid oxidation	false	false
+HMR_3116	Fatty acid oxidation	false	false
+HMR_3117	Fatty acid oxidation	false	false
+HMR_3128	Fatty acid oxidation	false	false
+HMR_3149	Fatty acid oxidation	false	false
+HMR_3170	Fatty acid oxidation	false	false
+HMR_3171	Fatty acid oxidation	false	false
+HMR_3172	Fatty acid oxidation	false	false
+HMR_3173	Fatty acid oxidation	false	false
+HMR_3174	Fatty acid oxidation	false	false
+HMR_3175	Fatty acid oxidation	false	false
+HMR_3176	Fatty acid oxidation	false	false
+HMR_3177	Fatty acid oxidation	false	false
+HMR_3194	Fatty acid oxidation	false	false
+HMR_3195	Fatty acid oxidation	false	false
+HMR_3196	Fatty acid oxidation	false	false
+HMR_3197	Fatty acid oxidation	false	false
+HMR_3198	Fatty acid oxidation	false	false
+HMR_3199	Fatty acid oxidation	false	false
+HMR_3200	Fatty acid oxidation	false	false
+HMR_3201	Fatty acid oxidation	false	false
+HMR_3202	Fatty acid oxidation	false	false
+HMR_3203	Fatty acid oxidation	false	false
+HMR_3204	Fatty acid oxidation	false	false
+HMR_3205	Fatty acid oxidation	false	false
+HMR_3218	Fatty acid oxidation	false	false
+HMR_3219	Fatty acid oxidation	false	false
+HMR_3220	Fatty acid oxidation	false	false
+HMR_3221	Fatty acid oxidation	false	false
+HMR_3222	Fatty acid oxidation	false	false
+HMR_3223	Fatty acid oxidation	false	false
+HMR_3224	Fatty acid oxidation	false	false
+HMR_3225	Fatty acid oxidation	false	false
+HMR_3229	Fatty acid oxidation	false	false
+HMR_3230	Fatty acid oxidation	false	false
+HMR_3231	Fatty acid oxidation	false	false
+HMR_3232	Fatty acid oxidation	false	false
+HMR_3233	Fatty acid oxidation	false	false
+HMR_3234	Fatty acid oxidation	false	false
+HMR_3235	Fatty acid oxidation	false	false
+HMR_3236	Fatty acid oxidation	false	false
+HMR_3237	Fatty acid oxidation	false	false
+HMR_3240	Fatty acid oxidation	false	false
+HMR_3241	Fatty acid oxidation	false	false
+HMR_3242	Fatty acid oxidation	false	false
+HMR_3243	Fatty acid oxidation	false	false
+HMR_3244	Fatty acid oxidation	false	false
+HMR_3245	Fatty acid oxidation	false	false
+HMR_3246	Fatty acid oxidation	false	false
+HMR_3247	Fatty acid oxidation	false	false
+HMR_3296	Fatty acid oxidation	false	false
+HMR_3321	Fatty acid oxidation	false	false
+HMR_3322	Fatty acid oxidation	false	false
+HMR_3326	Fatty acid oxidation	false	false
+HMR_3327	Fatty acid oxidation	false	false
+HMR_3328	Fatty acid oxidation	false	false
+HMR_3329	Fatty acid oxidation	false	false
+HMR_3330	Fatty acid oxidation	false	false
+HMR_3331	Fatty acid oxidation	false	false
+HMR_3332	Fatty acid oxidation	false	false
+HMR_3333	Fatty acid oxidation	false	false
+HMR_3334	Fatty acid oxidation	false	false
+HMR_3335	Fatty acid oxidation	false	false
+HMR_3336	Fatty acid oxidation	false	false
+HMR_3337	Fatty acid oxidation	false	false
+HMR_3338	Fatty acid oxidation	false	false
+HMR_3339	Fatty acid oxidation	false	false
+HMR_3340	Fatty acid oxidation	false	false
+HMR_3341	Fatty acid oxidation	false	false
+HMR_3342	Fatty acid oxidation	false	false
+HMR_3343	Fatty acid oxidation	false	false
+HMR_3344	Fatty acid oxidation	false	false
+HMR_3345	Fatty acid oxidation	false	false
+HMR_3346	Fatty acid oxidation	false	false
+HMR_3347	Fatty acid oxidation	false	false
+HMR_3348	Fatty acid oxidation	false	false
+HMR_3349	Fatty acid oxidation	false	false
+HMR_3350	Fatty acid oxidation	false	false
+HMR_3351	Fatty acid oxidation	false	false
+HMR_3352	Fatty acid oxidation	false	false
+HMR_3353	Fatty acid oxidation	false	false
+HMR_3398	Fatty acid oxidation	false	false
+HMR_3406	Fatty acid oxidation	false	false
+HMR_3407	Fatty acid oxidation	false	false
+HMR_3408	Fatty acid oxidation	false	false
+HMR_3409	Fatty acid oxidation	false	false
+HMR_3411	Fatty acid oxidation	false	false
+HMR_3413	Fatty acid oxidation	false	false
+HMR_3414	Fatty acid oxidation	false	false
+HMR_3416	Fatty acid oxidation	false	false
+HMR_3421	Fatty acid oxidation	false	false
+HMR_3422	Fatty acid oxidation	false	false
+HMR_3423	Fatty acid oxidation	false	false
+HMR_3424	Fatty acid oxidation	false	false
+HMR_3425	Fatty acid oxidation	false	false
+HMR_3426	Fatty acid oxidation	false	false
+HMR_3427	Fatty acid oxidation	false	false
+HMR_3428	Fatty acid oxidation	false	false
+HMR_3429	Fatty acid oxidation	false	false
+HMR_3431	Fatty acid oxidation	false	false
+HMR_3432	Fatty acid oxidation	false	false
+HMR_3433	Fatty acid oxidation	false	false
+HMR_3446	Fatty acid synthesis	false	false
+HMR_3447	Fatty acid synthesis	false	false
+HMR_3448	Fatty acid synthesis	false	false
+HMR_3449	Fatty acid synthesis	false	false
+HMR_3450	Fatty acid synthesis	false	false
+HMR_3451	Fatty acid synthesis	false	false
+HMR_3452	Fatty acid synthesis	false	false
+HMR_3453	Fatty acid synthesis	false	false
+HMR_3454	Fatty acid synthesis	false	false
+HMR_3455	Fatty acid synthesis	false	false
+HMR_3456	Fatty acid synthesis	false	false
+HMR_3457	Fatty acid synthesis	false	false
+HMR_3491	Fatty acid oxidation	false	false
+HMR_3597	UNMAPPED_PATHWAY	false	false
+HMR_3625	Cholesterol metabolism	false	false
+HMR_3626	Cholesterol metabolism	false	false
+HMR_3627	Cholesterol metabolism	false	false
+HMR_3628	Cholesterol metabolism	false	false
+HMR_3629	Cholesterol metabolism	false	false
+HMR_3630	Cholesterol metabolism	false	false
+HMR_3631	Cholesterol metabolism	false	false
+HMR_3633	Cholesterol metabolism	false	false
+HMR_3635	Cholesterol metabolism	false	false
+HMR_3636	Cholesterol metabolism	false	false
+HMR_3637	Cholesterol metabolism	false	false
+HMR_3639	Cholesterol metabolism	false	false
+HMR_3640	Cholesterol metabolism	false	false
+HMR_3642	Cholesterol metabolism	false	false
+HMR_3644	Cholesterol metabolism	false	false
+HMR_3645	Cholesterol metabolism	false	false
+HMR_3646	Cholesterol metabolism	false	false
+HMR_3647	Cholesterol metabolism	false	false
+HMR_3648	Cholesterol metabolism	false	false
+HMR_3649	Cholesterol metabolism	false	false
+HMR_3650	Cholesterol metabolism	false	false
+HMR_3651	Cholesterol metabolism	false	false
+HMR_3652	Cholesterol metabolism	false	false
+HMR_3653	Cholesterol metabolism	false	false
+HMR_3654	Cholesterol metabolism	false	false
+HMR_3655	Cholesterol metabolism	false	false
+HMR_3656	Cholesterol metabolism	false	false
+HMR_3657	Cholesterol metabolism	false	false
+HMR_3658	Cholesterol metabolism	false	false
+HMR_3659	Cholesterol metabolism	false	false
+HMR_3660	Cholesterol metabolism	false	false
+HMR_3662	Cholesterol metabolism	false	false
+HMR_3663	Cholesterol metabolism	false	false
+HMR_3664	Cholesterol metabolism	false	false
+HMR_3665	Cholesterol metabolism	false	false
+HMR_3666	Cholesterol metabolism	false	false
+HMR_3667	Cholesterol metabolism	false	false
+HMR_3668	Cholesterol metabolism	false	false
+HMR_3669	Cholesterol metabolism	false	false
+HMR_3670	Cholesterol metabolism	false	false
+HMR_3675	Cholesterol metabolism	false	false
+HMR_3677	Cholesterol metabolism	false	false
+HMR_3678	Cholesterol metabolism	false	false
+HMR_3679	Cholesterol metabolism	false	false
+HMR_3680	Cholesterol metabolism	false	false
+HMR_3681	Cholesterol metabolism	false	false
+HMR_3682	Cholesterol metabolism	false	false
+HMR_3684	Cholesterol metabolism	false	false
+HMR_3685	Cholesterol metabolism	false	false
+HMR_3686	Cholesterol metabolism	false	false
+HMR_3687	Cholesterol metabolism	false	false
+HMR_3688	Cholesterol metabolism	false	false
+HMR_3689	Cholesterol metabolism	false	false
+HMR_3690	Cholesterol metabolism	false	false
+HMR_3692	Cholesterol metabolism	false	false
+HMR_3694	Cholesterol metabolism	false	false
+HMR_3695	Cholesterol metabolism	false	false
+HMR_3696	Cholesterol metabolism	false	false
+HMR_3698	Cholesterol metabolism	false	false
+HMR_3699	Cholesterol metabolism	false	false
+HMR_3701	Cholesterol metabolism	false	false
+HMR_3703	Cholesterol metabolism	false	false
+HMR_3704	Cholesterol metabolism	false	false
+HMR_3705	Cholesterol metabolism	false	false
+HMR_3706	Cholesterol metabolism	false	false
+HMR_3707	Cholesterol metabolism	false	false
+HMR_3708	Cholesterol metabolism	false	false
+HMR_3709	Cholesterol metabolism	false	false
+HMR_3710	Cholesterol metabolism	false	false
+HMR_3711	Cholesterol metabolism	false	false
+HMR_3712	Cholesterol metabolism	false	false
+HMR_3713	Cholesterol metabolism	false	false
+HMR_3714	Cholesterol metabolism	false	false
+HMR_3715	Cholesterol metabolism	false	false
+HMR_3716	Cholesterol metabolism	false	false
+HMR_3717	Cholesterol metabolism	false	false
+HMR_3718	Cholesterol metabolism	false	false
+HMR_3719	Cholesterol metabolism	false	false
+HMR_3721	Cholesterol metabolism	false	false
+HMR_3722	Cholesterol metabolism	false	false
+HMR_3723	Cholesterol metabolism	false	false
+HMR_3724	Cholesterol metabolism	false	false
+HMR_3725	Cholesterol metabolism	false	false
+HMR_3726	Cholesterol metabolism	false	false
+HMR_3727	Cholesterol metabolism	false	false
+HMR_3728	Cholesterol metabolism	false	false
+HMR_3729	Cholesterol metabolism	false	false
+HMR_3734	Cholesterol metabolism	false	false
+HMR_3736	Cholesterol metabolism	false	false
+HMR_3737	Cholesterol metabolism	false	false
+HMR_3738	Cholesterol metabolism	false	false
+HMR_3739	Cholesterol metabolism	false	false
+HMR_3740	Cholesterol metabolism	false	false
+HMR_3741	Cholesterol metabolism	false	false
+HMR_3855	Pyruvate metabolism	false	true
+HMR_3864	Transport, mitochondrial	false	false
+HMR_3867	Transport, peroxisomal	false	false
+HMR_3951	Transport, extracellular	false	false
+HMR_3953	Transport, endoplasmic reticular	false	false
+HMR_4079	UNMAPPED_PATHWAY	false	false
+HMR_4124	Aminosugar metabolism	false	false
+HMR_4422	Arginine and proline metabolism	false	false
+HMR_4756	Transport, mitochondrial	false	false
+HMR_4771	Heme synthesis	false	false
+HMR_4772	Heme synthesis	false	false
+HMR_4777	Arginine and proline metabolism	false	false
+HMR_4783	Arginine and proline metabolism	false	false
+HMR_4964	Transport, mitochondrial	false	false
+HMR_5387	Methionine and cysteine metabolism	false	false
+HMR_5389	Methionine and cysteine metabolism	false	false
+HMR_6363	Transport, extracellular	false	false
+HMR_6365	Transport, extracellular	false	false
+HMR_6385	Transport, endoplasmic reticular	false	false
+HMR_6545	Inositol phosphate metabolism	false	false
+HMR_6550	Inositol phosphate metabolism	false	false
+HMR_6558	Inositol phosphate metabolism	false	false
+HMR_6580	Inositol phosphate metabolism	false	false
+HMR_6583	Inositol phosphate metabolism	false	false
+HMR_6584	Inositol phosphate metabolism	false	false
+HMR_6595	Inositol phosphate metabolism	false	false
+HMR_6647	Vitamin A metabolism	false	false
+HMR_6728	Phenylalanine metabolism	false	false
+HMR_6747	Phenylalanine metabolism	false	false
+HMR_6755	Phenylalanine metabolism	false	false
+HMR_6785	Phenylalanine metabolism	false	false
+HMR_6786	Phenylalanine metabolism	false	false
+HMR_6826	Phenylalanine metabolism	false	false
+HMR_6834	Phenylalanine metabolism	false	false
+HMR_6838	Phenylalanine metabolism	false	false
+HMR_6839	Phenylalanine metabolism	false	false
+HMR_6844	Phenylalanine metabolism	false	false
+HMR_6850	Phenylalanine metabolism	false	false
+HMR_6907	UNMAPPED_PATHWAY	false	false
+HMR_6908	UNMAPPED_PATHWAY	false	false
+HMR_6909	UNMAPPED_PATHWAY	false	false
+HMR_6910	UNMAPPED_PATHWAY	false	false
+HMR_7197	UNMAPPED_PATHWAY	false	false
+HMR_7198	UNMAPPED_PATHWAY	false	false
+HMR_7199	UNMAPPED_PATHWAY	false	false
+HMR_7257	Transport, endoplasmic reticular	false	false
+HMR_7628	Phenylalanine metabolism	false	false
+HMR_7715	UNMAPPED_PATHWAY	false	false
+HMR_7724	UNMAPPED_PATHWAY	false	false
+HMR_7748	Glycolysis/gluconeogenesis	true	true
+HMR_7749	Glycolysis/gluconeogenesis	true	true
+HMR_7755	Glycerophospholipid metabolism	false	false
+HMR_7756	Phenylalanine metabolism	false	false
+HMR_7757	Transport, mitochondrial	false	false
+HMR_7758	Transport, mitochondrial	false	false
+HMR_8271	UNMAPPED_PATHWAY	false	false
+HMR_8505	Transport, mitochondrial	false	false
+HMR_8510	Transport, mitochondrial	false	false
+HMR_8762	Galactose metabolism	false	false
+HMR_8776	Transport, mitochondrial	false	false
+HMR_9191	Transport, extracellular	false	false
+HMR_9613	Transport, extracellular	false	false
+HMR_9614	Transport, extracellular	false	false
+HMR_9627	Transport, endoplasmic reticular	false	false
+HMR_9638	Transport, extracellular	false	false
+HMR_9640	Transport, extracellular	false	false
+HMR_9652	Transport, extracellular	false	false
+HMR_9680	Transport, peroxisomal	false	false
+HMR_9719	Fatty acid oxidation	false	false
+HMR_9720	Transport, extracellular	false	false
+HMR_9803	UNMAPPED_PATHWAY	false	false
+HMR_9804	UNMAPPED_PATHWAY	false	false
+HOCDACBP	Fatty acid oxidation	false	false
+HOCTDACBP	Fatty acid oxidation	false	false
+HPDCACRNCPT1	Fatty acid oxidation	false	false
+HPDCACRNCPT2	Fatty acid oxidation	false	false
+HPDCACRNt	Fatty acid oxidation	false	false
+HPROb	Arginine and proline metabolism	false	false
+HPROx	Arginine and proline metabolism	false	false
+HPROxm	Arginine and proline metabolism	false	false
+HPROym	Arginine and proline metabolism	false	false
+HPYRDC	UNMAPPED_PATHWAY	false	false
+HPYRDCm	UNMAPPED_PATHWAY	false	false
+HPYRR2x_1	UNMAPPED_PATHWAY	false	false
+HPYRRy	UNMAPPED_PATHWAY	false	false
+HS1ly	UNMAPPED_PATHWAY	false	false
+HS2ly	UNMAPPED_PATHWAY	false	false
+HS3ly	UNMAPPED_PATHWAY	false	false
+HS4ly	UNMAPPED_PATHWAY	false	false
+HSAT1ly	UNMAPPED_PATHWAY	false	false
+HSAT2ly	UNMAPPED_PATHWAY	false	false
+HSAT3ly	UNMAPPED_PATHWAY	false	false
+HSAT4ly	UNMAPPED_PATHWAY	false	false
+HSD11B1r	Steroid metabolism	false	false
+HSD17B1	Steroid metabolism	false	false
+HSD17B2r	Steroid metabolism	false	false
+HSD17B42x_1	Bile acid synthesis	false	false
+HSD17B4x	Bile acid synthesis	false	false
+HSD17B8r	Steroid metabolism	false	false
+HSD17B9r	Steroid metabolism	false	false
+HSD3A1r	Steroid metabolism	false	false
+HSD3A2r	Steroid metabolism	false	false
+HSD3B11	Steroid metabolism	false	false
+HSD3B7	Bile acid synthesis	false	false
+HSD3B7P	Bile acid synthesis	false	false
+HSPASEly	UNMAPPED_PATHWAY	false	false
+HSPGt	Transport, extracellular	false	false
+HSPGtly	UNMAPPED_PATHWAY	false	false
+HTDCACBP	Fatty acid oxidation	false	false
+HXCOAtx	Transport, peroxisomal	false	false
+Htg	UNMAPPED_PATHWAY	false	false
+Htmi	Transport, mitochondrial	false	false
+Htr	Transport, endoplasmic reticular	false	false
+Htx	Transport, peroxisomal	false	false
+ICDHxm	Citric acid cycle	false	true
+ICDHym	Citric acid cycle	false	true
+ICDHyp	Citric acid cycle	false	true
+ICDHyr	Citric acid cycle	false	true
+IDOAASE1ly	UNMAPPED_PATHWAY	false	false
+IDOAASE2ly	UNMAPPED_PATHWAY	false	false
+IDOAASE3ly	UNMAPPED_PATHWAY	false	false
+IDOAASE4ly	Chondroitin sulfate degradation	false	false
+IDOURte	Transport, extracellular	false	false
+IDOURtly	UNMAPPED_PATHWAY	false	false
+ILEARGILEt	Transport, extracellular	false	false
+ILEASNHISt	Transport, extracellular	false	false
+ILEASPt	Transport, extracellular	false	false
+ILEGLNGLUt	Transport, extracellular	false	false
+ILEGLYARGt	Transport, extracellular	false	false
+ILELAT1tc	Transport, extracellular	false	false
+ILEPROLYSt	Transport, extracellular	false	false
+ILESERARGt	Transport, extracellular	false	false
+ILETA	Valine, leucine, and isoleucine metabolism	false	false
+ILETRPTYRt	Transport, extracellular	false	false
+IM4ACte	Transport, extracellular	false	false
+IMACTD	UNMAPPED_PATHWAY	false	false
+IMPC	Purine synthesis	false	false
+IMPD	Nucleotide interconversion	false	false
+IND3ACt	Transport, extracellular	false	false
+INSK	Purine synthesis	false	false
+INSTt2	Transport, extracellular	false	false
+INSTt4	Transport, extracellular	false	false
+INSt	Transport, extracellular	false	false
+IPDDI	UNMAPPED_PATHWAY	false	false
+IPDDIx	Cholesterol metabolism	false	false
+IPDPtx	Transport, peroxisomal	false	false
+ITKPK	Inositol phosphate metabolism	false	false
+KAT180_m	Fatty acid oxidation	false	false
+KCC2t	Transport, extracellular	false	false
+KCCt	Transport, extracellular	false	false
+KDNH	Aminosugar metabolism	false	false
+KHK	Fructose and mannose metabolism	false	false
+KHK2	UNMAPPED_PATHWAY	false	false
+KSII_CORE2t	Transport, extracellular	false	false
+KSII_CORE2tly	UNMAPPED_PATHWAY	false	false
+KSII_CORE4t	Transport, extracellular	false	false
+KSII_CORE4tly	UNMAPPED_PATHWAY	false	false
+L2AADPtr	Transport, extracellular	false	false
+LACROX	Tyrosine metabolism	false	false
+LACZe	Galactose metabolism	false	false
+LALDO	Pyruvate metabolism	false	true
+LALDO2	Pyruvate metabolism	false	true
+LANOSTt	Transport, extracellular	false	false
+LANOSTtr	Transport, endoplasmic reticular	false	false
+LCA3Sabc	Transport, extracellular	false	false
+LCA3St	Transport, extracellular	false	false
+LCADi	Pyruvate metabolism	false	true
+LCADi_D	Pyruvate metabolism	false	true
+LCADm	Pyruvate metabolism	false	true
+LCARS	Pyruvate metabolism	false	true
+LCAT10e	Cholesterol metabolism	false	false
+LCAT11e	Cholesterol metabolism	false	false
+LCAT12e	Cholesterol metabolism	false	false
+LCAT13e	Cholesterol metabolism	false	false
+LCAT14e	Cholesterol metabolism	false	false
+LCAT15e	Cholesterol metabolism	false	false
+LCAT16e	Cholesterol metabolism	false	false
+LCAT17e	Cholesterol metabolism	false	false
+LCAT18e	Cholesterol metabolism	false	false
+LCAT19e	Cholesterol metabolism	false	false
+LCAT1e	Fatty acid oxidation	false	false
+LCAT20e	Cholesterol metabolism	false	false
+LCAT21e	Cholesterol metabolism	false	false
+LCAT22e	Cholesterol metabolism	false	false
+LCAT23e	Cholesterol metabolism	false	false
+LCAT25e	Cholesterol metabolism	false	false
+LCAT27e	Cholesterol metabolism	false	false
+LCAT29e	Cholesterol metabolism	false	false
+LCAT2e	Cholesterol metabolism	false	false
+LCAT30e	Cholesterol metabolism	false	false
+LCAT31e	Cholesterol metabolism	false	false
+LCAT32e	Cholesterol metabolism	false	false
+LCAT33e	Cholesterol metabolism	false	false
+LCAT34e	Cholesterol metabolism	false	false
+LCAT35e	Cholesterol metabolism	false	false
+LCAT36e	Cholesterol metabolism	false	false
+LCAT37e	Cholesterol metabolism	false	false
+LCAT38e	Cholesterol metabolism	false	false
+LCAT39e	Cholesterol metabolism	false	false
+LCAT3e	Cholesterol metabolism	false	false
+LCAT40e	Cholesterol metabolism	false	false
+LCAT41e	Cholesterol metabolism	false	false
+LCAT42e	Cholesterol metabolism	false	false
+LCAT43e	Cholesterol metabolism	false	false
+LCAT44e	Cholesterol metabolism	false	false
+LCAT45e	Cholesterol metabolism	false	false
+LCAT46e	Cholesterol metabolism	false	false
+LCAT47e	Cholesterol metabolism	false	false
+LCAT48e	Cholesterol metabolism	false	false
+LCAT49e	Cholesterol metabolism	false	false
+LCAT4e	Cholesterol metabolism	false	false
+LCAT50e	Cholesterol metabolism	false	false
+LCAT51e	Cholesterol metabolism	false	false
+LCAT52e	Cholesterol metabolism	false	false
+LCAT53e	Cholesterol metabolism	false	false
+LCAT54e	Cholesterol metabolism	false	false
+LCAT55e	Cholesterol metabolism	false	false
+LCAT56e	Cholesterol metabolism	false	false
+LCAT57e	Cholesterol metabolism	false	false
+LCAT5e	Cholesterol metabolism	false	false
+LCAT6e	Cholesterol metabolism	false	false
+LCAT7e	Cholesterol metabolism	false	false
+LCAT8e	Cholesterol metabolism	false	false
+LCAT9e	Cholesterol metabolism	false	false
+LCYSTAT	Methionine and cysteine metabolism	false	false
+LDH_Lm	Pyruvate metabolism	false	true
+LEUALAARGt	Transport, extracellular	false	false
+LEUASNASPt	Transport, extracellular	false	false
+LEUASPLYSt	Transport, extracellular	false	false
+LEUKTRA4tr	Transport, endoplasmic reticular	false	false
+LEUKTRB4WCOOHt	Transport, extracellular	false	false
+LEUKTRB4WOHt	Transport, extracellular	false	false
+LEUKTRD4t	Transport, extracellular	false	false
+LEUKTRD4tr	Transport, endoplasmic reticular	false	false
+LEUKTRE4t	Transport, extracellular	false	false
+LEULEULAPc	Transport, extracellular	false	false
+LEULEUTRPt	Transport, extracellular	false	false
+LEUPROARGt	Transport, extracellular	false	false
+LEUPROt	Transport, extracellular	false	false
+LEUSERTRPt	Transport, extracellular	false	false
+LEUTA	Valine, leucine, and isoleucine metabolism	false	false
+LEUTRPARGt	Transport, extracellular	false	false
+LEUTRPt	Transport, extracellular	false	false
+LEUTYRTYRt	Transport, extracellular	false	false
+LEUVALt	Transport, extracellular	false	false
+LEUt4	Transport, extracellular	false	false
+LGNCFATPtc	Transport, extracellular	false	false
+LGNCt	Transport, extracellular	false	false
+LGTHL	Pyruvate metabolism	false	true
+LHCYSTIN	Methionine and cysteine metabolism	false	false
+LHCYSTINt	Transport, extracellular	false	false
+LINKDEG1ly	UNMAPPED_PATHWAY	false	false
+LINKDEG2ly	Chondroitin sulfate degradation	false	false
+LINKDEG3ly	Chondroitin sulfate degradation	false	false
+LINKDEG4ly	Chondroitin sulfate degradation	false	false
+LINOFATPtc	Transport, extracellular	false	false
+LNELDCCPT1	Fatty acid oxidation	false	false
+LNELDCCPT2	Fatty acid oxidation	false	false
+LNELDCCRNt	Fatty acid oxidation	false	false
+LNLCCPT1	Fatty acid oxidation	false	false
+LNLCCPT2	Fatty acid oxidation	false	false
+LNLCCRNt	Fatty acid oxidation	false	false
+LNLNCACPT1	Fatty acid oxidation	false	false
+LNLNCACPT2	Fatty acid oxidation	false	false
+LNLNCACRNt	Fatty acid oxidation	false	false
+LNLNCAt	Transport, extracellular	false	false
+LNLNCGCPT1	Fatty acid oxidation	false	false
+LNLNCGCPT2	Fatty acid oxidation	false	false
+LNLNCGCRNt	Fatty acid oxidation	false	false
+LNS14DMr	Cholesterol metabolism	false	false
+LNSTLS	Cholesterol metabolism	false	false
+LNSTLSr	Cholesterol metabolism	false	false
+LPASE	Glycerophospholipid metabolism	false	false
+LPCHOLt	Transport, extracellular	false	false
+LPCOXp	UNMAPPED_PATHWAY	false	false
+LPS2	Triacylglycerol synthesis	false	false
+LPS3	Triacylglycerol synthesis	false	false
+LSTNtd	Drug metabolism	false	false
+LSTNtu	Drug metabolism	false	false
+LSTO1r	Cholesterol metabolism	false	false
+LSTO2r	Cholesterol metabolism	false	false
+LTA4H	Eicosanoid metabolism	false	false
+LTC4CP	Eicosanoid metabolism	false	false
+LTC4Sr	Eicosanoid metabolism	false	false
+LTD4DP	Eicosanoid metabolism	false	false
+LTDCL	Tryptophan metabolism	false	false
+LTHSTRLOR	Cholesterol metabolism	false	false
+LTHSTRLt	Transport, extracellular	false	false
+LTHSTRLtr	Transport, endoplasmic reticular	false	false
+LVSTACIDhep	Drug metabolism	false	false
+LVSTPGPtu	Drug metabolism	false	false
+LYSACm	UNMAPPED_PATHWAY	false	false
+LYSARGLEUt	Transport, extracellular	false	false
+LYSCYSHISt	Transport, extracellular	false	false
+LYSGLNPHEt	Transport, extracellular	false	false
+LYSGLUGLUt	Transport, extracellular	false	false
+LYSLYSLYSt	Transport, extracellular	false	false
+LYSOXp	UNMAPPED_PATHWAY	false	false
+LYSPHEILEt	Transport, extracellular	false	false
+LYSTRPARGt	Transport, extracellular	false	false
+LYSTYRILEt	Transport, extracellular	false	false
+LYSVALPHEt	Transport, extracellular	false	false
+LYSVALTRPt	Transport, extracellular	false	false
+LYStip	Transport, peroxisomal	false	false
+LYStm	Transport, mitochondrial	false	false
+L_LACt2r	Transport, extracellular	false	false
+MACACI	Tyrosine metabolism	false	false
+MACOXO	UNMAPPED_PATHWAY	false	false
+MALICITtm	Transport, mitochondrial	false	false
+MALOAAtm	Transport, mitochondrial	false	false
+MAL_Ltx	Transport, peroxisomal	false	false
+MAN1PT	Fructose and mannose metabolism	false	false
+MAN1PT2	Fructose and mannose metabolism	false	false
+MAN6PI	Fructose and mannose metabolism	false	false
+MANt1r	Transport, extracellular	false	false
+MAOLNOR	Tyrosine metabolism	false	false
+MAOX	Tyrosine metabolism	false	false
+MCITS	UNMAPPED_PATHWAY	false	false
+MCLORi	Methionine and cysteine metabolism	false	false
+MDH	Citric acid cycle	false	true
+MDHm	Citric acid cycle	false	true
+MDHp	Citric acid cycle	false	true
+MDRPD	Arginine and proline metabolism	false	false
+MDZtu	Drug metabolism	false	false
+ME1m	Pyruvate metabolism	false	true
+ME2m	Pyruvate metabolism	false	true
+MEPIt	Transport, extracellular	false	false
+METARGLEUt	Transport, extracellular	false	false
+METASNTYRt	Transport, extracellular	false	false
+METAT	Methionine and cysteine metabolism	false	false
+METGLNTYRt	Transport, extracellular	false	false
+METGLYARGt	Transport, extracellular	false	false
+METHISLYSt	Transport, extracellular	false	false
+METLEUex	Transport, extracellular	false	false
+METMETILEt	Transport, extracellular	false	false
+METPHEARGt	Transport, extracellular	false	false
+METTRPPHEt	Transport, extracellular	false	false
+METt4	Transport, extracellular	false	false
+MEVK1	UNMAPPED_PATHWAY	false	false
+MEVK1x	Cholesterol metabolism	false	false
+MGCHrm	Valine, leucine, and isoleucine metabolism	false	false
+MGSA2	Pyruvate metabolism	false	true
+MHISOR	UNMAPPED_PATHWAY	false	false
+MI1345PP	Inositol phosphate metabolism	false	false
+MI134PP	Inositol phosphate metabolism	false	false
+MI145PK	Inositol phosphate metabolism	false	false
+MI145PP	Inositol phosphate metabolism	false	false
+MI14PP	Inositol phosphate metabolism	false	false
+MI1PP	Inositol phosphate metabolism	false	false
+MI1PS	Inositol phosphate metabolism	false	false
+MI34PP	Inositol phosphate metabolism	false	false
+MI3PP	Inositol phosphate metabolism	false	false
+MI3PS	Inositol phosphate metabolism	false	false
+MI4PP	Inositol phosphate metabolism	false	false
+MITKP	Inositol phosphate metabolism	false	false
+MLTHFte1	Transport, extracellular	false	false
+MLTHFte3	Transport, extracellular	false	false
+MLTHFtm	Transport, mitochondrial	false	false
+MMEm	Valine, leucine, and isoleucine metabolism	false	false
+MMMm	Valine, leucine, and isoleucine metabolism	false	false
+MOGAT	Triacylglycerol synthesis	false	false
+MTAP	Arginine and proline metabolism	false	false
+MTHFC	Folate metabolism	false	false
+MTHFCm	Folate metabolism	false	false
+MTHFD	Folate metabolism	false	false
+MTHFD2i	Folate metabolism	false	false
+MTHFD2m	Folate metabolism	false	false
+MTHFDm	Folate metabolism	false	false
+MTRI	Arginine and proline metabolism	false	false
+N3Tg	UNMAPPED_PATHWAY	false	false
+N4Tg	UNMAPPED_PATHWAY	false	false
+NABTNO	Arginine and proline metabolism	false	false
+NACASPAH	UNMAPPED_PATHWAY	false	false
+NACASPtm	Transport, mitochondrial	false	false
+NACHEX1ly	Chondroitin sulfate degradation	false	false
+NACHEX23ly	Keratan sulfate degradation	false	false
+NACHEX24ly	Keratan sulfate degradation	false	false
+NACHEX25ly	Keratan sulfate degradation	false	false
+NACHEX26ly	Keratan sulfate degradation	false	false
+NACHEX27ly	UNMAPPED_PATHWAY	false	false
+NACHEX2ly	Chondroitin sulfate degradation	false	false
+NACHEX3ly	Chondroitin sulfate degradation	false	false
+NACHEX4ly	Chondroitin sulfate degradation	false	false
+NACHEX5ly	Chondroitin sulfate degradation	false	false
+NACHEX6ly	Chondroitin sulfate degradation	false	false
+NACHEX7ly	Chondroitin sulfate degradation	false	false
+NACHEX8ly	Chondroitin sulfate degradation	false	false
+NACHEX9ly	Chondroitin sulfate degradation	false	false
+NACHEXA1ly	Chondroitin sulfate degradation	false	false
+NACHEXA20ly	Keratan sulfate degradation	false	false
+NACHEXA21ly	Keratan sulfate degradation	false	false
+NACHEXA22ly	Keratan sulfate degradation	false	false
+NACHEXA2ly	Chondroitin sulfate degradation	false	false
+NACHEXA3ly	Chondroitin sulfate degradation	false	false
+NACHEXA4ly	Chondroitin sulfate degradation	false	false
+NACHEXA5ly	Chondroitin sulfate degradation	false	false
+NACHEXA6ly	Chondroitin sulfate degradation	false	false
+NACHEXA7ly	Chondroitin sulfate degradation	false	false
+NACHEXA8ly	Chondroitin sulfate degradation	false	false
+NADHtpu	Transport, peroxisomal	false	false
+NADHtru	Transport, endoplasmic reticular	false	false
+NADK	NAD metabolism	false	false
+NADN	NAD metabolism	false	false
+NADPHtru	Transport, endoplasmic reticular	false	false
+NADPHtxu	Transport, peroxisomal	false	false
+NADPPPS	NAD metabolism	false	false
+NADPQNOXR	Tyrosine metabolism	false	false
+NADPtru	Transport, endoplasmic reticular	false	false
+NADPtxu	Transport, peroxisomal	false	false
+NADQNOXR	Tyrosine metabolism	false	false
+NADtru	Transport, endoplasmic reticular	false	false
+NADtx	Transport, peroxisomal	false	false
+NAGA2ly	Keratan sulfate degradation	false	false
+NAGAly	Sphingolipid metabolism	false	false
+NAGLCAly	Keratan sulfate degradation	false	false
+NAHCO3_HCLt	Transport, extracellular	false	false
+NAPRT	NAD metabolism	false	false
+NAtx	Transport, peroxisomal	false	false
+NBAHH_ir	UNMAPPED_PATHWAY	false	false
+NCAMUP	Transport, extracellular	false	false
+NDP1	Purine catabolism	false	false
+NDP6	Nucleotide interconversion	false	false
+NDP7er	Nucleotide interconversion	false	false
+NDP7ex	Nucleotide interconversion	false	false
+NDP7g	Nucleotide interconversion	false	false
+NDP8	Nucleotide interconversion	false	false
+NDP8ex	Nucleotide interconversion	false	false
+NDPK1	Nucleotide interconversion	false	false
+NDPK10	Nucleotide interconversion	false	false
+NDPK10n	Nucleotide interconversion	false	false
+NDPK1m	Nucleotide interconversion	false	false
+NDPK1n	Nucleotide interconversion	false	false
+NDPK2	Nucleotide interconversion	false	false
+NDPK2n	Nucleotide interconversion	false	false
+NDPK3	Nucleotide interconversion	false	false
+NDPK3m	Nucleotide interconversion	false	false
+NDPK3n	Nucleotide interconversion	false	false
+NDPK4	Nucleotide interconversion	false	false
+NDPK4m	Nucleotide interconversion	false	false
+NDPK4n	Nucleotide interconversion	false	false
+NDPK5	Nucleotide interconversion	false	false
+NDPK5m	Nucleotide interconversion	false	false
+NDPK5n	Nucleotide interconversion	false	false
+NDPK6	Nucleotide interconversion	false	false
+NDPK6m	Nucleotide interconversion	false	false
+NDPK6n	Nucleotide interconversion	false	false
+NDPK7	Nucleotide interconversion	false	false
+NDPK7m	Nucleotide interconversion	false	false
+NDPK7n	Nucleotide interconversion	false	false
+NDPK8	Nucleotide interconversion	false	false
+NDPK8m	Nucleotide interconversion	false	false
+NDPK8n	Nucleotide interconversion	false	false
+NDPK9	Nucleotide interconversion	false	false
+NDPK9n	Nucleotide interconversion	false	false
+NEU11l	Sphingolipid metabolism	false	false
+NEU21	Sphingolipid metabolism	false	false
+NEU22	Sphingolipid metabolism	false	false
+NEU23	Sphingolipid metabolism	false	false
+NEU310e	Sphingolipid metabolism	false	false
+NEU38n	Sphingolipid metabolism	false	false
+NEU39e	Sphingolipid metabolism	false	false
+NH4tm	Transport, mitochondrial	false	false
+NH4tp	Transport, peroxisomal	false	false
+NH4tr	Transport, endoplasmic reticular	false	false
+NICRNS	NAD metabolism	false	false
+NMNAT	NAD metabolism	false	false
+NMNATn	NAD metabolism	false	false
+NMNHYD	UNMAPPED_PATHWAY	false	false
+NMNS	NAD metabolism	false	false
+NNATn	NAD metabolism	false	false
+NNATr	NAD metabolism	false	false
+NNMT	NAD metabolism	false	false
+NORANMT	Tyrosine metabolism	false	false
+NP1	NAD metabolism	false	false
+NRPPHRSFt	Transport, extracellular	false	false
+NRPPHRSULT	Tyrosine metabolism	false	false
+NRVNCABCt	Transport, extracellular	false	false
+NRVNCCOAtx	Transport, peroxisomal	false	false
+NRVNCt	Transport, extracellular	false	false
+NT5C	NAD metabolism	false	false
+NTD1	Pyrimidine catabolism	false	false
+NTD10	Nucleotide interconversion	false	false
+NTD11	Purine catabolism	false	false
+NTD1m	Nucleotide interconversion	false	false
+NTD2	Pyrimidine catabolism	false	false
+NTD2e	Nucleotide interconversion	false	false
+NTD2l	Pyrimidine catabolism	false	false
+NTD3	Pyrimidine catabolism	false	false
+NTD4	Pyrimidine catabolism	false	false
+NTD4l	Pyrimidine catabolism	false	false
+NTD5	Pyrimidine catabolism	false	false
+NTD5l	Pyrimidine catabolism	false	false
+NTD5m	Nucleotide interconversion	false	false
+NTD6	Nucleotide interconversion	false	false
+NTD7	Nucleotide interconversion	false	false
+NTD7e	Nucleotide interconversion	false	false
+NTD7l	Purine catabolism	false	false
+NTD8	Nucleotide interconversion	false	false
+NTD9	Nucleotide interconversion	false	false
+NTD9l	Purine catabolism	false	false
+NTPP2	Purine catabolism	false	false
+NaKt_1	Transport, extracellular	false	false
+O2Stm	Transport, mitochondrial	false	false
+O2Stx	Transport, peroxisomal	false	false
+O2t	Transport, extracellular	false	false
+O2ter	Transport, endoplasmic reticular	false	false
+O2tm	Transport, mitochondrial	false	false
+O2tp	Transport, peroxisomal	false	false
+OAADC	Miscellaneous	false	false
+OCCOAtm	Transport, mitochondrial	false	false
+OCCOAtx	Transport, peroxisomal	false	false
+OCD11COACPT1_1	Fatty acid oxidation	false	false
+OCD11CRNCACT	Fatty acid oxidation	false	false
+OCD11CRNCPT2_1	Fatty acid oxidation	false	false
+OCOAT1m	Valine, leucine, and isoleucine metabolism	false	false
+OCT11EFATP_1	Fatty acid oxidation	false	false
+OCTDEC2ACBP	Fatty acid oxidation	false	false
+OCTDECCACT	Fatty acid oxidation	false	false
+OCTDECCPT2	Fatty acid oxidation	false	false
+ODECOAtx	Transport, peroxisomal	false	false
+OIVD1m	Valine, leucine, and isoleucine metabolism	false	false
+OIVD2m	Valine, leucine, and isoleucine metabolism	false	false
+OIVD3m	Valine, leucine, and isoleucine metabolism	false	false
+OMHPALTD	Fatty acid oxidation	false	false
+OMPDC	Pyrimidine synthesis	false	false
+ORNDC	Urea cycle	false	false
+ORNTArm	Urea cycle	false	false
+ORPT	Pyrimidine synthesis	false	false
+P45011A1m	Steroid metabolism	false	false
+P45019A1r	Steroid metabolism	false	false
+P45019A2r	Steroid metabolism	false	false
+P45039A1r	Bile acid synthesis	false	false
+P45046A1r	Bile acid synthesis	false	false
+P4504F122r	Eicosanoid metabolism	false	false
+P5CR	Arginine and proline metabolism	false	false
+PACALDtm	Transport, mitochondrial	false	false
+PACCOALm	Phenylalanine metabolism	false	false
+PAFABCt	Transport, extracellular	false	false
+PAFH	Glycerophospholipid metabolism	false	false
+PAFHe	Glycerophospholipid metabolism	false	false
+PAFS	Glycerophospholipid metabolism	false	false
+PAFt	Transport, extracellular	false	false
+PAILAR_HSPLA2	Glycerophospholipid metabolism	false	false
+PAILPALM_HSPLA2	Glycerophospholipid metabolism	false	false
+PAILPALM_HSSECt	Transport, extracellular	false	false
+PAILR_HSSECt	Transport, extracellular	false	false
+PAIL_hs_SECt	Transport, extracellular	false	false
+PAPStg	UNMAPPED_PATHWAY	false	false
+PAPtg	UNMAPPED_PATHWAY	false	false
+PA_HStm	Transport, mitochondrial	false	false
+PCFLOPm	Transport, mitochondrial	false	false
+PCHLN225_HSABCt	Transport, extracellular	false	false
+PCHLN225_HSt1e	Transport, extracellular	false	false
+PCHOL2LINL_HSABCt	Transport, extracellular	false	false
+PCHOL2LINL_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOL2LINL_HSt1e	Transport, extracellular	false	false
+PCHOL2OLE_HSABCt	Transport, extracellular	false	false
+PCHOL2OLE_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOL2OLE_HSt1e	Transport, extracellular	false	false
+PCHOL2PALM_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOL2PALM_HSte	Transport, extracellular	false	false
+PCHOL2STE_HSABCt	Transport, extracellular	false	false
+PCHOL2STE_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOL2STE_HSt1e	Transport, extracellular	false	false
+PCHOLAR_HSABCt	Transport, extracellular	false	false
+PCHOLAR_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLAR_HSt1e	Transport, extracellular	false	false
+PCHOLDEIC_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLDET_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLDOC_HSABCt	Transport, extracellular	false	false
+PCHOLDOC_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLDOC_HSt1e	Transport, extracellular	false	false
+PCHOLEIC_HSABCt	Transport, extracellular	false	false
+PCHOLEIC_HSt1e	Transport, extracellular	false	false
+PCHOLET_HSABCt	Transport, extracellular	false	false
+PCHOLET_HSt1e	Transport, extracellular	false	false
+PCHOLHEP_HSABCt	Transport, extracellular	false	false
+PCHOLHEP_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLHEP_HSt1e	Transport, extracellular	false	false
+PCHOLHSTDe_1	Transport, extracellular	false	false
+PCHOLLINL_HSABCt	Transport, extracellular	false	false
+PCHOLLINL_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLLINL_HSt1e	Transport, extracellular	false	false
+PCHOLMYR_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLMYR_HsABCt	Transport, extracellular	false	false
+PCHOLMYR_Hst1e	Transport, extracellular	false	false
+PCHOLN15_HSABCt	Transport, extracellular	false	false
+PCHOLN15_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLN15_HSt1e	Transport, extracellular	false	false
+PCHOLN1836_HSABCt	Transport, extracellular	false	false
+PCHOLN1836_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLN1836_HSt1e	Transport, extracellular	false	false
+PCHOLN183_HSABCt	Transport, extracellular	false	false
+PCHOLN183_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLN183_HSt1e	Transport, extracellular	false	false
+PCHOLN19_HSABCt	Transport, extracellular	false	false
+PCHOLN19_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLN19_HSt1e	Transport, extracellular	false	false
+PCHOLN201_HSABCt	Transport, extracellular	false	false
+PCHOLN201_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLN201_HSt1e	Transport, extracellular	false	false
+PCHOLN203_HSABCt	Transport, extracellular	false	false
+PCHOLN203_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLN203_HSt1e	Transport, extracellular	false	false
+PCHOLN204_HSABCt	Transport, extracellular	false	false
+PCHOLN204_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLN204_HSt1e	Transport, extracellular	false	false
+PCHOLN205_HSABCt	Transport, extracellular	false	false
+PCHOLN205_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLN205_HSt1e	Transport, extracellular	false	false
+PCHOLN224_HSABCt	Transport, extracellular	false	false
+PCHOLN224_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLN224_HSt1e	Transport, extracellular	false	false
+PCHOLN2254_HSABCt	Transport, extracellular	false	false
+PCHOLN2254_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLN2254_HSt1e	Transport, extracellular	false	false
+PCHOLN225_HSABCt	Transport, extracellular	false	false
+PCHOLN225_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLN225_HSt1e	Transport, extracellular	false	false
+PCHOLN226_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLN24_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLN261_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLN261_HSte	Transport, extracellular	false	false
+PCHOLN264_HSABCt	Transport, extracellular	false	false
+PCHOLN264_HSt1e	Transport, extracellular	false	false
+PCHOLN281_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLN281_HSte	Transport, extracellular	false	false
+PCHOLN28_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLN28_HSte	Transport, extracellular	false	false
+PCHOLOLE_HSABCt	Transport, extracellular	false	false
+PCHOLOLE_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLOLE_HSt1e	Transport, extracellular	false	false
+PCHOLPALME_HSABCt	Transport, extracellular	false	false
+PCHOLPALME_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLPALME_HSt1e	Transport, extracellular	false	false
+PCHOLPALM_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLSTE_HSABCt	Transport, extracellular	false	false
+PCHOLSTE_HSPLA2	Glycerophospholipid metabolism	false	false
+PCHOLSTE_HSt1e	Transport, extracellular	false	false
+PCHOL_HSter	Transport, endoplasmic reticular	false	false
+PCHOL_HStg	UNMAPPED_PATHWAY	false	false
+PCREATtmdiffir	Urea cycle	false	false
+PCRNtm	Fatty acid oxidation	false	false
+PDE1	Nucleotide interconversion	false	false
+PDE4	Nucleotide interconversion	false	false
+PDHm	Glycolysis/gluconeogenesis	true	true
+PE12_HSABCt	Transport, extracellular	false	false
+PE12_HSt1e	Transport, extracellular	false	false
+PE14_HSABCt	Transport, extracellular	false	false
+PE14_HSt1e	Transport, extracellular	false	false
+PE15_HSABCt	Transport, extracellular	false	false
+PE15_HSt1e	Transport, extracellular	false	false
+PE161_HSABCt	Transport, extracellular	false	false
+PE161_HSt1e	Transport, extracellular	false	false
+PE17_HSABCt	Transport, extracellular	false	false
+PE17_HSt1e	Transport, extracellular	false	false
+PE203_HSABCt	Transport, extracellular	false	false
+PE203_HSPLA2	Glycerophospholipid metabolism	false	false
+PE203_HSt1e	Transport, extracellular	false	false
+PE224_HSPLA2	Glycerophospholipid metabolism	false	false
+PE224_HSte	Transport, extracellular	false	false
+PE226_HSABCt	Transport, extracellular	false	false
+PE226_HSPLA2	Glycerophospholipid metabolism	false	false
+PE226_HSt1e	Transport, extracellular	false	false
+PE2LINL_HSABCt	Transport, extracellular	false	false
+PE2LINL_HSPLA2	Glycerophospholipid metabolism	false	false
+PE2LINL_HSt1e	Transport, extracellular	false	false
+PEAMNO	Phenylalanine metabolism	false	false
+PEAR_HSABCt	Transport, extracellular	false	false
+PEAR_HSPLA2	Glycerophospholipid metabolism	false	false
+PEAR_HSt1e	Transport, extracellular	false	false
+PEDH12_HSPLA2	Glycerophospholipid metabolism	false	false
+PEDH13_HSPLA2	Glycerophospholipid metabolism	false	false
+PEDH14_HSPLA2	Glycerophospholipid metabolism	false	false
+PEDH15_HSPLA2	Glycerophospholipid metabolism	false	false
+PEDH161_HSPLA2	Glycerophospholipid metabolism	false	false
+PEDH17_HSPLA2	Glycerophospholipid metabolism	false	false
+PEDH203_HSABCt	Transport, extracellular	false	false
+PEDH203_HSPLA2	Glycerophospholipid metabolism	false	false
+PEDH203_HSt1e	Transport, extracellular	false	false
+PEHSFABPe	Transport, endoplasmic reticular	false	false
+PELINL_HSABCt	Transport, extracellular	false	false
+PELINL_HSPLA2	Glycerophospholipid metabolism	false	false
+PELINL_HSt1e	Transport, extracellular	false	false
+PELPALM_HSABCt	Transport, extracellular	false	false
+PELPALM_HSt1e	Transport, extracellular	false	false
+PEOLE_HSABCt	Transport, extracellular	false	false
+PEOLE_HSPLA2	Glycerophospholipid metabolism	false	false
+PEOLE_HSt1e	Transport, extracellular	false	false
+PEPALM_HSASBCt	Transport, extracellular	false	false
+PEPALM_HSPLA2	Glycerophospholipid metabolism	false	false
+PEPALM_HSt1e	Transport, extracellular	false	false
+PESTE_HSABCt	Transport, extracellular	false	false
+PETHCT	Glycerophospholipid metabolism	false	false
+PETOHMm_hs	Glycerophospholipid metabolism	false	false
+PETOHMr_hs	Glycerophospholipid metabolism	false	false
+PE_HStm	Transport, mitochondrial	false	false
+PEt	Transport, extracellular	false	false
+PFK	Glycolysis/gluconeogenesis	true	true
+PGCD	Glycine, serine, alanine, and threonine metabolism	false	false
+PGDI	Eicosanoid metabolism	false	false
+PGDIr	Eicosanoid metabolism	false	false
+PGESc	Eicosanoid metabolism	false	false
+PGI	Glycolysis/gluconeogenesis	true	true
+PGK	Glycolysis/gluconeogenesis	true	true
+PGL	Pentose phosphate pathway	false	false
+PGLYCt	Transport, extracellular	false	false
+PGLYCtm	Transport, mitochondrial	false	false
+PGLc	Pentose phosphate pathway	false	false
+PGM	Glycolysis/gluconeogenesis	true	true
+PGMT	Glycolysis/gluconeogenesis	true	true
+PGPPT	Glycerophospholipid metabolism	false	false
+PGPP_hs	Glycerophospholipid metabolism	false	false
+PGP_hs_tm	Transport, mitochondrial	false	false
+PGS	Eicosanoid metabolism	false	false
+PGSr	Eicosanoid metabolism	false	false
+PHACCOAGLYACm	Phenylalanine metabolism	false	false
+PHCDm	Arginine and proline metabolism	false	false
+PHEACGLYsec	Transport, extracellular	false	false
+PHEACGLYtm	Transport, mitochondrial	false	false
+PHEASNMETt	Transport, extracellular	false	false
+PHEASPt	Transport, extracellular	false	false
+PHEGLNPHEt	Transport, extracellular	false	false
+PHELEUASPt	Transport, extracellular	false	false
+PHELEUHISt	Transport, extracellular	false	false
+PHELEUt	Transport, extracellular	false	false
+PHELYSALAt	Transport, extracellular	false	false
+PHELYSPROt	Transport, extracellular	false	false
+PHEMEABCte	Transport, extracellular	false	false
+PHEMEtm	Transport, mitochondrial	false	false
+PHEPHEASNt	Transport, extracellular	false	false
+PHEPHETHRt	Transport, extracellular	false	false
+PHEPHEt	Transport, extracellular	false	false
+PHEPROARGt	Transport, extracellular	false	false
+PHESERTRPt	Transport, extracellular	false	false
+PHETA1	Phenylalanine metabolism	false	false
+PHETA1m	Phenylalanine metabolism	false	false
+PHETHRLYSt	Transport, extracellular	false	false
+PHETRPLEUt	Transport, extracellular	false	false
+PHETYRGLNt	Transport, extracellular	false	false
+PHETYRLYSt	Transport, extracellular	false	false
+PHETYRt	Transport, extracellular	false	false
+PHEt4	Transport, extracellular	false	false
+PHPYRtm	Transport, mitochondrial	false	false
+PHYCBOXL	Phenylalanine metabolism	false	false
+PI345P3P	Inositol phosphate metabolism	false	false
+PI345P3Pn	Inositol phosphate metabolism	false	false
+PI345P5P	Inositol phosphate metabolism	false	false
+PI34P5K	Inositol phosphate metabolism	false	false
+PI3P4K	Inositol phosphate metabolism	false	false
+PI3P5K	Inositol phosphate metabolism	false	false
+PI45P3K	Inositol phosphate metabolism	false	false
+PI45P5P	Inositol phosphate metabolism	false	false
+PI45PLC	Inositol phosphate metabolism	false	false
+PI4P3K	Inositol phosphate metabolism	false	false
+PI4P5K	Glycerophospholipid metabolism	false	false
+PI4PLC	Inositol phosphate metabolism	false	false
+PI4PLCn	Inositol phosphate metabolism	false	false
+PI5P3K	Inositol phosphate metabolism	false	false
+PI5P4K	Inositol phosphate metabolism	false	false
+PIK3	Inositol phosphate metabolism	false	false
+PIK4	Glycerophospholipid metabolism	false	false
+PIK5	Inositol phosphate metabolism	false	false
+PIPLC	Inositol phosphate metabolism	false	false
+PIPLCn	Inositol phosphate metabolism	false	false
+PIt8	Transport, extracellular	false	false
+PIter	Transport, endoplasmic reticular	false	false
+PItg	UNMAPPED_PATHWAY	false	false
+PItx	Transport, peroxisomal	false	false
+PLA2_2	Glycerophospholipid metabolism	false	false
+PLA2_2e	Glycerophospholipid metabolism	false	false
+PMANM	Fructose and mannose metabolism	false	false
+PMEVK	UNMAPPED_PATHWAY	false	false
+PMEVKx	Cholesterol metabolism	false	false
+PMI12346PH	Inositol phosphate metabolism	false	false
+PMI12346PHn	Inositol phosphate metabolism	false	false
+PMI12346PS	Inositol phosphate metabolism	false	false
+PMTCOAFABP1tc_1	Transport, endoplasmic reticular	false	false
+PMTCOAtx	Transport, peroxisomal	false	false
+PNP	NAD metabolism	false	false
+PNTK	UNMAPPED_PATHWAY	false	false
+PNTOt4	Transport, extracellular	false	false
+PPA2	Miscellaneous	false	false
+PPAP	Triacylglycerol synthesis	false	false
+PPAer	Miscellaneous	false	false
+PPAtr	Transport, extracellular	false	false
+PPBNGS	Heme synthesis	false	false
+PPCDC	UNMAPPED_PATHWAY	false	false
+PPD2CSPp	UNMAPPED_PATHWAY	false	false
+PPDOy	Pyruvate metabolism	false	true
+PPItm	Transport, mitochondrial	false	false
+PPItr	Transport, endoplasmic reticular	false	false
+PPItx	Transport, peroxisomal	false	false
+PPM	Pentose phosphate pathway	false	false
+PPM2	Pentose phosphate pathway	false	false
+PPNCL2	UNMAPPED_PATHWAY	false	false
+PPNCL3	UNMAPPED_PATHWAY	false	false
+PPP9ABCte	Transport, extracellular	false	false
+PPPGO	Heme synthesis	false	false
+PRAGSr	Purine synthesis	false	false
+PRAIS	Purine synthesis	false	false
+PRASCSi	Purine synthesis	false	false
+PRDX	Miscellaneous	false	false
+PRFGS	Purine synthesis	false	false
+PRGNLONESULT	Steroid metabolism	false	false
+PRGNLONESte	Transport, extracellular	false	false
+PRGNLONEte	Transport, extracellular	false	false
+PRGNLONEtm	Transport, mitochondrial	false	false
+PRISTANALtx	Transport, peroxisomal	false	false
+PRISTCOAtcx	Transport, peroxisomal	false	false
+PRISTtx	Transport, peroxisomal	false	false
+PRO1x	Transport, extracellular	false	false
+PROAKGOX1	Arginine and proline metabolism	false	false
+PROARGASPt	Transport, extracellular	false	false
+PROARGCYSt	Transport, extracellular	false	false
+PROASNCYSt	Transport, extracellular	false	false
+PROCYSt	Transport, extracellular	false	false
+PROD2	Arginine and proline metabolism	false	false
+PROGLNPROt	Transport, extracellular	false	false
+PROGLULYSt	Transport, extracellular	false	false
+PROHISTYRt	Transport, extracellular	false	false
+PROHISt	Transport, extracellular	false	false
+PROLEUARGt	Transport, extracellular	false	false
+PROLYSPROt	Transport, extracellular	false	false
+PROPHEt	Transport, extracellular	false	false
+PROPROARGt	Transport, extracellular	false	false
+PROPROPROt	Transport, extracellular	false	false
+PROSTGH2t	Transport, extracellular	false	false
+PROSTGI2t	Transport, extracellular	false	false
+PROTRPLYSt	Transport, extracellular	false	false
+PROTRPTHRt	Transport, extracellular	false	false
+PROVALGLNt	Transport, extracellular	false	false
+PROt4	Transport, extracellular	false	false
+PROtm	Transport, mitochondrial	false	false
+PRPPS	Pentose phosphate pathway	false	false
+PSDm_hs	Glycerophospholipid metabolism	false	false
+PSDm_hsc	Glycerophospholipid metabolism	false	false
+PSERT	Glycine, serine, alanine, and threonine metabolism	false	false
+PSFLIPm	Transport, mitochondrial	false	false
+PSP_L	Glycine, serine, alanine, and threonine metabolism	false	false
+PSSA1_hs	Glycerophospholipid metabolism	false	false
+PTDCACRNCPT2	Fatty acid oxidation	false	false
+PTDCACRNt	Fatty acid oxidation	false	false
+PTE2x	Fatty acid oxidation	false	false
+PTE3x	Fatty acid oxidation	false	false
+PTE4x	Fatty acid oxidation	false	false
+PTHPS	Tetrahydrobiopterin metabolism	false	false
+PTPATi	UNMAPPED_PATHWAY	false	false
+PTPATim	UNMAPPED_PATHWAY	false	false
+PTRCAT1	Arginine and proline metabolism	false	false
+PTRCtex2	Transport, extracellular	false	false
+PTVSTATPtu	Drug metabolism	false	false
+PTVSTGLUChc	Drug metabolism	false	false
+PTVSThc	Drug metabolism	false	false
+PTVSTtep	Drug metabolism	false	false
+PUNP1	Nucleotide interconversion	false	false
+PUNP2	Purine catabolism	false	false
+PUNP3	Purine catabolism	false	false
+PUNP4	Purine catabolism	false	false
+PUNP5	Purine catabolism	false	false
+PUNP6	Purine catabolism	false	false
+PUNP7	Nucleotide interconversion	false	false
+PVSATPtu	Drug metabolism	false	false
+PVSGLUCteb	Drug metabolism	false	false
+PVSGLUCtev	Drug metabolism	false	false
+PVStep	Drug metabolism	false	false
+PYDXNtr	Transport, extracellular	false	false
+PYK	Glycolysis/gluconeogenesis	true	true
+PYK6	Pyrimidine synthesis	false	false
+PYNP2r	Pyrimidine catabolism	false	false
+Pe13_HSABCt	Transport, extracellular	false	false
+Pe13_HSt1e	Transport, extracellular	false	false
+Q10H2e	Transport, extracellular	false	false
+R01115	Aminosugar metabolism	false	false
+R01803	Aminosugar metabolism	false	false
+R04215	Aminosugar metabolism	false	false
+RAI3	Vitamin A metabolism	false	false
+RBFK	UNMAPPED_PATHWAY	false	false
+RDH1	Vitamin A metabolism	false	false
+RDH1a	Vitamin A metabolism	false	false
+RDH2	Vitamin A metabolism	false	false
+RDH2a	Vitamin A metabolism	false	false
+RDH3	Vitamin A metabolism	false	false
+RDH3a	Vitamin A metabolism	false	false
+RDH4	Vitamin A metabolism	false	false
+RE0452M	Pyrimidine synthesis	false	false
+RE0453M	Pyrimidine synthesis	false	false
+RE0453N	Pyrimidine synthesis	false	false
+RE0456N	Pyrimidine synthesis	false	false
+RE0512M	Fatty acid oxidation	false	false
+RE0512X	Fatty acid oxidation	false	false
+RE0565C	Fatty acid synthesis	false	false
+RE0566C	Fatty acid synthesis	false	false
+RE0567C	Fatty acid synthesis	false	false
+RE0568C	Fatty acid synthesis	false	false
+RE0569C	Fatty acid synthesis	false	false
+RE0570C	Fatty acid synthesis	false	false
+RE0571C	Fatty acid synthesis	false	false
+RE0574C	Fatty acid synthesis	false	false
+RE0575C	Fatty acid synthesis	false	false
+RE0576C_1	Fatty acid synthesis	false	false
+RE0578C	Fatty acid synthesis	false	false
+RE0579C_1	Fatty acid synthesis	false	false
+RE0581C	Fatty acid synthesis	false	false
+RE0830N	Tetrahydrobiopterin metabolism	false	false
+RE0908C	Tyrosine metabolism	false	false
+RE0912C	Tyrosine metabolism	false	false
+RE0916C	Tyrosine metabolism	false	false
+RE0918C	Tyrosine metabolism	false	false
+RE1096C	Steroid metabolism	false	false
+RE1099C	Steroid metabolism	false	false
+RE1134C	Steroid metabolism	false	false
+RE1516M	Fatty acid oxidation	false	false
+RE1516X	Fatty acid oxidation	false	false
+RE1517M	Fatty acid oxidation	false	false
+RE1517X	Fatty acid oxidation	false	false
+RE1518M	Fatty acid oxidation	false	false
+RE1518X	Fatty acid oxidation	false	false
+RE1519X	Fatty acid oxidation	false	false
+RE1520M	Fatty acid oxidation	false	false
+RE1520X	Fatty acid oxidation	false	false
+RE1521M	Fatty acid oxidation	false	false
+RE1521X	Fatty acid oxidation	false	false
+RE1522M	Fatty acid oxidation	false	false
+RE1522X	Fatty acid oxidation	false	false
+RE1523M	Fatty acid oxidation	false	false
+RE1523X	Fatty acid oxidation	false	false
+RE1525M	Fatty acid oxidation	false	false
+RE1525X	Fatty acid oxidation	false	false
+RE1526M	Fatty acid oxidation	false	false
+RE1526X	Fatty acid oxidation	false	false
+RE1527M	Fatty acid oxidation	false	false
+RE1527X	Fatty acid oxidation	false	false
+RE1530M	Pyrimidine synthesis	false	false
+RE1531M	Fatty acid oxidation	false	false
+RE1531X	Fatty acid oxidation	false	false
+RE1532M	Fatty acid oxidation	false	false
+RE1532X	Fatty acid oxidation	false	false
+RE1533M	Fatty acid oxidation	false	false
+RE1533X	Fatty acid oxidation	false	false
+RE1534M	Fatty acid oxidation	false	false
+RE1534X	Fatty acid oxidation	false	false
+RE1573M	Fatty acid oxidation	false	false
+RE1573X	Fatty acid oxidation	false	false
+RE1709N	Tetrahydrobiopterin metabolism	false	false
+RE1803C	Bile acid synthesis	false	false
+RE1804M	Bile acid synthesis	false	false
+RE1807M	Bile acid synthesis	false	false
+RE1834C	Bile acid synthesis	false	false
+RE1834M	Bile acid synthesis	false	false
+RE1835C	Bile acid synthesis	false	false
+RE1836C	Bile acid synthesis	false	false
+RE1860E	Miscellaneous	false	false
+RE1915C	Tyrosine metabolism	false	false
+RE1916C	Tyrosine metabolism	false	false
+RE2112C	Bile acid synthesis	false	false
+RE2235R	UNMAPPED_PATHWAY	false	false
+RE2296C	Tyrosine metabolism	false	false
+RE2407C	Cholesterol metabolism	false	false
+RE2410C	Cholesterol metabolism	false	false
+RE2526C	Miscellaneous	false	false
+RE2624M	Fatty acid oxidation	false	false
+RE2624X	Fatty acid oxidation	false	false
+RE2625C	Bile acid synthesis	false	false
+RE2626M	Bile acid synthesis	false	false
+RE2640C	Methionine and cysteine metabolism	false	false
+RE2649M	Bile acid synthesis	false	false
+RE2655R	Vitamin A metabolism	false	false
+RE2660N	Tetrahydrobiopterin metabolism	false	false
+RE2666C_1	Glycosphingolipid metabolism	false	false
+RE2677C_1	Glycosphingolipid metabolism	false	false
+RE2677R_1	Glycosphingolipid metabolism	false	false
+RE2759X	Fatty acid oxidation	false	false
+RE2799C	Eicosanoid metabolism	false	false
+RE2814R	Bile acid synthesis	false	false
+RE2888C_1	Purine catabolism	false	false
+RE2912M	Fatty acid oxidation	false	false
+RE2985M	Fatty acid oxidation	false	false
+RE2985X	Fatty acid oxidation	false	false
+RE2986X	Fatty acid oxidation	false	false
+RE2987X	Fatty acid oxidation	false	false
+RE2988X	Fatty acid oxidation	false	false
+RE2989X	Fatty acid oxidation	false	false
+RE2990X	Fatty acid oxidation	false	false
+RE2991X	Fatty acid oxidation	false	false
+RE2992M	Fatty acid oxidation	false	false
+RE2992X	Fatty acid oxidation	false	false
+RE2993X	Fatty acid oxidation	false	false
+RE2994X	Fatty acid oxidation	false	false
+RE2996X	Fatty acid oxidation	false	false
+RE2997X	Fatty acid oxidation	false	false
+RE2998M	Fatty acid oxidation	false	false
+RE2999M	Fatty acid oxidation	false	false
+RE3000M	Fatty acid oxidation	false	false
+RE3001M	Fatty acid oxidation	false	false
+RE3002X	Fatty acid oxidation	false	false
+RE3003M	Fatty acid oxidation	false	false
+RE3004M	Fatty acid oxidation	false	false
+RE3005M	Fatty acid oxidation	false	false
+RE3006M	Fatty acid oxidation	false	false
+RE3010C	Eicosanoid metabolism	false	false
+RE3010M	Eicosanoid metabolism	false	false
+RE3011M	Eicosanoid metabolism	false	false
+RE3011R	Eicosanoid metabolism	false	false
+RE3012C	Eicosanoid metabolism	false	false
+RE3012M	Eicosanoid metabolism	false	false
+RE3012R	Eicosanoid metabolism	false	false
+RE3014R	Eicosanoid metabolism	false	false
+RE3015R	Eicosanoid metabolism	false	false
+RE3016R	Eicosanoid metabolism	false	false
+RE3017R	Eicosanoid metabolism	false	false
+RE3050R	Vitamin A metabolism	false	false
+RE3051C	Heme synthesis	false	false
+RE3052C	Heme synthesis	false	false
+RE3074X	Fatty acid oxidation	false	false
+RE3076X	Fatty acid oxidation	false	false
+RE3082X	Fatty acid oxidation	false	false
+RE3095C	Tyrosine metabolism	false	false
+RE3103C	Fatty acid oxidation	false	false
+RE3104C	Fatty acid oxidation	false	false
+RE3106C	Fatty acid oxidation	false	false
+RE3110C	Fatty acid oxidation	false	false
+RE3112C	Fatty acid oxidation	false	false
+RE3113C	Fatty acid oxidation	false	false
+RE3114R	Fatty acid oxidation	false	false
+RE3119C	Fatty acid oxidation	false	false
+RE3120C	Fatty acid oxidation	false	false
+RE3121C	Fatty acid oxidation	false	false
+RE3122C	Fatty acid oxidation	false	false
+RE3132R	Fatty acid oxidation	false	false
+RE3134C	Cholesterol metabolism	false	false
+RE3146R	Fatty acid oxidation	false	false
+RE3151C	Fatty acid oxidation	false	false
+RE3152C	Fatty acid oxidation	false	false
+RE3153C	Fatty acid oxidation	false	false
+RE3154C	Fatty acid oxidation	false	false
+RE3156X	Fatty acid oxidation	false	false
+RE3160R	Fatty acid oxidation	false	false
+RE3161C	Fatty acid oxidation	false	false
+RE3162C	Fatty acid oxidation	false	false
+RE3163C	Fatty acid oxidation	false	false
+RE3164C	Fatty acid oxidation	false	false
+RE3165C	Fatty acid oxidation	false	false
+RE3166C	Fatty acid oxidation	false	false
+RE3167C	Fatty acid oxidation	false	false
+RE3168C	Fatty acid oxidation	false	false
+RE3169C	Fatty acid oxidation	false	false
+RE3170C	Fatty acid oxidation	false	false
+RE3171C	Fatty acid oxidation	false	false
+RE3172C	Fatty acid oxidation	false	false
+RE3173C	Fatty acid oxidation	false	false
+RE3174C	Fatty acid oxidation	false	false
+RE3176C	Fatty acid oxidation	false	false
+RE3177M	Fatty acid oxidation	false	false
+RE3178M	Fatty acid oxidation	false	false
+RE3179M	Fatty acid oxidation	false	false
+RE3185M	Fatty acid oxidation	false	false
+RE3186M	Fatty acid oxidation	false	false
+RE3189M	Fatty acid oxidation	false	false
+RE3190M	Fatty acid oxidation	false	false
+RE3191M	Fatty acid oxidation	false	false
+RE3192M	Fatty acid oxidation	false	false
+RE3193M	Fatty acid oxidation	false	false
+RE3194M	Fatty acid oxidation	false	false
+RE3218C	UNMAPPED_PATHWAY	false	false
+RE3224C	Fatty acid synthesis	false	false
+RE3225C	Fatty acid synthesis	false	false
+RE3226C	Fatty acid synthesis	false	false
+RE3227C	Fatty acid synthesis	false	false
+RE3228C	Fatty acid synthesis	false	false
+RE3229C	Fatty acid synthesis	false	false
+RE3230C	Fatty acid synthesis	false	false
+RE3231C	Fatty acid synthesis	false	false
+RE3232C	Fatty acid synthesis	false	false
+RE3234C	Fatty acid synthesis	false	false
+RE3235C	Fatty acid synthesis	false	false
+RE3236C	Fatty acid synthesis	false	false
+RE3238C	Fatty acid synthesis	false	false
+RE3239C	Fatty acid synthesis	false	false
+RE3241C	Fatty acid synthesis	false	false
+RE3242C	Fatty acid synthesis	false	false
+RE3243C	Fatty acid synthesis	false	false
+RE3244C	Fatty acid synthesis	false	false
+RE3247M	Fatty acid oxidation	false	false
+RE3247X	Fatty acid oxidation	false	false
+RE3307C	Eicosanoid metabolism	false	false
+RE3346C	Bile acid synthesis	false	false
+RE3346M	Bile acid synthesis	false	false
+RE3430C_1	Eicosanoid metabolism	false	false
+RE3430M	Eicosanoid metabolism	false	false
+RE3432C	Eicosanoid metabolism	false	false
+RE3432M	Eicosanoid metabolism	false	false
+RE3470C	UNMAPPED_PATHWAY	false	false
+RE3476C	UNMAPPED_PATHWAY	false	false
+RE3488R	Eicosanoid metabolism	false	false
+RE3496C	Eicosanoid metabolism	false	false
+RE3520E	UNMAPPED_PATHWAY	false	false
+RE3525M	UNMAPPED_PATHWAY	false	false
+RE3597C	Eicosanoid metabolism	false	false
+RE3597M	Eicosanoid metabolism	false	false
+RE3624M	Fatty acid oxidation	false	false
+RE3626M	Fatty acid oxidation	false	false
+RE3628M	Fatty acid oxidation	false	false
+RNDR1	Nucleotide interconversion	false	false
+RNDR2	Nucleotide interconversion	false	false
+RNDR3	Nucleotide interconversion	false	false
+RNDR4	Nucleotide interconversion	false	false
+RNMK	NAD metabolism	false	false
+RNTR1	Nucleotide interconversion	false	false
+RNTR2	Nucleotide interconversion	false	false
+RNTR3	Nucleotide interconversion	false	false
+RNTR4	Nucleotide interconversion	false	false
+RPEc	Pentose phosphate pathway	false	false
+RPI	Pentose phosphate pathway	false	false
+RSVATPtu	Drug metabolism	false	false
+RSVSPONhc	Drug metabolism	false	false
+RSVtev	Drug metabolism	false	false
+RTOTAL2t	Transport, extracellular	false	false
+RTOTAL3CRNCPT2	Fatty acid oxidation	false	false
+RTOTAL3CRNt	Fatty acid oxidation	false	false
+RTOTALt	Transport, extracellular	false	false
+R_group_phosphotase_1	Miscellaneous	false	false
+R_group_phosphotase_2	Miscellaneous	false	false
+Rtotaltl	UNMAPPED_PATHWAY	false	false
+S23T2g	UNMAPPED_PATHWAY	false	false
+S23T4g	UNMAPPED_PATHWAY	false	false
+S2T1g	Chondroitin synthesis	false	false
+S2T2g	Chondroitin synthesis	false	false
+S2T3g	Chondroitin synthesis	false	false
+S2T4g	Chondroitin synthesis	false	false
+S2TASE1ly	UNMAPPED_PATHWAY	false	false
+S2TASE2ly	UNMAPPED_PATHWAY	false	false
+S2TASE3ly	Chondroitin sulfate degradation	false	false
+S2TASE4ly	Chondroitin sulfate degradation	false	false
+S2TASE5ly	Chondroitin sulfate degradation	false	false
+S3T1g	Chondroitin synthesis	false	false
+S3T2g	Chondroitin synthesis	false	false
+S3T3g	Chondroitin synthesis	false	false
+S3TASE1ly	UNMAPPED_PATHWAY	false	false
+S3TASE2ly	UNMAPPED_PATHWAY	false	false
+S3TASE3ly	UNMAPPED_PATHWAY	false	false
+S4T1g	Chondroitin synthesis	false	false
+S4T2g	Chondroitin synthesis	false	false
+S4T3g	Chondroitin synthesis	false	false
+S4T4g	Chondroitin synthesis	false	false
+S4T6g	Chondroitin synthesis	false	false
+S4TASE1ly	Chondroitin sulfate degradation	false	false
+S4TASE2ly	Chondroitin sulfate degradation	false	false
+S4TASE3ly	Chondroitin sulfate degradation	false	false
+S4TASE4ly	Chondroitin sulfate degradation	false	false
+S4TASE5ly	Chondroitin sulfate degradation	false	false
+S6T16g	UNMAPPED_PATHWAY	false	false
+S6T17g	UNMAPPED_PATHWAY	false	false
+S6T18g	UNMAPPED_PATHWAY	false	false
+S6T19g	Chondroitin synthesis	false	false
+S6T1g	UNMAPPED_PATHWAY	false	false
+S6T20g	Chondroitin synthesis	false	false
+S6T21g	Chondroitin synthesis	false	false
+S6T23g	Chondroitin synthesis	false	false
+S6T25g	Chondroitin synthesis	false	false
+S6T2g	UNMAPPED_PATHWAY	false	false
+S6T3g	UNMAPPED_PATHWAY	false	false
+S6TASE10ly	Keratan sulfate degradation	false	false
+S6TASE11ly	Keratan sulfate degradation	false	false
+S6TASE12ly	Keratan sulfate degradation	false	false
+S6TASE13ly	Keratan sulfate degradation	false	false
+S6TASE14ly	Keratan sulfate degradation	false	false
+S6TASE15ly	Keratan sulfate degradation	false	false
+S6TASE16ly	Keratan sulfate degradation	false	false
+S6TASE17ly	Keratan sulfate degradation	false	false
+S6TASE18ly	Keratan sulfate degradation	false	false
+S6TASE19ly	Keratan sulfate degradation	false	false
+S6TASE1ly	UNMAPPED_PATHWAY	false	false
+S6TASE20ly	Keratan sulfate degradation	false	false
+S6TASE21ly	Keratan sulfate degradation	false	false
+S6TASE22ly	Keratan sulfate degradation	false	false
+S6TASE23ly	Keratan sulfate degradation	false	false
+S6TASE24ly	Keratan sulfate degradation	false	false
+S6TASE25ly	Keratan sulfate degradation	false	false
+S6TASE26ly	Keratan sulfate degradation	false	false
+S6TASE2ly	UNMAPPED_PATHWAY	false	false
+S6TASE3ly	UNMAPPED_PATHWAY	false	false
+S6TASE4ly	Chondroitin sulfate degradation	false	false
+S6TASE5ly	Chondroitin sulfate degradation	false	false
+S6TASE6ly	Chondroitin sulfate degradation	false	false
+S6TASE7ly	Chondroitin sulfate degradation	false	false
+S6TASE8ly	Chondroitin sulfate degradation	false	false
+S6TASE9ly	Chondroitin sulfate degradation	false	false
+SACCD3m	UNMAPPED_PATHWAY	false	false
+SACCD4m	UNMAPPED_PATHWAY	false	false
+SADT	Nucleotide interconversion	false	false
+SALMCOM	Tyrosine metabolism	false	false
+SALMCOM2	Tyrosine metabolism	false	false
+SAMHISTA	UNMAPPED_PATHWAY	false	false
+SARCOXp	Glycine, serine, alanine, and threonine metabolism	false	false
+SARCStp	Transport, peroxisomal	false	false
+SBPP1	Sphingolipid metabolism	false	false
+SBPP3	Sphingolipid metabolism	false	false
+SBTD_D2	Fructose and mannose metabolism	false	false
+SBTR	Fructose and mannose metabolism	false	false
+SCP21cx	Transport, peroxisomal	false	false
+SCP21x	Transport, peroxisomal	false	false
+SCP22x	Transport, peroxisomal	false	false
+SCP2x_1	Bile acid synthesis	false	false
+SCP3x	Bile acid synthesis	false	false
+SCPx	Bile acid synthesis	false	false
+SEBCOACROT	Fatty acid oxidation	false	false
+SELMETHt2e	Transport, extracellular	false	false
+SELMETHte	Transport, extracellular	false	false
+SERALANaEx	Transport, extracellular	false	false
+SERARGALAt	Transport, extracellular	false	false
+SERARGTRPt	Transport, extracellular	false	false
+SERASNNaEx	Transport, extracellular	false	false
+SERCYSARGt	Transport, extracellular	false	false
+SERCYSNaEx	Transport, extracellular	false	false
+SERDGLNexR	Transport, extracellular	false	false
+SERDGLYexR	Transport, extracellular	false	false
+SERGLNNaEx	Transport, extracellular	false	false
+SERGLNexR	Transport, extracellular	false	false
+SERGLYGLUt	Transport, extracellular	false	false
+SERGLYexR	Transport, extracellular	false	false
+SERHL	Glycine, serine, alanine, and threonine metabolism	false	false
+SERLYSHISt	Transport, extracellular	false	false
+SERPHELYSt	Transport, extracellular	false	false
+SERPT	Sphingolipid metabolism	false	false
+SERTHRNaEx	Transport, extracellular	false	false
+SERTRPHISt	Transport, extracellular	false	false
+SERt4	Transport, extracellular	false	false
+SFGTHi	Tyrosine metabolism	false	false
+SGPL12r	Sphingolipid metabolism	false	false
+SIAASE3ly	Keratan sulfate degradation	false	false
+SIAASE4ly	Keratan sulfate degradation	false	false
+SIAT4Bg	Sphingolipid metabolism	false	false
+SIAT9g	Sphingolipid metabolism	false	false
+SLDx	Methionine and cysteine metabolism	false	false
+SMO	Cholesterol metabolism	false	false
+SMOX	UNMAPPED_PATHWAY	false	false
+SMPD3g	Sphingolipid metabolism	false	false
+SMPD3l	Sphingolipid metabolism	false	false
+SMPD4	Sphingolipid metabolism	false	false
+SMS1	Glycerophospholipid metabolism	false	false
+SMS10	Glycerophospholipid metabolism	false	false
+SMS11	Glycerophospholipid metabolism	false	false
+SMS12	Glycerophospholipid metabolism	false	false
+SMS13	Glycerophospholipid metabolism	false	false
+SMS14	Glycerophospholipid metabolism	false	false
+SMS15	Glycerophospholipid metabolism	false	false
+SMS16	Glycerophospholipid metabolism	false	false
+SMS1S2	Sphingolipid metabolism	false	false
+SMS2	Glycerophospholipid metabolism	false	false
+SMS3	Glycerophospholipid metabolism	false	false
+SMS4	Glycerophospholipid metabolism	false	false
+SMS5	Glycerophospholipid metabolism	false	false
+SMS6	Glycerophospholipid metabolism	false	false
+SMS7	Glycerophospholipid metabolism	false	false
+SMS8	Glycerophospholipid metabolism	false	false
+SMS9	Glycerophospholipid metabolism	false	false
+SMVACIDATPteb	Drug metabolism	false	false
+SMVACIDhep	Drug metabolism	false	false
+SMVGLUChep	Drug metabolism	false	false
+SMVHYDROhep	Drug metabolism	false	false
+SMVtu	Drug metabolism	false	false
+SMVtv	Drug metabolism	false	false
+SO4CLtex2	Transport, extracellular	false	false
+SO4OXAtex2	Transport, extracellular	false	false
+SO4tl	UNMAPPED_PATHWAY	false	false
+SOAT12	Cholesterol metabolism	false	false
+SPHGNSte	Transport, extracellular	false	false
+SPHGNtr	Transport, endoplasmic reticular	false	false
+SPHINGStl	UNMAPPED_PATHWAY	false	false
+SPHK11	Sphingolipid metabolism	false	false
+SPHK21c	Sphingolipid metabolism	false	false
+SPHMYLN180241_hs_ATPt	Transport, extracellular	false	false
+SPHMYLN18114_hs_ATPt	Transport, extracellular	false	false
+SPHMYLN18115_hs_ATPt	Transport, extracellular	false	false
+SPHMYLN181161_hs_ATPt	Transport, extracellular	false	false
+SPHMYLN18116_hs_ATPt	Transport, extracellular	false	false
+SPHMYLN18117_hs_ATPt	Transport, extracellular	false	false
+SPHMYLN181181_hs_ATPt	Transport, extracellular	false	false
+SPHMYLN18118_hs_ATPt	Transport, extracellular	false	false
+SPHMYLN181201_hs_ATPt	Transport, extracellular	false	false
+SPHMYLN18120_hs_ATPt	Transport, extracellular	false	false
+SPHMYLN18121_hs_ATPt	Transport, extracellular	false	false
+SPHMYLN181221_hs_ATPt	Transport, extracellular	false	false
+SPHMYLN18122_hs_ATPt	Transport, extracellular	false	false
+SPHMYLN18123_hs_ATPt	Transport, extracellular	false	false
+SPHMYLN1824_hs_ATPt	Transport, extracellular	false	false
+SPHMYLN1825_hs_ATPt	Transport, extracellular	false	false
+SPHMYLN_HsATPte	Transport, extracellular	false	false
+SPHMYLNtg	UNMAPPED_PATHWAY	false	false
+SPHMYLNtl	UNMAPPED_PATHWAY	false	false
+SPHPL	Sphingolipid metabolism	false	false
+SPHS1Ptr	Transport, endoplasmic reticular	false	false
+SPMDtex2	Transport, extracellular	false	false
+SPMS	Urea cycle	false	false
+SPODM	ROS detoxification	false	false
+SPODMm	ROS detoxification	false	false
+SPODMn	ROS detoxification	false	false
+SPODMx	ROS detoxification	false	false
+SPR	Tetrahydrobiopterin metabolism	false	false
+SPRMS	Urea cycle	false	false
+SPTc	Glycine, serine, alanine, and threonine metabolism	false	false
+SQLEr	Cholesterol metabolism	false	false
+SQLSr	Cholesterol metabolism	false	false
+SQLte	Transport, extracellular	false	false
+SR5AR2r	Steroid metabolism	false	false
+ST3GAL21g	Sphingolipid metabolism	false	false
+ST3GAL22g	Sphingolipid metabolism	false	false
+ST3GAL23g	Sphingolipid metabolism	false	false
+ST3GAL61g	UNMAPPED_PATHWAY	false	false
+ST3GAL62g	UNMAPPED_PATHWAY	false	false
+ST6GALNAC21	Sphingolipid metabolism	false	false
+ST6GALNAC22	Sphingolipid metabolism	false	false
+ST6GALNAC27	Sphingolipid metabolism	false	false
+ST6GALNAC28	Sphingolipid metabolism	false	false
+ST6GALNAC31_1	Sphingolipid metabolism	false	false
+ST8SIA12	Sphingolipid metabolism	false	false
+ST8SIA51g	Sphingolipid metabolism	false	false
+ST8SIA52g	Sphingolipid metabolism	false	false
+STCOAtx	Transport, peroxisomal	false	false
+STRDNCCOAtxc	Transport, peroxisomal	false	false
+STRDNCCPT1	Fatty acid oxidation	false	false
+STRDNCCPT2	Fatty acid oxidation	false	false
+STRDNCCRNt	Fatty acid oxidation	false	false
+STS1	Steroid metabolism	false	false
+STS2	Steroid metabolism	false	false
+STS3	Steroid metabolism	false	false
+STS4	Steroid metabolism	false	false
+SUBERCACT	Fatty acid oxidation	false	false
+SUBERCROT	Fatty acid oxidation	false	false
+SUCCACT	Fatty acid oxidation	false	false
+SUCCCROT	Fatty acid oxidation	false	false
+SUCD1m	Citric acid cycle	false	true
+SUCOAS1m	Citric acid cycle	false	true
+SUCOASm	Citric acid cycle	false	true
+SULFOX	Methionine and cysteine metabolism	false	false
+Ser_Thrtg	UNMAPPED_PATHWAY	false	false
+T4HCINNMFM	UNMAPPED_PATHWAY	false	false
+T4HCINNMtm	Transport, mitochondrial	false	false
+TACRtu	Drug metabolism	false	false
+TALA	Pentose phosphate pathway	false	false
+TAUBETAtc	Transport, extracellular	false	false
+TAURt4_2_r	Transport, extracellular	false	false
+TCA3Sabc	Transport, extracellular	false	false
+TCA3St	Transport, extracellular	false	false
+TCDCA3Sabc	Transport, extracellular	false	false
+TCDCA3St	Transport, extracellular	false	false
+TDCA3Sabc	Transport, extracellular	false	false
+TDCA3St	Transport, extracellular	false	false
+TETPENT3CPT2	Fatty acid oxidation	false	false
+TETPENT3CRNt	Fatty acid oxidation	false	false
+TETPENT6CPT2	Fatty acid oxidation	false	false
+TETPENT6CRNt	Fatty acid oxidation	false	false
+TETTET6CPT2	Fatty acid oxidation	false	false
+TETTET6CRNt	Fatty acid oxidation	false	false
+THBPT4ACAMDASE	Tetrahydrobiopterin metabolism	false	false
+THBPTt	Transport, extracellular	false	false
+THCRMtl	UNMAPPED_PATHWAY	false	false
+THD1m	NAD metabolism	false	false
+THEXDDm	Fatty acid oxidation	false	false
+THEXDDte	Transport, extracellular	false	false
+THEXDDtm	Transport, mitochondrial	false	false
+THFATm	Folate metabolism	false	false
+THFtl	UNMAPPED_PATHWAY	false	false
+THFtm	Transport, mitochondrial	false	false
+THMDt2	Transport, extracellular	false	false
+THP2Ctp	Transport, peroxisomal	false	false
+THRALANaEx	Transport, extracellular	false	false
+THRARGTYRt	Transport, extracellular	false	false
+THRASNNaEx	Transport, extracellular	false	false
+THRASNTYRt	Transport, extracellular	false	false
+THRCYSNaEx	Transport, extracellular	false	false
+THRGLNGLUt	Transport, extracellular	false	false
+THRGLNNaEx	Transport, extracellular	false	false
+THRGLNTYRt	Transport, extracellular	false	false
+THRGLNexR	Transport, extracellular	false	false
+THRGLYexR	Transport, extracellular	false	false
+THRHISHISt	Transport, extracellular	false	false
+THRILEARGt	Transport, extracellular	false	false
+THRMETARGt	Transport, extracellular	false	false
+THRPHEARGt	Transport, extracellular	false	false
+THRSERARGt	Transport, extracellular	false	false
+THRSERNaEx	Transport, extracellular	false	false
+THRTHRARGt	Transport, extracellular	false	false
+THRTYRMETt	Transport, extracellular	false	false
+THRt4	Transport, extracellular	false	false
+THYMDt1	Transport, extracellular	false	false
+THYMDtl	UNMAPPED_PATHWAY	false	false
+THYMDtm	Transport, mitochondrial	false	false
+TKT1	Pentose phosphate pathway	false	false
+TKT2	Pentose phosphate pathway	false	false
+TMDK1	Nucleotide interconversion	false	false
+TMDS	Nucleotide interconversion	false	false
+TMNDNCCPT1	Fatty acid oxidation	false	false
+TMNDNCCPT2	Fatty acid oxidation	false	false
+TMNDNCCRNt	Fatty acid oxidation	false	false
+TPI	Glycolysis/gluconeogenesis	true	true
+TRDR	Nucleotide interconversion	false	false
+TRDR2	Miscellaneous	false	false
+TRDR3	Miscellaneous	false	false
+TRIODTHYSULT	Tyrosine metabolism	false	false
+TRIOK	Fructose and mannose metabolism	false	false
+TRIPVSteb	Drug metabolism	false	false
+TRIPVStev	Drug metabolism	false	false
+TRPALAPROt	Transport, extracellular	false	false
+TRPARGALAt	Transport, extracellular	false	false
+TRPASPASPt	Transport, extracellular	false	false
+TRPGLNGLNt	Transport, extracellular	false	false
+TRPGLUGLYt	Transport, extracellular	false	false
+TRPGLULEUt	Transport, extracellular	false	false
+TRPGLUPROt	Transport, extracellular	false	false
+TRPGLUTYRt	Transport, extracellular	false	false
+TRPGLYASPt	Transport, extracellular	false	false
+TRPGLYLEUt	Transport, extracellular	false	false
+TRPGLYPHEt	Transport, extracellular	false	false
+TRPGLYVALt	Transport, extracellular	false	false
+TRPHISMETt	Transport, extracellular	false	false
+TRPILELYSt	Transport, extracellular	false	false
+TRPILETRPt	Transport, extracellular	false	false
+TRPLEUVALt	Transport, extracellular	false	false
+TRPLYSt	Transport, extracellular	false	false
+TRPMETARGt	Transport, extracellular	false	false
+TRPMETVALt	Transport, extracellular	false	false
+TRPPHEt	Transport, extracellular	false	false
+TRPPROGLYt	Transport, extracellular	false	false
+TRPPROLEUt	Transport, extracellular	false	false
+TRPPROVALt	Transport, extracellular	false	false
+TRPSERTYRt	Transport, extracellular	false	false
+TRPTHRGLUt	Transport, extracellular	false	false
+TRPTHRILEt	Transport, extracellular	false	false
+TRPTHRTYRt	Transport, extracellular	false	false
+TRPTYRGLNt	Transport, extracellular	false	false
+TRPTYRTYRt	Transport, extracellular	false	false
+TRPVALASPt	Transport, extracellular	false	false
+TRYPTAOX	Tryptophan metabolism	false	false
+TSTSTERONESULT	Steroid metabolism	false	false
+TSTSTERONESte	Transport, extracellular	false	false
+TSTSTERONEtr	Transport, endoplasmic reticular	false	false
+TTCCOAtx	Transport, peroxisomal	false	false
+TTDCPT1	Fatty acid oxidation	false	false
+TTDCPT2	Fatty acid oxidation	false	false
+TTDCRNt	Fatty acid oxidation	false	false
+TUDCA3Sabc	Transport, extracellular	false	false
+TUDCA3St	Transport, extracellular	false	false
+TYMSFt	Transport, extracellular	false	false
+TYMSULT	Tyrosine metabolism	false	false
+TYMc	Tyrosine metabolism	false	false
+TYR3MO2	Tyrosine metabolism	false	false
+TYRALAPHEt	Transport, extracellular	false	false
+TYRALAt	Transport, extracellular	false	false
+TYRARGGLUt	Transport, extracellular	false	false
+TYRARGSERt	Transport, extracellular	false	false
+TYRASPARGt	Transport, extracellular	false	false
+TYRCBOX	Tyrosine metabolism	false	false
+TYRCYSGLYt	Transport, extracellular	false	false
+TYRCYSTHRt	Transport, extracellular	false	false
+TYRGLUt	Transport, extracellular	false	false
+TYRLEUARGt	Transport, extracellular	false	false
+TYROXDAc	Tyrosine metabolism	false	false
+TYRPHETYRt	Transport, extracellular	false	false
+TYRTA	Tyrosine metabolism	false	false
+TYRTAim	Tyrosine metabolism	false	false
+TYRTHRt	Transport, extracellular	false	false
+TYRTRPPHEt	Transport, extracellular	false	false
+TYRTYRt	Transport, extracellular	false	false
+TYRVALMETt	Transport, extracellular	false	false
+UAG2EMA	Aminosugar metabolism	false	false
+UAG4Ei	Aminosugar metabolism	false	false
+UAGALDP	Aminosugar metabolism	false	false
+UAGDP	Aminosugar metabolism	false	false
+UDCA3Sabc	Transport, extracellular	false	false
+UDCA3St	Transport, extracellular	false	false
+UDPACGALtl	UNMAPPED_PATHWAY	false	false
+UDPG4E	Galactose metabolism	false	false
+UDPGALtg	UNMAPPED_PATHWAY	false	false
+UDPGLCAtg	UNMAPPED_PATHWAY	false	false
+UDPGLCter	Transport, endoplasmic reticular	false	false
+UDPGNP	Pentose phosphate pathway	false	false
+UDPXYLter	Transport, endoplasmic reticular	false	false
+UDPXYLtg	UNMAPPED_PATHWAY	false	false
+UDPtl	UNMAPPED_PATHWAY	false	false
+UGALGTg	Galactose metabolism	false	false
+UGALNACtg	UNMAPPED_PATHWAY	false	false
+UGCG	Sphingolipid metabolism	false	false
+UGLCNACtg	UNMAPPED_PATHWAY	false	false
+UGLT	Galactose metabolism	false	false
+UMPK	Nucleotide interconversion	false	false
+UMPK2	Nucleotide interconversion	false	false
+UMPK2n	Nucleotide interconversion	false	false
+UMPK3	Nucleotide interconversion	false	false
+UMPK3n	Nucleotide interconversion	false	false
+UMPK4	Nucleotide interconversion	false	false
+UMPK4n	Nucleotide interconversion	false	false
+UMPK5	Nucleotide interconversion	false	false
+UMPK5n	Nucleotide interconversion	false	false
+UMPK6	Nucleotide interconversion	false	false
+UMPK6n	Nucleotide interconversion	false	false
+UMPK7	Nucleotide interconversion	false	false
+UMPK7n	Nucleotide interconversion	false	false
+UMPKn	Nucleotide interconversion	false	false
+UMPtr	Transport, endoplasmic reticular	false	false
+UNK3	Methionine and cysteine metabolism	false	false
+UPP3S	Heme synthesis	false	false
+UPPDC1	Heme synthesis	false	false
+UREAt	Transport, extracellular	false	false
+URIDK2m	Nucleotide interconversion	false	false
+URIK1	Pyrimidine synthesis	false	false
+URIK2	Purine synthesis	false	false
+URIt	Transport, extracellular	false	false
+Uritl	UNMAPPED_PATHWAY	false	false
+VACCCPT1	Fatty acid oxidation	false	false
+VACCCPT2	Transport, mitochondrial	false	false
+VACCt	Transport, extracellular	false	false
+VALARGGLYt	Transport, extracellular	false	false
+VALHISASNt	Transport, extracellular	false	false
+VALLAT1tc	Transport, extracellular	false	false
+VALLEUPHEt	Transport, extracellular	false	false
+VALLYSTYRt	Transport, extracellular	false	false
+VALPHEARGt	Transport, extracellular	false	false
+VALPROTRPt	Transport, extracellular	false	false
+VALSERARGt	Transport, extracellular	false	false
+VALTA	Valine, leucine, and isoleucine metabolism	false	false
+VALTRPPHEt	Transport, extracellular	false	false
+VALTRPVALt	Transport, extracellular	false	false
+VALVALt	Transport, extracellular	false	false
+VANILPYRc	Tyrosine metabolism	false	false
+VLCSp	Bile acid synthesis	false	false
+VLCSr	Bile acid synthesis	false	false
+XOL24OHte	Transport, extracellular	false	false
+XOL24OHtr	Transport, endoplasmic reticular	false	false
+XOL7AONEtr	Transport, endoplasmic reticular	false	false
+XOLEST183CEH	Cholesterol metabolism	false	false
+XOLEST183te	Transport, extracellular	false	false
+XOLEST183tl	UNMAPPED_PATHWAY	false	false
+XOLEST2te	Transport, extracellular	false	false
+XOLESTte	Transport, extracellular	false	false
+XOLTRI24tc	Transport, endoplasmic reticular	false	false
+XOLTRI24te	Transport, extracellular	false	false
+XSERtg	UNMAPPED_PATHWAY	false	false
+XYLR	Pentose phosphate pathway	false	false
+XYLTD_D	Pentose phosphate pathway	false	false
+XYLTer	Chondroitin synthesis	false	false
+XYLTt	Transport, extracellular	false	false
+XYLUR	Pentose phosphate pathway	false	false
+XYLtly	UNMAPPED_PATHWAY	false	false
+pac	Transport, extracellular	false	false
+q10h2tc	Transport, mitochondrial	false	false
+q10tm	Transport, mitochondrial	false	false
+r0002	Transport, endoplasmic reticular	false	false
+r0009	Purine catabolism	false	false
+r0016	Miscellaneous	false	false
+r0023	Miscellaneous	false	false
+r0027	Methionine and cysteine metabolism	false	false
+r0047	Purine catabolism	false	false
+r0082	Miscellaneous	false	false
+r0083	Miscellaneous	false	false
+r0084	Miscellaneous	false	false
+r0085	Urea cycle	false	false
+r0086	Urea cycle	false	false
+r0139	Pyrimidine catabolism	false	false
+r0142	Methionine and cysteine metabolism	false	false
+r0149	Pyrimidine catabolism	false	false
+r0156	Urea cycle	false	false
+r0157	Urea cycle	false	false
+r0166	Pyrimidine catabolism	false	false
+r0170	Cholesterol metabolism	false	false
+r0173	Glycolysis/gluconeogenesis	true	true
+r0181	Purine catabolism	false	false
+r0191	Fructose and mannose metabolism	false	false
+r0193	Methionine and cysteine metabolism	false	false
+r0196	Miscellaneous	false	false
+r0202	Glycolysis/gluconeogenesis	true	true
+r0242	Miscellaneous	false	false
+r0246	Miscellaneous	false	false
+r0249	Pentose phosphate pathway	false	false
+r0281	Methionine and cysteine metabolism	false	false
+r0283	UNMAPPED_PATHWAY	false	false
+r0287	Fatty acid oxidation	false	false
+r0308	Fatty acid oxidation	false	false
+r0310	Fatty acid oxidation	false	false
+r0311	Fatty acid oxidation	false	false
+r0317	Miscellaneous	false	false
+r0340	Miscellaneous	false	false
+r0354	Glycolysis/gluconeogenesis	true	true
+r0355	Glycolysis/gluconeogenesis	true	true
+r0357	Fructose and mannose metabolism	false	false
+r0358	Fructose and mannose metabolism	false	false
+r0383	Miscellaneous	false	false
+r0385	Miscellaneous	false	false
+r0386	Miscellaneous	false	false
+r0393	Miscellaneous	false	false
+r0398	Tetrahydrobiopterin metabolism	false	false
+r0402	Tetrahydrobiopterin metabolism	false	false
+r0403	Tetrahydrobiopterin metabolism	false	false
+r0407	Miscellaneous	false	false
+r0408	Miscellaneous	false	false
+r0409	Miscellaneous	false	false
+r0410	Pyrimidine catabolism	false	false
+r0422	Miscellaneous	false	false
+r0423	Miscellaneous	false	false
+r0424	Miscellaneous	false	false
+r0425	Miscellaneous	false	false
+r0426	Miscellaneous	false	false
+r0431_1	Fatty acid oxidation	false	false
+r0432_1	Fatty acid oxidation	false	false
+r0434	Fatty acid oxidation	false	false
+r0437	Fatty acid oxidation	false	false
+r0438	Fatty acid oxidation	false	false
+r0440	Fatty acid oxidation	false	false
+r0444	Fatty acid oxidation	false	false
+r0450	UNMAPPED_PATHWAY	false	false
+r0451	Miscellaneous	false	false
+r0463	Cholesterol metabolism	false	false
+r0480	Glycerophospholipid metabolism	false	false
+r0483	Pyrimidine catabolism	false	false
+r0494	Pyrimidine catabolism	false	false
+r0497	Pyrimidine catabolism	false	false
+r0509	Citric acid cycle	false	true
+r0510	Miscellaneous	false	false
+r0511	Miscellaneous	false	false
+r0512	Folate metabolism	false	false
+r0514	Folate metabolism	false	false
+r0517	Miscellaneous	false	false
+r0525	UNMAPPED_PATHWAY	false	false
+r0541	Tryptophan metabolism	false	false
+r0546	Miscellaneous	false	false
+r0548	Miscellaneous	false	false
+r0555	Miscellaneous	false	false
+r0557	Miscellaneous	false	false
+r0568	Glutathione metabolism	false	false
+r0571	Valine, leucine, and isoleucine metabolism	false	false
+r0575	Cholesterol metabolism	false	false
+r0579	UNMAPPED_PATHWAY	false	false
+r0596	UNMAPPED_PATHWAY	false	false
+r0603	Valine, leucine, and isoleucine metabolism	false	false
+r0604	Miscellaneous	false	false
+r0610	Miscellaneous	false	false
+r0611	Miscellaneous	false	false
+r0627	Miscellaneous	false	false
+r0633	Fatty acid oxidation	false	false
+r0636	Fatty acid oxidation	false	false
+r0637	Fatty acid oxidation	false	false
+r0642	Miscellaneous	false	false
+r0643	Valine, leucine, and isoleucine metabolism	false	false
+r0652_1	Fatty acid oxidation	false	false
+r0655	Valine, leucine, and isoleucine metabolism	false	false
+r0656	Miscellaneous	false	false
+r0669	Valine, leucine, and isoleucine metabolism	false	false
+r0670	Miscellaneous	false	false
+r0672	Bile acid synthesis	false	false
+r0673	Tetrahydrobiopterin metabolism	false	false
+r0688	Bile acid synthesis	false	false
+r0698	Bile acid synthesis	false	false
+r0706	Bile acid synthesis	false	false
+r0714_1	Fatty acid oxidation	false	false
+r0716_1	Miscellaneous	false	false
+r0721	Fatty acid oxidation	false	false
+r0730	Fatty acid oxidation	false	false
+r0731	Fatty acid oxidation	false	false
+r0732	Fatty acid oxidation	false	false
+r0733	Fatty acid oxidation	false	false
+r0734	Fatty acid oxidation	false	false
+r0739	Bile acid synthesis	false	false
+r0743	Bile acid synthesis	false	false
+r0744	Bile acid synthesis	false	false
+r0752	Miscellaneous	false	false
+r0753	Miscellaneous	false	false
+r0754	Miscellaneous	false	false
+r0755	Miscellaneous	false	false
+r0756	Miscellaneous	false	false
+r0757	Miscellaneous	false	false
+r0774	Miscellaneous	false	false
+r0779	Miscellaneous	false	false
+r0782	Aminosugar metabolism	false	false
+r0783	Cholesterol metabolism	false	false
+r0786	Sphingolipid metabolism	false	false
+r0788	Sphingolipid metabolism	false	false
+r0789	Sphingolipid metabolism	false	false
+r0812	Purine catabolism	false	false
+r0818	Pyruvate metabolism	false	true
+r0830	Transport, mitochondrial	false	false
+r0840	Transport, endoplasmic reticular	false	false
+r0841	Transport, endoplasmic reticular	false	false
+r0853	Purine catabolism	false	false
+r0860	Purine catabolism	false	false
+r0870	Transport, extracellular	false	false
+r0879	Transport, extracellular	false	false
+r0892	Transport, extracellular	false	false
+r0899	Transport, extracellular	false	false
+r0915	Transport, mitochondrial	false	false
+r0926	Transport, mitochondrial	false	false
+r0927	Transport, mitochondrial	false	false
+r0934	Transport, peroxisomal	false	false
+r0942	Transport, extracellular	false	false
+r0950	Transport, mitochondrial	false	false
+r0954	Transport, peroxisomal	false	false
+r0960	Transport, endoplasmic reticular	false	false
+r0961	Transport, extracellular	false	false
+r0962	Transport, mitochondrial	false	false
+r0963	Transport, extracellular	false	false
+r0990	Transport, peroxisomal	false	false
+r0995	Transport, endoplasmic reticular	false	false
+r0997	Transport, peroxisomal	false	false
+r0998	Transport, endoplasmic reticular	false	false
+r0999	Transport, peroxisomal	false	false
+r1000	Transport, endoplasmic reticular	false	false
+r1002	Transport, endoplasmic reticular	false	false
+r1003	Transport, peroxisomal	false	false
+r1005	Transport, mitochondrial	false	false
+r1013	Transport, endoplasmic reticular	false	false
+r1014	Transport, peroxisomal	false	false
+r1019	Transport, peroxisomal	false	false
+r1020	Transport, mitochondrial	false	false
+r1051	Transport, endoplasmic reticular	false	false
+r1052	UNMAPPED_PATHWAY	false	false
+r1078	Transport, mitochondrial	false	false
+r1106	Transport, extracellular	false	false
+r1116	Transport, extracellular	false	false
+r1117	Transport, mitochondrial	false	false
+r1134	Miscellaneous	false	false
+r1148	Transport, peroxisomal	false	false
+r1150	UNMAPPED_PATHWAY	false	false
+r1164	Miscellaneous	false	false
+r1165	Miscellaneous	false	false
+r1166	Miscellaneous	false	false
+r1167	Miscellaneous	false	false
+r1168	Miscellaneous	false	false
+r1169	Miscellaneous	false	false
+r1170	Miscellaneous	false	false
+r1171	Miscellaneous	false	false
+r1172	Miscellaneous	false	false
+r1174	Miscellaneous	false	false
+r1175	Miscellaneous	false	false
+r1177	Miscellaneous	false	false
+r1179	Miscellaneous	false	false
+r1181	Miscellaneous	false	false
+r1182	Miscellaneous	false	false
+r1183	Miscellaneous	false	false
+r1251	Fatty acid oxidation	false	false
+r1252	Fatty acid oxidation	false	false
+r1253	Fatty acid oxidation	false	false
+r1254	Fatty acid oxidation	false	false
+r1255	Fatty acid oxidation	false	false
+r1257	Fatty acid oxidation	false	false
+r1259	Fatty acid oxidation	false	false
+r1260	Fatty acid oxidation	false	false
+r1262	Fatty acid oxidation	false	false
+r1292	Transport, peroxisomal	false	false
+r1298	UNMAPPED_PATHWAY	false	false
+r1303	Transport, endoplasmic reticular	false	false
+r1304	UNMAPPED_PATHWAY	false	false
+r1318	Transport, endoplasmic reticular	false	false
+r1364	UNMAPPED_PATHWAY	false	false
+r1365	UNMAPPED_PATHWAY	false	false
+r1367	UNMAPPED_PATHWAY	false	false
+r1368	UNMAPPED_PATHWAY	false	false
+r1378	Miscellaneous	false	false
+r1380	Cholesterol metabolism	false	false
+r1382_1	Folate metabolism	false	false
+r1383_1	Folate metabolism	false	false
+r1384	Nucleotide interconversion	false	false
+r1428	Transport, peroxisomal	false	false
+r1435	Transport, mitochondrial	false	false
+r1444	Fatty acid oxidation	false	false
+r1446	Miscellaneous	false	false
+r1447	Fatty acid oxidation	false	false
+r1448	Fatty acid oxidation	false	false
+r1449	Fatty acid oxidation	false	false
+r1450	Fatty acid oxidation	false	false
+r1451	Fatty acid oxidation	false	false
+r1456	Transport, mitochondrial	false	false
+r1457	Sphingolipid metabolism	false	false
+r1467	Transport, mitochondrial	false	false
+r1468	Transport, mitochondrial	false	false
+r1472	Fatty acid oxidation	false	false
+r1474	Fatty acid oxidation	false	false
+r1477	Fatty acid oxidation	false	false
+r1481	Fatty acid oxidation	false	false
+r1487	Fatty acid oxidation	false	false
+r1520	Transport, extracellular	false	false
+r1530	Transport, extracellular	false	false
+r1531_1	Transport, extracellular	false	false
+r1532_1	Transport, extracellular	false	false
+r1533_1	Transport, extracellular	false	false
+r1540	Transport, extracellular	false	false
+r1544	Transport, extracellular	false	false
+r1546	Transport, extracellular	false	false
+r1547	Transport, extracellular	false	false
+r1548	Transport, extracellular	false	false
+r1549	Transport, extracellular	false	false
+r1551	Transport, extracellular	false	false
+r1552	Transport, extracellular	false	false
+r1553	Transport, extracellular	false	false
+r1554	Transport, extracellular	false	false
+r1556	Transport, extracellular	false	false
+r1557	Transport, extracellular	false	false
+r1559	Transport, extracellular	false	false
+r1560	Transport, extracellular	false	false
+r1561	Transport, extracellular	false	false
+r1562	Transport, extracellular	false	false
+r1563	Transport, extracellular	false	false
+r1564	Transport, extracellular	false	false
+r1565	Transport, extracellular	false	false
+r1566	Transport, extracellular	false	false
+r1567	Transport, extracellular	false	false
+r1568	Transport, extracellular	false	false
+r1569	Transport, extracellular	false	false
+r1570	Transport, extracellular	false	false
+r1571	Transport, extracellular	false	false
+r1573	Transport, extracellular	false	false
+r1574	Transport, extracellular	false	false
+r1575	Transport, extracellular	false	false
+r1576	Transport, extracellular	false	false
+r1578	Transport, extracellular	false	false
+r1579	Transport, extracellular	false	false
+r1580	Transport, extracellular	false	false
+r1581	Transport, extracellular	false	false
+r1583	Transport, extracellular	false	false
+r1584	Transport, extracellular	false	false
+r1585	Transport, extracellular	false	false
+r1586	Transport, extracellular	false	false
+r1587	Transport, extracellular	false	false
+r1588	Transport, extracellular	false	false
+r1589	Transport, extracellular	false	false
+r1590	Transport, extracellular	false	false
+r1591	Transport, extracellular	false	false
+r1592	Transport, extracellular	false	false
+r1593	Transport, extracellular	false	false
+r1594	Transport, extracellular	false	false
+r1595	Transport, extracellular	false	false
+r1596	Transport, extracellular	false	false
+r1597	Transport, extracellular	false	false
+r1598	Transport, extracellular	false	false
+r1599	Transport, extracellular	false	false
+r1600	Transport, extracellular	false	false
+r1602	Transport, extracellular	false	false
+r1603	Transport, extracellular	false	false
+r1604	Transport, extracellular	false	false
+r1605	Transport, extracellular	false	false
+r1606	Transport, extracellular	false	false
+r1607	Transport, extracellular	false	false
+r1608	Transport, extracellular	false	false
+r1609	Transport, extracellular	false	false
+r1610	Transport, extracellular	false	false
+r1611	Transport, extracellular	false	false
+r1612	Transport, extracellular	false	false
+r1613	Transport, extracellular	false	false
+r1614	Transport, extracellular	false	false
+r1615	Transport, extracellular	false	false
+r1616	Transport, extracellular	false	false
+r1617	Transport, extracellular	false	false
+r1621	Transport, extracellular	false	false
+r1625	Transport, extracellular	false	false
+r1627	Transport, extracellular	false	false
+r1628	Transport, extracellular	false	false
+r1629	Transport, extracellular	false	false
+r1630	Transport, extracellular	false	false
+r1631	Transport, extracellular	false	false
+r1632	Transport, extracellular	false	false
+r1633	Transport, extracellular	false	false
+r1634	Transport, extracellular	false	false
+r1635	Transport, extracellular	false	false
+r1636	Transport, extracellular	false	false
+r1637	Transport, extracellular	false	false
+r1638	Transport, extracellular	false	false
+r1639	Transport, extracellular	false	false
+r1640	Transport, extracellular	false	false
+r1641	Transport, extracellular	false	false
+r1642	Transport, extracellular	false	false
+r1643	Transport, extracellular	false	false
+r1645	Transport, extracellular	false	false
+r1646	Transport, extracellular	false	false
+r1648	Transport, extracellular	false	false
+r1649	Transport, extracellular	false	false
+r1650	Transport, extracellular	false	false
+r1651	Transport, extracellular	false	false
+r1652	Transport, extracellular	false	false
+r1653	Transport, extracellular	false	false
+r1654	Transport, extracellular	false	false
+r1655	Transport, extracellular	false	false
+r1656	Transport, extracellular	false	false
+r1657	Transport, extracellular	false	false
+r1658	Transport, extracellular	false	false
+r1659	Transport, extracellular	false	false
+r1660	Transport, extracellular	false	false
+r1661	Transport, extracellular	false	false
+r1662	Transport, extracellular	false	false
+r1670	Transport, extracellular	false	false
+r1924	Transport, extracellular	false	false
+r1992	Transport, extracellular	false	false
+r1993	Transport, extracellular	false	false
+r1995	Transport, extracellular	false	false
+r1996	Transport, extracellular	false	false
+r1997	Transport, extracellular	false	false
+r1999	Transport, extracellular	false	false
+r2002	Transport, extracellular	false	false
+r2003	Transport, extracellular	false	false
+r2007	Transport, extracellular	false	false
+r2008	Transport, extracellular	false	false
+r2010	Transport, extracellular	false	false
+r2011	Transport, extracellular	false	false
+r2019	Transport, extracellular	false	false
+r2020	Transport, extracellular	false	false
+r2021	Transport, extracellular	false	false
+r2022	Transport, extracellular	false	false
+r2023	Transport, extracellular	false	false
+r2035	Transport, extracellular	false	false
+r2116	Transport, extracellular	false	false
+r2125	Transport, extracellular	false	false
+r2193	Transport, extracellular	false	false
+r2313	Transport, extracellular	false	false
+r2318	Transport, extracellular	false	false
+r2334	Transport, extracellular	false	false
+r2335	Transport, extracellular	false	false
+r2338	Transport, extracellular	false	false
+r2354	Transport, extracellular	false	false
+r2371	Transport, mitochondrial	false	false
+r2372	Transport, mitochondrial	false	false
+r2374	Transport, mitochondrial	false	false
+r2375	Transport, mitochondrial	false	false
+r2376	Transport, mitochondrial	false	false
+r2377	Transport, mitochondrial	false	false
+r2378	Transport, mitochondrial	false	false
+r2379	Transport, mitochondrial	false	false
+r2380	Transport, mitochondrial	false	false
+r2381	Transport, mitochondrial	false	false
+r2382	Transport, mitochondrial	false	false
+r2384	Transport, mitochondrial	false	false
+r2385	Transport, mitochondrial	false	false
+r2386	Transport, mitochondrial	false	false
+r2387	Transport, mitochondrial	false	false
+r2388	Transport, mitochondrial	false	false
+r2389	Transport, mitochondrial	false	false
+r2390	Transport, mitochondrial	false	false
+r2391	Transport, mitochondrial	false	false
+r2392	Transport, mitochondrial	false	false
+r2393	Transport, mitochondrial	false	false
+r2394	Transport, mitochondrial	false	false
+r2425	Transport, mitochondrial	false	false
+r2434	Transport, mitochondrial	false	false
+r2437	Transport, mitochondrial	false	false
+r2438	Transport, mitochondrial	false	false
+r2493	Transport, extracellular	false	false
+r2494	Transport, extracellular	false	false
+r2495	Transport, extracellular	false	false
+r2497	Transport, peroxisomal	false	false
+r2502	Transport, peroxisomal	false	false
+r2508	Transport, endoplasmic reticular	false	false
+r2510	Transport, endoplasmic reticular	false	false
+r2512	Transport, endoplasmic reticular	false	false
+r2513	Transport, endoplasmic reticular	false	false
+r2514	Transport, endoplasmic reticular	false	false
+r2514m	Transport, mitochondrial	false	false
+r2517	Transport, peroxisomal	false	false
+r2518	Transport, peroxisomal	false	false
+r2519	Transport, endoplasmic reticular	false	false
+r2520	Transport, mitochondrial	false	false
+r2521	Transport, endoplasmic reticular	false	false
+r2537	Transport, endoplasmic reticular	false	false
+r2538	Transport, endoplasmic reticular	false	false
+r2539	Transport, mitochondrial	false	false

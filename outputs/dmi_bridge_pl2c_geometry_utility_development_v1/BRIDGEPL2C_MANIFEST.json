@@ -1,0 +1,48 @@
+{
+  "artifact_sha256": {
+    "BRIDGEPL2C_ANALYSIS_CONTRACT.json": "7b3525d06b73e79bf24d621462603edd38ecb88fd07f1b2a6891a372b79d14ee",
+    "BRIDGEPL2C_CONTEXT_ASSOCIATIONS.tsv": "7d5566520de95706cadf3c9cf624bf6dd2d8c05c996fa9e07b7b8a73483bcdc6",
+    "BRIDGEPL2C_DEVELOPMENT_EVALUATION_REACTION.tsv.xz": "31c140edf99187a818e1db1a0816a4fb43368674ec96863d37ff5f0a0b3af752",
+    "BRIDGEPL2C_ETA2_ENTROPY_MAP.tsv": "d0e0c0c92feeda4a625e71c0bf26fd04db55d9d2dc653f89e9114efc9f27a565",
+    "BRIDGEPL2C_FEATURE_ASSOCIATIONS.tsv": "4eb7f41e140aae52095619ff67d895558d911e30dd6985a1dd2b7446492b0dcb",
+    "BRIDGEPL2C_FEATURE_QUARTILES.tsv": "51def33bd51138cfd6aa05ae9a014f906ec830791462c3d59a4f1f462a165655",
+    "BRIDGEPL2C_QC.json": "ae7f69daa906b62eb148712412c898c5f0549a873083432af3a6dc2d5c3fcde4",
+    "BRIDGEPL2C_REACTION_SPLIT.tsv": "7dd8676508416a13f88af184110ef40e0f8d92782cd5d62b42e7006af5316e2f",
+    "BRIDGEPL2C_SOURCE_AUDIT.json": "2f5b5a19ac05703290b3006a737df774ed9f9f1feeed035db86435fec4e96819"
+  },
+  "confirmation_outcomes_analyzed": false,
+  "counts": {
+    "aggregates_defined": 495917,
+    "aggregates_no_directional_truth": 664033,
+    "confirmation_skipped": 873620,
+    "development": 2620860,
+    "directionally_useful_cases": 183605,
+    "non_tie": 1082050,
+    "pl1_all_rows": 1672000,
+    "pl1_development_rows": 1254000,
+    "truth_tie": 1538810
+  },
+  "fingerprint": {
+    "implementation_sha256": {
+      "scripts/dmi_bridge_pl2c_geometry_utility_core_v1.py": "009ba3cee43f6b1ad6a517a33357bf74bee54b3df119b1de6a907ea2761dde5d",
+      "scripts/dmi_bridge_pl2c_geometry_utility_development_v1.py": "ab8c0bb19041ff1617f08575f4798452dde1c7019760249d6b91f2490745ff5c"
+    },
+    "schema": "bridge.pl2c.geometry_utility_development.v1",
+    "source_sha256": {
+      "pl1_feature_logical_content_sha256": "46aa9f0410f89d03b020e01fefa517348faae1d55d9bfe8387ac04b39bb9ac93",
+      "pl2a_manifest_sha256": "8ae3eb60eb23614e379e38e3aa3cb72ec16c6bdb69aa9c74cc94499e31f1c312",
+      "pl2b_case_logical_content_sha256": "c3670992a0ad33698af6c7620429bed48e0ecaa98adb3c87e648eefb1ba70363",
+      "pl2b_manifest_sha256": "7d9ca97a3f4ea5aa8b0b983e09ee83fc3c82f326d1b1cbf9c6137cfadf25539d",
+      "pl2c_contract_sha256": "a2f4fb9dea857d91b7827506036abc407b2194b23814007c7c777ba7db34f471",
+      "pl2c_foundation_patch_sha256": "e84ef61e4c0d77cc8282be1f5c8e8718b8d517be78ee51be4b4805533673b73c"
+    }
+  },
+  "pl2d_confirmation_status": "UNTOUCHED",
+  "reaction_split_counts": {
+    "CONFIRMATION_HOLDOUT": 1045,
+    "DEVELOPMENT": 3135
+  },
+  "schema": "bridge.pl2c.geometry_utility_development.v1",
+  "split_registry_sha256": "7dd8676508416a13f88af184110ef40e0f8d92782cd5d62b42e7006af5316e2f",
+  "status": "PL2C_DEVELOPMENT_GEOMETRY_UTILITY_COMPLETE"
+}

@@ -1,0 +1,29 @@
+{
+  "artifact_sha256": {
+    "BRIDGEPL2D_BOOTSTRAP.tsv.xz": "4a6411b4f3066b9764bc870b322ff81382187d07858a94f4116b47874d8e6f4c",
+    "BRIDGEPL2D_CONFIRMATION_EVALUATION_REACTION.tsv.xz": "82865a9480595aa86049bd2da125ae0081e99d31dad8d98b64627d72629fc8c5",
+    "BRIDGEPL2D_CONFIRMATION_REACTION.tsv": "83acc18c9bcbcf4034d9987e1ba3fde5fd54ecd5f5d2c3dcf54dc03ac91091ea",
+    "BRIDGEPL2D_CONTEXT_RESULTS.tsv": "c063d9809ee0999ce030f7b557fc8064b53348ccda551f3175dd71ef477c744b",
+    "BRIDGEPL2D_PRIMARY_RESULT.json": "a01ca592b819ab2e6b4463bcbb91ba3bc113bd80dbde2c7aa96b505521bfa1b8",
+    "BRIDGEPL2D_QC.json": "108befc356110ced2ec19ff0fcec6fc01ce38d3d6dd5dc584f2b9f11915936ea",
+    "BRIDGEPL2D_SOURCE_AUDIT.json": "15acb94ff47906007176014358d39c76e723a6984162f0061be122e7405e1a6b",
+    "BRIDGEPL2D_SUPPORTIVE_RESULTS.json": "fbd1e8398a248eeb043e9e985c09dbdcd5d75f067168d8d35b8d18cbec2735b0"
+  },
+  "confirmation_reaction_count": 1045,
+  "confirmation_set_opened": true,
+  "fva_invoked": false,
+  "model_fitting_invoked": false,
+  "new_weights_computed": false,
+  "post_opening_feature_changes": false,
+  "post_opening_lambda_changes": false,
+  "post_opening_population_changes": false,
+  "post_opening_status_rule_changes": false,
+  "post_opening_threshold_changes": false,
+  "reaction_selection_invoked": false,
+  "reconstruction_invoked": false,
+  "sampling_invoked": false,
+  "schema": "bridge.pl2d.confirmation.v1",
+  "solver_invoked": false,
+  "source_audit_sha256": "15acb94ff47906007176014358d39c76e723a6984162f0061be122e7405e1a6b",
+  "status": "PL2D_CONFIRMED"
+}

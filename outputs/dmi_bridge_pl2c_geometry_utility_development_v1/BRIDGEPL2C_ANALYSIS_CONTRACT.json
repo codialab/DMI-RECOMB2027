@@ -1,0 +1,71 @@
+{
+  "directionally_useful": "g_correct_gt_tol_AND_information_advantage_gt_tol",
+  "forbidden": [
+    "confirmation_outcome_analysis",
+    "reaction_ranking",
+    "outcome_driven_feature_selection",
+    "outcome_driven_threshold_optimization",
+    "lambda_tuning",
+    "unrestricted_machine_learning",
+    "biological_p_values_from_reaction_or_mouse_cross_pseudoreplication",
+    "solver_or_optimization",
+    "FVA",
+    "new_flux_sampling",
+    "reconstruction",
+    "new_strong_anchor_fitting",
+    "new_flux_weights",
+    "PL1_PL2A_or_PL2B_mutation"
+  ],
+  "gain_tolerance": 1e-12,
+  "information_advantage": "g_correct_minus_g_random_equals_half_correct_minus_wrong_gap",
+  "missingness": "preserve_nonfinite_PL1_values_and_report_finite_denominators_no_zero_imputation",
+  "pathway_sensitivity": [
+    "exclude_proximal",
+    "exclude_same_subsystem",
+    "exclude_either"
+  ],
+  "permitted": [
+    "development_only_univariate_spearman",
+    "algorithm_x_rna_context_stability_summaries",
+    "outcome_blind_linear_quartile_bins",
+    "fixed_eta2_x_entropy_4x4_map",
+    "labeled_pathway_proximity_sensitivity"
+  ],
+  "pl2d_confirmation_status_on_success": "UNTOUCHED",
+  "predictor_unit": "evaluation_id_x_reaction_id",
+  "primary_continuous_secondary_response": "mean_information_advantage",
+  "primary_features": [
+    "sign_magnitude_eta2",
+    "sign_magnitude_correlation",
+    "directional_entropy3",
+    "dominant_sign_mass",
+    "n_supported_sign_states",
+    "anchor_width80_contraction",
+    "joint_ess",
+    "abs_delta_anchor_target_correlation"
+  ],
+  "primary_lambda": 0.25,
+  "primary_response": "directionally_useful_fraction_after_distinct_pair_equal_weight_aggregation",
+  "quartile_population": "all_1254000_development_PL1_predictor_rows_before_response_conditioning",
+  "reaction_split": {
+    "confirmation_outcomes_must_not_be_analyzed_in_pl2c": true,
+    "expected_confirmation": 1045,
+    "expected_development": 3135,
+    "expected_total": 4180,
+    "method": "sha256_rank_then_first_quarter_confirmation",
+    "outcomes_must_not_define_split": true,
+    "salt": "DMI-BRIDGE-PL2C-REACTION-HOLDOUT-V1"
+  },
+  "required_coverage_diagnostic": "non_tie_pair_fraction",
+  "schema": "bridge.pl2c.geometry_utility_development.v1",
+  "source_identity": {
+    "pl1_feature_logical_sha256": "46aa9f0410f89d03b020e01fefa517348faae1d55d9bfe8387ac04b39bb9ac93",
+    "pl2a_manifest_sha256": "8ae3eb60eb23614e379e38e3aa3cb72ec16c6bdb69aa9c74cc94499e31f1c312",
+    "pl2b_case_logical_sha256": "c3670992a0ad33698af6c7620429bed48e0ecaa98adb3c87e648eefb1ba70363",
+    "pl2b_manifest_sha256": "7d9ca97a3f4ea5aa8b0b983e09ee83fc3c82f326d1b1cbf9c6137cfadf25539d"
+  },
+  "split_registry_sha256": "7dd8676508416a13f88af184110ef40e0f8d92782cd5d62b42e7006af5316e2f",
+  "stage_role": "DEVELOPMENT_ONLY_FROZEN_PL1_GEOMETRY_TO_FROZEN_PL2B_UTILITY",
+  "status_on_success": "PL2C_DEVELOPMENT_GEOMETRY_UTILITY_COMPLETE",
+  "truth_pair_aggregation": "equal_weight_distinct_truth_pairs_never_alias_weighted"
+}

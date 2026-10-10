@@ -1,0 +1,45 @@
+{
+  "a1_a2_synthesis": false,
+  "a1_non_evaluable_policy": "audit support only; no A2.2 v1 reaction-B outcomes",
+  "a2_g_used": false,
+  "all_frozen_truth_pair_count": 885,
+  "context_summary_fraction_denominator": "NON_TIE_CASES",
+  "expected_case_rows_if_support_gate_passes": 3493644,
+  "gain_tol": 1e-12,
+  "geometry_utility_analysis": false,
+  "lambda_grid": [
+    0.0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "matched_truth_pair_count": 836,
+  "new_ess_threshold": false,
+  "partition_count": 128,
+  "post_holdout_policy": "remove exact frozen truth candidate then renormalize A2-L stratum weights",
+  "primary_lambda": 0.25,
+  "primary_pair_weighting": "DISTINCT_TRUTH_PAIR_ONCE",
+  "primary_population": "original A1-evaluable 836 distinct truth pairs only",
+  "primary_target": "absolute_between_condition_difference_magnitude_E_abs_delta_B",
+  "qualified_baseline": "A2-L",
+  "random_sign_control": "q=0.5 exact analytic expectation; no Monte Carlo",
+  "reaction_block_size": 64,
+  "reliability_grid": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "schema": "bridge.a22.dual_anchor_sign_only_utility.v1",
+  "stage_role": "POST_FREEZE_MATCHED_SIGN_ONLY_UTILITY_ON_A2L",
+  "strong_anchors": [
+    "HEX1",
+    "LDH_L"
+  ],
+  "target_reaction_count": 4179,
+  "tie_tol": 1e-12,
+  "truth_identity_policy": "reuse original PL2A identities; no A2-L reselection",
+  "truth_pair_alias_count": 1200,
+  "untouched_confirmation_claim": false
+}

@@ -1,0 +1,73 @@
+{
+  "amendment_scope": "minimum_finite_reactions_per_context_only",
+  "bootstrap": {
+    "gate": false,
+    "interval": "percentile_95",
+    "lower_quantile": 0.025,
+    "replicates": 5000,
+    "resampling": "reaction IDs with replacement",
+    "role": "SUPPORTIVE_COMPUTATIONAL_STABILITY_ONLY",
+    "seed": 20260929,
+    "unit": "confirmation reaction ID",
+    "upper_quantile": 0.975
+  },
+  "confirmation_geometry_utility_analysis_invoked": false,
+  "confirmation_outcomes_accessed": false,
+  "confirmation_predictor_values_accessed": false,
+  "confirmation_reaction_count": 1045,
+  "coverage_aggregation": "mean finite non_tie_pair_fraction across evaluation rows",
+  "interpretation_limits": [
+    "PL2C development statistics are discovery evidence, not confirmation",
+    "bootstrap is computational stability across reaction benchmark units, not biological replication or an independent biological confidence interval",
+    "supportive analyses cannot rescue PL2D_NOT_CONFIRMED",
+    "PL2C eta2 x entropy quartile map and entropy-Q4 group are not confirmation rules",
+    "PL2D confirmation is a computational holdout, not independent biological validation"
+  ],
+  "numerical_reference": {
+    "nonfinite_policy": "pandas.to_numeric(errors=coerce); +/-inf -> NaN; group means skip NaN",
+    "partial_spearman": "closed-form one-control partial correlation from three scipy.stats.spearmanr coefficients",
+    "reaction_mean": "pandas.DataFrame.groupby(reaction_id, sort=True).mean() on finite numeric values",
+    "spearman": "scipy.stats.spearmanr on finite paired vectors (average ranks for exact ties)"
+  },
+  "pl2d_confirmation_status": "NOT_RUN",
+  "predictor_aggregation": "mean of all finite sign_magnitude_eta2 evaluation rows, independent of response availability",
+  "primary": {
+    "context_count": 16,
+    "expected_direction": "POSITIVE",
+    "minimum_finite_reactions": 700,
+    "minimum_finite_reactions_per_context": 30,
+    "minimum_positive_contexts": 12,
+    "minimum_spearman_rho": 0.5,
+    "predictor": "mean_sign_magnitude_eta2_across_evaluations",
+    "response": "mean_directionally_useful_fraction_across_defined_evaluations",
+    "unit": "reaction"
+  },
+  "primary_feature": "sign_magnitude_eta2",
+  "primary_minimum_finite_reactions": 700,
+  "primary_minimum_positive_contexts": 12,
+  "primary_minimum_rho": 0.5,
+  "primary_response_aggregation": "mean of finite directionally_useful_fraction values from rows with defined directional response",
+  "primary_statistic": "reaction-level Spearman rho: mean_sign_magnitude_eta2 vs mean_directionally_useful_fraction",
+  "primary_unit": "reaction",
+  "reaction_split": "CONFIRMATION_HOLDOUT",
+  "schema": "bridge.pl2d_h.confirmation_contract.v1",
+  "secondary_magnitude_response_aggregation": "mean finite mean_information_advantage from rows with defined directional response",
+  "status": "FROZEN_BEFORE_CONFIRMATION",
+  "status_rule": {
+    "PL2D_CONFIRMED": "all primary support and effect requirements pass",
+    "PL2D_INSUFFICIENT_SUPPORT": "fewer than 700 finite overall reaction pairs, fewer than 16 context results, any of the 16 contexts with fewer than 30 finite reaction pairs, or non-finite overall primary Spearman rho",
+    "PL2D_NOT_CONFIRMED": "support adequate but rho < 0.50 or fewer than 12 positive contexts"
+  },
+  "supersedes_support_gate_from_manifest_sha256": "a1dd76d6b40e741e07efe64c34bc39eaad289a46bf6c870917a4f59cab688427",
+  "supportive_analyses": [
+    "eta2 vs mean information advantage: expected positive",
+    "partial Spearman eta2 vs directional usefulness controlling mean non-tie coverage: expected positive",
+    "directional entropy vs directional usefulness: expected positive",
+    "dominant sign mass vs directional usefulness: expected negative",
+    "supported sign-state count vs directional usefulness: expected positive",
+    "algorithm x RNA context-specific associations",
+    "proximal-reaction exclusion",
+    "same-subsystem-as-HEX1 exclusion",
+    "union pathway exclusion"
+  ]
+}

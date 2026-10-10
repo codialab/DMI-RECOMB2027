@@ -1,0 +1,130 @@
+{
+  "algorithm_rna_contexts": [
+    {
+      "algorithm": "CORDA",
+      "finite_reactions": 1847,
+      "rho": 0.8600130199062217,
+      "rna_context_key": "training_samples=setx1,setx2"
+    },
+    {
+      "algorithm": "CORDA",
+      "finite_reactions": 1815,
+      "rho": 0.9103389438961794,
+      "rna_context_key": "training_samples=setx1,setx2,setx3"
+    },
+    {
+      "algorithm": "CORDA",
+      "finite_reactions": 1854,
+      "rho": 0.8338866527009171,
+      "rna_context_key": "training_samples=setx1,setx3"
+    },
+    {
+      "algorithm": "CORDA",
+      "finite_reactions": 1841,
+      "rho": 0.8245290713641394,
+      "rna_context_key": "training_samples=setx2,setx3"
+    },
+    {
+      "algorithm": "GIMME",
+      "finite_reactions": 1235,
+      "rho": 0.8415382921178873,
+      "rna_context_key": "training_samples=setx1,setx2"
+    },
+    {
+      "algorithm": "GIMME",
+      "finite_reactions": 1264,
+      "rho": 0.8221691736101776,
+      "rna_context_key": "training_samples=setx1,setx2,setx3"
+    },
+    {
+      "algorithm": "GIMME",
+      "finite_reactions": 1237,
+      "rho": 0.851010397392979,
+      "rna_context_key": "training_samples=setx1,setx3"
+    },
+    {
+      "algorithm": "GIMME",
+      "finite_reactions": 1283,
+      "rho": 0.7701482463596694,
+      "rna_context_key": "training_samples=setx2,setx3"
+    },
+    {
+      "algorithm": "RIPTiDe",
+      "finite_reactions": 129,
+      "rho": 0.6503882782506072,
+      "rna_context_key": "training_samples=setx1,setx2"
+    },
+    {
+      "algorithm": "RIPTiDe",
+      "finite_reactions": 159,
+      "rho": 0.8539644295133347,
+      "rna_context_key": "training_samples=setx1,setx2,setx3"
+    },
+    {
+      "algorithm": "RIPTiDe",
+      "finite_reactions": 134,
+      "rho": 0.8388548272664911,
+      "rna_context_key": "training_samples=setx1,setx3"
+    },
+    {
+      "algorithm": "RIPTiDe",
+      "finite_reactions": 162,
+      "rho": 0.35358459498398387,
+      "rna_context_key": "training_samples=setx2,setx3"
+    },
+    {
+      "algorithm": "iMAT",
+      "finite_reactions": 1729,
+      "rho": 0.8856876259479148,
+      "rna_context_key": "training_samples=setx1,setx2"
+    },
+    {
+      "algorithm": "iMAT",
+      "finite_reactions": 1737,
+      "rho": 0.8488156412114487,
+      "rna_context_key": "training_samples=setx1,setx2,setx3"
+    },
+    {
+      "algorithm": "iMAT",
+      "finite_reactions": 1701,
+      "rho": 0.765101425670426,
+      "rna_context_key": "training_samples=setx1,setx3"
+    },
+    {
+      "algorithm": "iMAT",
+      "finite_reactions": 1726,
+      "rho": 0.8678408654629741,
+      "rna_context_key": "training_samples=setx2,setx3"
+    }
+  ],
+  "development_evaluation_reaction_rows": 1159950,
+  "development_reactions": 3135,
+  "eta2_vs_mean_information_advantage_rho": 0.3730769973633655,
+  "finite_directional_entropy3_reactions": 2716,
+  "finite_dominant_sign_mass_reactions": 2716,
+  "finite_information_advantage_reactions": 2455,
+  "finite_n_supported_sign_states_reactions": 2716,
+  "finite_partial_reactions": 2455,
+  "finite_primary_reactions": 2455,
+  "numerical_reference": {
+    "nonfinite_policy": "pandas.to_numeric(errors=coerce); +/-inf -> NaN; group means skip NaN",
+    "partial_spearman": "closed-form one-control partial correlation from three scipy.stats.spearmanr coefficients",
+    "reaction_mean": "pandas.DataFrame.groupby(reaction_id, sort=True).mean() on finite numeric values",
+    "spearman": "scipy.stats.spearmanr on finite paired vectors (average ranks for exact ties)"
+  },
+  "numerical_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "python": "3.12.3",
+    "scipy": "1.17.1"
+  },
+  "positive_algorithm_rna_contexts": 16,
+  "primary_partial_rho_controlling_non_tie_pair_fraction": 0.8356721975298953,
+  "primary_reaction_level_rho": 0.8570601823118907,
+  "schema": "bridge.pl2d_h.development_snapshot.v1",
+  "source": "BRIDGEPL2C_DEVELOPMENT_EVALUATION_REACTION.tsv.xz",
+  "status": "FROZEN_VALUES_REPRODUCED",
+  "supportive_directional_entropy3_rho": 0.8102865680476654,
+  "supportive_dominant_sign_mass_rho": -0.7966029638193884,
+  "supportive_n_supported_sign_states_rho": 0.7964386893537818
+}

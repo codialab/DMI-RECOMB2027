@@ -1,0 +1,66 @@
+{
+  "artifact_sha256": {
+    "BRIDGEPL2DH_CONFIRMATION_CONTRACT.json": "ac7fa325491ab96402fc774bc3c3f3843a884fa711c8bf1104eb056390bb2054",
+    "BRIDGEPL2DH_CONFIRMATION_REGISTRY.tsv": "02a38afe3cb25b8c85a7774c1f20118ad9601ba74f0df0fbff021ba2494bd2e5",
+    "BRIDGEPL2DH_DEVELOPMENT_SNAPSHOT.json": "ebd60bbdd480ec83fe233e068a398776b4bd4ff964cc4bc6bf8c615c66cc28b8",
+    "BRIDGEPL2DH_SOURCE_AUDIT.json": "21f8ea38f331922034a869a75864b33da72455a66d7e403725cb16016d7a05c9"
+  },
+  "confirmation_geometry_utility_analysis_invoked": false,
+  "confirmation_outcomes_accessed": false,
+  "confirmation_predictor_values_accessed": false,
+  "confirmation_reaction_count": 1045,
+  "confirmation_registry_sha256": "02a38afe3cb25b8c85a7774c1f20118ad9601ba74f0df0fbff021ba2494bd2e5",
+  "fingerprint": {
+    "contract_document_sha256": "29a67cc4eacb5077514521a2c8efd36df2920d9fa11f2655004010a02a589eb1",
+    "foundation_patch_sha256": "7d74dc0f0590e5d06e6c77135f5e97fb4bbd04eb27457629d02cec8c728c57f8",
+    "implementation_sha256": {
+      "scripts/dmi_bridge_pl2d_hypothesis_freeze_core_v1.py": "0a61bfa15b547fa0a14d0a0fcebc1abdf6b873de259ad6c556dbf044d49ebd98",
+      "scripts/dmi_bridge_pl2d_hypothesis_freeze_v1.py": "4703d9bb871185ac10070ab0e6ae56e913a2daace1308c4d62c1a53e27d0c3c2"
+    },
+    "numerical_versions": {
+      "numpy": "2.3.5",
+      "pandas": "2.3.3",
+      "python": "3.12.3",
+      "scipy": "1.17.1"
+    },
+    "pl2c_artifact_sha256": {
+      "BRIDGEPL2C_ANALYSIS_CONTRACT.json": "7b3525d06b73e79bf24d621462603edd38ecb88fd07f1b2a6891a372b79d14ee",
+      "BRIDGEPL2C_CONTEXT_ASSOCIATIONS.tsv": "7d5566520de95706cadf3c9cf624bf6dd2d8c05c996fa9e07b7b8a73483bcdc6",
+      "BRIDGEPL2C_DEVELOPMENT_EVALUATION_REACTION.tsv.xz": "31c140edf99187a818e1db1a0816a4fb43368674ec96863d37ff5f0a0b3af752",
+      "BRIDGEPL2C_ETA2_ENTROPY_MAP.tsv": "d0e0c0c92feeda4a625e71c0bf26fd04db55d9d2dc653f89e9114efc9f27a565",
+      "BRIDGEPL2C_FEATURE_ASSOCIATIONS.tsv": "4eb7f41e140aae52095619ff67d895558d911e30dd6985a1dd2b7446492b0dcb",
+      "BRIDGEPL2C_FEATURE_QUARTILES.tsv": "51def33bd51138cfd6aa05ae9a014f906ec830791462c3d59a4f1f462a165655",
+      "BRIDGEPL2C_QC.json": "ae7f69daa906b62eb148712412c898c5f0549a873083432af3a6dc2d5c3fcde4",
+      "BRIDGEPL2C_REACTION_SPLIT.tsv": "7dd8676508416a13f88af184110ef40e0f8d92782cd5d62b42e7006af5316e2f",
+      "BRIDGEPL2C_SOURCE_AUDIT.json": "2f5b5a19ac05703290b3006a737df774ed9f9f1feeed035db86435fec4e96819"
+    },
+    "pl2c_manifest_sha256": "6abcf149cd6adb294c0931585cec28f992b453451a5b5f03e10b3ffb2f9b9c39"
+  },
+  "numerical_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "python": "3.12.3",
+    "scipy": "1.17.1"
+  },
+  "pl2c_artifact_sha256": {
+    "BRIDGEPL2C_ANALYSIS_CONTRACT.json": "7b3525d06b73e79bf24d621462603edd38ecb88fd07f1b2a6891a372b79d14ee",
+    "BRIDGEPL2C_CONTEXT_ASSOCIATIONS.tsv": "7d5566520de95706cadf3c9cf624bf6dd2d8c05c996fa9e07b7b8a73483bcdc6",
+    "BRIDGEPL2C_DEVELOPMENT_EVALUATION_REACTION.tsv.xz": "31c140edf99187a818e1db1a0816a4fb43368674ec96863d37ff5f0a0b3af752",
+    "BRIDGEPL2C_ETA2_ENTROPY_MAP.tsv": "d0e0c0c92feeda4a625e71c0bf26fd04db55d9d2dc653f89e9114efc9f27a565",
+    "BRIDGEPL2C_FEATURE_ASSOCIATIONS.tsv": "4eb7f41e140aae52095619ff67d895558d911e30dd6985a1dd2b7446492b0dcb",
+    "BRIDGEPL2C_FEATURE_QUARTILES.tsv": "51def33bd51138cfd6aa05ae9a014f906ec830791462c3d59a4f1f462a165655",
+    "BRIDGEPL2C_QC.json": "ae7f69daa906b62eb148712412c898c5f0549a873083432af3a6dc2d5c3fcde4",
+    "BRIDGEPL2C_REACTION_SPLIT.tsv": "7dd8676508416a13f88af184110ef40e0f8d92782cd5d62b42e7006af5316e2f",
+    "BRIDGEPL2C_SOURCE_AUDIT.json": "2f5b5a19ac05703290b3006a737df774ed9f9f1feeed035db86435fec4e96819"
+  },
+  "pl2c_manifest_sha256": "6abcf149cd6adb294c0931585cec28f992b453451a5b5f03e10b3ffb2f9b9c39",
+  "pl2c_split_registry_sha256": "7dd8676508416a13f88af184110ef40e0f8d92782cd5d62b42e7006af5316e2f",
+  "pl2d_confirmation_status": "NOT_RUN",
+  "primary_feature": "sign_magnitude_eta2",
+  "primary_minimum_finite_reactions": 700,
+  "primary_minimum_positive_contexts": 12,
+  "primary_minimum_rho": 0.5,
+  "primary_unit": "reaction",
+  "schema": "bridge.pl2d.hypothesis_freeze.v1",
+  "status": "PL2D_HYPOTHESIS_FROZEN_READY_FOR_CONFIRMATION"
+}

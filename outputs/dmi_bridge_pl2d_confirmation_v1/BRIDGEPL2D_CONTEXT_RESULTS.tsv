@@ -1,0 +1,17 @@
+algorithm	rna_context_key	total_confirmation_reactions	finite_primary_reaction_pairs	rho	rho_finite	support_gate_ge_30	evaluable	direction
+CORDA	training_samples=setx1,setx2	1045	638	0.8615709651518334	true	true	true	POSITIVE
+CORDA	training_samples=setx1,setx2,setx3	1045	622	0.91741308537842603	true	true	true	POSITIVE
+CORDA	training_samples=setx1,setx3	1045	636	0.83550871027723295	true	true	true	POSITIVE
+CORDA	training_samples=setx2,setx3	1045	625	0.80332593705463107	true	true	true	POSITIVE
+GIMME	training_samples=setx1,setx2	1045	417	0.87255496803464194	true	true	true	POSITIVE
+GIMME	training_samples=setx1,setx2,setx3	1045	427	0.8291664542264614	true	true	true	POSITIVE
+GIMME	training_samples=setx1,setx3	1045	428	0.8623055494297821	true	true	true	POSITIVE
+GIMME	training_samples=setx2,setx3	1045	428	0.75220610875680494	true	true	true	POSITIVE
+RIPTiDe	training_samples=setx1,setx2	1045	34	0.81800091515845341	true	true	true	POSITIVE
+RIPTiDe	training_samples=setx1,setx2,setx3	1045	37	0.92551289930681035	true	true	true	POSITIVE
+RIPTiDe	training_samples=setx1,setx3	1045	34	0.86304293746765481	true	true	true	POSITIVE
+RIPTiDe	training_samples=setx2,setx3	1045	39	0.27561031478816606	true	true	true	POSITIVE
+iMAT	training_samples=setx1,setx2	1045	593	0.87926156823443236	true	true	true	POSITIVE
+iMAT	training_samples=setx1,setx2,setx3	1045	593	0.8359066617099844	true	true	true	POSITIVE
+iMAT	training_samples=setx1,setx3	1045	592	0.77165246611807869	true	true	true	POSITIVE
+iMAT	training_samples=setx2,setx3	1045	588	0.86797644523939022	true	true	true	POSITIVE

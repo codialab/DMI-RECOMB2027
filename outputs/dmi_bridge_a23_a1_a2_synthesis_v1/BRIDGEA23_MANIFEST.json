@@ -1,0 +1,44 @@
+{
+  "a2_g_used": false,
+  "artifact_sha256": {
+    "BRIDGEA23_ANALYSIS_CONTRACT.json": "4d3c1d8c04c6c8c793efff33d86a7359800cda9e57bfb31c825017a7c6207290",
+    "BRIDGEA23_CONTROL_SUMMARY.tsv": "e70e9361e68cfd3e8d72eb27095a0781eb564626913951b3bbe5631d83f45cb9",
+    "BRIDGEA23_GEOMETRY_COMPARISON.tsv": "e9e0561248a231d5f9480365888a76cd8c99f6d06dd04ab4d92141601fa21f2f",
+    "BRIDGEA23_GEOMETRY_UTILITY_PERSISTENCE.tsv": "33af7c3b59a32872aee0070af10f35b72f974537bb6e1745dcc2c5fbd42afc03",
+    "BRIDGEA23_MATCHED_POPULATION_AUDIT.tsv": "9957482aec24f4b8b128e2990aa1f6aeaf507cce83600d556ec07fa4cb885d60",
+    "BRIDGEA23_QC.json": "ed502de0e91e793d4c0ed3c7a0237355ae30a0bf69d81ccde2e1a818e358ee20",
+    "BRIDGEA23_SENSITIVITY_SUMMARY.tsv": "2d33a5358ad38741660585ffbb52f68636907e825467cedaab46ad7df5a6497f",
+    "BRIDGEA23_SOURCE_AUDIT.json": "1abf7a9d575c6fddfc24178ef3b8046fb3ed4af95d8b6aea1105bd620f748a4b",
+    "BRIDGEA23_UTILITY_COMPARISON.tsv": "a59b1870d50efc87c75d3be32c5e890f0b63413e38c87a47adb65dc99f00f354"
+  },
+  "case_population": {
+    "case_keys": 3493644,
+    "reactions": 4179,
+    "truth_pairs": 836
+  },
+  "implementation_sha256": "f20eafe652d632e4064308aefd6f2d4f6aac42daae733e186a63f3b0c7d858d5",
+  "new_production_performed": false,
+  "row_counts": {
+    "BRIDGEA23_CONTROL_SUMMARY.tsv": 9,
+    "BRIDGEA23_GEOMETRY_COMPARISON.tsv": 24,
+    "BRIDGEA23_GEOMETRY_UTILITY_PERSISTENCE.tsv": 42,
+    "BRIDGEA23_MATCHED_POPULATION_AUDIT.tsv": 836,
+    "BRIDGEA23_SENSITIVITY_SUMMARY.tsv": 16,
+    "BRIDGEA23_UTILITY_COMPARISON.tsv": 3
+  },
+  "schema": "bridge.a23.manifest.v1",
+  "source_sha256": {
+    "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_MANIFEST.json": "01f8004a0bf9d5358d7ce7281e827cc1a1fbe00a6750a5c063a1edad2eedf380",
+    "outputs/dmi_bridge_a21_dual_anchor_geometry_v1/BRIDGEA21_MANIFEST.json": "db9948d7b99447a695cf8aa21429dde6d642e1fd0632bcce52643deac59e6feb",
+    "outputs/dmi_bridge_a22_dual_anchor_sign_only_utility_v1/BRIDGEA22_MANIFEST.json": "15b237151005538e5077a352868f873ef00466f4f5ea49307b781a8a8cd0e7cb",
+    "outputs/dmi_bridge_m1_manuscript_evidence_v1/BRIDGEM1_MANIFEST.json": "201ba9f4fc2f74290d991cd294aec558c5e5dd23282877e871a5c0669a44cdde",
+    "outputs/dmi_bridge_pl1_predictability_landscape_v1_resumable_v1/BRIDGEPL1_MANIFEST.json": "b0f81620ff24f5791dd964a8063416784db86a358b0464b8c68a504e84e5f529",
+    "outputs/dmi_bridge_pl2a_sign_only_prepare_v1/BRIDGEPL2A_MANIFEST.json": "8ae3eb60eb23614e379e38e3aa3cb72ec16c6bdb69aa9c74cc94499e31f1c312",
+    "outputs/dmi_bridge_pl2b_sign_only_utility_v1/BRIDGEPL2B_MANIFEST.json": "7d9ca97a3f4ea5aa8b0b983e09ee83fc3c82f326d1b1cbf9c6137cfadf25539d",
+    "outputs/dmi_bridge_pl2c_geometry_utility_development_v1/BRIDGEPL2C_MANIFEST.json": "6abcf149cd6adb294c0931585cec28f992b453451a5b5f03e10b3ffb2f9b9c39",
+    "outputs/dmi_bridge_pl2d_confirmation_v1/BRIDGEPL2D_MANIFEST.json": "9f9eb730473e7ad209c1d5ec3340808ab614087b8ae1121d929eff61be12b699",
+    "outputs/dmi_bridge_pl2d_h_support_gate_amendment_v1/BRIDGEPL2DHA_MANIFEST.json": "fb7df9e208da2e6c9841d43a3b572038e59943a4221535705eef9f5dc0ed6a3a",
+    "outputs/dmi_bridge_pl2d_hypothesis_freeze_v1/BRIDGEPL2DH_MANIFEST.json": "a1dd76d6b40e741e07efe64c34bc39eaad289a46bf6c870917a4f59cab688427"
+  },
+  "status": "BRIDGE_A23_A1_A2_SYNTHESIS_FROZEN"
+}

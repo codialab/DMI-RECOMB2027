@@ -1,0 +1,343 @@
+{
+  "aggregate_pair_multiplicity": {
+    "1": 250800,
+    "2": 357390,
+    "3": 551760
+  },
+  "confirmation_outcomes_analyzed": false,
+  "context_stability": {
+    "abs_delta_anchor_target_correlation:directionally_useful_fraction": {
+      "contexts": 16,
+      "matches_overall": 8,
+      "negative": 8,
+      "positive": 8,
+      "undefined": 0,
+      "zero": 0
+    },
+    "abs_delta_anchor_target_correlation:mean_correct_gain": {
+      "contexts": 16,
+      "matches_overall": 11,
+      "negative": 5,
+      "positive": 11,
+      "undefined": 0,
+      "zero": 0
+    },
+    "abs_delta_anchor_target_correlation:mean_information_advantage": {
+      "contexts": 16,
+      "matches_overall": 9,
+      "negative": 7,
+      "positive": 9,
+      "undefined": 0,
+      "zero": 0
+    },
+    "abs_delta_anchor_target_correlation:non_tie_pair_fraction": {
+      "contexts": 16,
+      "matches_overall": 2,
+      "negative": 1,
+      "positive": 2,
+      "undefined": 13,
+      "zero": 0
+    },
+    "anchor_width80_contraction:directionally_useful_fraction": {
+      "contexts": 16,
+      "matches_overall": 16,
+      "negative": 16,
+      "positive": 0,
+      "undefined": 0,
+      "zero": 0
+    },
+    "anchor_width80_contraction:mean_correct_gain": {
+      "contexts": 16,
+      "matches_overall": 12,
+      "negative": 12,
+      "positive": 4,
+      "undefined": 0,
+      "zero": 0
+    },
+    "anchor_width80_contraction:mean_information_advantage": {
+      "contexts": 16,
+      "matches_overall": 13,
+      "negative": 13,
+      "positive": 3,
+      "undefined": 0,
+      "zero": 0
+    },
+    "anchor_width80_contraction:non_tie_pair_fraction": {
+      "contexts": 16,
+      "matches_overall": 2,
+      "negative": 2,
+      "positive": 2,
+      "undefined": 12,
+      "zero": 0
+    },
+    "directional_entropy3:directionally_useful_fraction": {
+      "contexts": 16,
+      "matches_overall": 16,
+      "negative": 0,
+      "positive": 16,
+      "undefined": 0,
+      "zero": 0
+    },
+    "directional_entropy3:mean_correct_gain": {
+      "contexts": 16,
+      "matches_overall": 14,
+      "negative": 2,
+      "positive": 14,
+      "undefined": 0,
+      "zero": 0
+    },
+    "directional_entropy3:mean_information_advantage": {
+      "contexts": 16,
+      "matches_overall": 14,
+      "negative": 2,
+      "positive": 14,
+      "undefined": 0,
+      "zero": 0
+    },
+    "directional_entropy3:non_tie_pair_fraction": {
+      "contexts": 16,
+      "matches_overall": 16,
+      "negative": 0,
+      "positive": 16,
+      "undefined": 0,
+      "zero": 0
+    },
+    "dominant_sign_mass:directionally_useful_fraction": {
+      "contexts": 16,
+      "matches_overall": 16,
+      "negative": 16,
+      "positive": 0,
+      "undefined": 0,
+      "zero": 0
+    },
+    "dominant_sign_mass:mean_correct_gain": {
+      "contexts": 16,
+      "matches_overall": 14,
+      "negative": 14,
+      "positive": 2,
+      "undefined": 0,
+      "zero": 0
+    },
+    "dominant_sign_mass:mean_information_advantage": {
+      "contexts": 16,
+      "matches_overall": 14,
+      "negative": 14,
+      "positive": 2,
+      "undefined": 0,
+      "zero": 0
+    },
+    "dominant_sign_mass:non_tie_pair_fraction": {
+      "contexts": 16,
+      "matches_overall": 16,
+      "negative": 16,
+      "positive": 0,
+      "undefined": 0,
+      "zero": 0
+    },
+    "joint_ess:directionally_useful_fraction": {
+      "contexts": 16,
+      "matches_overall": 16,
+      "negative": 0,
+      "positive": 16,
+      "undefined": 0,
+      "zero": 0
+    },
+    "joint_ess:mean_correct_gain": {
+      "contexts": 16,
+      "matches_overall": 11,
+      "negative": 5,
+      "positive": 11,
+      "undefined": 0,
+      "zero": 0
+    },
+    "joint_ess:mean_information_advantage": {
+      "contexts": 16,
+      "matches_overall": 12,
+      "negative": 4,
+      "positive": 12,
+      "undefined": 0,
+      "zero": 0
+    },
+    "joint_ess:non_tie_pair_fraction": {
+      "contexts": 16,
+      "matches_overall": 1,
+      "negative": 1,
+      "positive": 2,
+      "undefined": 0,
+      "zero": 13
+    },
+    "n_supported_sign_states:directionally_useful_fraction": {
+      "contexts": 16,
+      "matches_overall": 16,
+      "negative": 0,
+      "positive": 16,
+      "undefined": 0,
+      "zero": 0
+    },
+    "n_supported_sign_states:mean_correct_gain": {
+      "contexts": 16,
+      "matches_overall": 13,
+      "negative": 3,
+      "positive": 13,
+      "undefined": 0,
+      "zero": 0
+    },
+    "n_supported_sign_states:mean_information_advantage": {
+      "contexts": 16,
+      "matches_overall": 13,
+      "negative": 3,
+      "positive": 13,
+      "undefined": 0,
+      "zero": 0
+    },
+    "n_supported_sign_states:non_tie_pair_fraction": {
+      "contexts": 16,
+      "matches_overall": 16,
+      "negative": 0,
+      "positive": 16,
+      "undefined": 0,
+      "zero": 0
+    },
+    "sign_magnitude_correlation:directionally_useful_fraction": {
+      "contexts": 16,
+      "matches_overall": 12,
+      "negative": 12,
+      "positive": 4,
+      "undefined": 0,
+      "zero": 0
+    },
+    "sign_magnitude_correlation:mean_correct_gain": {
+      "contexts": 16,
+      "matches_overall": 10,
+      "negative": 10,
+      "positive": 6,
+      "undefined": 0,
+      "zero": 0
+    },
+    "sign_magnitude_correlation:mean_information_advantage": {
+      "contexts": 16,
+      "matches_overall": 10,
+      "negative": 10,
+      "positive": 6,
+      "undefined": 0,
+      "zero": 0
+    },
+    "sign_magnitude_correlation:non_tie_pair_fraction": {
+      "contexts": 16,
+      "matches_overall": 2,
+      "negative": 1,
+      "positive": 2,
+      "undefined": 13,
+      "zero": 0
+    },
+    "sign_magnitude_eta2:directionally_useful_fraction": {
+      "contexts": 16,
+      "matches_overall": 16,
+      "negative": 0,
+      "positive": 16,
+      "undefined": 0,
+      "zero": 0
+    },
+    "sign_magnitude_eta2:mean_correct_gain": {
+      "contexts": 16,
+      "matches_overall": 14,
+      "negative": 2,
+      "positive": 14,
+      "undefined": 0,
+      "zero": 0
+    },
+    "sign_magnitude_eta2:mean_information_advantage": {
+      "contexts": 16,
+      "matches_overall": 14,
+      "negative": 2,
+      "positive": 14,
+      "undefined": 0,
+      "zero": 0
+    },
+    "sign_magnitude_eta2:non_tie_pair_fraction": {
+      "contexts": 16,
+      "matches_overall": 3,
+      "negative": 3,
+      "positive": 0,
+      "undefined": 13,
+      "zero": 0
+    }
+  },
+  "counts": {
+    "aggregates_defined": 495917,
+    "aggregates_no_directional_truth": 664033,
+    "confirmation_skipped": 873620,
+    "development": 2620860,
+    "directionally_useful_cases": 183605,
+    "non_tie": 1082050,
+    "pl1_all_rows": 1672000,
+    "pl1_development_rows": 1254000,
+    "truth_tie": 1538810
+  },
+  "forbidden_work": {
+    "confirmation_outcome_analysis": false,
+    "feature_selection": false,
+    "fva_invoked": false,
+    "lambda_tuning": false,
+    "new_weights_generated": false,
+    "optimization_invoked": false,
+    "reaction_ranking": false,
+    "reconstruction_invoked": false,
+    "sampling_invoked": false,
+    "solver_invoked": false
+  },
+  "map_rows": 18,
+  "maximum_information_advantage_identity_deviation": 0.0,
+  "maximum_random_sign_identity_deviation": 0.0,
+  "pl2d_confirmation_status": "UNTOUCHED",
+  "primary_coverage": {
+    "finite_count": 1159950,
+    "mean": 0.4274359526991106,
+    "median": 0.0
+  },
+  "primary_utility": {
+    "finite_count": 495917,
+    "mean": 0.1573761335062117,
+    "median": 0.0
+  },
+  "quartile_edges_from_all_development_pl1": {
+    "abs_delta_anchor_target_correlation": [
+      -0.578999741237525,
+      0.006460135362595201,
+      0.6200469480412611
+    ],
+    "anchor_width80_contraction": [
+      0.7516267452718798,
+      0.980401247425866,
+      1.0
+    ],
+    "directional_entropy3": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dominant_sign_mass": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "joint_ess": [
+      1.3332357384925004,
+      2.4894002499209194,
+      5.594497198054602
+    ],
+    "sign_magnitude_correlation": [
+      -0.2535928076056334,
+      -1.4167948626961096e-05,
+      0.15087539996875443
+    ],
+    "sign_magnitude_eta2": [
+      0.0,
+      3.7096421253323565e-30,
+      6.441427421585739e-05
+    ]
+  },
+  "schema": "bridge.pl2c.qc.v1",
+  "split_registry_sha256": "7dd8676508416a13f88af184110ef40e0f8d92782cd5d62b42e7006af5316e2f",
+  "status": "PASS"
+}

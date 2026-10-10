@@ -1,0 +1,31 @@
+{
+  "bootstrap_role": "supportive_computational_stability_only",
+  "confirmation_reactions": 1045,
+  "development_reactions": 3134,
+  "features": [
+    "sign_magnitude_eta2",
+    "sign_magnitude_correlation",
+    "directional_entropy3",
+    "dominant_sign_mass",
+    "n_supported_sign_states",
+    "anchor_width80_contraction",
+    "joint_ess",
+    "abs_delta_anchor_target_correlation"
+  ],
+  "gain_tolerance": 1e-12,
+  "paired_delta": "A2_minus_A1",
+  "predictor": "reaction_mean_sign_magnitude_eta2",
+  "primary_lambda": 0.25,
+  "primary_numerical_reference": "frozen_PL2D_H_pandas_groupby_mean_and_scipy_spearman",
+  "primary_reliability_q": 1,
+  "response": "fraction_non_tie_distinct_pairs_with_correct_gain_gt_tol_and_information_advantage_gt_tol",
+  "role": "post_freeze_descriptive_robustness_not_independent_confirmation",
+  "schema": "bridge.a23.analysis_contract.v1",
+  "truth_tie_tolerance": 1e-12,
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "python": "3.12.3",
+    "scipy": "1.17.1"
+  }
+}

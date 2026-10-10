@@ -1,0 +1,48 @@
+{
+  "bootstrap": {
+    "finite_replicates": 5000,
+    "nonfinite_replicates": 0,
+    "replicates": 5000,
+    "rho_median": 0.8354193419051692,
+    "rho_q025": 0.8015629118742916,
+    "rho_q975": 0.8631275423376382,
+    "rng": "numpy.random.Generator(PCG64)",
+    "seed": 20260929
+  },
+  "bootstrap_interpretation": "descriptive computational stability across reaction benchmark units",
+  "directional_entropy3_vs_usefulness": {
+    "finite_reactions": 910,
+    "rho": 0.8383836292673364
+  },
+  "dominant_sign_mass_vs_usefulness": {
+    "finite_reactions": 910,
+    "rho": -0.8257657485170178
+  },
+  "eta2_vs_mean_information_advantage": {
+    "finite_reactions": 838,
+    "rho": 0.34542078458252307
+  },
+  "n_supported_sign_states_vs_usefulness": {
+    "finite_reactions": 910,
+    "rho": 0.8207118788803361
+  },
+  "partial_eta2_vs_usefulness_controlling_non_tie_coverage": {
+    "finite_reactions": 838,
+    "rho": 0.8056871576315723
+  },
+  "pathway_sensitivity": {
+    "exclude_either": {
+      "finite_reactions": 816,
+      "rho": 0.8386984413243371
+    },
+    "exclude_proximal": {
+      "finite_reactions": 816,
+      "rho": 0.8386984413243371
+    },
+    "exclude_same_subsystem_as_HEX1": {
+      "finite_reactions": 829,
+      "rho": 0.8378450478802439
+    }
+  },
+  "schema": "bridge.pl2d.supportive.v1"
+}
