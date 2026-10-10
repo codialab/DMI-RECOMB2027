@@ -1,0 +1,209 @@
+{
+  "analysis_role": "POST_HOC_USING_FROZEN_DEVELOPMENT_CONFIRMATION_SPLIT_NOT_NEW_INDEPENDENT_CONFIRMATION",
+  "calibration": {
+    "bins": 5,
+    "confirmation_predictions_reused": true,
+    "models": [
+      "M1",
+      "M3",
+      "M4"
+    ]
+  },
+  "confirmation_subsystem_distribution": {
+    "A1": {
+      "max": 144,
+      "median": 7.0,
+      "min": 1,
+      "n_subsystems": 49,
+      "size_counts": {
+        "1": 6,
+        "10": 2,
+        "11": 1,
+        "12": 1,
+        "126": 1,
+        "14": 3,
+        "144": 1,
+        "17": 2,
+        "18": 1,
+        "2": 3,
+        "23": 1,
+        "28": 1,
+        "3": 4,
+        "34": 1,
+        "4": 4,
+        "43": 1,
+        "5": 1,
+        "55": 1,
+        "56": 1,
+        "59": 1,
+        "6": 6,
+        "7": 1,
+        "9": 5
+      }
+    },
+    "A2": {
+      "max": 144,
+      "median": 7.0,
+      "min": 1,
+      "n_subsystems": 49,
+      "size_counts": {
+        "1": 6,
+        "10": 1,
+        "11": 2,
+        "12": 1,
+        "129": 1,
+        "14": 3,
+        "144": 1,
+        "17": 2,
+        "18": 1,
+        "2": 3,
+        "23": 1,
+        "28": 1,
+        "3": 4,
+        "34": 1,
+        "4": 4,
+        "43": 1,
+        "5": 1,
+        "56": 2,
+        "59": 1,
+        "6": 6,
+        "7": 1,
+        "9": 5
+      }
+    }
+  },
+  "excluded_reactions": {
+    "LDH_L": "A1-only reaction excluded from the frozen matched 4,179-reaction cohort"
+  },
+  "finite_confirmation_counts": {
+    "A1": 838,
+    "A2": 843
+  },
+  "gain_model": {
+    "alpha_grid": [
+      0.01,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "clipping": false,
+    "models": {
+      "M0": "Development mean",
+      "M1": [
+        "mean_directional_entropy3"
+      ],
+      "M2": [
+        "mean_sign_magnitude_eta2"
+      ],
+      "M3": [
+        "mean_directional_entropy3",
+        "mean_non_tie_pair_fraction"
+      ],
+      "M4": [
+        "mean_directional_entropy3",
+        "mean_non_tie_pair_fraction",
+        "mean_sign_magnitude_eta2"
+      ]
+    },
+    "preprocessing": "StandardScaler fit within each training fold and final Development fit",
+    "selection": "Development-only three-fold subsystem-grouped mean validation MAE",
+    "target": "cached signed mean_correct_gain",
+    "target_aggregation": "Reuse v1 mean_correct_gain: within each evaluation, mean signed correct-cue gain across non-tie evaluable truth pairs; then arithmetic mean across finite evaluation-level values per reaction, without weighting by pair count."
+  },
+  "gain_model_support": {
+    "A1": {
+      "confirmation_n": 838,
+      "development_n": 2454,
+      "selected_alpha": {
+        "M0": null,
+        "M1": 10.0,
+        "M2": 10.0,
+        "M3": 10.0,
+        "M4": 10.0
+      }
+    },
+    "A2": {
+      "confirmation_n": 843,
+      "development_n": 2485,
+      "selected_alpha": {
+        "M0": null,
+        "M1": 0.01,
+        "M2": 10.0,
+        "M3": 10.0,
+        "M4": 10.0
+      }
+    }
+  },
+  "implementation_sha256": "91c3f1c22e2bffcc3c9fb4c7be9f0b22e3601a03285c0b2bb8bd3515d46de816",
+  "matched_cohort_reactions": 4179,
+  "output_sha256": {
+    "CALIBRATION.png": "ee3a4de083d7919cbf0f758f890dd10282e72fbe505ce2b7d245c2a0360829bd",
+    "CALIBRATION_METRICS.tsv": "c5193f31b8090313a70ad8bd828af63b9c5dd8745d919bd91dfdfb969eb5ad67",
+    "GAIN_MODEL_METRICS.tsv": "e1b7989a0afc30f4ad9107e8b2d89922849c6f94ddd99ab308081535af26781a",
+    "GAIN_PRIORITIZATION.png": "8b12f068f5086c7577605465469e9438097ce40730b71627744940eba61d5ae3",
+    "GAIN_TOP_K_METRICS.tsv": "6a1878565aa73f8e8679a3a19e20189dcb857079b596630060e23fa550c66baa",
+    "SCIENTIFIC_SUMMARY.md": "b9d0606165e4f54fdecc04b220fcd7322c0fd3c1b1242880110d67e3482cab4d",
+    "UNCERTAINTY_METRICS.tsv": "91ee37d5325009c7b358cd5de21d2e1e338dbce58a63b616614ca51a3a8efbf0",
+    "UNCERTAINTY_SUMMARY.png": "d8e4c8b7d587fc52d25a53910b23bc40c43dd426e0177fa530855fe45d3cb1fd"
+  },
+  "outputs": [
+    "UNCERTAINTY_METRICS.tsv",
+    "GAIN_MODEL_METRICS.tsv",
+    "GAIN_TOP_K_METRICS.tsv",
+    "CALIBRATION_METRICS.tsv",
+    "UNCERTAINTY_SUMMARY.png",
+    "GAIN_PRIORITIZATION.png",
+    "CALIBRATION.png",
+    "SCIENTIFIC_SUMMARY.md"
+  ],
+  "post_hoc_selection_note": "Top-k and calibration estimates use previously examined Confirmation outcomes; bootstrap intervals do not correct for selection across models, metrics, or cutoffs.",
+  "random_seeds": {
+    "bootstrap": 20271031,
+    "per_anchor_unit_offsets": {
+      "A1": 0,
+      "A2": 1,
+      "subsystem": 100
+    }
+  },
+  "ranking": {
+    "positive_mean_gain": "observed reaction mean_correct_gain > 0",
+    "tie_break": "predicted score descending, reaction_id ascending",
+    "top_fraction_selection": "ceil(fraction * finite Confirmation count)"
+  },
+  "schema": "dmi.geometry_usefulness_regression.v2",
+  "software": {
+    "matplotlib": "3.10.5",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "python": "3.12.3",
+    "scikit_learn": "1.8.0",
+    "scipy": "1.17.1"
+  },
+  "status": "POST_HOC_FOLLOW_UP_COMPLETE",
+  "uncertainty": {
+    "bootstrap_replicates": 2000,
+    "cluster_unit": "whole represented subsystems sampled with replacement",
+    "comparison": "M3 versus M4",
+    "interval": "percentile 95%",
+    "reaction_unit": "paired Confirmation reactions sampled with replacement",
+    "refit": false,
+    "seed": 20271031
+  },
+  "v1_artifact_sha256": {
+    "A1_ONLY_REACTION_AUDIT.tsv": "5fe6505d8d2f3427627cdb7c51b2442a0015e8c88ada0c03aba52a7bdf9d6eeb",
+    "CONFIRMATION_PREDICTIONS.tsv.gz": "7b36617369f53c518c4fe650210df6e61ec8ea6f320a081527a61050c8e63d5b",
+    "DEVELOPMENT_OOF_PREDICTIONS.tsv.gz": "f0e48183b08f9f1cbd441c6d1ed9db3a2abc7eec7ab0670a64cea3c76eb0ae4c",
+    "MATCHED_FOLD_ASSIGNMENTS.tsv": "1a57b849e59ff80bf836c52d3a6a38e948bdc3a5e16a5c1f01ce23dd82f405e3",
+    "MODEL_METRICS.tsv": "27eeb91c1ca94c2989af23414912a7838a587c4766775b702da7ef472727d9c0",
+    "REACTION_LEVEL_INPUT.tsv.gz": "5d998711a98cfdee590a13e0e66202b1468e0be9d6d226e883eb9e6bfbe9962d",
+    "REGRESSION_SUMMARY.png": "a34580f777fd2ebd509a4aa98d4a73c6472efaa373c87ee316e05ed43433694c",
+    "REGRESSION_SUMMARY.svg": "3c3005532f412a56c938389b1afbed6709d4030ea630c4045db38e9cd007a4c9",
+    "TOP_K_METRICS.tsv": "fcb60eda49c3e90b250008e65f70aaeafcedc9eff9583931df689a42f914667f"
+  },
+  "v1_implementation_sha256": "533cc174d9770776dfd38d6dc09549a77e1124b9ebf9e3bd8e1a29006007c471",
+  "v1_input_artifact_sha256": {
+    "CONFIRMATION_PREDICTIONS.tsv.gz": "7b36617369f53c518c4fe650210df6e61ec8ea6f320a081527a61050c8e63d5b",
+    "REACTION_LEVEL_INPUT.tsv.gz": "5d998711a98cfdee590a13e0e66202b1468e0be9d6d226e883eb9e6bfbe9962d"
+  },
+  "v1_manifest_sha256": "947115e16df545ad001253b8422ce536d0f229136db7aa15f0ce5510fdd3f3f2"
+}
