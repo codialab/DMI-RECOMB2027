@@ -1,0 +1,2 @@
+reaction_id	anchor_presence	analysis_split	subsystem	provenance
+LDH_L	A1_ONLY	DEVELOPMENT	Glycolysis/gluconeogenesis	LDH_L is the added quantitative target in A2-L and is removed from the A2 weak-target registry; excluded from the matched regression population only.

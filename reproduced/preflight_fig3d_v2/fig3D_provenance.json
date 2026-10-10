@@ -1,0 +1,29 @@
+{
+  "panel": "Figure 3D",
+  "source_tables": {
+    "fig3_pair_gain_summary.tsv": "ac5606670ee216834c5c77299630fb9e794b8fe8d372fc1e6fe4f655d92a7f6d",
+    "fig3_full_endpoint_separation.tsv": "6969cfb40a0e49c16dde26158c680ccdba5ca4b79b21d53a0fd1be2959329562"
+  },
+  "plot_script": "figures/main/fig3/plot_fig3_d.py",
+  "plot_script_sha256": "bceaabbdb9b54c5c42d818b0aac275c358718c8a1361f6e39a7f42ebc1e7b5d7",
+  "population": "Eligible reaction\u2013evaluation pairs, cases averaged within pairs; each pair receives equal weight.",
+  "endpoints": [
+    {
+      "anchor_setting": "A1",
+      "display_label": "A1 (HEX1)",
+      "n_reaction_evaluations": 660237,
+      "mean_wrong_cue_gain": -0.013746815221556536,
+      "mean_correct_cue_gain": 0.010386902810362182,
+      "correct_minus_wrong_separation": 0.024133718031918716
+    },
+    {
+      "anchor_setting": "A2-L",
+      "display_label": "A2 (HEX1 + LDH_L)",
+      "n_reaction_evaluations": 660237,
+      "mean_wrong_cue_gain": -0.030611387807699602,
+      "mean_correct_cue_gain": 0.022294329666905324,
+      "correct_minus_wrong_separation": 0.05290571747460493
+    }
+  ],
+  "units": "native GEM flux units"
+}

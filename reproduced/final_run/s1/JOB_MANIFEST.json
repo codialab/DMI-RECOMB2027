@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "plotting_sha256": "f999c568faf4a65084d59156e19fee769196651760b1133b74de39be5716a032",
+    "input_sha256": {
+      "data/figure_inputs/s1/candidate_weights.tsv": "6e2c34e0f1da709c7847f040efa3408db4b104bdab7ba5b11febcde41786256f",
+      "data/figure_inputs/s1/conditional_stratum_summary.tsv": "56f0fa4d4a6141f137e85893e5c021572cf195c657ab3b64034d3cfb577c9b01",
+      "data/figure_inputs/s1/contrast_product_support.tsv": "3c0ce26bd55d41d2e01a761c66124060493ef268b3bfbe0fdcc58b33c4c16651",
+      "data/figure_inputs/s1/global_ess_summary.tsv": "8c5024056a76cf4526f7670f4e7dd4cbc090754c2ba3d9909333e5e2be65381f",
+      "data/figure_inputs/s1/post_holdout_candidate_support.tsv": "fa3cb970af53be264e3ca951a652e22cbc013942191307a9c53d534099f0d691",
+      "data/figure_inputs/s1/post_holdout_pair_support.tsv": "65ce49fa4b2a0bd46693f8b334af7c69428dc96ece28f12b25747a3226f8dbf2",
+      "data/figure_inputs/s1/validation_summary.json": "5ea2cfa89928967c7b3fcc53963c1166c560a1d1a3dcbe0242afeb52f5f06813"
+    },
+    "versions": {
+      "numpy": "2.3.5",
+      "pandas": "2.3.3",
+      "scipy": "1.17.1",
+      "pyarrow": "25.0.1",
+      "matplotlib": "3.10.5"
+    },
+    "python": "3.12.3"
+  },
+  "output_sha256": {
+    "supp_fig1.png": "c479f1d91dcec718e40fb3ee2d66d594b0d1200c969f30abb1c0497869856d38",
+    "supp_fig1.svg": "c13aef44a8c7a0b6dd4dbc16f5615918919d9937e7b78b4bfdee4fd17c953bf9"
+  }
+}

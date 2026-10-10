@@ -1,0 +1,84 @@
+{
+  "status": "ESS20_PARITY_PASS_OUTCOME_RECOMPUTED",
+  "targets": [
+    10,
+    20,
+    40
+  ],
+  "lambda": 0.25,
+  "truth_registry_sha256": "2986c98deb6563e2c4f192ba1f77bbf0385976b42266363bcb968ca6d0cd3894",
+  "source_hashes": {
+    "outputs/secondary_anchor_exploratory/dmi_sa_six_arm_current_20260926/reconstructed/flux_cache.npz": "f9644da4ebd875cf5f0b34cc58b20faf0a0457d7c7a44635e8a010d8896c3dbb",
+    "12_recomb_method_comparison/outputs_dmi_fraction_ensemble_v2/candidate_fraction_table.tsv.xz": "421c2c1d196fbd088a4e92e2ecc998ad578aab814a025fff8e1c843597fed1da",
+    "outputs/dmi_bridge_bio0_audit_v1/BRIDGEBIO0_FOUR_ARM_WEIGHTS.tsv.xz": "843e17b7012a6fa212d1e9ac9e1dc6e309e854d94ab5c4b3f9e316b589768f4f",
+    "outputs/secondary_anchor_exploratory/dmi_sa_six_arm_current_20260926/current_candidate_observables.csv": "946cd613d673c9aa9367bce705ad5d05562c6a174acc830fbbd36cb395aa5504",
+    "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_DUAL_ANCHOR_WEIGHTS.tsv.xz": "b153e2fde45dca9573c71c548783e704313f056d0980f64af60180ad90ebc1f4",
+    "outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_MOUSE_COORDINATES.tsv": "f41d0fef703b52201de7ed8a86d888bdca28d5262ce52145bf8e53b00a81e944",
+    "outputs/dmi_bridge_pl2a_sign_only_prepare_v1/BRIDGEPL2A_TRUTH_SELECTION.tsv": "a3906367a89da57e471f5c9e7733c363e4e71b4715d5dd9c9309a46d9f8f630f",
+    "outputs/dmi_bridge_pl2a_sign_only_prepare_v1/BRIDGEPL2A_TRUTH_PAIR_REGISTRY.tsv": "2986c98deb6563e2c4f192ba1f77bbf0385976b42266363bcb968ca6d0cd3894",
+    "outputs/dmi_bridge_pl1_predictability_landscape_v1_resumable_v1/BRIDGEPL1_EVALUATION_REGISTRY.tsv": "aa468dcec11dea764682bd3d7eb14c03c003063e74d92080d0bfaabb366290a3",
+    "outputs/dmi_bridge_pl2c_geometry_utility_development_v1/BRIDGEPL2C_REACTION_SPLIT.tsv": "7dd8676508416a13f88af184110ef40e0f8d92782cd5d62b42e7006af5316e2f",
+    "outputs/dmi_bridge_a23_a1_a2_synthesis_v1/BRIDGEA23_MATCHED_POPULATION_AUDIT.tsv": "9957482aec24f4b8b128e2990aa1f6aeaf507cce83600d556ec07fa4cb885d60",
+    "outputs/dmi_bridge_pl1_predictability_landscape_v1_resumable_v1/BRIDGEPL1_MANIFEST.json": "b0f81620ff24f5791dd964a8063416784db86a358b0464b8c68a504e84e5f529",
+    "13_recomb_identifiability/outputs/sa_u1_u2_followup_20260926/current_vmax_base_weights.tsv.xz": "91121bf1251354505cde5f5ae783dc8d14bc9a22ecdf8daa06be1e5d82e3385d",
+    "13_recomb_identifiability/outputs/sa_u1_u2_followup_20260926/current_vmax_base_weights_manifest.json": "2abf9e7c4d3c922bda8c81426001c1f27c6e43f1761e9c9073e0d8ca078bd5bc",
+    "outputs/secondary_anchor_exploratory/dmi_sa_six_arm_current_20260926/reconstruct_flux_cache.py": "70c77a76a863a7ca800b7c3610175417b2720c5cbc3d4c1b6db331ec3cef1d32"
+  },
+  "code_sha256": {
+    "scripts/dmi_bridge_pl1_predictability_core_v1.py": "bdb254a4aa075870a92f503e3dd551998f924f9a8f95f7086663357c20408408",
+    "scripts/dmi_bridge_pl2_sign_only_core_v1.py": "9a32da4aa7c58ad7d9bfb29f38f37aa2a05813da4503675c3bf43c9542b0d4ce",
+    "scripts/dmi_bridge_pl2a_prepare_v1.py": "50a69a14467015d477e699bd9b642a8d18324f1069a5f793ec03eb72c31ae259",
+    "scripts/dmi_bridge_pl2b_production_v1.py": "87c79432915f12f87d6c105b5aa07c1fa55ce287ca5ad87898e333572d8525e3",
+    "scripts/dmi_bridge_a20_dual_anchor_core_v1.py": "47309b913ef6f66dfaf606fe987298c5295c441a76337281edb94ff779958f11",
+    "scripts/dmi_bridge_a21_dual_anchor_geometry_core_v1.py": "b13d0863a3c4322bfde46e725e5325618cdb9a30b7209dcd53d00f960bbd2ed6",
+    "scripts/dmi_bridge_a22_dual_anchor_sign_only_core_v1.py": "f02dc1f44aafcee5788ff28b7850950122810abd6154f12568170a4324d4c3d2",
+    "scripts/dmi_bridge_a23_a1_a2_synthesis_core_v1.py": "95ad8026ab6b5f322d8189c36002ed724a5c855cdacc694f87ee01287d9f0d52"
+  },
+  "calibration": {
+    "operator": "dmi_bridge_a20_dual_anchor_core_v1.solve_temperature_for_ess",
+    "global_pool_n": 320,
+    "targets": [
+      10,
+      20,
+      40
+    ],
+    "low": 1e-12,
+    "initial_high": 1.0,
+    "max_high": 1000000.0,
+    "geometric_bisection_iterations": 80
+  },
+  "source_root": "/home/pty/work/project_MRI_brain_tumor",
+  "note": "A1-A2 contrasts are calibration sensitivities, not isolated effects of adding a measurement.",
+  "distinct_original_truth_pairs": 836,
+  "paired_eligible_truth_pairs_by_target": {
+    "10": 428,
+    "20": 836,
+    "40": 836
+  },
+  "conditional_support_strata_by_target_arm": {
+    "10:A1": {
+      "supported": 137,
+      "total": 160
+    },
+    "10:A2": {
+      "supported": 156,
+      "total": 160
+    },
+    "20:A1": {
+      "supported": 160,
+      "total": 160
+    },
+    "20:A2": {
+      "supported": 160,
+      "total": 160
+    },
+    "40:A1": {
+      "supported": 160,
+      "total": 160
+    },
+    "40:A2": {
+      "supported": 160,
+      "total": 160
+    }
+  }
+}

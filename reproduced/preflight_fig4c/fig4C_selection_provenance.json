@@ -1,0 +1,33 @@
+{
+  "panel": "Figure 4C",
+  "selection": {
+    "candidate_group_id": "FCG_ed8b1873c8dbc03fe5eb",
+    "reaction_id": "FACOAL204",
+    "rna_context_key": "training_samples=setx1,setx3",
+    "ct2a_mouse": "C1",
+    "gl261_mouse": "G1",
+    "truth_selection": "0.90",
+    "geometry_rank_in_exported_top_100": 23,
+    "range_A2_minus_A1_H_dir_shift": 1.0854708379060045,
+    "selected_methods": [
+      "CORDA",
+      "GIMME",
+      "iMAT"
+    ],
+    "excluded_from_main_panel": {
+      "RIPTiDe": "Current manuscript assigns RIPTiDe to S7; older four-method notebook composition retained as provenance-only."
+    },
+    "selection_basis": "Existing manuscript-selected group, read from the frozen candidate group table. It is not reselected by this plotter. The frozen top-100 screen ranked by the manifest rule; the technical audit reports this group has the largest cross-method A2-L-minus-A1 entropy-shift range within the exported 100.",
+    "top_100_ranking_rule": "descending max(cross_method_range_A1_H_dir,cross_method_range_A2_H_dir); then complete finite core geometry; paired-shift finite method count; higher minimum ESS; candidate_group_id ascending"
+  },
+  "population": "400 weighted support states per selected method and anchor; A1 and A2-L plotted with frozen product weights.",
+  "source_files": {
+    "fig4_data_manifest.json": "96a5cdaa50f148ba462e88d66b02d14aa3df75299713738eafd9eb1f23dd3def",
+    "fig4_panelC_candidate_groups.parquet.xz": "c3ed7de42c909954e54c8394fffa0c789bb08ddd2834a601d78b9c33cbee6f34",
+    "fig4_panelC_candidate_metrics.parquet.xz": "1bd919cb7f0d6418e83761b1da4f6d31e0d809c6b9ba39a174d65577d98bbd65",
+    "fig4_panelC_candidate_support.parquet.xz": "f37f96f07f59bbcd1053deb9dc3fc3055d73f698920f64acfdfdfe8caf54c5dd"
+  },
+  "plot_script": "figures/main/fig4/plot_fig4_c.py",
+  "plot_script_sha256": "c03df4e2e13b52b8f7a16c85ef1d1b7e47f5a9f8a165e2f57c895182fa4846f9",
+  "binning": "30 shared bins within each method across A1 and A2-L, matching the original distribution construction."
+}

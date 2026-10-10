@@ -1,0 +1,65 @@
+{
+  "analysis": "reviewer_checks_v2",
+  "caveats": [
+    "post-hoc robustness analysis",
+    "400 evaluations are computational, not biological replicates",
+    "pathway grouping does not guarantee independence",
+    "A2 is post-freeze robustness, not independent confirmation"
+  ],
+  "deferred_experiments": {
+    "3": "Original whole candidate vectors and exact frozen candidate identities are absent; required source artifacts include the frozen 20-vector ensemble flux cache plus candidate ID/weight/truth-pair registries used by PL2A/A22.",
+    "4": "Original candidate observables, per-mouse ranks, and 320-candidate weighting inputs/registries are absent; do not infer recalibrated weights from compact summaries."
+  },
+  "input_sha256": {
+    "data/figure_inputs/fig2/figure2_DG_points.csv.xz": "aedc195237389ccd131cb983d7948483fc84ab1d0df1d88b5f1c1601577cf161",
+    "data/figure_inputs/fig3/fig3_gain_reaction_evaluation.parquet.xz": "7a83a31d29317f7b0d906fff73691428d98427d93d2fdebd4ef91294f8a46676",
+    "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=CORDA/part.parquet.xz": "0fd4d308c6d03d5ef144fb5e8c48e497e115af7bc27cdddd1010ddef4e3ba457",
+    "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=GIMME/part.parquet.xz": "f492947266440ed378540d6c0d6a40aabb8952fafef5cc728dbc8c9aa70f17ad",
+    "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=RIPTiDe/part.parquet.xz": "642fc972db1aa17854fbd631afb909fc07e9be54c7d5fdc51d23fbb60ffc2e42",
+    "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=iMAT/part.parquet.xz": "a44c629ffdc5ddcb1956d6132a8ec15d7dbb358e86b7888b512e315a73d4a070",
+    "tables/manuscript/fig2_panel_statistics.tsv": "2488bdea4236a9897f33d21023b54e6b5257ef982c80537a1177d15b607e29ff"
+  },
+  "model_specification": {
+    "alpha": 1.0,
+    "entropy_polynomial": "H_dir, H_dir^2, H_dir^3",
+    "estimator": "Ridge",
+    "folds": 5,
+    "preprocessing": "StandardScaler fit on training folds only",
+    "splitter": "GroupKFold(pathway)"
+  },
+  "pathway_bootstrap_replicates": 2000,
+  "populations": {
+    "fig2_panel_rows": {
+      "D": 2454,
+      "E": 2485,
+      "F": 838,
+      "G": 843
+    },
+    "matched_truth_pair_usefulness_evaluations_per_anchor": 370,
+    "matched_truth_pairs_for_A1_A2": 836,
+    "pathway_counts_by_panel": {
+      "D": {
+        "all": 50,
+        "mapped": 49,
+        "unmapped_reactions": 182
+      },
+      "E": {
+        "all": 50,
+        "mapped": 49,
+        "unmapped_reactions": 182
+      },
+      "F": {
+        "all": 49,
+        "mapped": 48,
+        "unmapped_reactions": 59
+      },
+      "G": {
+        "all": 49,
+        "mapped": 48,
+        "unmapped_reactions": 59
+      }
+    }
+  },
+  "reaction_bootstrap_replicates": 2000,
+  "seed": 20271027
+}

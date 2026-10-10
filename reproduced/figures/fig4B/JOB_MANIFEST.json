@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "plotting_sha256": "64354e74f53bdc81aa3c1a773a1be5ddb404e0ae8486ac22b3009c64a5b8b7c4",
+    "input_sha256": {
+      "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=iMAT/part.parquet.xz": "a44c629ffdc5ddcb1956d6132a8ec15d7dbb358e86b7888b512e315a73d4a070",
+      "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=GIMME/part.parquet.xz": "f492947266440ed378540d6c0d6a40aabb8952fafef5cc728dbc8c9aa70f17ad",
+      "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=RIPTiDe/part.parquet.xz": "642fc972db1aa17854fbd631afb909fc07e9be54c7d5fdc51d23fbb60ffc2e42",
+      "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=CORDA/part.parquet.xz": "0fd4d308c6d03d5ef144fb5e8c48e497e115af7bc27cdddd1010ddef4e3ba457",
+      "data/figure_inputs/fig4/fig4_data_manifest.json": "96a5cdaa50f148ba462e88d66b02d14aa3df75299713738eafd9eb1f23dd3def"
+    },
+    "versions": {
+      "numpy": "2.3.5",
+      "pandas": "2.3.3",
+      "scipy": "1.17.1",
+      "pyarrow": "25.0.1",
+      "matplotlib": "3.10.5"
+    },
+    "python": "3.12.3"
+  },
+  "output_sha256": {
+    "fig4B_metric_distributions.pdf": "d141ec565334023371fcbbb3c68efcb9871689567194caa38ae1bcd7824cac2a",
+    "fig4B_metric_distributions.svg": "36ea47026a312c98d964a16a0942eec079c15b6535755bacedb10046a63af350"
+  }
+}

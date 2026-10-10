@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "plotting_sha256": "41d772fae12e94f210edaceb4e775dd14996bc343d76826ec0b980fabef5e8c8",
+    "input_sha256": {},
+    "versions": {
+      "numpy": "2.3.5",
+      "pandas": "2.3.3",
+      "scipy": "1.17.1",
+      "pyarrow": "25.0.1",
+      "matplotlib": "3.10.5"
+    },
+    "python": "3.12.3"
+  },
+  "output_sha256": {
+    "recomb_figure_1.png": "194a31411dfd9631e84e642377c3442ca638e7887159e6a46799fc5a47c6c9ba",
+    "recomb_figure1_editable_2.svg": "edd9f23d6ebb48d84e7dff20d815c07ddf0ab6da4fbafe661502302f3afce1b4"
+  }
+}

@@ -1,0 +1,3 @@
+anchor_setting	display_label	n_reaction_evaluations	mean_wrong_cue_gain	mean_correct_cue_gain	correct_minus_wrong_separation
+A1	A1 (HEX1)	660237	-0.013746815221556536	0.010386902810362182	0.024133718031918716
+A2-L	A2 (HEX1 + LDH_L)	660237	-0.030611387807699602	0.022294329666905324	0.05290571747460493

@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "selected_evaluations": 4,
+  "method_panel": [
+    "CORDA",
+    "GIMME",
+    "RIPTiDe",
+    "iMAT"
+  ],
+  "reaction_id": "10FTHF5GLUtl",
+  "cases": [
+    {
+      "algorithm": "CORDA",
+      "arm": "A1",
+      "evaluation_id": "E0000",
+      "ct2a_candidate_id": "c55c11a6e3dc772e3c2e3b973cfb71fd8e41ddd3aef93d8b8367e17dfca95033",
+      "gl261_candidate_id": "75e0749c689cdf40549186cc03b478b56fab8ea8173a79eed5e10003a7a22fdf",
+      "reaction_id": "10FTHF5GLUtl",
+      "left_support": 19,
+      "right_support": 19,
+      "undefined_descriptor_fields": "",
+      "max_descriptor_abs_diff": 1.1102230246251565e-16,
+      "status": "PASS"
+    },
+    {
+      "algorithm": "CORDA",
+      "arm": "A2",
+      "evaluation_id": "E0000",
+      "ct2a_candidate_id": "c55c11a6e3dc772e3c2e3b973cfb71fd8e41ddd3aef93d8b8367e17dfca95033",
+      "gl261_candidate_id": "75e0749c689cdf40549186cc03b478b56fab8ea8173a79eed5e10003a7a22fdf",
+      "reaction_id": "10FTHF5GLUtl",
+      "left_support": 19,
+      "right_support": 19,
+      "undefined_descriptor_fields": "",
+      "max_descriptor_abs_diff": 1.1102230246251565e-16,
+      "status": "PASS"
+    },
+    {
+      "algorithm": "GIMME",
+      "arm": "A1",
+      "evaluation_id": "E0100",
+      "ct2a_candidate_id": "28de38258d03212a0d010bf8ac5b5dd9d5bb9878b0d353e342028da17117a4df",
+      "gl261_candidate_id": "4500acff7cff7bd2c0197f246185188706160736fb30b9bd89dc5dc0dd135971",
+      "reaction_id": "10FTHF5GLUtl",
+      "left_support": 19,
+      "right_support": 19,
+      "undefined_descriptor_fields": "eta2",
+      "max_descriptor_abs_diff": 2.220446049250313e-16,
+      "status": "PASS"
+    },
+    {
+      "algorithm": "GIMME",
+      "arm": "A2",
+      "evaluation_id": "E0100",
+      "ct2a_candidate_id": "28de38258d03212a0d010bf8ac5b5dd9d5bb9878b0d353e342028da17117a4df",
+      "gl261_candidate_id": "4500acff7cff7bd2c0197f246185188706160736fb30b9bd89dc5dc0dd135971",
+      "reaction_id": "10FTHF5GLUtl",
+      "left_support": 19,
+      "right_support": 19,
+      "undefined_descriptor_fields": "eta2",
+      "max_descriptor_abs_diff": 0.0,
+      "status": "PASS"
+    },
+    {
+      "algorithm": "RIPTiDe",
+      "arm": "A1",
+      "evaluation_id": "E0200",
+      "ct2a_candidate_id": "11f63e714d51958df651c04076bd5d7f5a2734e4e267f5aec63142685b555224",
+      "gl261_candidate_id": "4f3ac3dd70092e73abd0358812ec03b156828b637df9f9d81f3fa59635a9cea7",
+      "reaction_id": "10FTHF5GLUtl",
+      "left_support": 19,
+      "right_support": 19,
+      "undefined_descriptor_fields": "eta2",
+      "max_descriptor_abs_diff": 1.1102230246251565e-16,
+      "status": "PASS"
+    },
+    {
+      "algorithm": "RIPTiDe",
+      "arm": "A2",
+      "evaluation_id": "E0200",
+      "ct2a_candidate_id": "11f63e714d51958df651c04076bd5d7f5a2734e4e267f5aec63142685b555224",
+      "gl261_candidate_id": "4f3ac3dd70092e73abd0358812ec03b156828b637df9f9d81f3fa59635a9cea7",
+      "reaction_id": "10FTHF5GLUtl",
+      "left_support": 19,
+      "right_support": 19,
+      "undefined_descriptor_fields": "eta2",
+      "max_descriptor_abs_diff": 1.1102230246251565e-16,
+      "status": "PASS"
+    },
+    {
+      "algorithm": "iMAT",
+      "arm": "A1",
+      "evaluation_id": "E0300",
+      "ct2a_candidate_id": "d9bee4ec9dc9d1f3876c1811fcf6f8d020989bd2af3231c4cdaa3df2bbdcd555",
+      "gl261_candidate_id": "a021d2219926286c3dcb59d412f56541cd3c639b9f8cb9f9f544799ca8c41349",
+      "reaction_id": "10FTHF5GLUtl",
+      "left_support": 19,
+      "right_support": 19,
+      "undefined_descriptor_fields": "eta2",
+      "max_descriptor_abs_diff": 0.0,
+      "status": "PASS"
+    },
+    {
+      "algorithm": "iMAT",
+      "arm": "A2",
+      "evaluation_id": "E0300",
+      "ct2a_candidate_id": "d9bee4ec9dc9d1f3876c1811fcf6f8d020989bd2af3231c4cdaa3df2bbdcd555",
+      "gl261_candidate_id": "a021d2219926286c3dcb59d412f56541cd3c639b9f8cb9f9f544799ca8c41349",
+      "reaction_id": "10FTHF5GLUtl",
+      "left_support": 19,
+      "right_support": 19,
+      "undefined_descriptor_fields": "eta2",
+      "max_descriptor_abs_diff": 2.220446049250313e-16,
+      "status": "PASS"
+    }
+  ]
+}

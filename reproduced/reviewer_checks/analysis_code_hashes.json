@@ -1,0 +1,9 @@
+{
+  "sha256": {
+    "analyses/reviewer_checks/candidate_sensitivity.py": "468616b6534d2a86a5eb78ac2fa7adc7640076d84b50056511244b9a600da577",
+    "analyses/reviewer_checks/run_experiment_3a.py": "498a2211a21468b88893717f8701edef809e6ca422c6f5e311172c3753407d2d",
+    "analyses/reviewer_checks/run_experiment_3b.py": "651958d2e5f5e2dd047ebd988fe96a461bb154c30f23d158c0faf161f7450733",
+    "analyses/reviewer_checks/run_experiment_4.py": "14e208f1e15e6a2930f47792afa37e4b825f56a95e071652f1047fd7894e1f74",
+    "tests/test_candidate_sensitivity.py": "462d4cd0f9f5c8dfd53c032889cfb5b3ba838ad2becc6a306faa436057d4622d"
+  }
+}

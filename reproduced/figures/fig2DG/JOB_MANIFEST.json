@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "plotting_sha256": "0015be9a6cad126b8f4d19bf6db05d2f2e472b9dbc1bff7e9859daf53df8a4f9",
+    "input_sha256": {
+      "data/figure_inputs/fig2/figure2_DG_points.csv.xz": "aedc195237389ccd131cb983d7948483fc84ab1d0df1d88b5f1c1601577cf161"
+    },
+    "versions": {
+      "numpy": "2.3.5",
+      "pandas": "2.3.3",
+      "scipy": "1.17.1",
+      "pyarrow": "25.0.1",
+      "matplotlib": "3.10.5"
+    },
+    "python": "3.12.3"
+  },
+  "output_sha256": {
+    "figure2_DG_usefulness_scatter.svg": "41c2011420a74ef664f57ce6cc9c3b8bd9b1a0c2b0a1ad1b878f9e22cac2eb77",
+    "figure2_DG_usefulness_scatter.png": "01c2576b83710d68aabcde68e3b5fdb7666b696e7d578d0938c6feec37cbe0d8"
+  }
+}

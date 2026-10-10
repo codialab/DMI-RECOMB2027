@@ -1,0 +1,1 @@
+{"jobs": [{"id": "fig3D", "outputs": ["fig3D_pair_weighted_summary.tsv", "fig3D_provenance.json", "fig3D_pair_weighted.svg", "fig3D_pair_weighted.png"], "status": "COMPLETED"}, {"id": "fig4C", "outputs": ["fig4C_FACOAL204_three_methods.png", "fig4C_selection_provenance.json", "fig4C_FACOAL204_three_methods.svg"], "status": "COMPLETED"}], "status": "PASS"}

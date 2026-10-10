@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "plotting_sha256": "6b21b1aa4dc53f1c5f11d878ad2588d2f949403e153c78737f226db0fb3e9376",
+    "input_sha256": {
+      "data/figure_inputs/s3/supp_fig3_paired_geometry.parquet.xz": "927e489b4e78fc84ccbaedd46a148532afbc633181cdb211f54e727f439e3f58",
+      "data/figure_inputs/s3/supp_fig3_build_manifest.json": "cb82a131aad21a64968525c1df553f5011b191ddd80f1e4185876024a0392a85"
+    },
+    "versions": {
+      "numpy": "2.3.5",
+      "pandas": "2.3.3",
+      "scipy": "1.17.1",
+      "pyarrow": "25.0.1",
+      "matplotlib": "3.10.5"
+    },
+    "python": "3.12.3"
+  },
+  "output_sha256": {
+    "supp_fig3.png": "1715e609d0f0e47e98bde89f7a393fe3c6553c4e5baaf21ea16916199e8076cc",
+    "supp_fig3.svg": "1489319bb0e754c39330dd282d36e20d2459e9bba824983d2359485ac4ae1bc9"
+  }
+}

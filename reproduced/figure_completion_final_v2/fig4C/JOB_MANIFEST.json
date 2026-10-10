@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "plotting_sha256": "5c6cceccb2e9219d05aea825daba556a455a61aa1a767af0c431bb2b37fbefa3",
+    "input_sha256": {
+      "data/figure_inputs/fig4/fig4_data_manifest.json": "96a5cdaa50f148ba462e88d66b02d14aa3df75299713738eafd9eb1f23dd3def",
+      "data/figure_inputs/fig4/fig4_panelC_candidate_groups.parquet.xz": "c3ed7de42c909954e54c8394fffa0c789bb08ddd2834a601d78b9c33cbee6f34",
+      "data/figure_inputs/fig4/fig4_panelC_candidate_metrics.parquet.xz": "1bd919cb7f0d6418e83761b1da4f6d31e0d809c6b9ba39a174d65577d98bbd65",
+      "data/figure_inputs/fig4/fig4_panelC_candidate_support.parquet.xz": "f37f96f07f59bbcd1053deb9dc3fc3055d73f698920f64acfdfdfe8caf54c5dd"
+    },
+    "versions": {
+      "numpy": "2.3.5",
+      "pandas": "2.3.3",
+      "scipy": "1.17.1",
+      "pyarrow": "25.0.1",
+      "matplotlib": "3.10.5"
+    },
+    "python": "3.12.3"
+  },
+  "output_sha256": {
+    "fig4C_FACOAL204_three_methods.png": "f3e739a362c902a0ce4d40856ec09ec558f1337d67f7ddd707a35a3f4998dc5a",
+    "fig4C_selection_provenance.json": "80f761541359a0cb3348722765805bfdfe047264ba651d49912466ba4fae2311",
+    "fig4C_FACOAL204_three_methods.svg": "384f195e40cfa7d56a7401a4141dcc41f1606d9d0c21fefa86f6105a1fe789d5"
+  }
+}

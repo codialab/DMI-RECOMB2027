@@ -1,0 +1,15 @@
+arm	field	n_rows	max_abs_difference	n_different	tolerance	reference
+A1	n_distinct_truth_pairs	1546230	0.0	0	1e-12	frozen PL2B
+A1	n_non_tie_truth_pairs	1546230	0.0	0	1e-12	frozen PL2B
+A1	n_truth_ties	1546230	0.0	0	1e-12	frozen PL2B
+A1	correct_gain_mean	1546230	1.7763568394002505e-15	0	1e-12	frozen PL2B
+A1	wrong_gain_mean	1546230	5.329070518200751e-15	0	1e-12	frozen PL2B
+A1	information_advantage_mean	1546230	1.7763568394002505e-15	0	1e-12	frozen PL2B
+A1	usefulness	1546230	0.0	0	1e-12	frozen PL2B
+A2	n_distinct_truth_pairs	1546230	0.0	0	1e-12	frozen A22
+A2	n_non_tie_truth_pairs	1546230	0.0	0	1e-12	frozen A22
+A2	n_truth_ties	1546230	0.0	0	1e-12	frozen A22
+A2	correct_gain_mean	1546230	3.552713678800501e-15	0	1e-12	frozen A22
+A2	wrong_gain_mean	1546230	7.105427357601002e-15	0	1e-12	frozen A22
+A2	information_advantage_mean	1546230	7.105427357601002e-15	0	1e-12	frozen A22
+A2	usefulness	1546230	0.0	0	1e-12	frozen A22
