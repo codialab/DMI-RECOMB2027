@@ -17,6 +17,37 @@ render is evidence/artwork, not by itself a successful rebuild.
 | Repeat full simulations from frozen ensembles | Not supported | Complete production ensembles and an executable simulation workflow are not included. |
 | Reconstruct metabolic models from original biological inputs | Provenance-only | Original RNA/DMI inputs, parent GEM and some historical identities/patches are external or absent. |
 
+The local reviewer branch also contains an independent Level 2 verification
+workflow, invoked with `python reproduce.py verify-science --level 2a|2b|geometry
+--workers N --data-root PATH --output-root PATH`. Level 2A recomputes case to
+endpoint results. Level 2B recomputes the sign-only posterior conditional on
+frozen S1 anchor weights and then recomputes Level 2A endpoints. Geometry
+reconstructs η² on the full candidate support and separately reports
+Development/Confirmation correlations. These workflows require private case
+partitions, candidate vectors, catalogs, weights, and split registries. They
+are not publicly runnable pending redistribution approval and clean-checkout
+validation. Neither level reconstructs upstream anchor-weight generation or
+metabolic models.
+
+Independent η² values can differ from their serialized frozen values by only
+floating-point summation noise while exact η² ties change. Since Spearman uses
+exact tied ranks, its independently calculated coefficient may differ slightly
+from the frozen coefficient. The verifier reports both without rounding η²,
+altering rank rules, or changing the scientific direction-tie threshold. It
+reports exact case-classification parity separately
+from numerical gain parity and retains any cutoff-sensitive case in the local
+machine-readable report. No boundary case is omitted from the primary results.
+
+The machine report keeps numerical prediction parity, case-gain parity,
+exact usefulness parity, η² parity, source-tolerance Spearman checks, and exact
+Spearman equality as separate fields. Exact equality is stricter than the
+Figure 2 source check, whose documented acceptance tolerance is 1e-6. For
+Level 2B, `--workers 4` is a reasonable starting point when resources permit;
+the geometry stage uses one worker by default because the measured benchmark
+did not benefit from multiprocessing. Structural truth ties are excluded from
+cue prediction comparisons, while finite-population eligibility is checked
+explicitly.
+
 Development supports the fitted usefulness relationship; Confirmation is
 evaluated separately on its held-out reaction population. A2 is a post-freeze
 robustness analysis on the same split, not an independent confirmation. Weak

@@ -302,6 +302,12 @@ def main() -> int:
     p.add_argument("--output-root", default="reproduced/figures")
     p = sub.add_parser("tables")
     p.add_argument("--output-root", default="reproduced/tables")
+    p = sub.add_parser("verify-science", help="Independently verify frozen Level 2 science endpoints")
+    p.add_argument("--level", choices=["2a", "2b", "geometry"], required=True)
+    p.add_argument("--workers", default="1", help="Worker count or 'auto' (geometry defaults to serial)")
+    p.add_argument("--batch-size", type=int, default=1)
+    p.add_argument("--data-root", required=True, help="Explicit local root for private frozen inputs")
+    p.add_argument("--output-root", required=True, help="New output directory; existing directories are refused")
     args = parser.parse_args()
     try:
         boundary = Path(subprocess.check_output(
@@ -313,11 +319,21 @@ def main() -> int:
         elif args.command == "checksums": result = checksums()
         elif args.command == "validate": result = validate_frozen()
         elif args.command == "figures": result = plot(args.only, args.output_root)
+        elif args.command == "verify-science":
+            from analyses.reviewer_checks.science_verification import run_verification
+            workers = args.workers if args.workers == "auto" else int(args.workers)
+            result = run_verification(level=args.level, data_root=Path(args.data_root),
+                public_root=ROOT, workers=workers, output_root=Path(args.output_root),
+                batch_size=args.batch_size)
         else: result = tables(args.output_root)
-    except (AssertionError, OSError, ValueError, KeyError, subprocess.CalledProcessError) as exc:
+    except (AssertionError, OSError, ValueError, KeyError, RuntimeError, subprocess.CalledProcessError) as exc:
         print(json.dumps({"status": "FAIL", "error": str(exc)}, indent=2))
         return 1
-    print(json.dumps(result, indent=2))
+    if args.command == "verify-science":
+        from analyses.reviewer_checks.science_verification import format_human_report
+        print(format_human_report(result), end="")
+    else:
+        print(json.dumps(result, indent=2))
     return 0 if args.command == "status" or result["status"] == "PASS" else 1
 
 

@@ -129,6 +129,54 @@ post-freeze robustness analysis and is not an independent confirmation. Weak
 directional cues are evaluated after A1/A2 strong-anchor weighting and do not
 replace those quantitative anchors.
 
+### Independent scientific verification (local reviewer workflow)
+
+The `verify-science` command accepts private source artifacts only through an
+explicit `--data-root`; it never fetches or copies them. `2a` independently
+recomputes case gains, directional usefulness, reaction–evaluation aggregation,
+and Figure 3 endpoints from case predictions and truths. `2b` rebuilds the
+baseline/correct-cue/incorrect-cue posterior means from candidate vectors and
+the supplied frozen conditional A1/A2 weights, applies whole-vector held-out
+state exclusion, then recalculates Level 2A endpoints. Level 2B therefore
+verifies the posterior operator conditional on those weights; it does not
+reconstruct upstream anchor weights. `geometry` recomputes η² from the full
+20×20 candidate support and checks Development/Confirmation associations.
+
+Example local commands (the private input root must be separately available):
+
+```bash
+python reproduce.py verify-science --level 2a --workers 1 --data-root /path/to/private-checkout --output-root /tmp/recomb-l2a
+python reproduce.py verify-science --level 2b --workers 4 --data-root /path/to/private-checkout --output-root /tmp/recomb-l2b
+python reproduce.py verify-science --level geometry --workers 1 --data-root /path/to/private-checkout --output-root /tmp/recomb-geometry
+```
+
+Level 2B accepts `--workers N` or `--workers auto`; four workers are a useful
+starting point when CPU and memory allow. Geometry defaults to one worker
+because the measured small-batch benchmark was slower with multiprocessing.
+The JSON report separates prediction and gain tolerance checks from exact
+usefulness-classification parity, boundary sensitivity, η² parity, and exact
+Spearman reproduction. A scientifically meaningful threshold or rank
+discrepancy is retained in the report and produces a nonzero CLI status.
+
+The workflow needs private PL2B/A22 case partitions and registries, the PL1
+candidate-vector cache and candidate catalog, S1 frozen conditional weights,
+PL2C reaction split, A21 evaluation registry, and the included Figure 3 and
+Figure 4 references. Redistribution approval for these private inputs and
+derived case outcomes is not established. Reviewers cannot run this workflow
+from the public release until approved data are packaged and tested from a
+clean checkout. Upstream strong-anchor weight generation and model
+reconstruction remain unsupported.
+
+Figure 2's frozen correlations use exact statistical tied ranks of serialized
+η² values. Independently reconstructed η² values agree to floating-point
+precision, but tiny differences can split or join exact-value ties and alter
+Spearman ranks. The frozen correlations remain the manuscript references;
+the independent values and rank-instability diagnosis are reported separately.
+This statistical behavior is distinct from the scientific 1e-12 direction-tie
+threshold. The verifier reports exact classification parity and boundary
+sensitivity separately; it does not change the threshold or claim exact
+Figure 2 association parity from independently reconstructed cases.
+
 ## Upstream analysis and data availability
 
 The reproduction hierarchy is external inputs → production computation → frozen
