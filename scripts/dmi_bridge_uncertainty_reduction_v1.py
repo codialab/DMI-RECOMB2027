@@ -38,6 +38,7 @@ EXPECTED = {
     "a20_weights": ("outputs/dmi_bridge_a20_dual_anchor_qualification_v1/BRIDGEA20_DUAL_ANCHOR_WEIGHTS.tsv.xz", "b153e2fde45dca9573c71c548783e704313f056d0980f64af60180ad90ebc1f4"),
 }
 OUTPUT_SCHEMA = "bridge.uncertainty_reduction.v1"
+RESTORATION_INVENTORY = "FROZEN_ARTIFACT_RESTORATION_INVENTORY.tsv"
 CASE_FIELDS = (
     "anchor", "truth_pair_id", "evaluation_id", "algorithm", "rna_context_key",
     "ct2a_mouse", "gl261_mouse", "reaction_id", "truth_status", "truth_delta",
@@ -646,6 +647,24 @@ def _write_json_atomic(path, value):
     os.replace(temporary, path)
 
 
+def _initialize_run_state(output_dir: Path, input_hashes: dict[str, str]) -> dict:
+    """Create first-run state, allowing only the known restoration inventory."""
+    state_path = output_dir / "RUN_STATE.json"
+    if state_path.exists():
+        state = json.loads(state_path.read_text(encoding="utf-8"))
+        if state.get("input_hashes") != input_hashes or state.get("schema") != OUTPUT_SCHEMA:
+            raise RuntimeError("existing output directory belongs to different inputs or schema")
+        return state
+
+    inventory_path = OUT / RESTORATION_INVENTORY
+    unexpected = [path for path in output_dir.iterdir() if path != inventory_path]
+    if unexpected:
+        raise RuntimeError(f"nonempty output directory has no resumable state: {output_dir}")
+    state = {"schema": OUTPUT_SCHEMA, "input_hashes": input_hashes, "completed_parts": {}}
+    _write_json_atomic(state_path, state)
+    return state
+
+
 def _plot_results(out, case_paths, reaction_rows):
     import matplotlib
     matplotlib.use("Agg")
@@ -932,16 +951,7 @@ def run_empirical(output_dir: Path = OUT):
     if gate["status"] != "READY":
         raise RuntimeError("empirical analysis blocked: frozen inputs are missing or mismatched")
     output_dir.mkdir(parents=True, exist_ok=True)
-    state_path = output_dir / "RUN_STATE.json"
-    if state_path.exists():
-        state = json.loads(state_path.read_text(encoding="utf-8"))
-        if state.get("input_hashes") != gate["available_sha256"] or state.get("schema") != OUTPUT_SCHEMA:
-            raise RuntimeError("existing output directory belongs to different inputs or schema")
-    elif any(output_dir.iterdir()):
-        raise RuntimeError(f"nonempty output directory has no resumable state: {output_dir}")
-    else:
-        state = {"schema": OUTPUT_SCHEMA, "input_hashes": gate["available_sha256"], "completed_parts": {}}
-        _write_json_atomic(state_path, state)
+    state = _initialize_run_state(output_dir, gate["available_sha256"])
     def source(name):
         relative, digest = EXPECTED[name]
         resolved, error = resolve_file(relative, digest)

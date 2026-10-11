@@ -12,6 +12,35 @@ sys.path.insert(0, str(ROOT))
 from scripts import dmi_bridge_uncertainty_reduction_v1 as runner
 
 
+def test_run_state_clean_startup(tmp_path):
+    state = runner._initialize_run_state(tmp_path, {"input": "abc"})
+    assert state == {"schema": runner.OUTPUT_SCHEMA, "input_hashes": {"input": "abc"}, "completed_parts": {}}
+    assert json.loads((tmp_path / "RUN_STATE.json").read_text()) == state
+
+
+def test_run_state_inventory_only_startup(tmp_path, monkeypatch):
+    monkeypatch.setattr(runner, "OUT", tmp_path)
+    (tmp_path / runner.RESTORATION_INVENTORY).write_text("known inventory\n")
+    state = runner._initialize_run_state(tmp_path, {"input": "abc"})
+    assert state["input_hashes"] == {"input": "abc"}
+    assert (tmp_path / runner.RESTORATION_INVENTORY).is_file()
+
+
+def test_run_state_rejects_unexpected_file_on_startup(tmp_path):
+    (tmp_path / "unexpected.txt").write_text("preserve me")
+    with pytest.raises(RuntimeError, match="no resumable state"):
+        runner._initialize_run_state(tmp_path, {"input": "abc"})
+    assert not (tmp_path / "RUN_STATE.json").exists()
+
+
+def test_run_state_existing_directory_requires_matching_state(tmp_path):
+    valid = {"schema": runner.OUTPUT_SCHEMA, "input_hashes": {"input": "abc"}, "completed_parts": {"0": True}}
+    (tmp_path / "RUN_STATE.json").write_text(json.dumps(valid))
+    assert runner._initialize_run_state(tmp_path, {"input": "abc"}) == valid
+    with pytest.raises(RuntimeError, match="different inputs or schema"):
+        runner._initialize_run_state(tmp_path, {"input": "changed"})
+
+
 def test_feature_means_derives_coverage_from_polarity_masses(tmp_path):
     path = tmp_path / "features.tsv"
     with path.open("w", newline="") as handle:
@@ -102,14 +131,14 @@ def test_sensitivity_stratum_uses_matching_lambda_gain_category():
     assert acc.stratum_summaries[("M", "RNA", "correct", "lambda_0.5", "DECREASED", "WORSENED")] == 1
 
 
-def test_direct_runner_imports_and_run_gate_without_external_pythonpath():
+def test_direct_runner_imports_and_preflight_without_external_pythonpath():
     import os
     import subprocess
     env = dict(os.environ)
     env.pop("PYTHONPATH", None)
-    result = subprocess.run([sys.executable, "scripts/dmi_bridge_uncertainty_reduction_v1.py", "--run"], cwd=ROOT, env=env, capture_output=True, text=True)
+    result = subprocess.run([sys.executable, "scripts/dmi_bridge_uncertainty_reduction_v1.py", "--preflight"], cwd=ROOT, env=env, capture_output=True, text=True)
     assert "ModuleNotFoundError" not in result.stderr
-    assert "frozen input" in result.stderr.lower() or "BLOCKED_MISSING_FROZEN_INPUTS" in result.stdout or result.returncode == 0
+    assert result.returncode == 0
 
 
 def test_crossed_bootstrap_reports_paired_a2_minus_a1(tmp_path):

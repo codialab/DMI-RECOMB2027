@@ -9,4 +9,4 @@ build/
 # reproduced/
 *.log
 .DS_Store
-# outputs/dmi_bridge_uncertainty_reduction_v1/
+outputs/dmi_bridge_uncertainty_reduction_v1/
