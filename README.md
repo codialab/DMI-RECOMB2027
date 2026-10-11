@@ -118,7 +118,7 @@ reproduction paths or have unresolved manuscript mapping; see the
 | Level | Status | What is available |
 |---|---|---|
 | Regenerate supported figures and tables | Fully reproducible for the panels listed in the matrix | The CLI uses included, checksum-pinned plotting inputs. |
-| Independently validate included numerical results | Fully reproducible for the checks implemented by `validate` | It checks populations, counts, selected endpoints and frozen table relationships. This is not a fresh simulation. |
+| Independently validate included numerical results | Reproducible validation workflow; partial manuscript-result coverage | It checks populations, counts, selected endpoints and frozen table relationships. This is not a fresh simulation. |
 | Repeat full simulations from frozen ensembles | Not supported | The repository does not include the complete production ensembles and executable run inputs. |
 | Reconstruct metabolic models from original biological inputs | Provenance-only | Raw RNA/DMI inputs, the parent GEM and required historical artifacts are not bundled. |
 

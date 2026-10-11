@@ -13,7 +13,7 @@ render is evidence/artwork, not by itself a successful rebuild.
 | Capability | Status | Basis and limit |
 |---|---|---|
 | Regenerate supported figures/tables | Fully reproducible for Fig. 1, Fig. 2D–G, Fig. 3B–D, Fig. 4B–C, S1–S3 and S6; Fig. 2 correlations and Fig. 3 pair summaries | Run the root CLI using included checksum-pinned inputs. This does not rebuild upstream numerical analyses. |
-| Independently validate manuscript numerical results | Partially reproducible | `python reproduce.py validate` checks included populations, selected numerical endpoints and table relationships. It validates frozen evidence, not independently generated scientific outputs. |
+| Independently validate manuscript numerical results | Reproducible validation workflow; partial coverage | `python reproduce.py validate` checks included populations, selected numerical endpoints and table relationships. It validates frozen evidence, not independently generated scientific outputs. |
 | Repeat full simulations from frozen ensembles | Not supported | Complete production ensembles and an executable simulation workflow are not included. |
 | Reconstruct metabolic models from original biological inputs | Provenance-only | Original RNA/DMI inputs, parent GEM and some historical identities/patches are external or absent. |
 
