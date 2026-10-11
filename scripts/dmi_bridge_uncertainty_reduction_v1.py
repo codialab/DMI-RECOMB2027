@@ -22,6 +22,8 @@ from collections import Counter, defaultdict
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 RESTORE_ROOT = ROOT / ".cache/recomb2027-dmi/frozen"
 OUT = ROOT / "outputs/dmi_bridge_uncertainty_reduction_v1"
 LINEAGE = ROOT / "manifests/provenance/FROZEN_LINEAGE.json"
@@ -302,11 +304,12 @@ class CaseAccumulator:
                 status = row[f"variance_change_status_{cue}_lambda_{lam_key}"]
                 if status and status != "nan":
                     self.case_summaries[(cue, f"lambda_{lam_key}", status)] += 1
-                    self.stratum_summaries[(str(pair["algorithm"]), str(pair["rna_context_key"]), cue,
-                                            f"lambda_{lam_key}", status, gain_status)] += 1
                 gain_value = float(row[f"prediction_gain_{cue}_lambda_{lam_key}"])
                 sensitivity_gain_status = "IMPROVED" if gain_value > 1e-12 else ("WORSENED" if gain_value < -1e-12 else "TIED")
                 self.case_summaries[(cue, f"lambda_{lam_key}", "prediction_gain", sensitivity_gain_status)] += 1
+                if status and status != "nan":
+                    self.stratum_summaries[(str(pair["algorithm"]), str(pair["rna_context_key"]), cue,
+                                            f"lambda_{lam_key}", status, sensitivity_gain_status)] += 1
         for field, source in (
             ("relative_correct", "relative_variance_reduction_correct_lambda_0.25"),
             ("relative_incorrect", "relative_variance_reduction_incorrect_lambda_0.25"),
@@ -328,9 +331,13 @@ class CaseAccumulator:
             ("central90_incorrect", "central90_width_incorrect_lambda_0.25"),
         ):
             value = row[source]
-            if value is None or (isinstance(value, float) and not math.isfinite(value)):
+            try:
+                value = float(value)
+            except (TypeError, ValueError):
                 continue
-            self.sums[field][ei, ri] += float(value)
+            if not math.isfinite(value):
+                continue
+            self.sums[field][ei, ri] += value
             self.counts[field][ei, ri] += 1
 
     def reaction_rows(self, anchor, features, split_map):
@@ -363,8 +370,16 @@ def _case_cache_values(cache_row, anchor):
     }
 
 
+def _support_cache_position(support, cache_index):
+    """Accept frozen A1 positions and A2 keys without mutating their schemas."""
+    if "cache_index" in support:
+        return int(support["cache_index"])
+    return int(cache_index[support["cache_key"]])
+
+
 def _analyze_anchor(anchor, specs, reaction_ids, rxn_index, mats, cache_index,
                     cached_parts, output_dir, evaluation_ids):
+    from scripts import dmi_bridge_uncertainty_reduction_core_v1 as core
     from scripts import dmi_bridge_pl2_sign_only_core_v1 as pl2
     from scripts import dmi_bridge_pl2c_geometry_utility_core_v1 as pl2c
 
@@ -401,7 +416,8 @@ def _analyze_anchor(anchor, specs, reaction_ids, rxn_index, mats, cache_index,
             for spec in specs[first:stop]:
                 pair = spec["pair"]
                 left, right = spec["ct2a"], spec["gl261"]
-                li, ri = cache_index[left["cache_key"]], cache_index[right["cache_key"]]
+                li = _support_cache_position(left, cache_index)
+                ri = _support_cache_position(right, cache_index)
                 left_values = mats[li, left["held_samples"]]
                 right_values = mats[ri, right["held_samples"]]
                 truth_left = int(left["truth_sample"])
@@ -483,12 +499,12 @@ def _analyze_anchor(anchor, specs, reaction_ids, rxn_index, mats, cache_index,
                             for metric in ("variance", "sd", "iqr", "central90_width", "absolute_variance_reduction", "relative_variance_reduction", "crps", "crps_improvement", "variance_change_status"):
                                 row[f"{metric}_{cue}_lambda_{lam:g}"] = distribution.get(metric, math.nan)
                             if truth_status == "NON_TIE" and lam == 0.25:
-                                predicted_gain = float(pred_by_lam[lam_key][f"{suffix}_absolute_error_gain"])
+                                predicted_gain = float(pred_by_lam[lam_key][f"{suffix}_abs_error_gain"])
                                 max_gain_dev = max(max_gain_dev, abs(predicted_gain - old[f"{cue}_gain"]))
                                 if abs(predicted_gain - old[f"{cue}_gain"]) > 5e-12:
                                     raise RuntimeError("frozen prediction gain parity failure")
                             if truth_status == "NON_TIE":
-                                predicted_gain = float(pred_by_lam[lam_key][f"{suffix}_absolute_error_gain"])
+                                predicted_gain = float(pred_by_lam[lam_key][f"{suffix}_abs_error_gain"])
                                 cached_gain = float(old["gain_by_lambda"][(lam, cue)])
                                 if abs(predicted_gain - cached_gain) > 5e-12:
                                     raise RuntimeError(f"frozen prediction gain parity failure at lambda={lam:g}")
@@ -525,6 +541,13 @@ def _feature_means(parts, reaction_ids, fields):
                     if math.isfinite(value):
                         sums[reaction][field] += value
                         counts[reaction][field] += 1
+                negative = float(row.get("p_negative", "nan"))
+                positive = float(row.get("p_positive", "nan"))
+                if math.isfinite(negative) and math.isfinite(positive):
+                    sums[reaction].setdefault("non_tie_coverage", 0.0)
+                    counts[reaction].setdefault("non_tie_coverage", 0)
+                    sums[reaction]["non_tie_coverage"] += negative + positive
+                    counts[reaction]["non_tie_coverage"] += 1
     result = {}
     for reaction in reaction_ids:
         result[reaction] = {
@@ -532,7 +555,7 @@ def _feature_means(parts, reaction_ids, fields):
             "directional_entropy3": _finite_mean(sums[reaction]["directional_entropy3"], counts[reaction]["directional_entropy3"]),
             "dominant_sign_mass": _finite_mean(sums[reaction]["dominant_sign_mass"], counts[reaction]["dominant_sign_mass"]),
             "n_supported_sign_states": _finite_mean(sums[reaction]["n_supported_sign_states"], counts[reaction]["n_supported_sign_states"]),
-            "non_tie_coverage": _finite_mean(sums[reaction]["non_tie_coverage"], counts[reaction]["non_tie_coverage"]),
+            "non_tie_coverage": _finite_mean(sums[reaction].get("non_tie_coverage", 0.0), counts[reaction].get("non_tie_coverage", 0)),
         }
     return result
 
@@ -767,12 +790,15 @@ def _mouse_cluster_bootstrap(summary_paths, *, replicates=5000, seed=20260929):
     if len(mice_left) != 5 or len(mice_right) != 5:
         raise RuntimeError(f"expected five mice per cohort for crossed bootstrap; got {len(mice_left)}, {len(mice_right)}")
     boot = {anchor: {column: [] for column in columns} for anchor in summary_paths}
+    paired_boot = {column: [] for column in columns} if {"A1", "A2"}.issubset(summary_paths) else None
     for _ in range(replicates):
         left_draw = rng.choice(mice_left, size=5, replace=True)
         right_draw = rng.choice(mice_right, size=5, replace=True)
         lc = Counter(left_draw.tolist()); rc = Counter(right_draw.tolist())
         weights = {pair: lc[pair[0]] * rc[pair[1]] for pair in pair_values["A1"]}
+        draw_values = {}
         for anchor in summary_paths:
+            draw_values[anchor] = {}
             for index, column in enumerate(columns):
                 numerator = denominator = 0.0
                 for pair, count in weights.items():
@@ -781,7 +807,13 @@ def _mouse_cluster_bootstrap(summary_paths, *, replicates=5000, seed=20260929):
                         weight = count * int(entry["n"][index])
                         numerator += count * float(entry["sum"][index])
                         denominator += weight
-                boot[anchor][column].append(numerator / denominator if denominator else math.nan)
+                value = numerator / denominator if denominator else math.nan
+                boot[anchor][column].append(value)
+                draw_values[anchor][column] = value
+        if paired_boot is not None:
+            for column in columns:
+                left, right = draw_values["A1"][column], draw_values["A2"][column]
+                paired_boot[column].append(right - left if math.isfinite(left) and math.isfinite(right) else math.nan)
     records = []
     for anchor in summary_paths:
         for column in columns:
@@ -809,6 +841,17 @@ def _mouse_cluster_bootstrap(summary_paths, *, replicates=5000, seed=20260929):
                                     "mouse_ids_ct2a": len(mice_left), "mouse_ids_gl261": len(mice_right),
                                     "method": "leave_one_mouse_out", "mouse_cohort": cohort,
                                     "omitted_mouse": omitted})
+    if paired_boot is not None:
+        for column, draws in paired_boot.items():
+            values = np.asarray(draws, dtype=float)
+            values = values[np.isfinite(values)]
+            records.append({"anchor": "A2_minus_A1", "outcome": column, "replicates": replicates,
+                            "seed": seed, "mean": float(values.mean()) if len(values) else math.nan,
+                            "ci95_low": float(np.quantile(values, .025)) if len(values) else math.nan,
+                            "ci95_high": float(np.quantile(values, .975)) if len(values) else math.nan,
+                            "finite_replicates": int(len(values)), "mouse_ids_ct2a": len(mice_left),
+                            "mouse_ids_gl261": len(mice_right), "method": "crossed_mouse_bootstrap_paired_difference",
+                            "mouse_cohort": "", "omitted_mouse": ""})
     return records
 
 
@@ -844,6 +887,14 @@ def benchmark(cases: int = 64, repeats: int = 2) -> dict[str, object]:
 
 def run_empirical(output_dir: Path = OUT):
     """Run the full empirical analysis after every frozen input passes preflight."""
+    import pandas as pd
+    from scripts import dmi_bridge_pl1_predictability_core_v1 as pl1
+    from scripts import dmi_bridge_pl2_sign_only_core_v1 as pl2
+    from scripts import dmi_bridge_pl2a_prepare_v1 as pl2a
+    from scripts import dmi_bridge_pl2b_production_v1 as pl2b
+    from scripts import dmi_bridge_pl2c_geometry_utility_core_v1 as pl2c
+    import dmi_bridge_uncertainty_reduction_core_v1 as core
+
     gate = preflight()
     if gate["status"] != "READY":
         raise RuntimeError("empirical analysis blocked: frozen inputs are missing or mismatched")
@@ -858,14 +909,6 @@ def run_empirical(output_dir: Path = OUT):
     else:
         state = {"schema": OUTPUT_SCHEMA, "input_hashes": gate["available_sha256"], "completed_parts": {}}
         _write_json_atomic(state_path, state)
-    import pandas as pd
-    from scripts import dmi_bridge_pl1_predictability_core_v1 as pl1
-    from scripts import dmi_bridge_pl2_sign_only_core_v1 as pl2
-    from scripts import dmi_bridge_pl2a_prepare_v1 as pl2a
-    from scripts import dmi_bridge_pl2b_production_v1 as pl2b
-    from scripts import dmi_bridge_pl2c_geometry_utility_core_v1 as pl2c
-    import dmi_bridge_uncertainty_reduction_core_v1 as core
-
     def source(name):
         relative, digest = EXPECTED[name]
         resolved, error = resolve_file(relative, digest)
