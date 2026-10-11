@@ -1,0 +1,3 @@
+anchor	case_rows	truth_tie_rows	non_tie_case_rows	near_zero_baseline_variance_rows	relative_variance_eligible_rows	nonfinite_inputs_excluded	nonfinite_policy
+A1	3493644	2053331	1440313	41423	1398890	0	fail-fast; no case is silently dropped
+A2	3493644	2053331	1440313	5200	1435113	0	fail-fast; no case is silently dropped

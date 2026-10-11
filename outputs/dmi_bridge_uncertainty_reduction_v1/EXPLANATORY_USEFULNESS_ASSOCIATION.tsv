@@ -1,0 +1,9 @@
+anchor	cue	adjustment	outcome	n	rho_eta2_raw	rho_eta2_usefulness_adjusted
+A1	correct	observed_usefulness	relative_variance_reduction	3292	-0.05167370157316002	0.06802323512499403
+A1	correct	observed_usefulness	prediction_error_gain	3292	0.3655209172014428	0.03669517293469223
+A1	incorrect	observed_usefulness	relative_variance_reduction	3292	-0.2978559780153287	-0.11606028914988296
+A1	incorrect	observed_usefulness	prediction_error_gain	3292	-0.3512761290798578	-0.02912848405067909
+A2	correct	observed_usefulness	relative_variance_reduction	3328	0.4036747585900369	0.21094952962864502
+A2	correct	observed_usefulness	prediction_error_gain	3328	0.38441782213738734	0.09213451088122718
+A2	incorrect	observed_usefulness	relative_variance_reduction	3328	-0.5318306973907804	-0.2883681868516587
+A2	incorrect	observed_usefulness	prediction_error_gain	3328	-0.38260907775006475	-0.09065480190348411
