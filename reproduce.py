@@ -306,8 +306,12 @@ def main() -> int:
     p.add_argument("--level", choices=["2a", "2b", "geometry"], required=True)
     p.add_argument("--workers", default="1", help="Worker count or 'auto' (geometry defaults to serial)")
     p.add_argument("--batch-size", type=int, default=1)
-    p.add_argument("--data-root", required=True, help="Explicit local root for private frozen inputs")
+    root_group = p.add_mutually_exclusive_group()
+    root_group.add_argument("--verification-data-root", help="Root of the versioned public reviewer bundle")
+    root_group.add_argument("--data-root", help="Legacy explicit root for a complete frozen source tree")
     p.add_argument("--output-root", required=True, help="New output directory; existing directories are refused")
+    p = sub.add_parser("check-science-package", help="Verify package and pinned checkout input hashes")
+    p.add_argument("--verification-data-root", required=True, help="Root of the versioned public reviewer bundle")
     args = parser.parse_args()
     try:
         boundary = Path(subprocess.check_output(
@@ -320,11 +324,24 @@ def main() -> int:
         elif args.command == "validate": result = validate_frozen()
         elif args.command == "figures": result = plot(args.only, args.output_root)
         elif args.command == "verify-science":
+            data_root = args.verification_data_root or args.data_root
+            if not data_root:
+                raise ValueError("provide --verification-data-root (public bundle) or legacy --data-root")
             from analyses.reviewer_checks.science_verification import run_verification
             workers = args.workers if args.workers == "auto" else int(args.workers)
-            result = run_verification(level=args.level, data_root=Path(args.data_root),
+            result = run_verification(level=args.level, data_root=Path(data_root),
                 public_root=ROOT, workers=workers, output_root=Path(args.output_root),
                 batch_size=args.batch_size)
+        elif args.command == "check-science-package":
+            from analyses.reviewer_checks.science_verification import _load_inputs
+            inputs = _load_inputs(Path(args.verification_data_root), ROOT)
+            result = {"status": "PASS", "schema": "recomb2027.science_verification_package_check.v1",
+                      "sha256": inputs["hashes"],
+                      "identity_counts": {"A1_evaluable_pairs": len(inputs["registries"]["A1"]),
+                          "A2_pairs": len(inputs["registries"]["A2-L"]),
+                          "evaluations": len(inputs["evals"]),
+                          "candidate_ensembles": len(inputs["catalog_map"]),
+                          "candidate_states": int(inputs["mats"].shape[0] * inputs["mats"].shape[1])}}
         else: result = tables(args.output_root)
     except (AssertionError, OSError, ValueError, KeyError, RuntimeError, subprocess.CalledProcessError) as exc:
         print(json.dumps({"status": "FAIL", "error": str(exc)}, indent=2))

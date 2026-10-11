@@ -1,8 +1,7 @@
-"""End-to-end local Level 2 verifier for the frozen RECOMB 2027 endpoints.
+"""End-to-end local Level 2 verifier for frozen RECOMB 2027 endpoints.
 
-Private A1/A2 source artifacts are consumed read-only from ``--data-root``.
-The output is a compact validation report; case outcomes and flux vectors are
-never copied to the reviewer repository.
+Use ``--verification-data-root`` with the reviewer bundle for a clean-checkout
+run, or the legacy ``--data-root`` with a complete frozen source tree.
 """
 from __future__ import annotations
 
@@ -91,6 +90,30 @@ def _verify_hash(path: Path, expected: str, name: str, hashes: dict) -> None:
         raise ValueError(f"SHA-256 mismatch for {name}: expected {expected}, got {actual}")
 
 
+def _package_file(data_root: Path, manifest: dict, name: str, hashes: dict) -> Path:
+    entry = manifest.get("files", {}).get(name)
+    if not isinstance(entry, dict) or not entry.get("sha256"):
+        raise ValueError(f"verification package manifest lacks hash for {name}")
+    path = _safe(data_root, name)
+    _verify_hash(path, entry["sha256"], name, hashes)
+    if "bytes" in entry and path.stat().st_size != int(entry["bytes"]):
+        raise ValueError(f"verification package byte count mismatch for {name}")
+    return path
+
+
+def _public_file(public_root: Path, package_manifest: dict, relative: str,
+                 expected: str | None, hashes: dict, name: str | None = None) -> Path:
+    path = _safe(public_root, relative)
+    pinned = package_manifest.get("required_public_checkout_inputs", {}).get(relative)
+    if pinned and expected and pinned != expected:
+        raise ValueError(f"package and checkout provenance disagree for {relative}")
+    expected_hash = pinned or expected
+    if not expected_hash:
+        raise ValueError(f"no frozen SHA-256 is available for {relative}")
+    _verify_hash(path, expected_hash, name or relative, hashes)
+    return path
+
+
 def _load_inputs(data_root: Path, public_root: Path) -> dict:
     """Resolve exact local source artifacts and verify their frozen identities."""
     data_root = data_root.resolve()
@@ -99,24 +122,96 @@ def _load_inputs(data_root: Path, public_root: Path) -> dict:
     sources = {}
     case_parts = {}
     registries = {}
+    package_path = data_root / "science_verification_package.json"
+    package_mode = package_path.is_file()
+    package = _json(package_path) if package_mode else {}
+    if package_mode:
+        if package.get("schema") != "recomb2027.science_verification_package.v1":
+            raise ValueError("unsupported scientific verification package schema")
+        hashes["verification_package_manifest"] = sha256(package_path)
+        pinned_commit = package.get("implementation_commit")
+        if pinned_commit:
+            try:
+                actual_commit = __import__("subprocess").check_output(
+                    ["git", "rev-parse", "HEAD"], cwd=public_root, text=True,
+                    stderr=__import__("subprocess").DEVNULL).strip()
+            except Exception as exc:
+                raise ValueError("package requires a Git checkout at its pinned implementation commit") from exc
+            if actual_commit != pinned_commit:
+                raise ValueError(f"implementation commit mismatch: expected {pinned_commit}, got {actual_commit}")
+        elif package.get("release_ready"):
+            raise ValueError("release-ready package does not pin its implementation commit")
+        for relative, expected in package.get("implementation_source_sha256", {}).items():
+            path = _safe(public_root, relative)
+            _verify_hash(path, expected, f"implementation:{relative}", hashes)
+        for relative, expected in package.get("required_public_checkout_inputs", {}).items():
+            _public_file(public_root, package, relative, expected, hashes,
+                         name=f"public:{relative}")
+
     for anchor, (relative, prefix, label) in ANCHORS.items():
-        base = _safe(data_root, relative)
+        if package_mode and anchor == "A1":
+            parts_name = "A1_CASE_PREDICTIONS.parts.json"
+            parts_path = _package_file(data_root, package, parts_name, hashes)
+            parts = _json(parts_path)
+            if parts.get("schema") != "recomb2027.compact_case_predictions.partitioned_tsv_xz.v1":
+                raise ValueError("unsupported compact A1 case-prediction manifest")
+            records = parts.get("parts", [])
+            if len(records) != 128 or int(parts.get("total_data_rows", -1)) != 3_494_480:
+                raise ValueError("compact A1 case inventory differs from the frozen 128-part population")
+            paths = []
+            for record in records:
+                relative = str(Path("a1_case_predictions") / record["filename"])
+                case_path = _package_file(data_root, package, relative, hashes)
+                if int(package["files"][relative].get("rows", -1)) != int(record["rows"]):
+                    raise ValueError(f"compact A1 part row count differs from package manifest: {relative}")
+                paths.append((case_path, int(record["rows"])))
+            reg_name = "BRIDGEPL2B_DISTINCT_TRUTH_PAIR_REGISTRY.tsv"
+            reg_path = _package_file(data_root, package, reg_name, hashes)
+            registry = pd.read_csv(reg_path, sep="\t", dtype={"truth_pair_id": str, "evaluation_id": str})
+            if registry.truth_pair_id.duplicated().any():
+                raise ValueError("A1 compact package registry contains duplicate truth_pair_id")
+            registry = registry.loc[registry.pair_evaluable.astype(bool)].copy()
+            case_parts[anchor] = paths
+            registries[anchor] = registry
+            sources[anchor] = {"base": data_root, "prefix": "A1_COMPACT",
+                               "label": label, "registry_path": reg_path,
+                               "parts_path": parts_path, "part_rows": [x[1] for x in paths]}
+            continue
+        if package_mode:
+            base = _safe(public_root, relative)
+        else:
+            base = _safe(data_root, relative)
         manifest_path = base / f"{prefix}_MANIFEST.json"
         parts_path = base / f"{prefix}_CASE_OUTCOMES.parts.json"
         reg_name = f"{prefix}_DISTINCT_TRUTH_PAIR_REGISTRY.tsv" if prefix == "BRIDGEPL2B" else f"{prefix}_MATCHED_TRUTH_PAIR_REGISTRY.tsv"
         reg_path = base / reg_name
         manifest = _json(manifest_path)
         parts = _json(parts_path)
-        _verify_hash(manifest_path, sha256(manifest_path), f"{anchor}:manifest", hashes)
-        _verify_hash(parts_path, manifest.get("artifact_sha256", {}).get(parts_path.name, sha256(parts_path)), f"{anchor}:parts_manifest", hashes)
-        _verify_hash(reg_path, manifest["artifact_sha256"][reg_name], f"{anchor}:pair_registry", hashes)
+        if package_mode:
+            _public_file(public_root, package, str(manifest_path.relative_to(public_root)),
+                         None, hashes, name=f"{anchor}:manifest")
+            _public_file(public_root, package, str(parts_path.relative_to(public_root)),
+                         manifest.get("artifact_sha256", {}).get(parts_path.name), hashes,
+                         name=f"{anchor}:parts_manifest")
+            _public_file(public_root, package, str(reg_path.relative_to(public_root)),
+                         manifest["artifact_sha256"][reg_name], hashes,
+                         name=f"{anchor}:pair_registry")
+        else:
+            _verify_hash(manifest_path, sha256(manifest_path), f"{anchor}:manifest", hashes)
+            _verify_hash(parts_path, manifest.get("artifact_sha256", {}).get(parts_path.name, sha256(parts_path)), f"{anchor}:parts_manifest", hashes)
+            _verify_hash(reg_path, manifest["artifact_sha256"][reg_name], f"{anchor}:pair_registry", hashes)
         records = parts.get("parts", [])
         if len(records) != 128:
             raise ValueError(f"{anchor}: expected 128 frozen case partitions, found {len(records)}")
         paths = []
         for record in records:
             part_path = base / record["filename"]
-            _verify_hash(part_path, record["sha256"], f"{anchor}:{record['filename']}", hashes)
+            if package_mode:
+                _public_file(public_root, package,
+                             str(part_path.relative_to(public_root)), record["sha256"], hashes,
+                             name=f"{anchor}:{record['filename']}")
+            else:
+                _verify_hash(part_path, record["sha256"], f"{anchor}:{record['filename']}", hashes)
             paths.append((part_path, int(record["rows"])))
         registry = pd.read_csv(reg_path, sep="\t", dtype={"truth_pair_id": str, "evaluation_id": str})
         if registry.truth_pair_id.duplicated().any():
@@ -141,29 +236,50 @@ def _load_inputs(data_root: Path, public_root: Path) -> dict:
         raise ValueError("matched truth-pair registry identities are not unique")
 
     # Validate the frozen candidate cache and candidate catalog against source manifests.
-    frozen = _safe(data_root, ".cache/recomb2027-dmi/frozen")
-    pl1_manifest_path = frozen / "outputs/dmi_bridge_pl1_predictability_landscape_v1_resumable_v1/BRIDGEPL1_MANIFEST.json"
-    pl1_manifest = _json(pl1_manifest_path)
-    src_hashes = pl1_manifest["source_sha256"]
-    cache_rel = "outputs/secondary_anchor_exploratory/dmi_sa_six_arm_current_20260926/reconstructed/flux_cache.npz"
-    panel_rel = "12_recomb_method_comparison/outputs_dmi_fraction_ensemble_v2/candidate_fraction_table.tsv.xz"
-    cache_path = frozen / cache_rel
-    panel_path = frozen / panel_rel
-    _verify_hash(cache_path, src_hashes[cache_rel], "candidate_flux_cache", hashes)
-    _verify_hash(panel_path, src_hashes[panel_rel], "candidate_catalog", hashes)
+    if package_mode:
+        pl1_manifest_path = _package_file(data_root, package, "BRIDGEPL1_MANIFEST.json", hashes)
+        pl1_manifest = _json(pl1_manifest_path)
+        cache_path = _package_file(data_root, package, "flux_cache.npz", hashes)
+        panel_path = _package_file(data_root, package, "candidate_fraction_table.tsv.xz", hashes)
+        cache_rel = "outputs/secondary_anchor_exploratory/dmi_sa_six_arm_current_20260926/reconstructed/flux_cache.npz"
+        panel_rel = "12_recomb_method_comparison/outputs_dmi_fraction_ensemble_v2/candidate_fraction_table.tsv.xz"
+        if pl1_manifest.get("source_sha256", {}).get(cache_rel) != sha256(cache_path):
+            raise ValueError("candidate cache does not match the frozen PL1 source manifest")
+        if pl1_manifest.get("source_sha256", {}).get(panel_rel) != sha256(panel_path):
+            raise ValueError("candidate catalog does not match the frozen PL1 source manifest")
+    else:
+        frozen = _safe(data_root, ".cache/recomb2027-dmi/frozen")
+        pl1_manifest_path = frozen / "outputs/dmi_bridge_pl1_predictability_landscape_v1_resumable_v1/BRIDGEPL1_MANIFEST.json"
+        pl1_manifest = _json(pl1_manifest_path)
+        src_hashes = pl1_manifest["source_sha256"]
+        cache_rel = "outputs/secondary_anchor_exploratory/dmi_sa_six_arm_current_20260926/reconstructed/flux_cache.npz"
+        panel_rel = "12_recomb_method_comparison/outputs_dmi_fraction_ensemble_v2/candidate_fraction_table.tsv.xz"
+        cache_path = frozen / cache_rel
+        panel_path = frozen / panel_rel
+        _verify_hash(cache_path, src_hashes[cache_rel], "candidate_flux_cache", hashes)
+        _verify_hash(panel_path, src_hashes[panel_rel], "candidate_catalog", hashes)
 
-    weights_path = _safe(data_root, "data/figure_inputs/s1/candidate_weights.tsv")
+    input_root = public_root if package_mode else data_root
+    weights_path = _safe(input_root, "data/figure_inputs/s1/candidate_weights.tsv")
     weights = pd.read_csv(weights_path, sep="\t")
-    figure_manifest = _json(data_root / "manifests/FIGURE_INPUTS.json")
+    figure_manifest = _json(input_root / "manifests/FIGURE_INPUTS.json")
     weight_entry = next((x for x in figure_manifest["inputs"] if x["destination_path"] == "data/figure_inputs/s1/candidate_weights.tsv"), None)
     if weight_entry is None:
         raise ValueError("candidate weight hash is absent from FIGURE_INPUTS manifest")
-    _verify_hash(weights_path, weight_entry["sha256"], "candidate_weights", hashes)
+    if package_mode:
+        _public_file(public_root, package, "data/figure_inputs/s1/candidate_weights.tsv",
+                     weight_entry["sha256"], hashes, name="candidate_weights")
+    else:
+        _verify_hash(weights_path, weight_entry["sha256"], "candidate_weights", hashes)
 
-    eval_path = _safe(data_root, "outputs/dmi_bridge_a21_dual_anchor_geometry_v1/BRIDGEA21_EVALUATION_REGISTRY.tsv")
+    eval_path = _safe(input_root, "outputs/dmi_bridge_a21_dual_anchor_geometry_v1/BRIDGEA21_EVALUATION_REGISTRY.tsv")
     a21_manifest_path = eval_path.parent / "BRIDGEA21_MANIFEST.json"
     a21_manifest = _json(a21_manifest_path)
-    _verify_hash(eval_path, a21_manifest["artifact_sha256"][eval_path.name], "evaluation_registry", hashes)
+    if package_mode:
+        _public_file(public_root, package, str(eval_path.relative_to(public_root)),
+                     a21_manifest["artifact_sha256"][eval_path.name], hashes, name="evaluation_registry")
+    else:
+        _verify_hash(eval_path, a21_manifest["artifact_sha256"][eval_path.name], "evaluation_registry", hashes)
     evals = pd.read_csv(eval_path, sep="\t", dtype={"evaluation_id": str})
     if len(evals) != 400 or evals.evaluation_id.duplicated().any():
         raise ValueError("evaluation registry must contain 400 unique evaluations")
@@ -272,10 +388,15 @@ def _load_inputs(data_root: Path, public_root: Path) -> dict:
                     raise ValueError(f"{anchor} candidate identity/sample index mismatch for pair {row['truth_pair_id']}")
 
     # Figure 2 panel/split identity and Figure 3 reference identities.
-    split_path = _safe(data_root, "outputs/dmi_bridge_pl2c_geometry_utility_development_v1/BRIDGEPL2C_REACTION_SPLIT.tsv")
+    split_path = _safe(input_root, "outputs/dmi_bridge_pl2c_geometry_utility_development_v1/BRIDGEPL2C_REACTION_SPLIT.tsv")
     split_manifest_path = split_path.parent / "BRIDGEPL2C_MANIFEST.json"
     split_manifest = _json(split_manifest_path)
-    _verify_hash(split_path, split_manifest["artifact_sha256"][split_path.name], "development_confirmation_split", hashes)
+    if package_mode:
+        _public_file(public_root, package, str(split_path.relative_to(public_root)),
+                     split_manifest["artifact_sha256"][split_path.name], hashes,
+                     name="development_confirmation_split")
+    else:
+        _verify_hash(split_path, split_manifest["artifact_sha256"][split_path.name], "development_confirmation_split", hashes)
     split = pd.read_csv(split_path, sep="\t", dtype={"reaction_id": str})
     if split.reaction_id.duplicated().any():
         raise ValueError("Development/Confirmation split contains duplicate reaction identities")
@@ -300,7 +421,11 @@ def _load_inputs(data_root: Path, public_root: Path) -> dict:
     public_index = {x["destination_path"]: x for x in public_manifest["inputs"]}
     ref_rel = "data/figure_inputs/fig3/fig3_gain_reaction_evaluation.parquet.xz"
     ref_path = _safe(public_root, ref_rel)
-    _verify_hash(ref_path, public_index[ref_rel]["sha256"], "frozen_fig3_pairs", hashes)
+    if package_mode:
+        _public_file(public_root, package, ref_rel, public_index[ref_rel]["sha256"],
+                     hashes, name="frozen_fig3_pairs")
+    else:
+        _verify_hash(ref_path, public_index[ref_rel]["sha256"], "frozen_fig3_pairs", hashes)
     with lzma.open(ref_path, "rb") as stream:
         reference = pd.read_parquet(io.BytesIO(stream.read()))
     if reference.groupby("anchor_setting").size().to_dict() != {"A1": EXPECTED["eligible_pairs_per_anchor"], "A2-L": EXPECTED["eligible_pairs_per_anchor"]}:
@@ -316,7 +441,8 @@ def _load_inputs(data_root: Path, public_root: Path) -> dict:
             "candidate_id_map": candidate_id_map,
             "weight_diagnostics": {"global_ess_min": float(min(global_ess_values)),
                                    "global_ess_max": float(max(global_ess_values)),
-                                   "global_pools": len(global_ess_values)}}
+                                   "global_pools": len(global_ess_values)},
+            "package_manifest": package if package_mode else None}
 
 
 def _case_columns(anchor: str) -> dict[str, str]:
@@ -975,6 +1101,13 @@ def run_verification(*, level: str, data_root: Path, public_root: Path,
         raise FileExistsError(f"output directory already exists; choose a new --output-root: {output_root}")
     start=time.perf_counter()
     inputs=_load_inputs(data_root,public_root)
+    package_mode = inputs["package_manifest"] is not None
+    limitations = [
+        "Level 2B conditions on frozen S1 anchor weights; upstream strong-anchor weight generation and model reconstruction are unsupported."]
+    if package_mode:
+        limitations.append("Reviewer package is local review-only until redistribution approvals and a final implementation commit are recorded.")
+    else:
+        limitations.append("Private source artifacts are local inputs and are not packaged or redistributed.")
     result={"schema":"recomb2027.level2.science_validation.v1","status":"PASS",
             "requested_level":level,"inputs_sha256":inputs["hashes"],
             "identity_counts":{**EXPECTED,"evaluations":len(inputs["evals"]),
@@ -982,9 +1115,15 @@ def run_verification(*, level: str, data_root: Path, public_root: Path,
                 "rna_contexts":int(inputs["evals"].rna_context_key.nunique()),
                 "ct2a_mice":int(inputs["evals"].ct2a_mouse.nunique()),
                 "gl261_mice":int(inputs["evals"].gl261_mouse.nunique())},
-            "weight_diagnostics":inputs["weight_diagnostics"],"limitations":[
-              "Level 2B conditions on frozen S1 anchor weights; upstream strong-anchor weight generation and model reconstruction are unsupported.",
-              "Private source artifacts are local inputs and are not packaged or redistributed."]}
+            "weight_diagnostics":inputs["weight_diagnostics"],"limitations":limitations}
+    if package_mode:
+        package = inputs["package_manifest"]
+        result["verification_package"] = {
+            "manifest_sha256": inputs["hashes"]["verification_package_manifest"],
+            "release_ready": bool(package.get("release_ready")),
+            "implementation_commit": package.get("implementation_commit"),
+            "redistribution_status": package.get("redistribution_status"),
+        }
     l2a=_verify_l2a(inputs)
     class_mismatch = any(l2a["anchors"][a]["usefulness_classification_mismatches"]
                          for a in ("A1", "A2-L"))

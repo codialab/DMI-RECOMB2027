@@ -131,41 +131,47 @@ replace those quantitative anchors.
 
 ### Independent scientific verification (local reviewer workflow)
 
-The `verify-science` command accepts private source artifacts only through an
-explicit `--data-root`; it never fetches or copies them. `2a` independently
-recomputes case gains, directional usefulness, reaction–evaluation aggregation,
-and Figure 3 endpoints from case predictions and truths. `2b` rebuilds the
-baseline/correct-cue/incorrect-cue posterior means from candidate vectors and
-the supplied frozen conditional A1/A2 weights, applies whole-vector held-out
-state exclusion, then recalculates Level 2A endpoints. Level 2B therefore
-verifies the posterior operator conditional on those weights; it does not
-reconstruct upstream anchor weights. `geometry` recomputes η² from the full
-20×20 candidate support and checks Development/Confirmation associations.
-
-Example local commands (the private input root must be separately available):
+The verifier supports a local reviewer data bundle. After an approved,
+versioned asset is available, unpack it locally and check its hashes before
+running the scientific checks:
 
 ```bash
-python reproduce.py verify-science --level 2a --workers 1 --data-root /path/to/private-checkout --output-root /tmp/recomb-l2a
-python reproduce.py verify-science --level 2b --workers 4 --data-root /path/to/private-checkout --output-root /tmp/recomb-l2b
-python reproduce.py verify-science --level geometry --workers 1 --data-root /path/to/private-checkout --output-root /tmp/recomb-geometry
+python reproduce.py check-science-package --verification-data-root /path/to/recomb2027-science-verification
+python reproduce.py verify-science --level 2a --workers 1 --verification-data-root /path/to/recomb2027-science-verification --output-root /tmp/recomb-l2a
+python reproduce.py verify-science --level 2b --workers 1 --verification-data-root /path/to/recomb2027-science-verification --output-root /tmp/recomb-l2b
+python reproduce.py verify-science --level geometry --workers 1 --verification-data-root /path/to/recomb2027-science-verification --output-root /tmp/recomb-geometry
 ```
 
-Level 2B accepts `--workers N` or `--workers auto`; four workers are a useful
-starting point when CPU and memory allow. Geometry defaults to one worker
-because the measured small-batch benchmark was slower with multiprocessing.
-The JSON report separates prediction and gain tolerance checks from exact
-usefulness-classification parity, boundary sensitivity, η² parity, and exact
-Spearman reproduction. A scientifically meaningful threshold or rank
-discrepancy is retained in the report and produces a nonzero CLI status.
+The bundle supplies compact A1 case predictions, its pair registry, the frozen
+candidate-vector cache/catalog and provenance. It reuses the A2 partitions,
+weights, evaluation/reaction registries and Figure 2–4 references already in
+this pinned checkout. The verifier checks all bundle files and the pinned
+checkout dependencies before calculation. A legacy `--data-root` remains
+available for a complete local frozen-source tree.
 
-The workflow needs private PL2B/A22 case partitions and registries, the PL1
-candidate-vector cache and candidate catalog, S1 frozen conditional weights,
-PL2C reaction split, A21 evaluation registry, and the included Figure 3 and
-Figure 4 references. Redistribution approval for these private inputs and
-derived case outcomes is not established. Reviewers cannot run this workflow
-from the public release until approved data are packaged and tested from a
-clean checkout. Upstream strong-anchor weight generation and model
-reconstruction remain unsupported.
+Level 2A recomputes case gains and usefulness, aggregates by evaluation and
+reaction, and compares pair-weighted Figure 3 endpoints. Level 2B rebuilds
+baseline/cue posterior means from candidate vectors, conditions on frozen S1
+anchor weights, applies held-out-state exclusion, and recalculates Level 2A
+endpoints. It does not reconstruct upstream anchor weights or the metabolic
+model. Geometry recomputes η² over the full 20×20 candidate support and checks
+Development/Confirmation associations.
+
+Data redistribution approval is still pending. The local bundle is for
+implementation and clean-checkout validation only; it is not a public download
+until the rights review is complete and its manifest pins the final
+implementation commit. See
+[`VERIFICATION_PACKAGE_RIGHTS.tsv`](manifests/provenance/VERIFICATION_PACKAGE_RIGHTS.tsv)
+for unresolved decisions.
+
+The verifier preserves the known findings: prediction, Level 2A endpoint,
+Level 2B posterior and geometry numerical parity pass; exact usefulness
+classification has one A1 cutoff difference; independently recomputed η² can
+have different exact Spearman ranks because of floating-point rank instability.
+These findings remain visible as `SCIENTIFIC_DISCREPANCY` with a nonzero exit
+status. No thresholds or values are adjusted to force agreement. Upstream
+strong-anchor weight generation and full model reconstruction remain outside
+this workflow.
 
 Figure 2's frozen correlations use exact statistical tied ranks of serialized
 η² values. Independently reconstructed η² values agree to floating-point
