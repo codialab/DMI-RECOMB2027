@@ -24,6 +24,49 @@ def test_feature_means_derives_coverage_from_polarity_masses(tmp_path):
     assert means["R"]["sign_magnitude_eta2"] == pytest.approx(0.6)
 
 
+def test_runner_feature_assembly_and_prospective_models_integrate(tmp_path):
+    from scripts import dmi_bridge_uncertainty_reduction_core_v1 as core
+
+    reaction_ids = [f"R{i}" for i in range(12)]
+    splits = {reaction: "DEVELOPMENT" if i < 8 else "CONFIRMATION_HOLDOUT"
+              for i, reaction in enumerate(reaction_ids)}
+    fields = ("sign_magnitude_eta2", "directional_entropy3", "dominant_sign_mass",
+              "n_supported_sign_states", "p_negative", "p_positive")
+    reaction_rows = []
+    for anchor, shift in (("A1", 0.0), ("A2", 0.02)):
+        path = tmp_path / f"{anchor}.tsv"
+        with path.open("w", newline="") as handle:
+            writer = csv.DictWriter(handle, fieldnames=("reaction_id", *fields), delimiter="\t")
+            writer.writeheader()
+            for i, reaction in enumerate(reaction_ids):
+                writer.writerow({"reaction_id": reaction,
+                                 "sign_magnitude_eta2": .1 + .04 * i + shift,
+                                 "directional_entropy3": .2 + .03 * i,
+                                 "dominant_sign_mass": .5 + .02 * i,
+                                 "n_supported_sign_states": 2 + i % 2,
+                                 "p_negative": .2 + .01 * i,
+                                 "p_positive": .5 - .005 * i})
+        features = runner._feature_means([path], reaction_ids, fields)
+        for i, reaction in enumerate(reaction_ids):
+            feature = features[reaction]
+            assert np.isfinite(feature["non_tie_coverage"])
+            assert feature["non_tie_coverage"] == pytest.approx(.7 + .005 * i)
+            reaction_rows.append({"anchor": anchor, "reaction_id": reaction,
+                                  "analysis_split": splits[reaction], **feature,
+                                  "relative_correct": .15 + .025 * i + shift,
+                                  "relative_incorrect": -.1 + .018 * i - shift})
+
+    common, models = runner._prospective_population_and_models(reaction_rows, reaction_ids, core)
+    assert len(common) == len(reaction_ids)
+    assert {splits[reaction] for reaction in common} == {"DEVELOPMENT", "CONFIRMATION_HOLDOUT"}
+    assert {(row["anchor"], row["target"]) for row in models} == {
+        (anchor, target)
+        for anchor in ("A1", "A2")
+        for target in ("correct_relative_variance_reduction", "incorrect_relative_variance_reduction")
+    }
+    assert all(row["n_development"] == 8 and row["n_confirmation"] == 4 for row in models)
+
+
 def test_support_cache_position_accepts_frozen_a1_and_a2_schemas():
     index = {("alg", "CT2A", "ens"): 7}
     assert runner._support_cache_position({"cache_index": 3}, index) == 3

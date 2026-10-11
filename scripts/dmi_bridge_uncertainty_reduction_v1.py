@@ -571,6 +571,39 @@ def _feature_parts(manifest, artifact_paths, prefix):
     return [artifact_paths[part["filename"]] for part in info["parts"]]
 
 
+def _prospective_population_and_models(reaction_rows, reaction_ids, core):
+    """Build the shared complete-case population and fit both cue targets."""
+    frames = {anchor: {row["reaction_id"]: row for row in reaction_rows if row["anchor"] == anchor} for anchor in ("A1", "A2")}
+    common_reactions = []
+    required = ["relative_correct", "relative_incorrect", "sign_magnitude_eta2", "directional_entropy3", "dominant_sign_mass", "non_tie_coverage", "n_supported_sign_states"]
+    for reaction in reaction_ids:
+        candidates_rows = [frames[anchor][reaction] for anchor in ("A1", "A2")]
+        if all(math.isfinite(float(row.get(field, math.nan))) for row in candidates_rows for field in required):
+            if candidates_rows[0]["analysis_split"] == candidates_rows[1]["analysis_split"]:
+                common_reactions.append(reaction)
+    models = []
+    for anchor in ("A1", "A2"):
+        data_rows = []
+        for reaction in common_reactions:
+            row = frames[anchor][reaction]
+            data_rows.append({
+                "reaction_id": reaction,
+                "analysis_split": row["analysis_split"],
+                "sign_magnitude_eta2": row["sign_magnitude_eta2"],
+                "directional_entropy3": row["directional_entropy3"],
+                "dominant_sign_mass": row["dominant_sign_mass"],
+                "non_tie_coverage": row["non_tie_coverage"],
+                "n_supported_sign_states": row["n_supported_sign_states"],
+                "correct_relative_variance_reduction": row["relative_correct"],
+                "incorrect_relative_variance_reduction": row["relative_incorrect"],
+            })
+        for target in ("correct_relative_variance_reduction", "incorrect_relative_variance_reduction"):
+            for result in core.fit_prospective_models(data_rows, target=target):
+                result["anchor"] = anchor
+                models.append(result)
+    return common_reactions, models
+
+
 def _save_unit_table(anchor, accumulator, eval_rows, reaction_ids, path):
     with lzma.open(path, "wt", encoding="utf-8", newline="", preset=3) as handle:
         fields = ("anchor", "evaluation_id", "reaction_id", "algorithm", "rna_context_key", "ct2a_mouse", "gl261_mouse", "n_non_tie_pairs", *accumulator.UNIT_FIELDS)
@@ -980,42 +1013,12 @@ def run_empirical(output_dir: Path = OUT):
     a2_feature_paths = _feature_parts(a21_manifest, a21_artifacts, "BRIDGEA21")
     a1_features = _feature_means(a1_feature_paths, reaction_ids, feature_fields)
     a2_features_raw = _feature_means(a2_feature_paths, reaction_ids, feature_fields)
-    for table in (a1_features, a2_features_raw):
-        for item in table.values():
-            item["non_tie_coverage"] = item.pop("p_negative") + item.pop("p_positive") if math.isfinite(item.get("p_negative", math.nan)) and math.isfinite(item.get("p_positive", math.nan)) else math.nan
     reaction_rows = []
     for anchor, features in (("A1", a1_features), ("A2", a2_features_raw)):
         reaction_rows.extend(accumulators[anchor].reaction_rows(anchor, features, split_map))
     # Prospective predictions require a shared finite population across A1/A2
     # and both cue targets, and use only outcome-blind baseline descriptors.
-    frames = {anchor: {row["reaction_id"]: row for row in reaction_rows if row["anchor"] == anchor} for anchor in ("A1", "A2")}
-    common_reactions = []
-    for reaction in reaction_ids:
-        candidates_rows = [frames[anchor][reaction] for anchor in ("A1", "A2")]
-        required = ["relative_correct", "relative_incorrect", "sign_magnitude_eta2", "directional_entropy3", "dominant_sign_mass", "non_tie_coverage", "n_supported_sign_states"]
-        if all(math.isfinite(float(row.get(field, math.nan))) for row in candidates_rows for field in required):
-            if candidates_rows[0]["analysis_split"] == candidates_rows[1]["analysis_split"]:
-                common_reactions.append(reaction)
-    models = []
-    for anchor in ("A1", "A2"):
-        data_rows = []
-        for reaction in common_reactions:
-            row = frames[anchor][reaction]
-            data_rows.append({
-                "reaction_id": reaction,
-                "analysis_split": row["analysis_split"],
-                "sign_magnitude_eta2": row["sign_magnitude_eta2"],
-                "directional_entropy3": row["directional_entropy3"],
-                "dominant_sign_mass": row["dominant_sign_mass"],
-                "non_tie_coverage": row["non_tie_coverage"],
-                "n_supported_sign_states": row["n_supported_sign_states"],
-                "correct_relative_variance_reduction": row["relative_correct"],
-                "incorrect_relative_variance_reduction": row["relative_incorrect"],
-            })
-        for target in ("correct_relative_variance_reduction", "incorrect_relative_variance_reduction"):
-            for result in core.fit_prospective_models(data_rows, target=target):
-                result["anchor"] = anchor
-                models.append(result)
+    common_reactions, models = _prospective_population_and_models(reaction_rows, reaction_ids, core)
     _write_tsv(output_dir / "PROSPECTIVE_GEOMETRY_PREDICTION.tsv", models)
     _write_tsv(output_dir / "REACTION_LEVEL_PLOTTING_TABLE.tsv", reaction_rows)
     _write_tsv(output_dir / "CASE_LEVEL_OUTCOME_COUNTS.tsv", [
