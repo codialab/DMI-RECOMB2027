@@ -288,10 +288,12 @@ def analyze_distribution(
                 current_weights = weights
                 summary = dict(baseline)
                 current_masses, current_means, current_vars = masses, means, within_variances
+                current_support_mask = support_mask
             else:
                 factor = np.exp(lam * cue_direction * sign)
                 raw = weights * factor
                 current_weights = raw / float(np.sum(raw))
+                current_support_mask = support_mask & (factor > 0.0)
                 factors = np.asarray([math.exp(lam * cue_direction * state) for state in (-1, 0, 1)])
                 unnormalized_masses = masses * factors
                 current_masses = unnormalized_masses / float(np.sum(unnormalized_masses))
@@ -307,7 +309,7 @@ def analyze_distribution(
                 np.dot(current_masses, crps_first_by_sign)
                 - 0.5 * current_masses @ crps_cross_by_sign @ current_masses
             )
-            if not np.array_equal(current_weights > 0.0, support_mask):
+            if not np.array_equal(current_support_mask, support_mask):
                 raise RuntimeError("positive exponential reweighting changed weighted support")
             current_second_moment = float(np.dot(current_masses, seconds))
             status, tolerance = variance_change_status(
@@ -324,7 +326,7 @@ def analyze_distribution(
                 "variance_change_status": status,
                 "variance_change_tolerance": tolerance,
                 "crps_improvement": baseline["crps"] - summary["crps"],
-                "support_count_unchanged": int(np.count_nonzero(current_weights > 0.0)) == int(np.count_nonzero(support_mask)),
+                "support_count_unchanged": int(np.count_nonzero(current_support_mask)) == int(np.count_nonzero(support_mask)),
             })
             updates[key][cue_name] = summary
     return {

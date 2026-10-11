@@ -39,6 +39,21 @@ def test_variance_mixture_identity_matches_direct_reweighting_and_support():
             assert np.array_equal(expected_weights > 0, np.asarray(weights) > 0)
 
 
+def test_frozen_subnormal_joint_weight_keeps_mathematical_support_under_cue():
+    # The frozen A1 case E0124/C5-G5 has a smallest positive joint weight of
+    # 5e-324. An incorrect λ=1 cue multiplies positive-sign support by exp(-1),
+    # which rounds that product to zero in float64 although the multiplier is
+    # strictly positive. Support is defined by the frozen weight and multiplier.
+    tiny_joint = np.float64(1.7511087870727795e-88) * np.float64(1.533862709455509e-236)
+    assert tiny_joint == np.nextafter(0.0, 1.0)
+    result = core.analyze_distribution(
+        [0.0006222317944021321, 1.0], [tiny_joint, 1.0], 1.0
+    )
+    updated = result["updates"]["1"]["incorrect"]
+    assert result["support_count"] == 2
+    assert updated["support_count_unchanged"] is True
+
+
 def test_zero_lambda_exactly_reuses_baseline_uncertainty_and_crps():
     out = core.analyze_distribution([-4, -2, 0, 1, 3], [0.1, 0.2, 0.1, 0.3, 0.3], 2.0)
     baseline = out["baseline"]
