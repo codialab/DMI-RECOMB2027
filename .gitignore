@@ -9,3 +9,4 @@ build/
 # reproduced/
 *.log
 .DS_Store
+outputs/dmi_bridge_uncertainty_reduction_v1/FROZEN_ARTIFACT_RESTORATION_INVENTORY.tsv
