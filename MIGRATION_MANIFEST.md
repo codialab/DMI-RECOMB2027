@@ -1,6 +1,6 @@
 # Migration manifest
 
-Source: `/home/pty/work/project_MRI_brain_tumor/`, commit
+Source: original analysis repository (not included), commit
 `16379a169f45ec556274953eb66ae12293e1e985`.
 Destination initial commit: `63edf6a9f3e0f3ba84c17dd7a828db5b6d7170de`.
 Migration branch: `publication-migration`. Migration date: 2026-10-05.

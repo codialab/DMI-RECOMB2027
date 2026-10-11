@@ -697,7 +697,7 @@ def run() -> dict:
             "summary": "Regression prediction using the frozen split; not a new untouched confirmation experiment.",
             "matched_primary_population": {"reaction_count": MATCHED_PAIRS, "excluded_a1_only_reaction": "LDH_L", "reason": "A2-L quantitative anchor; absent from A2 weak-target registry."},
             "source_bundles": source_hashes,
-            "source_root_for_recovery": "/home/pty/work/project_MRI_brain_tumor/outputs",
+            "source_root_for_recovery": "external source outputs (not included)",
             "input_output_files": list(OUTPUT_FILES),
             "qc": json_clean(qc),
             "artifact_sha256": {name: sha256(stage / name) for name in OUTPUT_FILES},

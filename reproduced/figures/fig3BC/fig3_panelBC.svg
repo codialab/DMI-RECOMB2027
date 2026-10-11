@@ -1536,7 +1536,7 @@ L 297.721293 42.48025
 " style="fill: none; stroke: #2878b5; stroke-width: 1.8; stroke-linecap: square"/>
     </g>
     <g id="text_19">
-     <!-- A1 (HEX1) -->
+     <!-- A1 (glucose uptake) -->
      <g transform="translate(305.721293 45.98025) scale(0.1 -0.1)">
       <defs>
        <path id="DejaVuSans-41" d="M 2188 4044 
@@ -1645,7 +1645,7 @@ L 297.721293 57.158375
 " style="fill: none; stroke: #d9534f; stroke-width: 1.8; stroke-linecap: square"/>
     </g>
     <g id="text_20">
-     <!-- A2 (HEX1 + LDH_L) -->
+     <!-- A2 (glucose uptake + LDH_L) -->
      <g transform="translate(305.721293 60.658375) scale(0.1 -0.1)">
       <defs>
        <path id="DejaVuSans-2b" d="M 2944 4013 
@@ -2385,7 +2385,7 @@ L 723.830384 42.48025
 " style="fill: none; stroke: #2878b5; stroke-width: 1.8; stroke-linecap: square"/>
     </g>
     <g id="text_32">
-     <!-- A1 (HEX1) -->
+     <!-- A1 (glucose uptake) -->
      <g transform="translate(731.830384 45.98025) scale(0.1 -0.1)">
       <use xlink:href="#DejaVuSans-41"/>
       <use xlink:href="#DejaVuSans-31" transform="translate(68.408203 0)"/>
@@ -2405,7 +2405,7 @@ L 723.830384 57.158375
 " style="fill: none; stroke: #d9534f; stroke-width: 1.8; stroke-linecap: square"/>
     </g>
     <g id="text_33">
-     <!-- A2 (HEX1 + LDH_L) -->
+     <!-- A2 (glucose uptake + LDH_L) -->
      <g transform="translate(731.830384 60.658375) scale(0.1 -0.1)">
       <use xlink:href="#DejaVuSans-41"/>
       <use xlink:href="#DejaVuSans-32" transform="translate(68.408203 0)"/>

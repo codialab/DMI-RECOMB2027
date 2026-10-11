@@ -1,6 +1,6 @@
 {
   "identity": {
-    "plotting_sha256": "5fe91e1b9f1e381250a0ff7223e927edf79426284738052100cdfd82b2eac4a4",
+    "plotting_sha256": "ab89f62642a519d7dbde645c8e2bf99e1e4b14893d7f4d68bdee318c08134fde",
     "input_sha256": {
       "data/figure_inputs/fig3/fig3_gain_reaction_evaluation.parquet.xz": "7a83a31d29317f7b0d906fff73691428d98427d93d2fdebd4ef91294f8a46676"
     },
@@ -14,7 +14,7 @@
     "python": "3.12.3"
   },
   "output_sha256": {
-    "fig3_panelBC.svg": "a1eff993e3b00a51c38300856c7bcae187ee235a0e2b4f37a10dd968f432fb4e",
-    "fig3_panelBC.png": "d57c21b66f557b64e110274ffabc424693b3b00d446535934edacb8c0154ac57"
+    "fig3_panelBC.svg": "06e14b5b84e0f51d3d47a360d708b1246f36150ab1329e3d1c2ad8c4fc356566",
+    "fig3_panelBC.png": "2282efc8f29ac10f88794dd4eefc7ce7bdd447c6d080a3cc137eee81a5c9f408"
   }
 }

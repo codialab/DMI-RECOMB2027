@@ -1,6 +1,6 @@
 # Data and implementation provenance
 
-Source repository: `/home/pty/work/project_MRI_brain_tumor/`.
+Source repository: original analysis repository (not included).
 Source commit: **`16379a169f45ec556274953eb66ae12293e1e985`**.
 Migration date: **2026-10-05**.
 Destination initial commit: `63edf6a9f3e0f3ba84c17dd7a828db5b6d7170de`.
@@ -56,9 +56,10 @@ Weighted q10/q50/q90 truth selection is deterministic. There is no independent
 five-draw factor in the evaluation design.
 
 The [anchor operator audit](ANCHOR_OPERATOR_AUDIT.md) traces raw glucose-exchange
-rank weighting separately from cached HEX1 truth-selection/coupling coordinates.
-No executed Vmax-to-HEX1 mapping or equivalence guarantee was established. S1
-remains an author decision; existing scientific labels and code are unchanged.
+rank weighting separately from cached HEX1 candidate-state ordering and geometry
+coordinates. No executed Vmax-to-HEX1 mapping or equivalence guarantee was
+established. This release describes the implemented operators directly and keeps
+historical scientific identifiers, schemas and numerical outputs unchanged.
 Evidence identities and the compact census are recorded in
 [`S1_S2_EVIDENCE.json`](../manifests/provenance/S1_S2_EVIDENCE.json); no rights-pending
 data were copied during this follow-up.

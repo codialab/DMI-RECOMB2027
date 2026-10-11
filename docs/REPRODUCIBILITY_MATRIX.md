@@ -1,9 +1,54 @@
 # Manuscript reproducibility matrix
 
-Source authority: clean `project_MRI_brain_tumor` checkout at `225279129`.
+Source authority: manuscript analysis commit
+`22527912996cecedd17bb23c0b7ba93e889ad4ad`; included source/input identities are
+recorded in `manifests/FIGURE_INPUTS.json` and
+`manifests/checksums/SHA256SUMS.txt`.
 “Reproducible” means regenerated from the frozen files included here by the
 root-level CLI, with population and numerical checks passing. A retained current
 render is evidence/artwork, not by itself a successful rebuild.
+
+## Reproducibility levels
+
+| Capability | Status | Basis and limit |
+|---|---|---|
+| Regenerate supported figures/tables | Fully reproducible for Fig. 1, Fig. 2D–G, Fig. 3B–D, Fig. 4B–C, S1–S3 and S6; Fig. 2 correlations and Fig. 3 pair summaries | Run the root CLI using included checksum-pinned inputs. This does not rebuild upstream numerical analyses. |
+| Independently validate manuscript numerical results | Partially reproducible | `python reproduce.py validate` checks included populations, selected numerical endpoints and table relationships. It validates frozen evidence, not independently generated scientific outputs. |
+| Repeat full simulations from frozen ensembles | Not supported | Complete production ensembles and an executable simulation workflow are not included. |
+| Reconstruct metabolic models from original biological inputs | Provenance-only | Original RNA/DMI inputs, parent GEM and some historical identities/patches are external or absent. |
+
+Development supports the fitted usefulness relationship; Confirmation is
+evaluated separately on its held-out reaction population. A2 is a post-freeze
+robustness analysis on the same split, not an independent confirmation. Weak
+directional cues are evaluated after strong-anchor weighting. A1 uses
+`max(-EX_glc__D_e, 0)`; A2 adds `max(-LDH_L, 0)`. HEX1 is used for candidate-state
+ordering and geometry analysis, not as a quantitative anchor. Historical
+`A2-L` identifiers remain in frozen schemas.
+
+Reproduce supported outputs from the repository root:
+
+```bash
+python reproduce.py status
+python reproduce.py checksums
+python reproduce.py validate
+python reproduce.py figures --only fig1,fig2DG,fig3BC,fig3D,fig4B,fig4C,s1,s2,s3,s6 --output-root reproduced/reviewer-v1-final-figures
+python reproduce.py tables --output-root reproduced/reviewer-v1-tables
+python -m pytest -p no:cacheprovider -q
+```
+
+The first two commands report input/status and included-file SHA-256 results;
+`validate` performs the independent frozen-result checks described above. See
+`environment/README.md` for setup. Full upstream analysis requires externally
+archived inputs and is not a supported reproduction level in this release.
+
+## Manuscript tables and numerical summaries
+
+| Output | Status | Reproduction path / scope |
+|---|---|---|
+| Figure 2 panel statistics | Fully reproducible | `python reproduce.py tables`; derives plotted counts and Spearman correlations from the frozen Figure 2 points. |
+| Figure 3 pair-weighted gain summaries and endpoint separation | Fully reproducible | `python reproduce.py tables`; derives summaries from frozen pair-level inputs. |
+| Table S2 / aggregation audit | Provenance-only | The historical case-pooled analysis is superseded by equal-weight matched-pair aggregation; see `data/processed/aggregation_audit/fig3_gain_definition_audit.parquet.xz`. |
+| Other manuscript tables without included inputs/builders | Not supported | No full simulation or table builder is bundled for these items. |
 
 ## Main figures
 

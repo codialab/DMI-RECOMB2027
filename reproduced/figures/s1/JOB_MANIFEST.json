@@ -1,6 +1,6 @@
 {
   "identity": {
-    "plotting_sha256": "f999c568faf4a65084d59156e19fee769196651760b1133b74de39be5716a032",
+    "plotting_sha256": "c62be7e945e2c88313073b2136048863977fd4c8e94c6ef5cbfa14a68830db17",
     "input_sha256": {
       "data/figure_inputs/s1/candidate_weights.tsv": "6e2c34e0f1da709c7847f040efa3408db4b104bdab7ba5b11febcde41786256f",
       "data/figure_inputs/s1/conditional_stratum_summary.tsv": "56f0fa4d4a6141f137e85893e5c021572cf195c657ab3b64034d3cfb577c9b01",
@@ -20,7 +20,7 @@
     "python": "3.12.3"
   },
   "output_sha256": {
-    "supp_fig1.png": "c479f1d91dcec718e40fb3ee2d66d594b0d1200c969f30abb1c0497869856d38",
-    "supp_fig1.svg": "17c34fe469a23c5516e6bef4a413ab65bfe57e01116cd0a7e99518c55e916f21"
+    "supp_fig1.png": "32c434f80c5161d346617ca0fdc590af98c6d05dd86c1e17af5467dbdd1534b7",
+    "supp_fig1.svg": "e17b82a37c47429cd40d5d404a3cb00c7a77c80f10368aa12e5fe2aaf88eff40"
   }
 }

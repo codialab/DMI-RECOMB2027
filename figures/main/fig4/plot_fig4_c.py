@@ -85,7 +85,7 @@ for method in METHODS:
 OUT.mkdir(parents=True, exist_ok=True)
 fig, axes = plt.subplots(1, 3, figsize=(12.0, 4.35), sharey=True, constrained_layout=True)
 colors = {"A1": "#3568a8", "A2-L": "#d06a3b"}
-labels = {"A1": "1-Strong-Anchor (HEX1)", "A2-L": "2-Strong-Anchors (HEX1 + LDH_L)"}
+labels = {"A1": "1-Strong-Anchor (glucose uptake)", "A2-L": "2-Strong-Anchors (glucose uptake + LDH_L)"}
 for ax, method in zip(axes, METHODS):
     method_df = plot_df.loc[plot_df.method.eq(method)]
     all_delta = method_df.delta_v_B.to_numpy(float)

@@ -1,8 +1,10 @@
 # A2 dual-anchor workflow
 
-A2 uses HEX1 + LDH_L as strong anchors. It is the historical internal A2-L setting.
-The lactate-producing coordinate is `max(-v_LDH_L, 0)` before ranking, according
-to the GEM reaction orientation. No absolute DMI/model unit equality is assumed.
+A2 uses glucose uptake and the LDH_L lactate proxy as strong anchors, with
+weighting observables `max(-EX_glc__D_e, 0)` and `max(-LDH_L, 0)`. HEX1 is used
+for candidate-state ordering and geometry analysis, not as a quantitative anchor.
+A2-L is the historical internal setting. No absolute DMI/model unit equality is
+assumed.
 
 A20 qualifies/fixes the dual-anchor weighting, A21 computes geometry from existing
 vectors, A22 evaluates the separate weak sign-only cue, and A23 fixes the matched

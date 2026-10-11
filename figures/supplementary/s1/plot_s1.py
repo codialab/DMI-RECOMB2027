@@ -27,7 +27,7 @@ contexts = ['setx1,setx2', 'setx1,setx3', 'setx2,setx3', 'setx1,setx2,setx3']
 context_order = ['training_samples=setx1,setx2', 'training_samples=setx1,setx3', 'training_samples=setx2,setx3', 'training_samples=setx1,setx2,setx3']
 context_short = {c: f'RNA context {i+1}' for i, c in enumerate(context_order)}
 colors = {'iMAT':'#4477AA', 'GIMME':'#EE6677', 'CORDA':'#228833', 'RIPTiDe':'#AA3377'}
-anchor_titles = {'A1':'A1 · 1-Strong-Anchor (HEX1)', 'A2':'A2 · 2-Strong-Anchors (HEX1 + LDH_L)'}
+anchor_titles = {'A1':'A1 · 1-Strong-Anchor (glucose uptake)', 'A2':'A2 · 2-Strong-Anchors (glucose uptake + LDH_L)'}
 fig = plt.figure(figsize=(15.5, 18), constrained_layout=True)
 gs = fig.add_gridspec(3, 4, height_ratios=[1.0, 1.35, 0.85])
 fig.suptitle('Supplementary Figure S1 | Candidate weights and effective support', fontsize=17, fontweight='bold')

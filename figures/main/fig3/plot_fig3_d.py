@@ -22,7 +22,7 @@ summary = pd.read_csv(SUMMARY, sep="\t", float_precision="round_trip")
 separation = pd.read_csv(SEPARATION, sep="\t", float_precision="round_trip")
 
 rows = []
-for setting, label in [("A1", "A1 (HEX1)"), ("A2-L", "A2 (HEX1 + LDH_L)")]:
+for setting, label in [("A1", "A1 (glucose uptake)"), ("A2-L", "A2 (glucose uptake + LDH_L)")]:
     block = summary.loc[summary.anchor_setting.eq(setting)]
     correct = block.loc[block.gain_measure.eq("correct")]
     wrong = block.loc[block.gain_measure.eq("wrong")]

@@ -1039,7 +1039,7 @@ def rescore_a1_ess20_from_frozen(data,out):
  if any(x['status']!='PASS' for x in rows):raise RuntimeError('frozen A1 ESS20 weight parity failed')
 
 def main():
- ap=argparse.ArgumentParser(); ap.add_argument('experiment',choices=['3a','3b','4']); ap.add_argument('--upstream-root',type=Path,default=Path('/home/pty/work/project_MRI_brain_tumor')); ap.add_argument('--output-root',type=Path,required=True); ap.add_argument('--pilot',action='store_true'); ap.add_argument('--finalize-existing',action='store_true'); ap.add_argument('--rescore-existing',action='store_true'); ap.add_argument('--restore-frozen-baseline',action='store_true'); ap.add_argument('--restore-ess20-frozen',action='store_true'); ap.add_argument('--finalize-4-existing',action='store_true'); ap.add_argument('--rescore-a1-ess20',action='store_true'); a=ap.parse_args()
+ ap=argparse.ArgumentParser(); ap.add_argument('experiment',choices=['3a','3b','4']); ap.add_argument('--upstream-root',type=Path,required=True,help='Explicit path to separately authorized external inputs; not bundled in this repository'); ap.add_argument('--output-root',type=Path,required=True); ap.add_argument('--pilot',action='store_true'); ap.add_argument('--finalize-existing',action='store_true'); ap.add_argument('--rescore-existing',action='store_true'); ap.add_argument('--restore-frozen-baseline',action='store_true'); ap.add_argument('--restore-ess20-frozen',action='store_true'); ap.add_argument('--finalize-4-existing',action='store_true'); ap.add_argument('--rescore-a1-ess20',action='store_true'); a=ap.parse_args()
  sys.path.insert(0,str(a.upstream_root/'scripts'))
  data=load(a.upstream_root); data['root']=a.upstream_root
  # Source core modules imported by load; bind explicitly for numerical calls.

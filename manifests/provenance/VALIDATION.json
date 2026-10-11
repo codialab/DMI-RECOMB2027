@@ -71,7 +71,7 @@
       "arguments": [
         "figures",
         "--output-root",
-        "/home/pty/work/project_MRI_brain_tumor/reproduced"
+        "external source repository reproduced outputs (not included)"
       ],
       "exit_code": 1,
       "status": "FAIL"

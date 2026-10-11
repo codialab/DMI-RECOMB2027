@@ -136,13 +136,13 @@ All exact file identities are in
 ## Manuscript implication
 
 Supplementary Methods S2's statement that the one-anchor distance uses HEX1 alone
-is contradicted by the production distance. Main Methods, captions and shorthand
-definitions require author review; the discrepancy cannot be resolved merely by
-noting that the weights are dimensionless. Safe factual wording for review is:
+is contradicted by the production distance. This repository describes the
+implemented operators as follows:
 “A1 matches measured Vmax ranks to candidate glucose-uptake ranks; A2 additionally
 matches measured Vlac ranks to the lactate-producing LDH_L proxy. HEX1 defines the
-common truth-selection and coupling coordinate.” Acceptance of this interpretation
-is an author decision. Numerical results are unchanged and not recalculated.
+candidate-state ordering and geometry analysis.” Historical names and frozen
+numerical outputs are unchanged. The manuscript itself is outside this repository
+preparation and was not edited.
 
 Affected locations and proposed corrections are in
 [`AUTHOR_CORRECTIONS_REQUIRED.md`](AUTHOR_CORRECTIONS_REQUIRED.md).

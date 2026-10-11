@@ -1,6 +1,6 @@
 # Privileged reaction exclusion audit
 
-Date: 2026-10-06. Source: `/home/pty/work/project_MRI_brain_tumor`, commit
+Date: 2026-10-06. Source: original analysis repository (not included), commit
 `16379a169f45ec556274953eb66ae12293e1e985`. Starting destination:
 `ce621c74ed4a5a325ebb7521d1247d9c2791b94f`, branch `publication-migration`.
 
@@ -171,11 +171,12 @@ No source production module was imported or run.
 
 ```bash
 PYTHONDONTWRITEBYTECODE=1 python analyses/audit/privileged_reaction_exclusion.py \
-  --source-root /home/pty/work/project_MRI_brain_tumor
+  --source-root /path/to/authorized-read-only-source
 ```
 
-This command requires explicit access to the read-only source inputs; those
-rights-pending tables remain omitted from the publication repository. Use
+This command requires separately authorized read-only source inputs and is not
+runnable from this reviewer checkout; those rights-pending tables remain omitted.
+Use
 `--replace-audit-outputs` only to replace this script's two destination audit
 summaries on a deliberate rerun. It cannot replace source production artifacts.
 

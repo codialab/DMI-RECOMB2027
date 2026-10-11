@@ -1,19 +1,17 @@
 # Migration report (historical baseline)
 
-> **Update (2026-10-06):** This report records the earlier migration baseline and is not the current release verdict. Frozen inputs, current artwork, manuscript tables, and a panel-level status matrix have since been added. See [REPRODUCIBILITY_MATRIX.md](REPRODUCIBILITY_MATRIX.md), `manifests/FIGURE_INPUTS.json`, and `manifests/ARTWORK.json`.
+> **Update (2026-10-11):** This report is retained as historical migration provenance, not the current release verdict. The reviewer branch includes approved frozen figure inputs and supported regeneration/validation workflows. See [REPRODUCIBILITY_MATRIX.md](REPRODUCIBILITY_MATRIX.md), `manifests/FIGURE_INPUTS.json`, and `manifests/ARTWORK.json`.
 
 ## Reproducibility verdict
 
-**NOT YET REPRODUCIBLE.** The authorized code, provenance, documentation and
-lightweight entry-point curation is committed. Complete manuscript reproduction
-is blocked by pending numerical-data rights review, incomplete final artwork and
-unresolved scientific/figure lineages. No frozen numerical input or ambiguous
-artwork has been copied, and no figure has been regenerated. This is not a complete
-publication release.
+This section states the earlier migration verdict and is superseded by the
+current figure-by-figure capabilities in [REPRODUCIBILITY_MATRIX.md](REPRODUCIBILITY_MATRIX.md).
+Supported panels regenerate from included frozen inputs; full upstream reruns
+and model reconstruction remain unsupported.
 
 ## Source state
 
-Source: `/home/pty/work/project_MRI_brain_tumor/`.
+Source: original analysis repository (not included).
 Commit: `16379a169f45ec556274953eb66ae12293e1e985`, clean `main` checkout when
 inspected. The source is strictly read-only regardless of filesystem permissions.
 No source script, tests, build, solver or sampling workflow was run. No source
@@ -25,8 +23,8 @@ dataset was accessed.
 
 Initial commit: `63edf6a9f3e0f3ba84c17dd7a828db5b6d7170de`, clean `main` checkout
 containing `DATA_PROVENANCE.md`. That original file is preserved unchanged.
-Destination branch: `publication-migration`. All persistent writes, logs, temporary
-work and caches are under `/home/pty/work/recomb2027-dmi/`.
+Destination branch: `publication-migration`. Work and caches were kept in the
+destination checkout.
 
 Logical commits group inventory/rights review, production implementations,
 main-figure entry points, supplementary provenance, reproducibility documentation,

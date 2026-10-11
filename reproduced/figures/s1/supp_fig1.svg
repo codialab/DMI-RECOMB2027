@@ -1397,7 +1397,7 @@ z
     </g>
    </g>
    <g id="text_28">
-    <!-- CT2A · A1 · 1-Strong-Anchor (HEX1) · 80 strata -->
+    <!-- CT2A · A1 · 1-Strong-Anchor (glucose uptake) · 80 strata -->
     <g transform="translate(61.618484 37.039074) scale(0.09 -0.09)">
      <defs>
       <path id="DejaVuSans-54" d="M -19 4666
@@ -2478,7 +2478,7 @@ L 501.963377 394.900258
     </g>
    </g>
    <g id="text_60">
-    <!-- CT2A · A2 · 2-Strong-Anchors (HEX1 + LDH_L) · 80 strata -->
+    <!-- CT2A · A2 · 2-Strong-Anchors (glucose uptake + LDH_L) · 80 strata -->
     <g transform="translate(307.167549 37.039074) scale(0.09 -0.09)">
      <defs>
       <path id="DejaVuSans-2b" d="M 2944 4013
@@ -3235,7 +3235,7 @@ L 770.601661 394.900258
     </g>
    </g>
    <g id="text_88">
-    <!-- GL261 · A1 · 1-Strong-Anchor (HEX1) · 80 strata -->
+    <!-- GL261 · A1 · 1-Strong-Anchor (glucose uptake) · 80 strata -->
     <g transform="translate(596.143723 37.039074) scale(0.09 -0.09)">
      <defs>
       <path id="DejaVuSans-36" d="M 2113 2584
@@ -3983,7 +3983,7 @@ L 1080.68681 394.900258
     </g>
    </g>
    <g id="text_116">
-    <!-- GL261 · A2 · 2-Strong-Anchors (HEX1 + LDH_L) · 80 strata -->
+    <!-- GL261 · A2 · 2-Strong-Anchors (glucose uptake + LDH_L) · 80 strata -->
     <g transform="translate(883.139654 37.039074) scale(0.09 -0.09)">
      <use xlink:href="#DejaVuSans-47"/>
      <use xlink:href="#DejaVuSans-4c" transform="translate(77.490234 0)"/>
@@ -4857,7 +4857,7 @@ L 233.325094 440.928226
 " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_140">
-    <!-- CT2A · A1 · 1-Strong-Anchor (HEX1) · 80 strata -->
+    <!-- CT2A · A1 · 1-Strong-Anchor (glucose uptake) · 80 strata -->
     <g transform="translate(61.618484 434.928226) scale(0.09 -0.09)">
      <use xlink:href="#DejaVuSans-43"/>
      <use xlink:href="#DejaVuSans-54" transform="translate(69.824219 0)"/>
@@ -5791,7 +5791,7 @@ L 501.963377 440.928226
 " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_171">
-    <!-- CT2A · A2 · 2-Strong-Anchors (HEX1 + LDH_L) · 80 strata -->
+    <!-- CT2A · A2 · 2-Strong-Anchors (glucose uptake + LDH_L) · 80 strata -->
     <g transform="translate(307.167549 434.928226) scale(0.09 -0.09)">
      <use xlink:href="#DejaVuSans-43"/>
      <use xlink:href="#DejaVuSans-54" transform="translate(69.824219 0)"/>
@@ -6729,7 +6729,7 @@ L 770.601661 440.928226
 " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_202">
-    <!-- GL261 · A1 · 1-Strong-Anchor (HEX1) · 80 strata -->
+    <!-- GL261 · A1 · 1-Strong-Anchor (glucose uptake) · 80 strata -->
     <g transform="translate(596.143723 434.928226) scale(0.09 -0.09)">
      <use xlink:href="#DejaVuSans-47"/>
      <use xlink:href="#DejaVuSans-4c" transform="translate(77.490234 0)"/>
@@ -7659,7 +7659,7 @@ L 1080.68681 440.928226
 " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_233">
-    <!-- GL261 · A2 · 2-Strong-Anchors (HEX1 + LDH_L) · 80 strata -->
+    <!-- GL261 · A2 · 2-Strong-Anchors (glucose uptake + LDH_L) · 80 strata -->
     <g transform="translate(883.139654 434.928226) scale(0.09 -0.09)">
      <use xlink:href="#DejaVuSans-47"/>
      <use xlink:href="#DejaVuSans-4c" transform="translate(77.490234 0)"/>

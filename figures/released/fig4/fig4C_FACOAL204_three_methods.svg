@@ -2186,7 +2186,7 @@ L 714.88077 64.35473
 " style="fill: none; stroke: #3568a8; stroke-width: 2; stroke-linecap: square"/>
     </g>
     <g id="text_28">
-     <!-- 1-Strong-Anchor (HEX1) -->
+     <!-- 1-Strong-Anchor (glucose uptake) -->
      <g transform="translate(721.28077 67.15473) scale(0.08 -0.08)">
       <defs>
        <path id="DejaVuSans-2d" d="M 313 2009 
@@ -2325,7 +2325,7 @@ L 714.88077 76.09723
 " style="fill: none; stroke: #d06a3b; stroke-width: 2; stroke-linecap: square"/>
     </g>
     <g id="text_29">
-     <!-- 2-Strong-Anchors (HEX1 + LDH_L) -->
+     <!-- 2-Strong-Anchors (glucose uptake + LDH_L) -->
      <g transform="translate(721.28077 78.89723) scale(0.08 -0.08)">
       <defs>
        <path id="DejaVuSans-2b" d="M 2944 4013 

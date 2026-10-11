@@ -246,7 +246,7 @@ def build() -> dict:
                             "frozen_manifest_verified": key not in {"bio0_manifest", "a20_manifest", "pl1_manifest", "pl2a_manifest", "a22_manifest"}}
     summary = {
         "status": "PASS", "methods": list(METHODS), "rna_contexts": list(CONTEXTS), "tumors": list(TUMORS),
-        "anchors": {"A1": "1-Strong-Anchor (HEX1)", "A2": "2-Strong-Anchors (HEX1 + LDH_L)"},
+        "anchors": {"A1": "1-Strong-Anchor (glucose uptake)", "A2": "2-Strong-Anchors (glucose uptake + LDH_L)"},
         "source_row_counts": {"A1_candidate_weights_before_arm_filter": 12800, "A1_strong_anchor_baseline": 3200,
                               "A2_weights": 3200, "PL1_evaluation_registry": 400,
                               "PL2A_truth_selection": int(len(selection)), "A22_matched_truth_pairs": 836,

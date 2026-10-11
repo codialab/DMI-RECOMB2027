@@ -1,6 +1,6 @@
 {
   "identity": {
-    "plotting_sha256": "64354e74f53bdc81aa3c1a773a1be5ddb404e0ae8486ac22b3009c64a5b8b7c4",
+    "plotting_sha256": "4fb39810cfc71a3bb7024d96de67eaabc3f67ec0fb7270dde353db9122bc7135",
     "input_sha256": {
       "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=iMAT/part.parquet.xz": "a44c629ffdc5ddcb1956d6132a8ec15d7dbb358e86b7888b512e315a73d4a070",
       "data/figure_inputs/fig4/fig4_geometry_paired/algorithm=GIMME/part.parquet.xz": "f492947266440ed378540d6c0d6a40aabb8952fafef5cc728dbc8c9aa70f17ad",
@@ -18,7 +18,7 @@
     "python": "3.12.3"
   },
   "output_sha256": {
-    "fig4B_metric_distributions.pdf": "d141ec565334023371fcbbb3c68efcb9871689567194caa38ae1bcd7824cac2a",
-    "fig4B_metric_distributions.svg": "36ea47026a312c98d964a16a0942eec079c15b6535755bacedb10046a63af350"
+    "fig4B_metric_distributions.pdf": "4819b211fbe05a3c5d917815a7d2dddedd71b2fa2082b2f1b2bbcb3532a3a632",
+    "fig4B_metric_distributions.svg": "9cdab63770c3a418b7afbb4e383d2240e9e07b23737770e668b1e8eeec7aa50a"
   }
 }

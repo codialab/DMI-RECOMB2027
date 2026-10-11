@@ -702,7 +702,7 @@ z
     <g id="ytick_1">
      <g id="line2d_16"/>
      <g id="text_8">
-      <!-- A1 (HEX1) -->
+      <!-- A1 (glucose uptake) -->
       <g transform="translate(53.3 92.088427) scale(0.1 -0.1)">
        <defs>
         <path id="DejaVuSans-41" d="M 2188 4044 
@@ -767,7 +767,7 @@ z
     <g id="ytick_2">
      <g id="line2d_17"/>
      <g id="text_9">
-      <!-- A2 (HEX1 + LDH_L) -->
+      <!-- A2 (glucose uptake + LDH_L) -->
       <g transform="translate(7.2 191.385666) scale(0.1 -0.1)">
        <defs>
         <path id="DejaVuSans-2b" d="M 2944 4013 

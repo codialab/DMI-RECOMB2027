@@ -17,7 +17,7 @@ with lzma.open(DATA / "fig3_gain_reaction_evaluation.parquet.xz", "rb") as f:
     reaction_eval = pd.read_parquet(io.BytesIO(f.read()))
 anchor_order = ["A1", "A2-L"]  # Historical input schema; display labels use A2.
 anchor_colors = {"A1": "#2878B5", "A2-L": "#D9534F"}
-display_labels = {"A1": "A1 (HEX1)", "A2-L": "A2 (HEX1 + LDH_L)"}
+display_labels = {"A1": "A1 (glucose uptake)", "A2-L": "A2 (glucose uptake + LDH_L)"}
 def export_plot(fig, stem):
     fig.savefig(OUT / (stem + ".svg"), bbox_inches="tight")
     fig.savefig(OUT / (stem + ".png"), dpi=300, bbox_inches="tight")

@@ -1,7 +1,8 @@
 # A1 single-anchor workflow
 
-A1 uses HEX1 as the single strong anchor through the frozen rank-based weighting
-operator. Downstream geometry describes existing candidate vectors; it does not
+A1 uses the glucose-uptake strong anchor, with frozen weighting observable
+`max(-EX_glc__D_e, 0)`. HEX1 is used for candidate-state ordering and geometry
+analysis, not as a quantitative anchor. Downstream geometry describes existing candidate vectors; it does not
 generate new flux samples. PL1 computes geometry, PL2A fixes reaction/truth registries,
 PL2B evaluates weak sign-only cues, PL2C examines development reactions, and the
 PL2D-H freeze/amendment records precede the original PL2D held-out confirmation.

@@ -105,7 +105,7 @@ for ii, (ax, metric) in enumerate(zip(axes, metric_config[:2])):
         where='post',
         linewidth=2.0,
         color='#3568a8',
-        label='1-Strong-Anchor\n(HEX1)'
+        label='1-Strong-Anchor\n(glucose uptake)'
     )
 
     ax.step(
@@ -113,7 +113,7 @@ for ii, (ax, metric) in enumerate(zip(axes, metric_config[:2])):
         where='post',
         linewidth=2.0,
         color='#d06a3b',
-        label='2-Strong-Anchors\n(HEX1 + LDH_L)'
+        label='2-Strong-Anchors\n(glucose uptake + LDH_L)'
     )
 
     if metric['label'] == 'Direction entropy':
